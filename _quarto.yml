@@ -1,27 +1,57 @@
 project:
   type: website
-  output-dir: docs
   
 website:
-  title: "MY WEB SITE"
+  title: "Open Science Infomodule"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - projects.qmd
+      - href: fächerübergreifend.qmd
+        text: Fächerübergreifende Informationen
+      - href: qualitativ.qmd
+        text: Qualitative Forschung
+      - href: quantitativ.qmd
+        text: Quantitative Forschung
+      - href: formal.qmd
+        text: Formale Forschung
+        
     tools:
-      - icon: twitter
-        href: https://twitter.com/
       - icon: github
-        href: https://github.com/YOURUSERNAME/YOURREPO
+        href: https://github.com/LukasRoeseler/MueCOS-Infomodule
+        
+    sidebar:
+      - id: quantitativ
+        title: "Quantitative Forschung"
+        style: "floating"
+        collapse-level: 2
+        align: left
+        contents:
+          - quantitativ.qmd
+          - text: "Teil 1"
+            href: quantitativ/quant_1.qmd
+          - text: "Teil 2"
+            href: quantitativ/quant_2.qmd
+            
+      - id: qualitativ
+        title: "Qualitatative Forschung"
+        style: "floating"
+        collapse-level: 2
+        align: left
+        contents:
+          - qualitativ.qmd
+          - text: "Teil 1"
+            href: qualitativ/qual_1.qmd
+          - text: "Teil 2"
+            href: qualitativ/qual_2.qmd
+            
   page-footer:
-    right: "Built with [Quarto](https://quarto.org/)"
-    left: "&copy; Copyright 2023, YOUR NAME"
+    right: "Mit [Quarto](https://quarto.org/) erstellt"
+    left: "&copy; Copyright 2024, Münster Center for Open Science"
 
 format:
   html:
-    theme: cerulean
+    theme: simplex
     toc: true
+    page-layout: full
 
 editor: source
 
