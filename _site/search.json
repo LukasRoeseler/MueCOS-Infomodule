@@ -4,7 +4,11 @@
     "href": "quantitativ.html",
     "title": "Quantitativ",
     "section": "",
-    "text": "Definition\n\n\nVorwiegend quantitativ arbeitende Disziplinen\n\n\nBeispiele\n\n\nBest Practices"
+    "text": "Definition\n\n\nVorwiegend quantitativ arbeitende Disziplinen\n\n\nBeispiele\n\n\nBest Practices",
+    "crumbs": [
+      "Quantitative Forschung",
+      "Quantitativ"
+    ]
   },
   {
     "objectID": "quantitativ/quant_3.html",
@@ -18,7 +22,11 @@
     "href": "quantitativ/quant_1.html",
     "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
     "section": "",
-    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
+    "crumbs": [
+      "Quantitative Forschung",
+      "Teil 1"
+    ]
   },
   {
     "objectID": "qualitativ/qual_4.html",
@@ -32,7 +40,11 @@
     "href": "qualitativ/qual_2.html",
     "title": "QUANT 2: Materialien und Daten",
     "section": "",
-    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Teil 2"
+    ]
   },
   {
     "objectID": "index.html",
@@ -74,7 +86,11 @@
     "href": "qualitativ/qual_1.html",
     "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
     "section": "",
-    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Teil 1"
+    ]
   },
   {
     "objectID": "qualitativ/qual_3.html",
@@ -88,21 +104,33 @@
     "href": "qualitativ.html#project-2",
     "title": "Qualitativ",
     "section": "Project 2",
-    "text": "Project 2"
+    "text": "Project 2",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Qualitativ"
+    ]
   },
   {
     "objectID": "qualitativ.html#project-3",
     "href": "qualitativ.html#project-3",
     "title": "Qualitativ",
     "section": "Project 3",
-    "text": "Project 3"
+    "text": "Project 3",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Qualitativ"
+    ]
   },
   {
     "objectID": "quantitativ/quant_2.html",
     "href": "quantitativ/quant_2.html",
     "title": "QUANT 2: Materialien und Daten",
     "section": "",
-    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
+    "crumbs": [
+      "Quantitative Forschung",
+      "Teil 2"
+    ]
   },
   {
     "objectID": "quantitativ/quant_4.html",
