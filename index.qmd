@@ -1,19 +1,22 @@
 ---
-title: "About Me"
+title: ""
 about:
   id: me
-  template: broadside
-  image: img/profile.png
+  template: marquee
 ---
 
-:::{#me}
+::: {.callout-warning icon="false"}
+## Warnung
 
-## Goals
-
-## Education
-
-## Experience
-
+Die Open Science Infomodule befinden sich im Aufbau und ist noch unvollständig.
 :::
 
-Thanks for checking out my web site!
+Auf dieser Website finden Sie die **Infomodule zum Thema Open Science**. Sie werden vom [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/index.html) bereitgestellt und verwaltet.
+
+Wählen Sie den *Forschungstyp* in der Kopfleiste aus. Gehen Sie anschließen an den gewünschten Punkt des *Forschungszyklus*' in der Seitennavigation am Rand.
+
+![Bedeutung von Open Science entlang des Forschungszyklus'](images/Open-Science-Kreislauf.png)
+
+------------------------------------------------------------------------
+
+![](images/mücos_logo.jpg)
