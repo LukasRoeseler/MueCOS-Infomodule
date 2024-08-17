@@ -1,0 +1,15 @@
+---
+title: "Forschungsergebnisse kommunizieren"
+---
+
+Die transparente und breit zugängliche Kommunikation von Forschungsergebnissen ermöglicht es, Forschungsergebnisse optimaler für die Lehre sowie den Transfer in die Öffentlichkeit und Praxis nutzbar zu machen. Im Rahmen einer professionellen Open Science-Strategie müssen hierbei die abgesicherte Robustheit der zu kommunizierenden Ergebnisse und deren adressatengerechte Kommunikation berücksichtigt werden. 
+
+-   Verfassen von inhaltlich vertretbaren und verständlichen Pressemitteilungen und sonstigen Presseaktivitäten im Einklang mit Open Science-Prinzipien
+
+-   Veröffentlichung von Lehrmaterialien über ein Repositorium (z.B. Zenodo)
+
+-   Verwendung bestehender Lehrmaterialien (z.B. Open Scholarship Knowledge Base)
+
+-   Erweiterung einer Publikation um Blog-Einträge, interaktive Analysen, oder Dashboards
+
+Das MüCOS erarbeitet in engem Austausch mit der Stelle für Kommunikation an der Universität Münster und der Citizen-Science-AG Guidelines und sammelt gemeinsam mit fachspezifischen Unterstützungsstrukturen Best Practices zur Open-Science-gerechten Kommunikation von Forschungsergebnissen.

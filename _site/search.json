@@ -1,5 +1,27 @@
 [
   {
+    "objectID": "übergreifend/gen_4.html",
+    "href": "übergreifend/gen_4.html",
+    "title": "Forschungsergebnisse kommunizieren",
+    "section": "",
+    "text": "Die transparente und breit zugängliche Kommunikation von Forschungsergebnissen ermöglicht es, Forschungsergebnisse optimaler für die Lehre sowie den Transfer in die Öffentlichkeit und Praxis nutzbar zu machen. Im Rahmen einer professionellen Open Science-Strategie müssen hierbei die abgesicherte Robustheit der zu kommunizierenden Ergebnisse und deren adressatengerechte Kommunikation berücksichtigt werden. \n\nVerfassen von inhaltlich vertretbaren und verständlichen Pressemitteilungen und sonstigen Presseaktivitäten im Einklang mit Open Science-Prinzipien\nVeröffentlichung von Lehrmaterialien über ein Repositorium (z.B. Zenodo)\nVerwendung bestehender Lehrmaterialien (z.B. Open Scholarship Knowledge Base)\nErweiterung einer Publikation um Blog-Einträge, interaktive Analysen, oder Dashboards\n\nDas MüCOS erarbeitet in engem Austausch mit der Stelle für Kommunikation an der Universität Münster und der Citizen-Science-AG Guidelines und sammelt gemeinsam mit fachspezifischen Unterstützungsstrukturen Best Practices zur Open-Science-gerechten Kommunikation von Forschungsergebnissen.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "übergreifend/gen_2.html",
+    "href": "übergreifend/gen_2.html",
+    "title": "Materialien und Daten",
+    "section": "",
+    "text": "Eine transparente Beschreibung und Bereitstellung der verwendeten Materialien und Daten macht den Forschungsprozess leichter nachvollziehbar und wiederholbar. Reproduzierbarkeit und Replizierbarkeit von Forschungsergebnissen lassen sich dadurch leichter überprüfen und die Wiederverwendung und Weiterentwicklung innovativer Methoden wird erleichtert. Professionelle Open Science-Lösungen unterstützen Forschende bei der transparenten Bereitstellung von Forschungsmaterialien und Forschungsdaten unter Berücksichtigung datenschutzrechtlicher, ethischer und fachspezifischer Anforderungen. Beispiele für spezifische Teillösungen sind:\n\nBereitstellung der verwendeten Fragebogen in einem Codebook und der anonymisierten erhobenen Fragebogendaten einer Umfrage in der Soziologie\nFühren und Bereitstellen elektronischer Laborbücher in der organischen Chemie\nBereitstellung kodierter Beobachtungsdaten und von reproduzierbaren Analyseskripten in der Biologie\nVerwendung von Open Source Software für die Darstellung von Ergebnissen in den Geowissenschaften\nSicherstellung komputationaler Reproduzierbarkeit in der Informatik\nPseudonymisierung und Veröffentlichung von medizinischen Daten\nAufbereitung und Publikation von Forschungsdaten nach den FAIR-Prinzipien\n\nIm MüCOS werden in enger Abstimmung mit der Datenschutzbeauftragten der Universität Münster, der ULB (Forschungsdatenmanagement, Publikation von Daten über den Datastore) und Anbietern fachspezifischer Lösungen (etwa im Bereich Digital Humanities) Lösungen zur offenen Bereitstellung von Forschungsmaterialien und -daten gesammelt und weiterentwickelt.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      " Materialien und Daten"
+    ]
+  },
+  {
     "objectID": "quantitativ.html",
     "href": "quantitativ.html",
     "title": "Quantitativ",
@@ -15,7 +37,11 @@
     "href": "quantitativ/quant_3.html",
     "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
     "section": "",
-    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft",
+    "crumbs": [
+      "Quantitative Forschung",
+      "Quant 3: Forschungsergebnisse veröffentlichen"
+    ]
   },
   {
     "objectID": "quantitativ/quant_1.html",
@@ -25,7 +51,7 @@
     "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
     "crumbs": [
       "Quantitative Forschung",
-      "Teil 1"
+      "Quant 1: Forschungsfragen und Forschungsplanung"
     ]
   },
   {
@@ -33,7 +59,11 @@
     "href": "qualitativ/qual_4.html",
     "title": "QUANT 4: Forschungsergebnisse kommunizieren",
     "section": "",
-    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Qual 4: Forschungsergebnisse kommunizieren"
+    ]
   },
   {
     "objectID": "qualitativ/qual_2.html",
@@ -43,7 +73,7 @@
     "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
     "crumbs": [
       "Qualitative Forschung",
-      "Teil 2"
+      "Qual 2: Materialien und Daten"
     ]
   },
   {
@@ -51,35 +81,73 @@
     "href": "index.html",
     "title": "Open Science Infomodule",
     "section": "",
-    "text": "Warnung\n\n\n\nDie Open Science Infomodule befinden sich im Aufbau und ist noch unvollständig.\n\n\nAuf dieser Website finden Sie die Infomodule zum Thema Open Science. Sie werden vom Münster Center for Open Science bereitgestellt und verwaltet.\nWählen Sie den Forschungstyp in der Kopfleiste aus. Gehen Sie anschließen an den gewünschten Punkt des Forschungszyklus’ in der Seitennavigation am Rand.\n\n\n\nBedeutung von Open Science entlang des Forschungszyklus’"
+    "text": "Auf dieser Website finden Sie die Infomodule zum Thema Open Science. Sie werden vom Münster Center for Open Science bereitgestellt und verwaltet.\nWählen Sie den Forschungstyp in der Kopfleiste aus. Gehen Sie anschließen an den gewünschten Punkt des Forschungszyklus’ in der Seitennavigation am Rand.\n\n\n\nBedeutung von Open Science entlang des Forschungszyklus’"
   },
   {
     "objectID": "formal.html#project-2",
     "href": "formal.html#project-2",
     "title": "Formal",
     "section": "Project 2",
-    "text": "Project 2"
+    "text": "Project 2",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal"
+    ]
   },
   {
     "objectID": "formal.html#project-3",
     "href": "formal.html#project-3",
     "title": "Formal",
     "section": "Project 3",
-    "text": "Project 3"
+    "text": "Project 3",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal"
+    ]
   },
   {
-    "objectID": "fächerübergreifend.html#project-2",
-    "href": "fächerübergreifend.html#project-2",
-    "title": "Fächerübergreifend",
-    "section": "Project 2",
-    "text": "Project 2"
+    "objectID": "formal/formal_3.html",
+    "href": "formal/formal_3.html",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "",
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal 3: Forschungsergebnisse veröffentlichen"
+    ]
   },
   {
-    "objectID": "fächerübergreifend.html#project-3",
-    "href": "fächerübergreifend.html#project-3",
-    "title": "Fächerübergreifend",
-    "section": "Project 3",
-    "text": "Project 3"
+    "objectID": "formal/formal_1.html",
+    "href": "formal/formal_1.html",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "",
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal 1: Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "formal/formal_2.html",
+    "href": "formal/formal_2.html",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "",
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal 2: Materialien und Daten"
+    ]
+  },
+  {
+    "objectID": "formal/formal_4.html",
+    "href": "formal/formal_4.html",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "",
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard",
+    "crumbs": [
+      "Formale Forschung",
+      "Formal 4: Forschungsergebnisse kommunizieren"
+    ]
   },
   {
     "objectID": "qualitativ/qual_1.html",
@@ -89,7 +157,7 @@
     "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
     "crumbs": [
       "Qualitative Forschung",
-      "Teil 1"
+      "Qual 1: Forschungsfragen und Forschungsplanung"
     ]
   },
   {
@@ -97,7 +165,11 @@
     "href": "qualitativ/qual_3.html",
     "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
     "section": "",
-    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft",
+    "crumbs": [
+      "Qualitative Forschung",
+      "Qual 3: Forschungsergebnisse veröffentlichen"
+    ]
   },
   {
     "objectID": "qualitativ.html#project-2",
@@ -129,7 +201,7 @@
     "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
     "crumbs": [
       "Quantitative Forschung",
-      "Teil 2"
+      "Quant 2: Materialien und Daten"
     ]
   },
   {
@@ -137,6 +209,32 @@
     "href": "quantitativ/quant_4.html",
     "title": "QUANT 4: Forschungsergebnisse kommunizieren",
     "section": "",
-    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard",
+    "crumbs": [
+      "Quantitative Forschung",
+      "Quant 4: Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "übergreifend/gen_1.html",
+    "href": "übergreifend/gen_1.html",
+    "title": "Forschungsfragen und Forschungsplanung",
+    "section": "",
+    "text": "Ein offener Forschungsprozess beginnt mit der transparenten Darlegung der adressierten Forschungsfragen (inkl. Forschungshypothesen im Falle konfirmatorischer Forschung) und des Forschungsplans (also einer transparenten Beschreibung der Methoden, mit denen diese Fragen beantwortet werden sollen). Professionelle Open Science-Ansätze unterstützen Forschende dabei, zentrale Fragen und Vorgehensweisen systematisch im Vorhinein festzulegen und hierbei konfirmatorische von explorativen Anteilen zu trennen. Konkrete Open Science Lösungen können dabei zum Beispiel sein:\n\nPräregistrierung eines Verhaltensexperiments in den Kommunikationswissenschaften oder einer Sekundärdatenanalyse in den Erziehungs- und Bildungswissenschaften\nTransparente Dokumentation des geplanten Prozesses der Datengenerierung mittels eines Interview-Leitfadens für eine Fokusgruppe in der Linguistik\nErstellung eines vorläufigen PRISMA Flow Charts für eine Meta-Analyse in der Medizin\nErstellung eines Registered Reports Stage 1 zu einer geplanten Experience-Sampling-Studie inkl. einer Poweranalyse mittel Datensimulation in der Psychologie\nTransparente Dokumentation des geplanten Vorgehens bei der Literaturrecherche und -auswahl und der Prinzipien der Quellenanalyse in den Geschichtswissenschaften\n\nIm MüCOS werden sowohl avancierte als auch niedrigschwellige Lösungen zur transparenten Dokumentation von Forschungsfragen und Forschungsplanung bereitgestellt. Dies umfasst disziplinübergreifende Lösungen als auch Lösungen, die für die spezifischen Anforderungen und Herausforderungen einzelner Disziplinen maßgeschneidert sind. Hierbei werden sowohl Unterstützungsangebote der Universitäts- und Landesbibliothek Münster im Bereich der Literatursuche und Literaturverwaltung als auch fachspezifische Unterstützungsangebote (bspw. SCDH im Bereich der Digital Humanities) integriert.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "übergreifend/gen_3.html",
+    "href": "übergreifend/gen_3.html",
+    "title": "Forschungsergebnisse veröffentlichen",
+    "section": "",
+    "text": "Wissenschaftliche Ergebnisse lassen sich auf vielfältige Weise veröffentlichen und die angebotenen und genutzten Publikationsformate werden vielfältiger. Im Rahmen eines professionellen Open Science-Ansatzes können Forschende dabei unterstützt werden im Spannungsfeld von Renommee, Kosten, Qualitätssicherung und Zugänglichkeit die für den jeweiligen Fall optimale Veröffentlichungsstrategie abzuleiten. Hierzu gehören etwa:\n\nAuswahl von Open Access-Optionen bei einer gegebenen Zielzeitschrift (z.B. Moving Wall vs. Green Open Access)\nVeröffentlichung einer Studie mit offener Begutachtung über Peer-Community-In Plattform in der Mikrobiologie\nAuswahl eines Pre-Print Servers für eine epidemiologische Studie\nTransparente Darstellung von Autor*innenbeiträgen mittels standardisierter Taxonomien (z.B. CRediT)\nGründung einer von Wissenschaftler*innen geführten Diamond Open Access Zeitschrift\n\nDas MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forschungsergebnissen in enger Abstimmung mit vorhandenen spezifischen Angeboten: Die Universitäts- und Landesbibliothek Münster berät zu Open Access und digitalem Publizieren, verwaltet zahlreiche Open-Access-Zeitschriften, den Publikationsserver Miami, bietet Beratung und Unterstützung bei der Gründung neuer Open-Access Zeitschriften sowie Migration von Journals auf das Open Journal System.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Forschungsergebnisse veröffentlichen"
+    ]
   }
 ]

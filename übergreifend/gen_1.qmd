@@ -1,0 +1,17 @@
+---
+title: "Forschungsfragen und Forschungsplanung"
+---
+
+Ein offener Forschungsprozess beginnt mit der transparenten Darlegung der adressierten Forschungsfragen (inkl. Forschungshypothesen im Falle konfirmatorischer Forschung) und des Forschungsplans (also einer transparenten Beschreibung der Methoden, mit denen diese Fragen beantwortet werden sollen). Professionelle Open Science-Ansätze unterstützen Forschende dabei, zentrale Fragen und Vorgehensweisen systematisch im Vorhinein festzulegen und hierbei konfirmatorische von explorativen Anteilen zu trennen. Konkrete Open Science Lösungen können dabei zum Beispiel sein:
+
+-   Präregistrierung eines Verhaltensexperiments in den Kommunikationswissenschaften oder einer Sekundärdatenanalyse in den Erziehungs- und Bildungswissenschaften
+
+-   Transparente Dokumentation des geplanten Prozesses der Datengenerierung mittels eines Interview-Leitfadens für eine Fokusgruppe in der Linguistik
+
+-   Erstellung eines vorläufigen PRISMA Flow Charts für eine Meta-Analyse in der Medizin
+
+-   Erstellung eines Registered Reports Stage 1 zu einer geplanten Experience-Sampling-Studie inkl. einer Poweranalyse mittel Datensimulation in der Psychologie
+
+-   Transparente Dokumentation des geplanten Vorgehens bei der Literaturrecherche und -auswahl und der Prinzipien der Quellenanalyse in den Geschichtswissenschaften
+
+Im MüCOS werden sowohl avancierte als auch niedrigschwellige Lösungen zur transparenten Dokumentation von Forschungsfragen und Forschungsplanung bereitgestellt. Dies umfasst disziplinübergreifende Lösungen als auch Lösungen, die für die spezifischen Anforderungen und Herausforderungen einzelner Disziplinen maßgeschneidert sind. Hierbei werden sowohl Unterstützungsangebote der Universitäts- und Landesbibliothek Münster im Bereich der Literatursuche und Literaturverwaltung als auch fachspezifische Unterstützungsangebote (bspw. SCDH im Bereich der Digital Humanities) integriert.
