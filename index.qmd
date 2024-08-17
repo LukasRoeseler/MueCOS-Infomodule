@@ -13,4 +13,8 @@ Wählen Sie den *Forschungstyp* in der Kopfleiste aus. Gehen Sie anschließen an
 
 ------------------------------------------------------------------------
 
+Die Infomodule basieren teilweise auf den Informationssammlungen der Open Science Kommission Psychologie (<https://osf.io/zc24b>).
+
+------------------------------------------------------------------------
+
 ![](images/mücos_logo.jpg)
