@@ -1,5 +1,0 @@
----
-title: "Fächerübergreifende Informationen"
----
-
-Hier finden Sie einen Überblick über fächerübergreifende Informationen zu Open Science.
