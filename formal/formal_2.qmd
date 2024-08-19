@@ -1,0 +1,23 @@
+---
+title: "QUANT 2: Materialien und Daten"
+---
+
+# Open Materials
+
+# Codebook
+
+# Anonymisierung und Pseudonymisierung
+
+# Open Data
+
+# Reproduzierbarkeit/Replizierbarkeit
+
+# FAIR-Prinzipien
+
+# CARE-Prinzipien
+
+# Open Code
+
+# Lizenzen
+
+# Datensatz Publikationen
