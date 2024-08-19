@@ -4,9 +4,9 @@ title: "QUANT 2: Materialien und Daten"
 
 # Open Materials
 
-## Was sind „Open Materials?\"
+## Was sind „Open Materials?"
 
-Open Materials betreffen die transparente Beschreibung, Dokumentation und öffentliche Zurverfügungstellung des methodischen Vorgehens einer Studie. Open Materials ermöglichen damit eine genaue und umfassende Kommunikation des eigenen methodischen Vorgehens, eine angemessene Interpretation der mit diesem Vorgehen erhobenen Daten und der darauf aufbauenden Ergebnisse und eine direkte Replikation des methodischen Vorgehens. Konkret beinhaltet „Open Materials\":
+Open Materials betreffen die transparente Beschreibung, Dokumentation und öffentliche Zurverfügungstellung des methodischen Vorgehens einer Studie. Open Materials ermöglichen damit eine genaue und umfassende Kommunikation des eigenen methodischen Vorgehens, eine angemessene Interpretation der mit diesem Vorgehen erhobenen Daten und der darauf aufbauenden Ergebnisse und eine direkte Replikation des methodischen Vorgehens. Konkret beinhaltet „Open Materials":
 
 1.  die Dokumentation aller verwendeten Abläufe, Gerätschaften, Materialien und erfassten Variablen
 
@@ -150,7 +150,7 @@ Benannte Informationen können entweder im Manuskript selbst, oder aber in den m
 
 ## FAQ
 
--   **Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials\" Stempel?**
+-   **Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials" Stempel?**
 
     -   Das Journal in dem das Paper erscheint bietet diese Möglichkeit an.
 
@@ -186,7 +186,7 @@ Confirm that there is sufficient information for an independent researcher to re
 
 # Open Data
 
-## Was sind „Open Data\"?
+## Was sind „Open Data"?
 
 Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin[**\[1\]**](https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1).* Ein weiterer Schritt stellen FAIRe Daten dar. FAIR steht dabei für:
 
@@ -256,11 +256,11 @@ Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrast
 
 ## Reproducible Code
 
-## Was Sind „Reproducible codes\"?
+## Was Sind „Reproducible codes"?
 
 Reproducible Codes meint die Dokumentation und öffentliche Zurverfügungstellung der Codes, die aus den Daten eines Projekts (optimalerweise den Rohdaten) die in einem Paper berichteten Ergebnisse produzieren. Reproducible Codes ermöglichen damit eine genaue und umfassende Kommunikation der eigenen Analysen, ein exaktes Nachvollziehen und eine angemessene Interpretation dieser Analysen und der darauf aufbauenden Ergebnisse und eine direkte Replikation des analytischen Vorgehens.
 
-Konkret beinhaltet „Reproducible Codes\":
+Konkret beinhaltet „Reproducible Codes":
 
 1.  die Dokumentation aller Datenaufbereitungen und statistischen Analysen in einer oder mehreren verständlich kommentierten Syntax-Datei(en)
 
