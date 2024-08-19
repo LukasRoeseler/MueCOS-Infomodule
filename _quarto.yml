@@ -1,0 +1,111 @@
+project:
+  type: website
+  
+website:
+
+  announcement: 
+    icon: info-circle
+    dismissable: true
+    content: "**Achtung** - Diese Seite befindet sich im Aufbau und ist noch unvollständig."
+    type: primary
+    position: below-navbar
+  
+  image: "logo.png"
+  favicon: "logo.png"
+  
+  title: "Open Science Infomodule"
+  navbar:
+    left:
+      - href: fächerübergreifend.qmd
+        text: Fächerübergreifende Informationen
+      - href: qualitativ.qmd
+        text: Qualitative Forschung
+      - href: quantitativ.qmd
+        text: Quantitative Forschung
+      - href: formal.qmd
+        text: Formale Forschung
+        
+    tools:
+      - icon: github
+        href: https://github.com/LukasRoeseler/MueCOS-Infomodule
+        
+        
+        
+  sidebar:
+   - id: fächerübergreifend
+     title: "Fächerübergreifende Informationen"
+     style: "floating"
+     collapse-level: 2
+     align: left
+     contents:
+       - fächerübergreifend.qmd
+       - text: "Forschungsfragen und Forschungsplanung"
+         href: übergreifend/gen_1.qmd
+       - text: " Materialien und Daten"
+         href: übergreifend/gen_2.qmd
+       - text: "Forschungsergebnisse veröffentlichen"
+         href: übergreifend/gen_3.qmd
+       - text: "Forschungsergebnisse kommunizieren"
+         href: übergreifend/gen_4.qmd
+
+   - id: quantitativ
+     title: "Quantitative Forschung"
+     style: "floating"
+     collapse-level: 2
+     align: left
+     contents:
+      - quantitativ.qmd
+      - text: "Quant 1: Forschungsfragen und Forschungsplanung"
+        href: quantitativ/quant_1.qmd
+      - text: "Quant 2: Materialien und Daten"
+        href: quantitativ/quant_2.qmd
+      - text: "Quant 3: Forschungsergebnisse veröffentlichen"
+        href: quantitativ/quant_3.qmd
+      - text: "Quant 4: Forschungsergebnisse kommunizieren"
+        href: quantitativ/quant_4.qmd
+          
+   - id: qualitativ
+     title: "Qualitatative Forschung"
+     style: "floating"
+     collapse-level: 2
+     align: left
+     contents:
+       - qualitativ.qmd
+       - text: "Qual 1: Forschungsfragen und Forschungsplanung"
+         href: qualitativ/qual_1.qmd
+       - text: "Qual 2: Materialien und Daten"
+         href: qualitativ/qual_2.qmd
+       - text: "Qual 3: Forschungsergebnisse veröffentlichen"
+         href: qualitativ/qual_3.qmd
+       - text: "Qual 4: Forschungsergebnisse kommunizieren"
+         href: qualitativ/qual_4.qmd
+          
+          
+   - id: formal
+     title: "Formale Forschung"
+     style: "floating"
+     collapse-level: 2
+     align: left
+     contents:
+       - formal.qmd
+       - text: "Formal 1: Forschungsfragen und Forschungsplanung"
+         href: formal/formal_1.qmd
+       - text: "Formal 2: Materialien und Daten"
+         href: formal/formal_2.qmd
+       - text: "Formal 3: Forschungsergebnisse veröffentlichen"
+         href: formal/formal_3.qmd
+       - text: "Formal 4: Forschungsergebnisse kommunizieren"
+         href: formal/formal_4.qmd
+            
+  page-footer:
+    right: "Mit [Quarto](https://quarto.org/) erstellt"
+    left: "&copy; Copyright 2024, Münster Center for Open Science"
+
+format:
+  html:
+    theme: simplex
+    toc: true
+    page-layout: full
+
+editor: source
+
