@@ -4,6 +4,10 @@ title: "2. Materialien und Daten"
 
 # Open Materials
 
+::: callout-tip
+## In einem Satz
+:::
+
 ## Was sind „Open Materials?"
 
 Open Materials betreffen die transparente Beschreibung, Dokumentation und öffentliche Zurverfügungstellung des methodischen Vorgehens einer Studie. Open Materials ermöglichen damit eine genaue und umfassende Kommunikation des eigenen methodischen Vorgehens, eine angemessene Interpretation der mit diesem Vorgehen erhobenen Daten und der darauf aufbauenden Ergebnisse und eine direkte Replikation des methodischen Vorgehens. Konkret beinhaltet „Open Materials":
@@ -182,9 +186,21 @@ Confirm that there is sufficient information for an independent researcher to re
 
 # Codebook
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Anonymisierung und Pseudonymisierung
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Open Data
+
+::: callout-tip
+## In einem Satz
+:::
 
 ## Was sind „Open Data"?
 
@@ -253,6 +269,10 @@ Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist
 Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
 
 # Reproduzierbarkeit/Replizierbarkeit
+
+::: callout-tip
+## In einem Satz
+:::
 
 ## Reproducible Code
 
@@ -388,8 +408,24 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 
 # FAIR-Prinzipien
 
+::: callout-tip
+## In einem Satz
+:::
+
 # CARE-Prinzipien
+
+::: callout-tip
+## In einem Satz
+:::
 
 # Lizenzen
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Datensatz Publikationen
+
+::: callout-tip
+## In einem Satz
+:::

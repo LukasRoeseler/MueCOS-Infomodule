@@ -4,10 +4,30 @@ title: "3. Forschungsergebnisse veröffentlichen"
 
 # Open Access
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Open Access Typen
+
+::: callout-tip
+## In einem Satz
+:::
 
 # Pre-Prints
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Pre-Print Review
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Autor\*innenschaft
+
+::: callout-tip
+## In einem Satz
+:::

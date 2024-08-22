@@ -4,8 +4,24 @@ title: "4. Forschungsergebnisse kommunizieren"
 
 # Wissenschaftskommunikation / SciComm
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Open Educational Resources
+
+::: callout-tip
+## In einem Satz
+:::
 
 # Blogs
 
+::: callout-tip
+## In einem Satz
+:::
+
 # Interaktive Analysen / Dashboard
+
+::: callout-tip
+## In einem Satz
+:::
