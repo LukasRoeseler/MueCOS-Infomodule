@@ -1,5 +1,5 @@
 ---
-title: "QUANT 4: Forschungsergebnisse kommunizieren"
+title: "4. Forschungsergebnisse kommunizieren"
 ---
 
 # Wissenschaftskommunikation / SciComm
@@ -9,5 +9,3 @@ title: "QUANT 4: Forschungsergebnisse kommunizieren"
 # Blogs
 
 # Interaktive Analysen / Dashboard
-
-# 

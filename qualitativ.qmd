@@ -1,9 +1,25 @@
 ---
-title: "Qualitativ"
+title: "Definition und Beispiele"
 ---
 
-## Project 1
+Mit qualitativer Forschung sind Vorhaben gemeint, die vereinzelte, spezifische, oder kontextgebundene Phänomene erforschen. Das kann zum Beispiel der Fall der Berliner Mauer aus geschichtlicher Perspektive oder Sprachwandel in der Fernsehwerbung in den 2010er Jahren sein. Ihnen gemeinsam ist, dass sie ein tiefgehendes Verständnis von anstreben. Dabei verwenden sie idiografische Ansätze wie qualitative Inhaltsanalysen, unstrukturierte oder teilstrukturierte Befragungen, oder Beobachtungen.
 
-## Project 2
+# Qualitativ arbeitende Disziplinen
 
-## Project 3
+Qualitative Forschung ist vor allem in den Geisteswissenschaften präsent.
+
+-   Theologie
+
+-   Erziehungswissenschaft und Sozialwissenscahften
+
+-   Geschichte/Philosophie
+
+-   Philologie
+
+-   Geowissenschaften
+
+# Beispielprojekte
+
+| Disziplin & Subdisziplin | Quellenangabe | Beschreibung |
+|--------------------------|---------------|--------------|
+|                          |               |              |

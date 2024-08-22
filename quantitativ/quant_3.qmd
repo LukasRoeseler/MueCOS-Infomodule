@@ -1,5 +1,5 @@
 ---
-title: "QUANT 3: Forschungsergebnisse veröffentlichen"
+title: "3. Forschungsergebnisse veröffentlichen"
 ---
 
 # Open Access

@@ -1,11 +1,49 @@
 ---
-title: "Quantitativ"
+title: "Definition und Beispiele"
 ---
 
-# Definition
+Mit quantitativer Forschung sind Vorhaben gemeint, die allgemeine Gesetzmäßigkeiten oder Regelmäßigkeiten untersuchen. Das können Phänomene wie das Gender Pay Gap, Gewichtsunterschiede bei neugeborenen Babys von Rauchenden versus nicht rauchenden Müttern, oder Studien zur Wirksamkeit von Medikamenten sein. Ihnen gemeinsam ist, dass die Gesetzmäßigkeiten "im Schnitt" oder "über alle hinweg" gültig sind. Nicht jeder Mann verdient mehr als jede Frau, im Mittel existiert aber ein Unterschied. Zum Nachweis dieser Phänomene greifen Forschende auf statistische Methoden zurück, primär Inferenzstatistik (Null Hypothesis Significance Testing) oder Bayesianische Statistik.
 
-# Vorwiegend quantitativ arbeitende Disziplinen
+# Quantitativ arbeitende Disziplinen
 
-# Beispiele
+Quantitative Forschung ist vorwiegend in Sozial- und Naturwissenschaften zu finden.
 
-# Best Practices
+-   Wirtschaftswissenschaften
+
+-   Medizin
+
+-   Erziehungswissenschaften und Sozialwissenschaften
+
+-   Psychologie und Sportwissenschaft
+
+-   Philologie
+
+-   Chemie und Pharmazie
+
+-   Biologie
+
+-   Geowissenschaften
+
+-   Digitale Geisteswissenschaften (Digital Humanities)
+
+# Beispielprojekte
+
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Disziplin & Subdisziplin         | Quellenangabe                                                                                                                                                                                                                                                                                                 | Beschreibung                                                                                                                    |
++==================================+===============================================================================================================================================================================================================================================================================================================+=================================================================================================================================+
+| Psychologie, Neurowissenschaften | Michel, R., Dugué, L., & Busch, N. A. (2022). Distinct contributions of alpha and theta rhythms to perceptual and attentional sampling. *European Journal of Neuroscience*, *55*(11-12), 3025-3039. https://doi.org/10.1111/ejn.15154                                                                         | -   Es handelt sich um eine Open Access Publikation (hybrid Open Access)                                                        |
+|                                  |                                                                                                                                                                                                                                                                                                               |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   Studie wurde präregistriert (<https://aspredicted.org/v37gr.pdf>)                                                           |
+|                                  |                                                                                                                                                                                                                                                                                                               |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   Daten sind öffentlich verfügbar (<https://osf.io/de4bu>)                                                                    |
+|                                  |                                                                                                                                                                                                                                                                                                               |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   Eine Anleitung zum Reproduzieren der Ergebnisse ist auf Github verfügbar (<https://github.com/remichel/RAPscripts>)         |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+
+| Psychologie, Sozialpsychologie   | Xiao., Q., Elsherif., M., Chu, H., Tang, M., Wong, T., Wu, Y., Pomareda, C., & Feldman, G. (2024). Revisiting the link between anthropomorphism and loneliness with extension to free will belief: Replication and extension Registered Report of Epley et al. (2008). https://doi.org/10.17605/OSF.IO/2SB7X\ | -   Registered Report via Peer Community-In (PCI) mit Stage 1 und Stage 2 Review                                                |
+|                                  | Link zum Berich: <https://osf.io/4kqmf>                                                                                                                                                                                                                                                                       |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   *Endorsement* von PCI und Peer Review Prozess vollständig offengelegt: <https://rr.peercommunityin.org/articles/rec?id=750> |
+|                                  |                                                                                                                                                                                                                                                                                                               |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   Replikationsstudie                                                                                                          |
+|                                  |                                                                                                                                                                                                                                                                                                               |                                                                                                                                 |
+|                                  |                                                                                                                                                                                                                                                                                                               | -   Daten und Materialien öffentlich zugänglich (<https://osf.io/2sb7x>)                                                        |
++----------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------+

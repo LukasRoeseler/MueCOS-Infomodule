@@ -56,13 +56,13 @@ website:
      align: left
      contents:
       - quantitativ.qmd
-      - text: "Quant 1: Forschungsfragen und Forschungsplanung"
+      - text: "1. Forschungsfragen und Forschungsplanung"
         href: quantitativ/quant_1.qmd
-      - text: "Quant 2: Materialien und Daten"
+      - text: "2. Materialien und Daten"
         href: quantitativ/quant_2.qmd
-      - text: "Quant 3: Forschungsergebnisse veröffentlichen"
+      - text: "3. Forschungsergebnisse veröffentlichen"
         href: quantitativ/quant_3.qmd
-      - text: "Quant 4: Forschungsergebnisse kommunizieren"
+      - text: "4. Forschungsergebnisse kommunizieren"
         href: quantitativ/quant_4.qmd
           
    - id: qualitativ
@@ -72,13 +72,13 @@ website:
      align: left
      contents:
        - qualitativ.qmd
-       - text: "Qual 1: Forschungsfragen und Forschungsplanung"
+       - text: "1. Forschungsfragen und Forschungsplanung"
          href: qualitativ/qual_1.qmd
-       - text: "Qual 2: Materialien und Daten"
+       - text: "2. Materialien und Daten"
          href: qualitativ/qual_2.qmd
-       - text: "Qual 3: Forschungsergebnisse veröffentlichen"
+       - text: "3. Forschungsergebnisse veröffentlichen"
          href: qualitativ/qual_3.qmd
-       - text: "Qual 4: Forschungsergebnisse kommunizieren"
+       - text: "4. Forschungsergebnisse kommunizieren"
          href: qualitativ/qual_4.qmd
           
           
@@ -89,13 +89,13 @@ website:
      align: left
      contents:
        - formal.qmd
-       - text: "Formal 1: Forschungsfragen und Forschungsplanung"
+       - text: "1. Forschungsfragen und Forschungsplanung"
          href: formal/formal_1.qmd
-       - text: "Formal 2: Materialien und Daten"
+       - text: "2. Materialien und Daten"
          href: formal/formal_2.qmd
-       - text: "Formal 3: Forschungsergebnisse veröffentlichen"
+       - text: "3. Forschungsergebnisse veröffentlichen"
          href: formal/formal_3.qmd
-       - text: "Formal 4: Forschungsergebnisse kommunizieren"
+       - text: "4. Forschungsergebnisse kommunizieren"
          href: formal/formal_4.qmd
             
   page-footer:

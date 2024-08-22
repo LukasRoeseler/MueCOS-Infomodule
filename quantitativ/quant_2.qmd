@@ -1,5 +1,5 @@
 ---
-title: "QUANT 2: Materialien und Daten"
+title: "2. Materialien und Daten"
 ---
 
 # Open Materials
@@ -389,8 +389,6 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 # FAIR-Prinzipien
 
 # CARE-Prinzipien
-
-# Open Code
 
 # Lizenzen
 

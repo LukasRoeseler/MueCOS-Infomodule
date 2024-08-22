@@ -1,5 +1,5 @@
 ---
-title: "QUANT 1: Forschungsfragen und Forschungsplanung"
+title: "1. Forschungsfragen und Forschungsplanung"
 ---
 
 # Literaturrecherche
@@ -60,13 +60,13 @@ Eine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten
 
 ![Garden of Forking Paths](/img/gardenofforkingpaths.png)
 
-# Lösungen
+## Lösungen
 
 Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung am Beispiel der Umsetzung im Open Science Framework (OSF) vorgestellt werden. Ein großer Teil dieses Abschnitts befasst sich mit Informationen zu den verschiedenen Registrierungsformularen (vgl.: <https://help.osf.io/article/229-select-a-registration-template>[)]{.underline}. Tatsächlich überlegen Sie sich lediglich im Vorhinein, was Sie untersuchen möchten und wie. Dies beschreiben Sie in einem Formular und sichern es online.
 
-## Präregistrierung in 7 schritten
+### Präregistrierung in 7 schritten
 
-### **1.    Erstellen einer Registrierung**
+**1.    Erstellen einer Registrierung**
 
 -   Erstellen Sie einen Account bzw. loggen Sie sich auf der OSF Seite ein ([osf.io](http://osf.io/)).
 
@@ -74,7 +74,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Wählen Sie auf der „Project Overview Page" den Button „Registrations" und als zweites „New registration".
 
-### **2.    Wählen Sie ein Registrierungsformular**
+**2.    Wählen Sie ein Registrierungsformular**
 
 -   Es öffnet sich nun ein Fenster, in dem Sie zwischen verschiedenen Formularen wählen können.
 
@@ -84,7 +84,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Wählen Sie, nachdem Sie sich entschieden haben, das Formular aus und klicken Sie „Create draft".
 
-### **3.    Füllen Sie das Formular aus**
+**3.    Füllen Sie das Formular aus**
 
 -   Beantworten Sie die Fragen, etwa zum Status des Projekts, und dem Grund für die Registrierung.
 
@@ -92,7 +92,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Haben Sie das Ausfüllen beendet, wählen Sie „Preview for submission" (unten rechts auf jeder Seite).
 
-### **4.    Vorschau anzeigen und registrieren**
+**4.    Vorschau anzeigen und registrieren**
 
 -   Kontrollieren Sie Ihr Formular auf Fehler (dies ist hierfür die letzte Möglichkeit!).
 
@@ -102,7 +102,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Beachten Sie, dass das gesamte Projekt präregistriert sind und Sie ggf. nicht-anonyme Daten zum Zeitpunkt der Präregistrierung entfernen sollten.
 
-### **5.    Auswahl der Privatsphäre-Einstellungen Ihrer Registrierung**
+**5.    Auswahl der Privatsphäre-Einstellungen Ihrer Registrierung**
 
 -   Sie können im „Registration Choice" Menü zwischen „Make registration public immediately" und „Embargo registration up to 4 years" wählen. Nach Ablauf des Embargos ist Ihre Registrierung öffentlich und erscheint z.B. als Publikation bei Literatursuchen oder -alerts über Google Scholar.
 
@@ -112,7 +112,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Wenn Sie bereit sind, Ihre Registrierung abzuschließen, klicken Sie „Continue" und Ihr registriertes Projekt wird erscheinen.
 
-### **6.    Zustimmen oder Ablehnen der registrierung**
+**6.    Zustimmen oder Ablehnen der Registrierung**
 
 -   Wenn das Projekt registriert ist, werden alle Mitglieder des OSF-Projekts mit Administrationsrechten via E-Mail benachrichtigt und können durch Verfolgen des Links der Registrierung zustimmen oder diese ablehnen.
 
@@ -122,11 +122,11 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Sie haben nach Absenden der Registrierung die Möglichkeiten, sie zu verändern (update) oder zu löschen. Ersteres sollten Sie nur im Falle von Veränderungen *vor* der Datenerhebung tun. Letzteres führt nicht dazu, dass die Registrierung verschwindet, sondern nur, dass sie zurückgezogen wurde (ähnlich wie bei Retraction Notices). 
 
-### **7.    Unterschied zwischen Projekt und Registrierung**
+**7.    Unterschied zwischen Projekt und Registrierung**
 
 -   Haben Sie Ihre Präregistrierung abgeschlossen, so zeigt ein Wasserzeichen an, dass Registrierungen nur zu lesen (und nicht zu bearbeiten) sind. Auf der „Registration Overview" Seite finden Sie weiterhin ein blaues Warnsignal (oben) was anzeigt, dass das Projekt eine Registrierung und einen Link zurück zum originalen Projekt beinhaltet.
 
-## Registrierungsformulare
+### Registrierungsformulare
 
 Hier werden vier der am häufigsten gebrauchten Registrierungsformulare kurz vorgestellt. Dies soll einen kurzen Überblick über die abgefragten Themengebiete und den Umfang der Formulare geben. Möchten Sie in ein Registrierungsformular einen ausführlicheren Blick werfen, so finden Sie diese im Anhang. Zuerst wird hier das kürzeste und abschließend das ausführlichste Registrierungsformular behandelt. Diese Sortierung wird auch im Anhang beibehalten. Es gibt eine Reihe weiterer Formularvorlagen (siehe bspw. <https://osf.io/zg78t>[)]{.underline}. Natürlich können Sie sich auch ein persönliches, für Ihre Forschung maßgeschneidertes Präregistrierungstemplate zusammenbauen und dieses als open-ended registration oder in Ergänzung einer der anderen Registrierungsvorlagen hochladen. Präregistriert werden können sowohl konkrete Hypothesen als auch explorative Fragen, wobei sie jeweils als solche kenntlich gemacht werden sollten.
 
@@ -140,15 +140,15 @@ Formulare sollten drei Gütekriterien entsprechen:
 
 -   Passung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z.B. korrelative Studie / Experience Sampling / Experiment) und er Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.
 
-### **Open-Ended Registration**
+**Open-Ended Registration**
 
 Bei diesem Formular werden Sie aufgerufen, eine narrative Zusammenfassung von dem, was in Ihrem Projekt enthalten ist zu geben. Es gibt keine Mindestzeichenanzahl.
 
-### **OSF-Standard Pre-Data Collection Registration**
+**OSF-Standard Pre-Data Collection Registration**
 
 In diesem kurzen Formular werden Sie gefragt, ob die Datenerhebung für dieses Projekt schon begonnen hat und ob Sie schon die Daten schon gesichtet haben. Sie erhalten zudem die Möglichkeit, weitere Kommentare entsprechend der open-ended registration über Ihr Projekt abzugeben.
 
-### **ASPREDICTED PREREGISTRATION**
+**ASPREDICTED PREREGISTRATION**
 
 In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von [AsPredicted.org](http://aspredicted.org/) basieren.
 
@@ -168,50 +168,9 @@ In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von 
 
 8.  Möchten Sie noch etwas Weiteres präregistrieren?
 
-### **Prereg Challenge**
+## Abweichungen von Präregistrierungen
 
-Dieses Formular ist für Forscher, die an der „Preregistration Challenge" vom „Center for Open Science" teilnehmen möchten. Weitere Informationen zu der Challenge finden Sie im folgenden Abschnitt „Good to Know". Dies ist das ausführlichste der hier behandelten Formulare, daher hier ein kurzer Einblick in die behandelten Themengebiete:
-
-1.  **Informationen zu der Studie:**\
-    Zu Beginn geben Sie den Titel der Studie, sowie Autoren und Forschungsfragen und im Anschluss zu jeder Forschungsfrage mindestens eine Hypothese an.
-
-2.  **Stichprobenplan:**\
-    In diesem Abschnitt werden Sie gefragt, ob Sie mit schon existierenden Daten arbeiten werden und werden zu einer Erklärung dieser angehalten. Weiterhin wird nach Ihren Datenerhebungsverfahren, Ihrer Stichprobengröße, sowie einer Begründung der Stichprobengröße gefragt.
-
-Abschließend wird nach der „stopping rule", also Regel, nach der Sie die Datenerhebung beenden werden, gefragt.
-
-1.  **Variablen:**\
-    Hier werden unabhängige, sowie abhängige Variablen und Indices, also Regeln, nach denen Sie Ihre Messungen zu einem Index kombinieren werden, abgefragt.
-
-2.  **Design Plan:**\
-    In diesem Abschnitt geben Sie Auskunft über die Art Ihrer Studie (Experiment vs. Beobachtungsstudie vs. Metaanalyse), Blinding, das Design der Studie und Randomisierung.
-
-3.  **Analyseplan:**\
-    Bei dem Teil zum Analyseplan geht es um statistische Modelle, Transformationen, Follow-up Analysen, Ihre Kriterien für statistische Schlussfolgerungen, Regeln zum Ausschluss von Daten, Vorgehen bei Missing Data und etwaige exploratorische Analysen.
-
-4.  **Skripte (optional):**
-
-Hier können Sie optional Ihre vorgefertigten Analyseskripte einreichen
-
-1.  **Other (optional):**
-
-Weitere für Sie wichtige Informationen können Sie hier einfügen.
-
-# Analyse-Plan
-
-# Datenmanagement-Plan
-
-# Registered Report
-
-Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen, und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachter tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
-
-Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forscher ist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
-
-![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png)
-
-# Abweichungen von Präregistrierungen
-
-Es kommt [selten](https://doi.org/10.31234/osf.io/nj4es)vor, dass Sie sich zu 100% an Ihre Präregistrierung halten oder alles ausreichend spezifiziert haben. Gründe für Abweichungen sind vielfältig:
+Es kommt [selten](https://doi.org/10.31234/osf.io/nj4es) vor, dass Sie sich zu 100% an Ihre Präregistrierung halten oder alles ausreichend spezifiziert haben. Gründe für Abweichungen sind vielfältig:
 
 -   in der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z.B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant)
 
@@ -312,3 +271,17 @@ Typischerweise gelten folgende Bedingungen:
 \*No badge will be awarded if (1) is not provided, or if (3) is answered "yes" without strong justification, or if (5) is answered "no" without strong justification.
 
 \*\*If the answer to (2) is "no," the notation DE (Data Exist) will be added to the badge, indicating that registration postdates realization of the outcomes but predates analysis. If the answer to (4) is "yes" with strong justification for changes, the notation TC (Transparent Changes) will be added to the badge, indicating that the analysis plan was altered but the preregistered analyses and rationale for the change are provided.
+
+# Analyse-Plan
+
+# Datenmanagement-Plan
+
+# Registered Report
+
+Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen, und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachter tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
+
+Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forscher ist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
+
+![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png)
+
+## 

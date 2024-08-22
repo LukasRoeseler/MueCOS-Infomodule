@@ -1,9 +1,23 @@
 ---
-title: "Formal"
+title: "Definition und Beispiele"
 ---
 
-## Project 1
+Mit formaler Forschung sind Vorhaben gemeint, die Gesetzmäßigkeiten erforschen, welche *a priori*, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend gelten. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Dabei verwenden sie mathematische Herleitungen oder Beweise.
 
-## Project 2
+# Formal arbeitende Disziplinen
 
-## Project 3
+Formale Forschung ist vor allem in der Mathematik und Philosophie vorzufinden.
+
+-   Mathematik
+
+-   Philosophie (Logik)
+
+-   Informatik
+
+-   Physik
+
+# Beispielprojekte
+
+| Disziplin & Subdisziplin | Quellenangabe | Beschreibung |
+|--------------------------|---------------|--------------|
+|                          |               |              |
