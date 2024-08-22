@@ -8,7 +8,7 @@ title: "2. Materialien und Daten"
 ## In einem Satz
 :::
 
-## Was sind „Open Materials?"
+## Worum geht's?
 
 Open Materials betreffen die transparente Beschreibung, Dokumentation und öffentliche Zurverfügungstellung des methodischen Vorgehens einer Studie. Open Materials ermöglichen damit eine genaue und umfassende Kommunikation des eigenen methodischen Vorgehens, eine angemessene Interpretation der mit diesem Vorgehen erhobenen Daten und der darauf aufbauenden Ergebnisse und eine direkte Replikation des methodischen Vorgehens. Konkret beinhaltet „Open Materials":
 
@@ -20,21 +20,21 @@ Die akkurate Beschreibung der relevanten Methoden im Paper (Vorgehen und Begrün
 
 ## Publikationen
 
-Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2012). A 21 word solution (October 14, 2012). Available at SSRN: <https://ssrn.com/abstract=2160588> or <http://dx.doi.org/10.2139/ssrn.2160588>
+-   Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2012). A 21 word solution (October 14, 2012). Available at SSRN: <https://ssrn.com/abstract=2160588> or <http://dx.doi.org/10.2139/ssrn.2160588>
 
-[Schönbrodt, F., Gollwitzer, M., & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
+-   [Schönbrodt, F., Gollwitzer, M., & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
 
-## Links zu weiterführenden Informationen
+## Weiterführende Informationen
 
-<https://osf.io/m7f8d>: Disclosure templates Campbell lab
+-   <https://osf.io/m7f8d>: Disclosure templates Campbell lab
 
-Manual zum Datenmanagement und Data Sharing in der Psychologie (ZPID, 2013, s. <http://psychdata.zpid.de/downloads/PsychData-Handbuch_2013.pdf>
+-   Manual zum Datenmanagement und Data Sharing in der Psychologie (ZPID, 2013, s. <http://psychdata.zpid.de/downloads/PsychData-Handbuch_2013.pdf>
 
-Psych Data Metadatenformular: <https://www.psychdata.de/downloads/formular_datengeber.pdf>
+-   Psych Data Metadatenformular: <https://www.psychdata.de/downloads/formular_datengeber.pdf>
 
-CONSORT 2010 -- Checklist: <http://www.consort-statement.org/media/default/downloads/CONSORT%202010%20Checklist.pdf>
+-   CONSORT 2010 -- Checklist: <http://www.consort-statement.org/media/default/downloads/CONSORT%202010%20Checklist.pdf>
 
-ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
+-   ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
 
 ## Data Wiz ‑ Assistenzsystem für Forschungsdatenmanagement
 
@@ -46,15 +46,15 @@ Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrast
 
 Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, in dem für jede in einem Codebook oder einer Variablenliste beschriebene Variable, auch der im Datensatz verwendete Name angegeben wird.
 
-## Open materials KURZ UND KNAPP
+## Open Materials KURZ UND KNAPP
 
 Auch bei begrenzter Zeit lassen sich Open Materials Praktiken in den Forschungsablauf integrieren. Das Ergebnis der Open Materials Dokumentation könnte bspw. ein 2-3 seitiges PDF-Dokument sein, in dem die Abläufe und Instrumente knapp als bullet point-Listen zusammengefasst sind, ggf. ergänzt um eine Excel-Datei, in der alle Items inkl. Wortlaut und Bereich möglicher Ausprägungen aufgeführt sind. Weitere/alternative schnell zu erstellende Materialien sind je nach Untersuchungskontext denkbar (bspw. exportierte Unipark-Codebooks im Fall von Online Surveys oder Online-Experimenten).
 
-### **1.    beschreiben Sie die Abläufe, mit deneN ihre Daten erzeugt wurden**
+### **1. Beschreiben Sie die Abläufe, mit denen ihre Daten erzeugt wurden.**
 
 Ihre Auflistung sollte Nachnutzenden einen Überblick darüber geben, wie Sie bei Ihrem Forschungsvorhaben vorgegangen sind. Nennen Sie alle Versuchsabläufe und verwendeten Instrumente (inkl. ggf. Referenz) in der Reihenfolge der tatsächlichen Durchführung.
 
-### **2.    beschreiben Sie die erfassten Variablen**
+### **2. Beschreiben Sie die erfassten Variablen.**
 
 1.  Erstellen Sie eine Liste mit allen verwendeten Variablen (inkl. Name, Bedeutung, Wortlaut, Wertebereich)
 
@@ -62,11 +62,11 @@ Ihre Auflistung sollte Nachnutzenden einen Überblick darüber geben, wie Sie be
 
 3.  Nennen Sie die von Ihnen verwendeten Skalen und die Itemzuordnungen zu Skalen (inkl. ggf. notwendige Rekodierungen)
 
-### **3.    Laden Sie Ihre Dokumentation hoch**
+### **3. Laden Sie Ihre Dokumentation hoch**
 
 Laden Sie Ihre in den Schritten 1 und 2 erstellte Dokumentation der Methoden und zusätzlich alle verwendeten Originalmaterialien (wenn lizenzrechtlich möglich) auf einem öffentlich zugänglichen Repositorium (bspw. [www.osf.io](http://www.osf.io/)) hoch.
 
-### **4.    VERLINKEN SIE DIE DOKUMENTATION IM PAPER**
+### **4. Verlinken Sie die Dokumentation im Paper**
 
 Zusätzlich zur Beschreibung der Methoden im Paper selbst sollten sie in den Text des Papers einen Link integrieren, der zu der Open Materials Dokumentation führt.
 
@@ -74,11 +74,11 @@ Zusätzlich zur Beschreibung der Methoden im Paper selbst sollten sie in den Tex
 
 Wenn möglich ist eine ausgiebigere und mit Beginn der Planung eines Forschungsprojekts angelegte Dokumentation aller Methoden zu empfehlen.
 
-### **1.      Erstellen Sie ein Codebuch**
+### **1. Erstellen Sie ein Codebuch**
 
 Eine vollständige und nachvollziehbare Dokumentation der Methodik über ein systematisches Codebook macht nicht nur die eigene Vorgehensweise transparent und verständlich, sondern hilft auch, Fehler und Hürden früh zu entdecken und zu beseitigen. Sie ist zudem eine gute Grundlage für die Planung weiterer (Anschluss-)Studien. Um eine optimale internationale Rezeption zu ermöglichen, ist es in den meisten Fällen empfehlenswert, eine deutsche und eine englische Version des Codebooks (und aller Materialien) zur Verfügung zu stellen. Häufig empfiehlt sich eine Trennung des Codebooks in eine Dokumentation auf Studienebene und eine Dokumentation auf Variablenebene. Aber auch integrierte Lösungen sind denkbar, in denen bspw. Instruktionen zu einem Verfahren und die jeweilige Referenz direkt von der Beschreibung der mit dem Verfahren erfassten Variablen gefolgt werden. Die im Folgenden beispielhaft beschriebenen Hinweise sind nur eine von vielen möglichen Lösungen.
 
-### **1.1      Dokumentation auf Studienebene**
+### **1.1 Dokumentation auf Studienebene**
 
 Erstellen Sie eine Datei, in der Sie Angaben zu folgenden Kategorien machen:
 
@@ -112,7 +112,7 @@ Erstellen Sie eine Datei, in der Sie Angaben zu folgenden Kategorien machen:
 
 15. Sonstige für die Dateninterpretation wichtige Dokumente: Kurzbeschreibung und Verweis auf die entsprechenden Dateien
 
-### **1.2      Dokumentation auf Variablenebene**
+### **1.2 Dokumentation auf Variablenebene**
 
 Ein ausführliches syntaxkonformes Codebuch auf Variablenebene kann bspw. folgende Bestandteile aufweisen und in folgender Syntax notiert sein:
 
@@ -132,15 +132,15 @@ Speichern Sie ihr Codebuch in einer Plaintext-Datei ab, oder erstellen Sie Ihr C
 
 Falls mehrere Variablen zu einer Skala / einem Variablenblock gehören, ist es sinnvoll, diese Zugehörigkeit im Codebook kenntlich zu machen und zusätzliche **Informationen zur Verrechnung und Aggregation** der Variablen (ggf. inkl. nötige Rekodierungen) zu geben.
 
-### **2.      Stellen Sie Ihre verwendeten Materialien Bereit**
+### **2. Stellen Sie Ihre verwendeten Materialien Bereit**
 
 ![](/img/materialien_bereitstellen.png)
 
-### **3.    Daten Hochladen**
+### **3. Daten Hochladen**
 
 Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) auf einem öffentlichen Repositorium hoch (bspw. [www.osf.io](http://www.osf.io/))
 
-### **4.    Dokumentation im Paper selbst**
+### **4. Dokumentation im Paper selbst**
 
 Die 21-word solution (Simmons et al., 2012) bietet eine etablierte und ökonomische Möglichkeit, die ohne großen Aufwand in jeden Methodenteil eines Manuskripts integriert werden kann (ggf. so adaptiert, dass sie korrekt ist).
 
@@ -154,15 +154,15 @@ Benannte Informationen können entweder im Manuskript selbst, oder aber in den m
 
 ## FAQ
 
--   **Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials" Stempel?**
+### **Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials" Stempel?**
 
-    -   Das Journal in dem das Paper erscheint bietet diese Möglichkeit an.
+-   Das Journal in dem das Paper erscheint bietet diese Möglichkeit an.
 
-    -   Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen persistent identifier haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.
+-   Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen persistent identifier haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.
 
-    -   Infrastruktur, Ausrüstung, biologische Materialien, oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, so dass ein unabhängiger Forscher in der Lage ist, das Verfahren zu reproduzieren.
+-   Infrastruktur, Ausrüstung, biologische Materialien, oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, so dass ein unabhängiger Forscher in der Lage ist, das Verfahren zu reproduzieren.
 
-    -   Es werden ausreichende Erklärungen gegeben, so dass ein unabhängiger Forscher dazu in der Lage ist zu verstehen, wie die Materialien mit der berichteten Methodik in Verbindung stehen.
+-   Es werden ausreichende Erklärungen gegeben, so dass ein unabhängiger Forscher dazu in der Lage ist zu verstehen, wie die Materialien mit der berichteten Methodik in Verbindung stehen.
 
 Typischerweise gelten folgende Bedingungen:
 
@@ -170,19 +170,19 @@ Typischerweise gelten folgende Bedingungen:
 
 Confirm that there is sufficient information for an independent researcher to reproduce all of the reported methodology.
 
--   **Warum sollte ich überhaupt Materialien so aufwändig dokumentieren und bereitstellen?**
+### **Warum sollte ich überhaupt Materialien so aufwändig dokumentieren und bereitstellen?**
 
-    -   sichert das Wissen um das tatsächliche methodische Vorgehen bei einer Studie
+-   sichert das Wissen um das tatsächliche methodische Vorgehen bei einer Studie
 
-    -   erleichtert die Vorbereitung ähnlicher Studien / von Folgestudien
+-   erleichtert die Vorbereitung ähnlicher Studien / von Folgestudien
 
-    -   ermöglicht eine adäquate Beurteilung der Ergebnisse einer Studie und der Auswahl der in die Analysen eingeflossenen Variablen
+-   ermöglicht eine adäquate Beurteilung der Ergebnisse einer Studie und der Auswahl der in die Analysen eingeflossenen Variablen
 
-    -   ermöglicht das Durchführen von adäquaten Replikationen des originalen Forschungsbefundes
+-   ermöglicht das Durchführen von adäquaten Replikationen des originalen Forschungsbefundes
 
-    -   gewährleistet die langfristige Nachprüfbarkeit von wissenschaftlichen Ergebnissen, auch im Hinblick darauf, dass erhobene Daten zukünftig mit anderen und ggf. besseren Methoden analysiert werden können, als dies zum Zeitpunkt der Erhebung der Fall war
+-   gewährleistet die langfristige Nachprüfbarkeit von wissenschaftlichen Ergebnissen, auch im Hinblick darauf, dass erhobene Daten zukünftig mit anderen und ggf. besseren Methoden analysiert werden können, als dies zum Zeitpunkt der Erhebung der Fall war
 
-    -   erleichtert die Kommunikation und Zusammenarbeit mit anderen Forschern
+-   erleichtert die Kommunikation und Zusammenarbeit mit anderen Forschern
 
 # Codebook
 
@@ -190,11 +190,27 @@ Confirm that there is sufficient information for an independent researcher to re
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Anonymisierung und Pseudonymisierung
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
 
 # Open Data
 
@@ -202,7 +218,7 @@ Confirm that there is sufficient information for an independent researcher to re
 ## In einem Satz
 :::
 
-## Was sind „Open Data"?
+## Worum geht's?
 
 Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin[**\[1\]**](https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1).* Ein weiterer Schritt stellen FAIRe Daten dar. FAIR steht dabei für:
 
@@ -216,43 +232,43 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 ## Publikationen
 
-Hartig, K. & Soßna, V. (2016). Forschungsdatenmanagement in DFG-Anträgen: Was kann, was soll, was muss beschrieben werden*? Institutionelles Repositorium der Leibniz Universität Hannover*. <http://dx.doi.org/10.15488/262> 
+-   Hartig, K. & Soßna, V. (2016). Forschungsdatenmanagement in DFG-Anträgen: Was kann, was soll, was muss beschrieben werden*? Institutionelles Repositorium der Leibniz Universität Hannover*. <http://dx.doi.org/10.15488/262> 
 
-Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716.
+-   Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716.
 
-Poline, J. B., Breeze, J. L., Ghosh, S. S., Gorgolewski, K., Halchenko, Y. O., Hanke, M., & Ashburner, J. (2012). Data sharing in neuroimaging research. *Frontiers in neuroinformatics*, *6*, 9.
+-   Poline, J. B., Breeze, J. L., Ghosh, S. S., Gorgolewski, K., Halchenko, Y. O., Hanke, M., & Ashburner, J. (2012). Data sharing in neuroimaging research. *Frontiers in neuroinformatics*, *6*, 9.
 
-[Schönbrodt, F., Gollwitzer, M. & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
+-   [Schönbrodt, F., Gollwitzer, M. & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
 
-Spindler, G., & Hillegeist, T. (2011). Rechtliche Probleme der elektronischen Langzeitarchivierung von Forschungsdaten. In S. Büttner, H.-C. Hobohm & L. Müller (Hrsg.), *Handbuch Forschungsdatenmanagement* (S. 63-69). Bad Honnef: Bock und Herchen Verlag.
+-   Spindler, G., & Hillegeist, T. (2011). Rechtliche Probleme der elektronischen Langzeitarchivierung von Forschungsdaten. In S. Büttner, H.-C. Hobohm & L. Müller (Hrsg.), *Handbuch Forschungsdatenmanagement* (S. 63-69). Bad Honnef: Bock und Herchen Verlag.
 
-Stodden, V. (2011). Trust your science? Open your data and code. *Amstat News*, 21-22.
+-   Stodden, V. (2011). Trust your science? Open your data and code. *Amstat News*, 21-22.
 
-## Links zu weiterführenden Informationen
+## Weiterführenden Informationen
 
-FAIR Prinzipien: <https://www.go-fair.org/fair-principles/>
+-   FAIR Prinzipien: <https://www.go-fair.org/fair-principles/>
 
-Datenmanagement und Data Sharing in der Psychologie: Einführung und Manual: <https://www.psychdata.de/downloads/PsychData-Handbuch_2013.pdf>
+-   Datenmanagement und Data Sharing in der Psychologie: Einführung und Manual: <https://www.psychdata.de/downloads/PsychData-Handbuch_2013.pdf>
 
-Data Wiz - Ein Assistenzsystem für Forschungsdatenmanagement:
+-   Data Wiz - Ein Assistenzsystem für Forschungsdatenmanagement:
 
-<https://datawiz.zpid.de/>
+-   <https://datawiz.zpid.de/>
 
-ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
+-   ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
 
-Infos der zu Datenmanagementplänen: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/> und <http://www.forschungsdaten.org/index.php/Data_Management_Pl%C3%A4ne>
+-   Infos der zu Datenmanagementplänen: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/> und <http://www.forschungsdaten.org/index.php/Data_Management_Pl%C3%A4ne>
 
-Infos über Repositorien: <http://www.forschungsdaten.org/index.php/Repositorium> und <https://open-access.net/informationen-zu-open-access/repositorien/>
+-   Infos über Repositorien: <http://www.forschungsdaten.org/index.php/Repositorium> und <https://open-access.net/informationen-zu-open-access/repositorien/>
 
-Open Source Software für das Datenmanagement: [https://www.datalad.org](https://www.datalad.org/)
+-   Open Source Software für das Datenmanagement: [https://www.datalad.org](https://www.datalad.org/)
 
-Datenbank mit Datenrepositorien: [re3data.org](http://re3data.org/)
+-   Datenbank mit Datenrepositorien: [re3data.org](http://re3data.org/)
 
-Daten über die Uni Münster publizieren: <https://www.uni-muenster.de/forschungsdaten/publizieren/>
+-   Daten über die Uni Münster publizieren: <https://www.uni-muenster.de/forschungsdaten/publizieren/>
 
-FAIR Aware Tool (Wissenstest zu FAIR): [https://fairaware.dans.knaw.nl](https://fairaware.dans.knaw.nl/)
+-   FAIR Aware Tool (Wissenstest zu FAIR): [https://fairaware.dans.knaw.nl](https://fairaware.dans.knaw.nl/)
 
-## Links zu bereits existierenden Workshops und Vorträgen
+## Workshops und Vorträge
 
 MANTRA -  Research Data Management Training: <http://datalib.edina.ac.uk/mantra/>
 
@@ -274,9 +290,7 @@ Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrast
 ## In einem Satz
 :::
 
-## Reproducible Code
-
-## Was Sind „Reproducible codes"?
+## Worum geht's?
 
 Reproducible Codes meint die Dokumentation und öffentliche Zurverfügungstellung der Codes, die aus den Daten eines Projekts (optimalerweise den Rohdaten) die in einem Paper berichteten Ergebnisse produzieren. Reproducible Codes ermöglichen damit eine genaue und umfassende Kommunikation der eigenen Analysen, ein exaktes Nachvollziehen und eine angemessene Interpretation dieser Analysen und der darauf aufbauenden Ergebnisse und eine direkte Replikation des analytischen Vorgehens.
 
@@ -288,7 +302,9 @@ Konkret beinhaltet „Reproducible Codes":
 
 3.  Die Verlinkung zu diesen Dateien im Paper
 
-## Links zu weiterführenden Informationen
+## Publikationen
+
+## Weiterführende Informationen
 
 -   <https://www.rstudio.com/wp-content/uploads/2015/06/rmarkdown-german.pdf>
 
@@ -297,6 +313,8 @@ Konkret beinhaltet „Reproducible Codes":
 -   <https://github.com/rubenarslan/repro_web_stack>
 
 -   <http://robinlovelace.net/r/2014/07/15/naming-conventions-r.html>
+
+## Vorträge und Workshops
 
 # Lösungen
 
@@ -348,13 +366,13 @@ Die Benennung von Variablen und Funktionen könnte nach diesem einfachen Schema 
 
 hist(df\$pct.spent,
 
-     breaks = "scott",  \# method for choosing number of buckets
+  breaks = "scott",  \# method for choosing number of buckets
 
-     main   = "Histogram: fraction budget spent by campaignid",
+  main   = "Histogram: fraction budget spent by campaignid",
 
-     xlab   = "Fraction of budget spent",
+  xlab   = "Fraction of budget spent",
 
-     ylab   = "Frequency (count of campaignids)")
+  ylab   = "Frequency (count of campaignids)")
 
 **Richtlinien innerhalb der Syntax**
 
@@ -400,7 +418,7 @@ if (condition) {
 
 }
 
-# Ein EINFACHES BEISPIEL
+## Ein EINFACHES BEISPIEL
 
 Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.
 
@@ -412,11 +430,27 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # CARE-Prinzipien
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
 
 # Lizenzen
 
@@ -424,8 +458,24 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Datensatz Publikationen
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops

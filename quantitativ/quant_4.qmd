@@ -8,11 +8,27 @@ title: "4. Forschungsergebnisse kommunizieren"
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Open Educational Resources
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
 
 # Blogs
 
@@ -20,8 +36,24 @@ title: "4. Forschungsergebnisse kommunizieren"
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Interaktive Analysen / Dashboard
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops

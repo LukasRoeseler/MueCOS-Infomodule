@@ -8,11 +8,15 @@ title: "3. Forschungsergebnisse veröffentlichen"
 ## In einem Satz
 :::
 
-# Open Access Typen
+## Worum geht's?
 
-::: callout-tip
-## In einem Satz
-:::
+Open Access Typen
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
 
 # Pre-Prints
 
@@ -20,14 +24,38 @@ title: "3. Forschungsergebnisse veröffentlichen"
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Pre-Print Review
 
 ::: callout-tip
 ## In einem Satz
 :::
 
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops
+
 # Autor\*innenschaft
 
 ::: callout-tip
 ## In einem Satz
 :::
+
+## Worum geht's?
+
+## Publikationen
+
+## Weiterführende Informationen
+
+## Vorträge und Workshops

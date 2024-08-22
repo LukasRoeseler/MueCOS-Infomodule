@@ -6,7 +6,29 @@ title: "1. Forschungsfragen und Forschungsplanung"
 
 ::: callout-tip
 ## In einem Satz
+
+Reproduzierbare Literaturrecherchen sind solche, bei denen andere Forschende beim selben Vorgehen zu derselben Literatur kommen.
 :::
+
+## Worum geht's?
+
+Wenn eine Literaturrecherche die Basis für ein Review oder eine Meta-Analyse bildet, muss das Vorgehen exakt beschrieben werden. Mit den "Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA)" haben Forschende einen Leitfaden für Reviews und Meta-Analysen. Beispielsweise sollten Entscheidungen über die Inklusion von Forschungsartikeln und Suchbegriffe für alle verwendeten Datenbankensystematisch notiert werden.
+
+## Publikationen
+
+-   Carlsson, R., Batinovic, L., Hyltse, N., Kalmendal, A., Nordström, T., & Topor, M. (2024, May 12). A Beginner's Guide to Open and Reproducible Systematic Reviews in Psychology. <https://doi.org/10.31234/osf.io/59vsw>
+
+-   Page, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., \... & Moher, D. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. *bmj*, *372*. <http://dx.doi.org/10.1136/bmj.n71>
+
+## Weiterführende Informationen
+
+-   Website mit PRISMA Statements für verschiedene Disziplinen und in verschiedenen Sprachen: <https://www.prisma-statement.org/extensions>
+
+-   Template für reproduzierbare Meta-Analysen: <https://osf.io/ytgrp/>
+
+## Workshops und Vorträge
+
+-   Video-Einführung zu PRISMA: <https://www.youtube.com/watch?v=JbePmLWV76I>
 
 # Präregistrierung
 
@@ -46,7 +68,7 @@ Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, 
 
 -   Soderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., \... & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. *Nature Human Behaviour*, *5*(8), 990-997. <https://doi.org/10.1038/s41562-021-01142-4>
 
-## Links zu weiterführenden Informationen
+## Weiterführende Informationen
 
 -   OSF-Seite zu preregistration: <https://cos.io/prereg/>
 
@@ -58,7 +80,7 @@ Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, 
 
 -   Liste präregistrierter Studien und Registered Reports: <https://www.zotero.org/groups/osf/items/collectionKey/KEJP68G9>
 
-## Links zu bereits existierenden Workshops und Vorträgen
+## Workshops und Vorträge
 
 -   Felix Schönbrodt: Workshop Pre-registration: <https://osf.io/yd487/>
 
@@ -76,7 +98,7 @@ Eine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten
 
 Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung am Beispiel der Umsetzung im Open Science Framework (OSF) vorgestellt werden. Ein großer Teil dieses Abschnitts befasst sich mit Informationen zu den verschiedenen Registrierungsformularen (vgl.: <https://help.osf.io/article/229-select-a-registration-template>[)]{.underline}. Tatsächlich überlegen Sie sich lediglich im Vorhinein, was Sie untersuchen möchten und wie. Dies beschreiben Sie in einem Formular und sichern es online.
 
-### Präregistrierung in 7 schritten
+### Präregistrierung in sieben Schritten
 
 **1. Erstellen einer Registrierung**
 
@@ -182,15 +204,13 @@ In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von 
 
 ## Abweichungen von Präregistrierungen
 
-Es kommt [selten](https://doi.org/10.31234/osf.io/nj4es) vor, dass Sie sich zu 100% an Ihre Präregistrierung halten oder alles ausreichend spezifiziert haben. Gründe für Abweichungen sind vielfältig:
+Es kommt [sehr häufig](https://doi.org/10.31234/osf.io/nj4es) vor, dass Sie von Ihrer Präregistrierung abweichen müssen oder Teile unzureichend spezifiziert haben. Gründe für Abweichungen sind vielfältig, zum Beispiel:
 
--   in der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z.B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant)
+-   In der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z.B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant).
 
--   ein Fehler war vorhanden (z.B. war im Analyseskript ein Programmierfehler, bei dem die falsche Variable genommen wurde)
+-   Ein Fehler war vorhanden (z.B. war im Analyseskript ein Programmierfehler, bei dem die falsche Variable genommen wurde).
 
--   aufgrund der vorhandenen Daten, mussten Sie von Ihrem Plan abweichen (z.B. gab es zu wenige Versuchspersonen in einer der Untergruppen, sodass Sie diese Gruppe für eine Analyse ausschließen mussten)
-
--   uvm.
+-   Aufgrund der vorhandenen Daten, mussten Sie von Ihrem Plan abweichen (z.B. gab es zu wenige Versuchspersonen in einer der Untergruppen, sodass Sie diese Gruppe für eine Analyse ausschließen mussten).
 
 In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie transparent damit umgehen. Erklären Sie in der Diskussion Ihres Artikels für jede Abweichung:
 
@@ -286,19 +306,51 @@ Typischerweise gelten folgende Bedingungen:
 
 ::: callout-tip
 ## In einem Satz
+
+In einem Analyse-Plan beschreiben Forschende alle Transformationen und Analysen und nehmen potenzielle Probleme und Entscheidungen vorweg.
 :::
+
+## Worum geht's?
+
+Bevor eine Studie durchgeführt wird, sollten Forschende ein klares Bild davon haben, welche Daten sie erheben, wie sie sie aufbereiten, welche Fälle ausgeschlossen werden, und welche Analysen gerechnet werden. Im Idealfall existiert ein simulierter Datensatz oder ein Datensatz mit Werten von Testdurchläufen, für welchen das Analyse-Skript bereits programmiert werden kann. Im Fall von simulierten Daten werden Forschende zusätzlich angeregt, Verteilungen von Variablen und deren Zusammenhänge zu antizipieren. Simulierte Daten eignen sich dadurch auch für Power-Simulationen.
+
+## Publikationen
+
+-   Fife, D. (2020). The eight steps of data analysis: A graphical framework to promote sound statistical analysis. *Perspectives on Psychological Science*, *15*(4), 1054-1075. <https://doi.org/10.1177/1745691620917333>
+
+## Weiterführende Informationen
+
+-   Anleitung zur Datensimulation mit R und Zufallszahlen: <https://stirlingcodingclub.github.io/simulating_data/index.html>
 
 # Datenmanagement-Plan
 
 ::: callout-tip
 ## In einem Satz
+
+Ein Datenmanagement-Plan (DMP) hilft, den Umgang mit Daten und Ergebnissen zu planen und ist üblicherweise Teil von Projektanträgen.
 :::
+
+## Worum geht's?
+
+*Diese Informationen stammen von der [DMP-Website](https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/) der Universität Münster.*
+
+Schon vor Beginn eines Forschungsvorhabens ist es wichtig und hilfreich, den Umgang mit anfallenden Daten und Ergebnissen für die kommende Arbeitsphase vorauszuplanen. Ein geeignetes Werkzeug hierfür ist der Datenmanagementplan (DMP), in dem Rahmenbedingungen und konkrete Strategien zu Erstellung und Verarbeitung, zu Umfang und Sicherung sowie ggf. späterer Veröffentlichung der anfallenden Forschungsdaten definiert und dokumentiert werden.
+
+Ein DMP kann in einigen Disziplinen oder Förderlinien eine Voraussetzung für die Bewilligung von Drittmitteln sein und wird zusammen mit dem Projektantrag begutachtet.
+
+## Weiterführende Informationen
+
+-   Infos der Universität Münster: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/>
 
 # Registered Report
 
 ::: callout-tip
 ## In einem Satz
+
+Beim Publikationsformat *Registered Report* wird die Zuverlässigkeit von Forschung erhöht, indem ein Forschungsartikel zusätzlich *vor der Datenerhebung* begutachtet wird und eine Publikationszusage erteilt wird, die unabhängig von den Ergebnissen ist.
 :::
+
+## Worum geht's?
 
 Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen, und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachter tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
 
@@ -306,4 +358,12 @@ Die Registered Reports sind also eine besondere Form des Publizierens, die sowoh
 
 ![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png)
 
-## 
+## Publikationen
+
+-   Chambers, C.D., Tzavella, L. The past, present and future of Registered Reports. *Nat Hum Behav* **6**, 29--42 (2022). <https://doi.org/10.1038/s41562-021-01193-7>
+
+## Weiterführende Informationen
+
+-   Website des COS zu Registered Reports: <https://www.cos.io/initiatives/registered-reports>
+
+-   Liste teilnehmender Zeitschriften: <https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit?gid=0#gid=0>
