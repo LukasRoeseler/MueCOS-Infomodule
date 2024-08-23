@@ -196,27 +196,17 @@ Daten können nur wiederverwendet werden, wenn Variablen und Werte klar in einem
 
 ## Worum geht's?
 
-## Publikationen
+In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen möglichen Werte beschrieben. Das ermöglicht die Weiterverwendung der Daten durch Dritte (beispielsweise Kollegen, Nachfolgen, oder andere Forschende). Je nach Programm gibt es die Möglichkeit, Variablen- und Werte-Labels zu ergänzen (z.B. in .sav Daten via SPSS[^1]). Alternativ kann eine Übersichtstabelle erstellt werden.
 
-## Weiterführende Informationen
+[^1]: Mittels Open Source Software können auch solche Daten problemlos geöffnet werden.
 
-## Vorträge und Workshops
+| Variablenname | Bedeutung                          | Mögliche Werte                                                                   |
+|---------------|------------------------------------|----------------------------------------------------------------------------------|
+| id            | Versuchspersonennummer             | fortlaufende ganze Zahl                                                          |
+| v1            | Selbst berichtetes Geschlecht      | 1 = weiblich, 2 = männlich, 3 = divers, 4 = möchte ich nicht sagen, -1 = fehlend |
+| age           | Selbst berichtetes Alter in Jahren | ganze Zahl                                                                       |
 
-# Anonymisierung und Pseudonymisierung
-
-::: callout-tip
-## In einem Satz
-
-Daten von Befragungen oder Beobachtungen mit Versuchspersonen müssen vor der Veröffentlichung hinreichend anonymisiert sein.
-:::
-
-## Worum geht's?
-
-## Publikationen
-
-## Weiterführende Informationen
-
-## Vorträge und Workshops
+: Beispiel für ein Codebook
 
 # Open Data
 
@@ -242,15 +232,13 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 -   Hartig, K. & Soßna, V. (2016). Forschungsdatenmanagement in DFG-Anträgen: Was kann, was soll, was muss beschrieben werden*? Institutionelles Repositorium der Leibniz Universität Hannover*. <http://dx.doi.org/10.15488/262> 
 
--   Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. *Science*, *349*(6251), aac4716.
-
--   Poline, J. B., Breeze, J. L., Ghosh, S. S., Gorgolewski, K., Halchenko, Y. O., Hanke, M., & Ashburner, J. (2012). Data sharing in neuroimaging research. *Frontiers in neuroinformatics*, *6*, 9.
+-   Poline, J. B., Breeze, J. L., Ghosh, S. S., Gorgolewski, K., Halchenko, Y. O., Hanke, M., & Ashburner, J. (2012). Data sharing in neuroimaging research. *Frontiers in neuroinformatics*, *6*, 9. <https://doi.org/10.3389/fninf.2012.00009>
 
 -   [Schönbrodt, F., Gollwitzer, M. & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
 
--   Spindler, G., & Hillegeist, T. (2011). Rechtliche Probleme der elektronischen Langzeitarchivierung von Forschungsdaten. In S. Büttner, H.-C. Hobohm & L. Müller (Hrsg.), *Handbuch Forschungsdatenmanagement* (S. 63-69). Bad Honnef: Bock und Herchen Verlag.
+-   Spindler, G., & Hillegeist, T. (2011). Rechtliche Probleme der elektronischen Langzeitarchivierung von Forschungsdaten. In S. Büttner, H.-C. Hobohm & L. Müller (Hrsg.), *Handbuch Forschungsdatenmanagement* (S. 63-69). Bad Honnef: Bock und Herchen Verlag. Online verfügbar unter <https://univerlag.uni-goettingen.de/bitstream/handle/3/isbn-978-3-86395-066-8/GSI8_Hillegeist.pdf?sequence=1&isAllowed=y>
 
--   Stodden, V. (2011). Trust your science? Open your data and code. *Amstat News*, 21-22.
+-   Stodden, V. (2011). Trust your science? Open your data and code. *Amstat News*, 21-22. Online verfügbar unter <https://stodden.net/papers/TrustYourScience-STODDEN.pdf>
 
 ## Weiterführenden Informationen
 
@@ -258,9 +246,7 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 -   Datenmanagement und Data Sharing in der Psychologie: Einführung und Manual: <https://www.psychdata.de/downloads/PsychData-Handbuch_2013.pdf>
 
--   Data Wiz - Ein Assistenzsystem für Forschungsdatenmanagement:
-
--   <https://datawiz.zpid.de/>
+-   Data Wiz - Ein Assistenzsystem für Forschungsdatenmanagement: <https://datawiz.zpid.de/>
 
 -   ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
 
@@ -278,13 +264,13 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 ## Workshops und Vorträge
 
-MANTRA -  Research Data Management Training: <http://datalib.edina.ac.uk/mantra/>
+-   MANTRA -  Research Data Management Training: <http://datalib.edina.ac.uk/mantra/>
 
-Consortium of European Social Science Data Archives: Data Management ‑ Archive & Publish: <https://www.cessda.eu/Research-Infrastructure/Training/Expert-tour-guide-on-Data-Management/6.-Archive-Publish>
+-   Consortium of European Social Science Data Archives: Data Management ‑ Archive & Publish: <https://www.cessda.eu/Research-Infrastructure/Training/Expert-tour-guide-on-Data-Management/6.-Archive-Publish>
 
-Open Data 101 introduction crash course: <http://www.opencon2017.org/open_data_101>
+-   Open Data 101 introduction crash course: <http://www.opencon2017.org/open_data_101>
 
-Rechtliche Rahmenbedingungen bei der Anonymisierung von Daten: <https://osf.io/4e8bn/>
+-   Rechtliche Rahmenbedingungen bei der Anonymisierung von Daten: <https://osf.io/4e8bn/>
 
 ## Data Wiz ‑ Assistenzsystem für Forschungsdatenmanagement
 
@@ -326,9 +312,9 @@ Konkret beinhaltet „Reproducible Codes":
 
 ## Vorträge und Workshops
 
-# Lösungen
+## Lösungen
 
-## Reproducible codes Kurz und knapp
+### Reproducible codes Kurz und knapp
 
 In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optimal aufbereitet und kommentiert sein und evtl. haben Sie nicht mehr ausreichend Zeit dies nachzuholen. Um in diesem Fall trotzdem zeitnah Reproducible Codes zur Verfügung zu stellen, sollte zumindest geprüft werden, ob die Anwendung der Codes auf die Daten tatsächlich die im Paper berichteten Zahlen erzeugt. Darüber hinaus kann knapp geprüft werden, wo einfache Kommentierungen ergänzt werden können, um die Verständlichkeit der Codes zu erhöhen. Um auch in kurzer Zeit hilfreiche Codes zur Verfügung zu stellen, kann bspw. geprüft werden, ob folgende Kriterien zutreffen:
 
@@ -336,7 +322,7 @@ In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optim
 
 Die Codes sollten in einem öffentlichen und frei zugänglichen online-Repositorium (bspw. [www.osf.io](http://www.osf.io/)) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, so dass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.
 
-## REPRODUCIBLE CODES Detailliert
+### REPRODUCIBLE CODES Detailliert
 
 Optimalerweise wird bereits vor der Datenerhebung geplant ein Codebuch zu führen, die Variablen bei/nach der Datenerhebung entsprechend zu benennen und während der Datenanalyse ein hierzu passendes reproduzierbares und verständliches Skript zu führen.
 
@@ -428,7 +414,7 @@ if (condition) {
 
 }
 
-## Ein EINFACHES BEISPIEL
+### Ein EINFACHES BEISPIEL
 
 Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.
 

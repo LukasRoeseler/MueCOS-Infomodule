@@ -5,16 +5,14 @@ about:
   template: marquee
 ---
 
-Auf dieser Website finden Sie die **Infomodule zum Thema Open Science**. Sie werden vom [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/index.html) bereitgestellt und verwaltet.
+Auf dieser Website finden Sie die **Infomodule zum Thema Open Science**. Sie werden vom [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/index.html) bereitgestellt und verwaltet. Sie basieren teilweise auf den Informationssammlungen der Open Science Kommission Psychologie (<https://osf.io/zc24b>).
 
+::: callout-tip
 Wählen Sie den *Forschungstyp* in der Kopfleiste aus. Gehen Sie anschließen an den gewünschten Punkt des *Forschungszyklus*' in der Seitennavigation am Rand.
+:::
 
-![Bedeutung von Open Science entlang des Forschungszyklus'](images/Open-Science-Kreislauf.png)
-
-------------------------------------------------------------------------
-
-Die Infomodule basieren teilweise auf den Informationssammlungen der Open Science Kommission Psychologie (<https://osf.io/zc24b>).
+![Bedeutung von Open Science entlang des Forschungszyklus'](images/Open-Science-Kreislauf.png){fig-alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: Offene Dokumentation der Ableitung neuer Forschugnsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation der verwendeten Materialien und erhobenen Daten. 3. offene Veröffentlichugn der Forschungsergebnisse. Und 4. offene Kommunikation der Forschugnsergebnisse."}
 
 ------------------------------------------------------------------------
 
-![](images/mücos_logo.jpg){width="450"}
+[![](images/mücos_logo.jpg){fig-alt="MüCOS Logo: Sechs graue und blaue Dreiecke, daneben steht MüCOS Münster Center for Open Science" width="450"}](https://www.uni-muenster.de/MueCOS/index.html)

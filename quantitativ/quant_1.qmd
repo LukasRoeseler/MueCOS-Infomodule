@@ -356,7 +356,7 @@ Registered Reports werden von einigen Journals als neue Publikationsoption angeb
 
 Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forscher ist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
 
-![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png)
+![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png){fig-alt="Pfeile mit Text darin. Develop Idea, Design study, collect and analyze data, write report, publish report. Zwischen design study und collect and analyze data steht \"stage 1 peer review\". Zwischen write report und publish report steht \"stage 2 peer review\"."}
 
 ## Publikationen
 

@@ -10,6 +10,12 @@ title: "4. Forschungsergebnisse kommunizieren"
 
 ## Worum geht's?
 
+Interviews,
+
+Blogs
+
+Citizen Science
+
 ## Publikationen
 
 ## Weiterführende Informationen
@@ -17,20 +23,6 @@ title: "4. Forschungsergebnisse kommunizieren"
 ## Vorträge und Workshops
 
 # Open Educational Resources
-
-::: callout-tip
-## In einem Satz
-:::
-
-## Worum geht's?
-
-## Publikationen
-
-## Weiterführende Informationen
-
-## Vorträge und Workshops
-
-# Blogs
 
 ::: callout-tip
 ## In einem Satz
