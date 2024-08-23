@@ -3,3 +3,9 @@ title: "Fächerübergreifende Informationen"
 ---
 
 Hier finden Sie einen Überblick über fächerübergreifende Informationen zu Open Science. Klicken Sie oben auf einen der drei Forschungstypen und wählen Sie links aus, zu welchem Punkt des Forschungszyklus' Sie die Infos aufrufen möchten.
+
+# Weiterführende Informationen zum Einstieg in Open Science
+
+-   Open Science Glossar von FORRT: <https://forrt.org/glossary/german/>
+
+-   TED-Talk zur Publikationskultur und Open Science: <https://www.youtube.com/watch?v=c-bemNZ-IqA>

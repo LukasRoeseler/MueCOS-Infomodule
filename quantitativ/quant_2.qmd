@@ -6,6 +6,8 @@ title: "2. Materialien und Daten"
 
 ::: callout-tip
 ## In einem Satz
+
+Öffentlich zugängliche und sauber aufbereitete Forschungsmaterialien erhöhen die Nachvollziehbarkeit von Forschung und vereinfachen Replikations- und Reproduktionsversuche.
 :::
 
 ## Worum geht's?
@@ -22,13 +24,13 @@ Die akkurate Beschreibung der relevanten Methoden im Paper (Vorgehen und Begrün
 
 -   Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2012). A 21 word solution (October 14, 2012). Available at SSRN: <https://ssrn.com/abstract=2160588> or <http://dx.doi.org/10.2139/ssrn.2160588>
 
--   [Schönbrodt, F., Gollwitzer, M., & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
+-   Schönbrodt, F., Gollwitzer, M., & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35. <https://doi.org/10.1026/0033-3042/a000341>
 
 ## Weiterführende Informationen
 
--   <https://osf.io/m7f8d>: Disclosure templates Campbell lab
+-   Disclosure templates: <https://osf.io/m7f8d>
 
--   Manual zum Datenmanagement und Data Sharing in der Psychologie (ZPID, 2013, s. <http://psychdata.zpid.de/downloads/PsychData-Handbuch_2013.pdf>
+-   Manual zum Datenmanagement und Data Sharing in der Psychologie: <http://psychdata.zpid.de/downloads/PsychData-Handbuch_2013.pdf>
 
 -   Psych Data Metadatenformular: <https://www.psychdata.de/downloads/formular_datengeber.pdf>
 
@@ -188,6 +190,8 @@ Confirm that there is sufficient information for an independent researcher to re
 
 ::: callout-tip
 ## In einem Satz
+
+Daten können nur wiederverwendet werden, wenn Variablen und Werte klar in einem öffentlich verfügbaren Codebook beschrieben sind.
 :::
 
 ## Worum geht's?
@@ -202,6 +206,8 @@ Confirm that there is sufficient information for an independent researcher to re
 
 ::: callout-tip
 ## In einem Satz
+
+Daten von Befragungen oder Beobachtungen mit Versuchspersonen müssen vor der Veröffentlichung hinreichend anonymisiert sein.
 :::
 
 ## Worum geht's?
@@ -216,6 +222,8 @@ Confirm that there is sufficient information for an independent researcher to re
 
 ::: callout-tip
 ## In einem Satz
+
+Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaftlichen Berichten, erleichtern Replikationen, und dienen als grundlage für zukünftige darauf aufbauende Forschung.
 :::
 
 ## Worum geht's?
@@ -284,10 +292,12 @@ Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist
 
 Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
 
-# Reproduzierbarkeit/Replizierbarkeit
+# Reproduzierbarkeit
 
 ::: callout-tip
 ## In einem Satz
+
+Analysen sollten sich über die Zeit, mit verschiedenen Computer oder Programm-Versionen, und von verschiedenen Forschenden nachrechnen lassen und dieselben Ergebnisse produzieren.
 :::
 
 ## Worum geht's?
@@ -424,58 +434,58 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 
 ![Kurzbeispiel zu Reproducible Code](/img/reproduciblecode_beispiel.png)
 
-# FAIR-Prinzipien
+## Push-Button-Replicability
 
-::: callout-tip
-## In einem Satz
-:::
+Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf Reproduzierbarkeit zu Prüfen. Autor\*innen werden dazu aufgefordert, ihren Code so zu gestalten, dass er auf Knopfdruck reproduzierbar ist (replicability und reproducibility werden hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichn:
 
-## Worum geht's?
+-   Ergebnisse oder vollständige Manuskripte mit Markdown-Sprache schreiben (z.B. RMarkdown, Quarto)
 
-## Publikationen
+-   Daten ins OSF hochladen und direkt von dort aus in Statistik-Programm einlesen, sodass zur Prüfung nur das Skript benötigt wird
 
-## Weiterführende Informationen
+-   OSF Projekt mit "Open Ended Registration" registrieren, sodass Links permanent sind und Daten im Nachhinein nicht mehr verändert werden können
 
-## Vorträge und Workshops
+-   Abbildungen und Tabellen aus dem Skript heraus speichern
 
-# CARE-Prinzipien
+-   Bei mehreren Studien, Skripte über ein Master-Skript ausführen lassen (in R z.B. via source() - funktioniert auch mit Skripten, die im OSF hochgeladen sind)
 
-::: callout-tip
-## In einem Satz
-:::
-
-## Worum geht's?
-
-## Publikationen
-
-## Weiterführende Informationen
-
-## Vorträge und Workshops
+-   Beispiel für Instruktionen zur Push-Button-Replicability für das Journal of Comments and Replications in Economics: <https://osf.io/qmkn6>
 
 # Lizenzen
 
 ::: callout-tip
 ## In einem Satz
+
+Mittels Lizenzen schreiben Forschende, die Daten, Berichte, Skripte, oder andere Forschungsmaterialien teilen Nutzer\*innen vor, unter welchen Bedingungen sie die Ressourcen weiterverwenden dürfen.
 :::
 
 ## Worum geht's?
 
-## Publikationen
+Forschung zu veröffentlichen heißt (abgesehen bei Publikationen in kommerziellen Zeitschriften) nicht, dass Forschende alle ihre Rechte daran abtreten. Mittels Lizenzen kann bestimmt werden, wofür und in welcher Weise z.B. Daten verwendet werden dürfen. Dabei kann unter anderem bestimmt werden:
+
+-   Müssen die Autor\*innen zitiert werden?
+
+-   Dürfen Materialien verändert werden?
+
+-   Ist eine Wiederverwendung zu kommerziellen Zwecken gestattet?
 
 ## Weiterführende Informationen
 
-## Vorträge und Workshops
+-   Übersicht und Erklärung verschiedener Lizenzen im OSF: <https://help.osf.io/article/148-licensing>
 
 # Datensatz Publikationen
 
 ::: callout-tip
 ## In einem Satz
+
+Daten zu einzelnen Studien lassen sich auch alleinstehend bei darauf spezialisierten Zeitschriften veröffentlichen.
 :::
 
 ## Worum geht's?
 
-## Publikationen
+Für gewöhnlich bestehen Publikationen aus einer Frage, einer Antwort, und dazwischengeschalteten Studien mit jeweils dafür erhobenen Daten. In Fällen, bei denen eine Verwendung der Daten durch andere sinnvoll erscheint (z.B. Längsschnittstudien, Daten mit großen Stichproben, besondere Datenformate wie Liebesbriefe), bietet sich eine Datenpublikation an.
 
 ## Weiterführende Informationen
 
-## Vorträge und Workshops
+-   Datenpublikation via Journal of Open Psychology Data und einer Manuskriptvorlage: <https://openpsychologydata.metajnl.com>
+
+-   Datenpublikation via Earth System Science Data: <https://earth-system-science-data.net>
