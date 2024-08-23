@@ -6,46 +6,62 @@ title: "4. Forschungsergebnisse kommunizieren"
 
 ::: callout-tip
 ## In einem Satz
+
+Wissenschaftskommunikation bezeichnet das Berichten von Forschungsergebnissen innerhalb der Wissenschaft und für die öffentlichkeit
 :::
 
 ## Worum geht's?
 
-Interviews,
+Entgegen dem Stereotyp des Elfenbeinturms ist nach Forschung und Lehre der Transfer ein bedeutender Bestandteil der wissenschaftlichen Tätigkeit, wofür zahlreiche Werkzeuge existieren. Damit werden Museen, Planetarien, Tage der offenen Tür, aber auch Interviews und Citizen Science gezählt.
 
-Blogs
+-   **Interviews**: Forschende können sich für Interview-Anfragen bei [Call a Scientist](https://call-a-scientist.org) registrieren
 
-Citizen Science
+-   **Persönliche Websites und Blogs**: Mittels Github und RStudio können Forschende in wenigen Minuten eigene Websites erstellen
 
-## Publikationen
+-   **Citizen Science**: Je nach Projekt können Bürgerinnen und Bürger in den Forschungsprozess mit einbezogen. Damit ist nicht allein die Erhebung von Daten aber auch die Verarbeitung, Auswertung, oder Interpretation gemeint.
 
 ## Weiterführende Informationen
 
-## Vorträge und Workshops
+-   Anleitung zum Erstellen einer Website mit RStudio und Github: <https://www.youtube.com/watch?v=YN75YXaLFGM>
 
 # Open Educational Resources
 
 ::: callout-tip
 ## In einem Satz
+
+Open Educational Resources (OER) meint Bildungsressourcen, auf die alle Personen zugreifen können, und die weiterverbreitet und verändert werden dürfen.
 :::
 
 ## Worum geht's?
 
-## Publikationen
+Lehrmaterialien in Form von Vorlesungsfolien, Video-Aufzeichnungen Vorträge jeglicher Art, Skripten, usw. können über Repositorien wie Zenodo.org oder OSF.io einfach, wenn gewünscht mit bestimmten Lizenzen, und zitierbar geteilt werden. Das erlaubt Lernenden einen niedrigschwelligen Zugang und sorgt für die Inklusion von Personen, die aufgrund anderer Verpflichtungen nicht an bestimmten Veranstaltungen teilnehmen können.
 
 ## Weiterführende Informationen
 
-## Vorträge und Workshops
+-   Infos vom DIPF: <https://open-educational-resources.de>
+
+-   e-learning Plattform zu Open Science bei FORRT: <https://forrt.org/nexus/>
+
+-   Überblick weltweiter OER Initiativen auf der OER World Map: <https://oerworldmap.org/resource/>
 
 # Interaktive Analysen / Dashboard
 
 ::: callout-tip
 ## In einem Satz
+
+Komplexe Datensätze können für andere Forschende durch interaktive Analysen zugänglich gemacht werden.
 :::
 
 ## Worum geht's?
 
-## Publikationen
+Der Umfang der Ergebnisse, die in einem Forschungsbericht beschrieben werden, wird den darunter liegenden Daten häufig nicht gerecht. Beispielsweise können bei Meta-Analysen bestimmte Subgruppen von Interesse für zukünftige Forschung sein, um die benötigte Stichprobe zu planen.
 
 ## Weiterführende Informationen
 
-## Vorträge und Workshops
+-   R-Paket zur automatisierten Erstellung einer Shiny App für meta-analytische Datensätze: <https://github.com/LukasWallrich/metaUI/blob/main/README.md>
+
+-   Beispiele
+
+    -   Dashboard zum Anteil nicht veröffentlichter medizinischer Studien vom Berlin Institute of Health: <https://quest-dashboard.charite.de/#tabStart>
+
+    -   Dashboard zu den jährlichen Kosten für Zeitschriftenpublikationen nach Zeitschrift, Verlag, und Institution aufgeteilt: <https://treemaps.openapc.net/apcdata/openapc/>
