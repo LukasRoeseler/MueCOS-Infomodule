@@ -6,6 +6,6 @@ Hier finden Sie einen Überblick über fächerübergreifende Informationen zu Op
 
 # Weiterführende Informationen zum Einstieg in Open Science
 
--   Open Science Glossar von FORRT: <https://forrt.org/glossary/german/>
+-   Open Science-Glossar von FORRT: <https://forrt.org/glossary/german/>
 
 -   TED-Talk zur Publikationskultur und Open Science: <https://www.youtube.com/watch?v=c-bemNZ-IqA>

@@ -44,7 +44,7 @@ Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist
 
 Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
 
-# Lösungen
+## Lösungen
 
 Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, in dem für jede in einem Codebook oder einer Variablenliste beschriebene Variable, auch der im Datensatz verwendete Name angegeben wird.
 
@@ -186,6 +186,10 @@ Confirm that there is sufficient information for an independent researcher to re
 
 -   erleichtert die Kommunikation und Zusammenarbeit mit anderen Forschern
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Codebook
 
 ::: callout-tip
@@ -207,6 +211,10 @@ In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen mögl
 | age           | Selbst berichtetes Alter in Jahren | ganze Zahl                                                                       |
 
 : Beispiel für ein Codebook
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 # Open Data
 
@@ -277,6 +285,10 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist gerade dabei, ein Assistenzsystem für das Management psychologischer Forschungsdaten mit dem Namen Data Wiz zu entwickeln (<https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii>). Data Wiz soll bei der systematischen Dokumentation von Forschungsdaten helfen. Die so systematisch gesicherten und dokumentierten Daten können dann über ein Repositorium wie OSF zur Verfügung gestellt werden.
 
 Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 # Reproduzierbarkeit
 
@@ -436,6 +448,10 @@ Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf 
 
 -   Beispiel für Instruktionen zur Push-Button-Replicability für das Journal of Comments and Replications in Economics: <https://osf.io/qmkn6>
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Lizenzen
 
 ::: callout-tip
@@ -457,6 +473,10 @@ Forschung zu veröffentlichen heißt (abgesehen bei Publikationen in kommerziell
 ## Weiterführende Informationen
 
 -   Übersicht und Erklärung verschiedener Lizenzen im OSF: <https://help.osf.io/article/148-licensing>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 # Datensatz Publikationen
 

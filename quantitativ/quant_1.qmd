@@ -30,6 +30,10 @@ Wenn eine Literaturrecherche die Basis für ein Review oder eine Meta-Analyse bi
 
 -   Video-Einführung zu PRISMA: <https://www.youtube.com/watch?v=JbePmLWV76I>
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Präregistrierung
 
 ::: callout-tip
@@ -302,6 +306,10 @@ Typischerweise gelten folgende Bedingungen:
 
 \*\*If the answer to (2) is "no," the notation DE (Data Exist) will be added to the badge, indicating that registration postdates realization of the outcomes but predates analysis. If the answer to (4) is "yes" with strong justification for changes, the notation TC (Transparent Changes) will be added to the badge, indicating that the analysis plan was altered but the preregistered analyses and rationale for the change are provided.
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Analyse-Plan
 
 ::: callout-tip
@@ -322,6 +330,10 @@ Bevor eine Studie durchgeführt wird, sollten Forschende ein klares Bild davon h
 
 -   Anleitung zur Datensimulation mit R und Zufallszahlen: <https://stirlingcodingclub.github.io/simulating_data/index.html>
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Datenmanagement-Plan
 
 ::: callout-tip
@@ -341,6 +353,10 @@ Ein DMP kann in einigen Disziplinen oder Förderlinien eine Voraussetzung für d
 ## Weiterführende Informationen
 
 -   Infos der Universität Münster: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 # Registered Report
 

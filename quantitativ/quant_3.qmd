@@ -36,6 +36,10 @@ Ein Manuskript für einen wissenschaftlichen Artikel oder ein Buch durchläuft v
 
 -   Tool zum Prüfen der Pre-Print Policy nach Journal: <https://v2.sherpa.ac.uk/romeo/search.html>
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Open Access
 
 ::: callout-tip
@@ -51,7 +55,7 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 **Open Access Modelle bei wissenschaftlichen Zeitschriften (siehe auch [AG Openness](https://zenodo.org/records/8322048))**
 
 | Typ                 | Regelung                                                                                                                                                                                                                                                                                                                                                                                                            | Bewertung[^1]                                                                                                             |
-|--------------------------------------|-----------------|-----------------|
+|---------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
 | Diamond Open Access | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author Processing Charges) an                                                                                                                                                                                                                                                                                                     | positiv                                                                                                                   |
 | Gold Open Access    | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author Processing Charges, APC) an                                                                                                                                                                                                                                                                                                          | positiv bei transparenter Begründung der APCs und gerechtfertigter Höhe                                                   |
 | Hybrid              | Die Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr werden die veröffentlichten Artikel öffentlich zugänglich gemacht, sie sind also auch nach Ablauf der Subskription oder für andere Institutionen und Privatpersonen kostenlos lesbar.                                               | negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription + Open Access                        |
@@ -75,6 +79,10 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 
 -   Film zu den Nachteilen der aktuellen Publikationskultur: [paywallthemovie.com](https://paywallthemovie.com)
 
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
+
 # Pre-Print Review
 
 ::: callout-tip
@@ -96,6 +104,10 @@ Communities verschiedener Fächer nehmen daher die Qualitätskontrolle in Form d
 -   Übersicht über aktuelle PCIs: <https://peercommunityin.org/current-pcis/>
 
 -   Video zur Erklärung des PCI Systems: <https://www.youtube.com/watch?v=4PZhpnc8wwo>
+
+------------------------------------------------------------------------
+
+------------------------------------------------------------------------
 
 # Autor\*innenschaft
 
