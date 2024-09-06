@@ -34,19 +34,21 @@ website:
         
   sidebar:
    - id: fächerübergreifend
-     title: "Fächerübergreifende Informationen"
+     title: "Allgemeine Informationen"
      style: "floating"
      collapse-level: 2
      align: left
      contents:
        - fächerübergreifend.qmd
-       - text: "Forschungsfragen und Forschungsplanung"
+       - text: "Themen und Ansprechpersonen"
+         href: übergreifend/themen.qmd
+       - text: "1. Forschungsfragen und Forschungsplanung"
          href: übergreifend/gen_1.qmd
-       - text: " Materialien und Daten"
+       - text: "2. Materialien und Daten"
          href: übergreifend/gen_2.qmd
-       - text: "Forschungsergebnisse veröffentlichen"
+       - text: "3. Forschungsergebnisse veröffentlichen"
          href: übergreifend/gen_3.qmd
-       - text: "Forschungsergebnisse kommunizieren"
+       - text: "4. Forschungsergebnisse kommunizieren"
          href: übergreifend/gen_4.qmd
 
    - id: quantitativ

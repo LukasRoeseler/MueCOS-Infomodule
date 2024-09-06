@@ -11,7 +11,7 @@ Auf dieser Website finden Sie die **Infomodule zum Thema Open Science**. Sie wer
 Wählen Sie den *Forschungstyp* in der Kopfleiste aus. Gehen Sie anschließen an den gewünschten Punkt des *Forschungszyklus*' in der Seitennavigation am Rand. Falls Sie sich unsicher sind, drücken Sie *F* und geben den Namen Ihres Fachs ein und stöbern Sie los.
 :::
 
-![Bedeutung von Open Science entlang des Forschungszyklus'](images/Open-Science-Kreislauf.png){fig-alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: Offene Dokumentation der Ableitung neuer Forschugnsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation der verwendeten Materialien und erhobenen Daten. 3. offene Veröffentlichugn der Forschungsergebnisse. Und 4. offene Kommunikation der Forschugnsergebnisse."}
+![Bedeutung von Open Science](images/Open-Science-Kreislauf.png){fig-alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: Offene Dokumentation der Ableitung neuer Forschugnsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation der verwendeten Materialien und erhobenen Daten. 3. offene Veröffentlichugn der Forschungsergebnisse. Und 4. offene Kommunikation der Forschugnsergebnisse."}
 
 ------------------------------------------------------------------------
 
