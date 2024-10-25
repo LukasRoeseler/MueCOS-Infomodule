@@ -40,8 +40,6 @@ website:
      align: left
      contents:
        - fächerübergreifend.qmd
-       - text: "Themen und Ansprechpersonen"
-         href: übergreifend/themen.qmd
        - text: "1. Forschungsfragen und Forschungsplanung"
          href: übergreifend/gen_1.qmd
        - text: "2. Materialien und Daten"
