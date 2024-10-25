@@ -15,3 +15,11 @@ Wissenschaftliche Ergebnisse lassen sich auf vielfältige Weise veröffentlichen
 -   Gründung einer von Wissenschaftler\*innen geführten Diamond Open Access Zeitschrift
 
 Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forschungsergebnissen in enger Abstimmung mit vorhandenen spezifischen Angeboten: Die Universitäts- und Landesbibliothek Münster berät zu Open Access und digitalem Publizieren, verwaltet zahlreiche Open-Access-Zeitschriften, den Publikationsserver Miami, bietet Beratung und Unterstützung bei der Gründung neuer Open-Access Zeitschriften sowie Migration von Journals auf das Open Journal System.
+
+## Weiterführende Informationen
+
+-   Portal zum Durchsuchen zahlreicher Preprint-Server: <https://osf.io/preprints>
+
+-   Portal zum Durchsuchen von Open Access Zeitschriften inkl. Informationen über Lizenzen und Publikationskosten: <https://doaj.org>
+
+-   Informationen des DEAL-Konsortiums, weshalb CC BY die beste Wahl für Open-Access-Publikationen ist: <https://deal-konsortium.de/warum-ccby>

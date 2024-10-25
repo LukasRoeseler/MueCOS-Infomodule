@@ -13,3 +13,9 @@ Die transparente und breit zugängliche Kommunikation von Forschungsergebnissen 
 -   Erweiterung einer Publikation um Blog-Einträge, interaktive Analysen, oder Dashboards
 
 Das MüCOS erarbeitet in engem Austausch mit der Stelle für Kommunikation an der Universität Münster und der Citizen-Science-AG Guidelines und sammelt gemeinsam mit fachspezifischen Unterstützungsstrukturen Best Practices zur Open-Science-gerechten Kommunikation von Forschungsergebnissen.
+
+## Weiterführende Informationen
+
+-   Nationales Citizen Science Portal "mit:forschen!": <https://www.mitforschen.org>
+
+-   Öffentliche Bibliothek an öffentlich nutzbaren Lehrmaterialien: <https://oercommons.org>

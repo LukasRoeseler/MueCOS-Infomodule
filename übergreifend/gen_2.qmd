@@ -19,3 +19,11 @@ Eine transparente Beschreibung und Bereitstellung der verwendeten Materialien un
 -   Aufbereitung und Publikation von Forschungsdaten nach den FAIR-Prinzipien
 
 Im MüCOS werden in enger Abstimmung mit der Datenschutzbeauftragten der Universität Münster, der ULB (Forschungsdatenmanagement, Publikation von Daten über den Datastore) und Anbietern fachspezifischer Lösungen (etwa im Bereich Digital Humanities) Lösungen zur offenen Bereitstellung von Forschungsmaterialien und -daten gesammelt und weiterentwickelt.
+
+## Weiterführende Informationen
+
+-   Datenrepositorien für alle Fachbereiche: <https://www.re3data.org/browse/by-subject/>
+
+-   Disziplinenübergreifende Infrastruktur zum Verwalten, Archivieren, und Veröffentlichen von Forschung: <https://osf.io/>
+
+-   Spielerische Heranführung an die Bedeutung von Meta-Daten zur Nachvollziehbarkeit von Forschungsmaterialien: <https://eprints.gla.ac.uk/196477/4/ReadMe_Sep19.pdf>

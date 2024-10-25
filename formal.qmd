@@ -2,19 +2,9 @@
 title: "Definition und Beispiele"
 ---
 
-Mit formaler Forschung sind Vorhaben gemeint, die Gesetzmäßigkeiten erforschen, welche *a priori*, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend gelten. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Dabei verwenden sie mathematische Herleitungen oder Beweise.
+Mit formaler Forschung sind Vorhaben gemeint, die Phänomene mittels mathematischer Modelle (Formeln) erforschen. Dabei handelt es sich häufig um *a priori*, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend geltende Zusammenhänge. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Forschende verwenden dabei mathematische Herleitungen oder Beweise.
 
-# Formal arbeitende Disziplinen
-
-Formale Forschung ist vor allem in der Mathematik und Philosophie vorzufinden.
-
--   Mathematik
-
--   Philosophie (Logik)
-
--   Informatik
-
--   Physik
+Formale Forschung ist vor allem in der Mathematik und Philosophie (z.B. formale Logik) vorzufinden. Darüber hinaus kommt sie jedoch auch in anderen Disziplinen, wie zum Beispiel Informatik oder Physik vor.
 
 # Beispielprojekte
 
