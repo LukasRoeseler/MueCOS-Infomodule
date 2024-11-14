@@ -18,6 +18,8 @@ Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forsch
 
 ## Zentrale Typen von Open Access
 
+Im folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.
+
 | Typ         | Regelung                                                                                                                                                                                                                                                                                                                                                                                                          | Bewertung im Hinblick auf Zugänglichkeit und Kosten von Wissen                                                                                                                                                     |
 |-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Diamond     | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author/Book Processing Charges) an                                                                                                                                                                                                                                                                                              | positiv                                                                                                                                                                                                            |
@@ -30,13 +32,17 @@ Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forsch
 
 : Open Access Typen, für nähere Informationen siehe <https://zenodo.org/records/8322048>
 
-## Geldfluss im Publikationsprozess
-
-![Geldfluss im Publikationsprozess: Beschreibung des Geldflusses bei kostenpflichtigen Publikationen in der Wissenschaft. Der Großteil des Geldes stammt dabei aus Steuergeldern und geht an die Verlage bzw. Data Analytics Konzerne. Dicke Pfeile bezeichnen die häufigsten Wege.](/img/geldfluss_publikationsprozess.jpg)
-
 ## Wer zahlt die Publikationskosten an der Universität Münster?
 
-![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg)
+Je nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im folgenden Prozessdiagramm veranschaulicht.
+
+![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg){alt="Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität."}
+
+## Geldfluss im Publikationsprozess
+
+Wie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publikationen abläuft, ist Forschenden üblicherweise nicht klar noch ist es Teil der wissenschaftlichen Ausbildung. Das folgende Ablaufdiagramm veranschaulicht schematisch verschiedene Wege der Finanzierung. Die häufigsten sind dabei die Bezahlung von Verlagen bzw. Data Analytics Konzernen aus Steuergeldern über Mittel der Universität, welche intern zwischen Fachbereichen und der Bibliothek aufgeteilt werden oder über das DEAL-Konsortium.
+
+![Geldfluss im Publikationsprozess: Beschreibung des Geldflusses bei kostenpflichtigen Publikationen in der Wissenschaft. Der Großteil des Geldes stammt dabei aus Steuergeldern und geht an die Verlage bzw. Data Analytics Konzerne. Dicke Pfeile bezeichnen die häufigsten Wege.](/img/geldfluss_publikationsprozess.jpg)
 
 ## Weiterführende Informationen
 
