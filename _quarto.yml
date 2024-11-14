@@ -19,12 +19,12 @@ website:
     left:
       - href: fächerübergreifend.qmd
         text: Fächerübergreifende Informationen
-      - href: qualitativ.qmd
-        text: Qualitative Forschung
+      # - href: qualitativ.qmd
+      #   text: Qualitative Forschung
       - href: quantitativ.qmd
         text: Quantitative Forschung
-      - href: formal.qmd
-        text: Formale Forschung
+      # - href: formal.qmd
+      #   text: Formale Forschung
         
     tools:
       - icon: github
@@ -48,6 +48,8 @@ website:
          href: übergreifend/gen_3.qmd
        - text: "4. Forschungsergebnisse kommunizieren"
          href: übergreifend/gen_4.qmd
+       # - text: "Themen und Anlaufstellen"
+         # href: übergreifend/themen.qmd
 
    - id: quantitativ
      title: "Quantitative Forschung"
@@ -72,14 +74,14 @@ website:
      align: left
      contents:
        - qualitativ.qmd
-       - text: "1. Forschungsfragen und Forschungsplanung"
-         href: qualitativ/qual_1.qmd
-       - text: "2. Materialien und Daten"
-         href: qualitativ/qual_2.qmd
-       - text: "3. Forschungsergebnisse veröffentlichen"
-         href: qualitativ/qual_3.qmd
-       - text: "4. Forschungsergebnisse kommunizieren"
-         href: qualitativ/qual_4.qmd
+       # - text: "1. Forschungsfragen und Forschungsplanung"
+       #   href: qualitativ/qual_1.qmd
+       # - text: "2. Materialien und Daten"
+       #   href: qualitativ/qual_2.qmd
+       # - text: "3. Forschungsergebnisse veröffentlichen"
+       #   href: qualitativ/qual_3.qmd
+       # - text: "4. Forschungsergebnisse kommunizieren"
+       #   href: qualitativ/qual_4.qmd
           
           
    - id: formal
@@ -89,14 +91,14 @@ website:
      align: left
      contents:
        - formal.qmd
-       - text: "1. Forschungsfragen und Forschungsplanung"
-         href: formal/formal_1.qmd
-       - text: "2. Materialien und Daten"
-         href: formal/formal_2.qmd
-       - text: "3. Forschungsergebnisse veröffentlichen"
-         href: formal/formal_3.qmd
-       - text: "4. Forschungsergebnisse kommunizieren"
-         href: formal/formal_4.qmd
+       # - text: "1. Forschungsfragen und Forschungsplanung"
+       #   href: formal/formal_1.qmd
+       # - text: "2. Materialien und Daten"
+       #   href: formal/formal_2.qmd
+       # - text: "3. Forschungsergebnisse veröffentlichen"
+       #   href: formal/formal_3.qmd
+       # - text: "4. Forschungsergebnisse kommunizieren"
+       #   href: formal/formal_4.qmd
             
   page-footer:
     right: "Mit [Quarto](https://quarto.org/) erstellt"

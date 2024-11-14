@@ -429,9 +429,8 @@
     "href": "qualitativ.html",
     "title": "Definition und Beispiele",
     "section": "",
-    "text": "Mit qualitativer Forschung sind Vorhaben gemeint, die Phänomene über verschiedene Medien wie Texte oder Bilder erforschen. Das kann zum Beispiel der Fall der Berliner Mauer aus geschichtlicher Perspektive oder Sprachwandel in der Fernsehwerbung in den 2010er Jahren sein. Ihnen gemeinsam ist, dass sie ein tiefgehendes Verständnis anstreben. Dabei verwenden Ansätze, die zu großen Teilen auf menschlicher Interpretation beruhen, wie zum Beispiel qualitative Inhaltsanalysen, unstrukturierte oder teilstrukturierte Befragungen, oder Beobachtungen.\nQualitative Forschung ist vor allem in den Geisteswissenschaften präsent. Darunter fallen beispielsweise Theologie, Erziehungswissenschaften, Sozialwissenschaften, Geschichte, Philosophie, Philologie, Geowissenschaften, Sportwissenschaften, und Soziologie.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
+    "text": "Vorsicht\n\n\n\nDieser Bereich befindet sich aktuell im Aufbau.\n\n\nMit qualitativer Forschung sind Vorhaben gemeint, die Phänomene über verschiedene Medien wie Texte oder Bilder erforschen. Das kann zum Beispiel der Fall der Berliner Mauer aus geschichtlicher Perspektive oder Sprachwandel in der Fernsehwerbung in den 2010er Jahren sein. Ihnen gemeinsam ist, dass sie ein tiefgehendes Verständnis anstreben. Dabei verwenden Ansätze, die zu großen Teilen auf menschlicher Interpretation beruhen, wie zum Beispiel qualitative Inhaltsanalysen, unstrukturierte oder teilstrukturierte Befragungen, oder Beobachtungen.\nQualitative Forschung ist vor allem in den Geisteswissenschaften präsent. Darunter fallen beispielsweise Theologie, Erziehungswissenschaften, Sozialwissenschaften, Geschichte, Philosophie, Philologie, Geowissenschaften, Sportwissenschaften, und Soziologie.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
     "crumbs": [
-      "Qualitative Forschung",
       "Definition und Beispiele"
     ]
   },
@@ -440,22 +439,14 @@
     "href": "qualitativ/qual_3.html",
     "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
     "section": "",
-    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft",
-    "crumbs": [
-      "Qualitative Forschung",
-      "3. Forschungsergebnisse veröffentlichen"
-    ]
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
   },
   {
     "objectID": "qualitativ/qual_1.html",
     "href": "qualitativ/qual_1.html",
     "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
     "section": "",
-    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
-    "crumbs": [
-      "Qualitative Forschung",
-      "1. Forschungsfragen und Forschungsplanung"
-    ]
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
   },
   {
     "objectID": "fächerübergreifend.html",
@@ -506,53 +497,36 @@
     "href": "formal/formal_4.html",
     "title": "QUANT 4: Forschungsergebnisse kommunizieren",
     "section": "",
-    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard",
-    "crumbs": [
-      "Formale Forschung",
-      "4. Forschungsergebnisse kommunizieren"
-    ]
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
   },
   {
     "objectID": "formal/formal_2.html",
     "href": "formal/formal_2.html",
     "title": "QUANT 2: Materialien und Daten",
     "section": "",
-    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
-    "crumbs": [
-      "Formale Forschung",
-      "2. Materialien und Daten"
-    ]
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
   },
   {
     "objectID": "formal/formal_1.html",
     "href": "formal/formal_1.html",
     "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
     "section": "",
-    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report",
-    "crumbs": [
-      "Formale Forschung",
-      "1. Forschungsfragen und Forschungsplanung"
-    ]
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
   },
   {
     "objectID": "formal/formal_3.html",
     "href": "formal/formal_3.html",
     "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
     "section": "",
-    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft",
-    "crumbs": [
-      "Formale Forschung",
-      "3. Forschungsergebnisse veröffentlichen"
-    ]
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
   },
   {
     "objectID": "formal.html",
     "href": "formal.html",
     "title": "Definition und Beispiele",
     "section": "",
-    "text": "Mit formaler Forschung sind Vorhaben gemeint, die Phänomene mittels mathematischer Modelle (Formeln) erforschen. Dabei handelt es sich häufig um a priori, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend geltende Zusammenhänge. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Forschende verwenden dabei mathematische Herleitungen oder Beweise.\nFormale Forschung ist vor allem in der Mathematik und Philosophie (z.B. formale Logik) vorzufinden. Darüber hinaus kommt sie jedoch auch in anderen Disziplinen, wie zum Beispiel Informatik oder Physik vor.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
+    "text": "Vorsicht\n\n\n\nDieser Bereich befindet sich aktuell im Aufbau.\n\n\nMit formaler Forschung sind Vorhaben gemeint, die Phänomene mittels mathematischer Modelle (Formeln) erforschen. Dabei handelt es sich häufig um a priori, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend geltende Zusammenhänge. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Forschende verwenden dabei mathematische Herleitungen oder Beweise.\nFormale Forschung ist vor allem in der Mathematik und Philosophie (z.B. formale Logik) vorzufinden. Darüber hinaus kommt sie jedoch auch in anderen Disziplinen, wie zum Beispiel Informatik oder Physik vor.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
     "crumbs": [
-      "Formale Forschung",
       "Definition und Beispiele"
     ]
   },
@@ -568,22 +542,14 @@
     "href": "qualitativ/qual_2.html",
     "title": "QUANT 2: Materialien und Daten",
     "section": "",
-    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen",
-    "crumbs": [
-      "Qualitative Forschung",
-      "2. Materialien und Daten"
-    ]
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
   },
   {
     "objectID": "qualitativ/qual_4.html",
     "href": "qualitativ/qual_4.html",
     "title": "QUANT 4: Forschungsergebnisse kommunizieren",
     "section": "",
-    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard",
-    "crumbs": [
-      "Qualitative Forschung",
-      "4. Forschungsergebnisse kommunizieren"
-    ]
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
   },
   {
     "objectID": "quantitativ/quant_1.html",
