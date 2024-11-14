@@ -21,7 +21,7 @@ Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forsch
 Im folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.
 
 | Typ         | Regelung                                                                                                                                                                                                                                                                                                                                                                                                          | Bewertung im Hinblick auf Zugänglichkeit und Kosten von Wissen                                                                                                                                                     |
-|-------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|----------------------------------------|-------------------|
 | Diamond     | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author/Book Processing Charges) an                                                                                                                                                                                                                                                                                              | positiv                                                                                                                                                                                                            |
 | Gold        | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author/Book Processing Charges, APC/BPC) an.                                                                                                                                                                                                                                                                                              | positiv bei transparenter Begründung der APC/BPCs und gerechtfertigter Höhe (z.B. Kosten in Höhe von 500€ zur Finanzierung einer gemeinnützigen Organisation und Bezahlung des Type-Settings).                     |
 | Hybrid      | Die Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr können Artikel „freigekauft" und auf Open Access gestellt werden; nur diese Artikel sind dann kostenlos lesbar, die anderen verbleiben hinter der Subskriptions-Pay-Wall.                                                         | negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription (=Lese-Zugriff) + Open Access                                                                                                 |
@@ -36,7 +36,7 @@ Im folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es 
 
 Je nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im folgenden Prozessdiagramm veranschaulicht.
 
-![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg){alt="Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität."}
+![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg)
 
 ## Geldfluss im Publikationsprozess
 
@@ -46,8 +46,14 @@ Wie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publik
 
 ## Weiterführende Informationen
 
+-   Umfangreiches Tool zum Zusammenfassen verschiedener Journal Policies: <https://finder.open-access.network>
+
 -   Portal zum Durchsuchen zahlreicher Preprint-Server: <https://osf.io/preprints>
 
 -   Portal zum Durchsuchen von Open Access Zeitschriften inkl. Informationen über Lizenzen und Publikationskosten: <https://doaj.org>
 
 -   Informationen des DEAL-Konsortiums, weshalb CC BY die beste Wahl für Open-Access-Publikationen ist: <https://deal-konsortium.de/warum-ccby>
+
+-   Interaktives und lebendiger Datensatz zu Publikationskosten deutscher Institutionen: <https://treemaps.openapc.net/apcdata/openapc/> bzw. [Daten von Münster](https://treemaps.openapc.net/apcdata/muenster-u/)
+
+-   Dashboard zum Tracking von Open Access Publikationen in Deutschland: <https://open-access-monitor.de>
