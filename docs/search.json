@@ -18,6 +18,39 @@
     ]
   },
   {
+    "objectID": "übergreifend/gen_3.html#zentrale-typen-von-open-access",
+    "href": "übergreifend/gen_3.html#zentrale-typen-von-open-access",
+    "title": "Forschungsergebnisse veröffentlichen",
+    "section": "Zentrale Typen von Open Access",
+    "text": "Zentrale Typen von Open Access\nIm folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.\n\nOpen Access Typen, für nähere Informationen siehe https://zenodo.org/records/8322048\n\n\nTyp\nRegelung\nBewertung im Hinblick auf Zugänglichkeit und Kosten von Wissen\n\n\n\n\nDiamond\nAlle Publikationen sind kostenlos lesbar, es fallen keine Publikationskosten (Author/Book Processing Charges) an\npositiv\n\n\nGold\nAlle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author/Book Processing Charges, APC/BPC) an.\npositiv bei transparenter Begründung der APC/BPCs und gerechtfertigter Höhe (z.B. Kosten in Höhe von 500€ zur Finanzierung einer gemeinnützigen Organisation und Bezahlung des Type-Settings).\n\n\nHybrid\nDie Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr können Artikel „freigekauft” und auf Open Access gestellt werden; nur diese Artikel sind dann kostenlos lesbar, die anderen verbleiben hinter der Subskriptions-Pay-Wall.\nnegativ wegen “Double Dipping” - Universitäten zahlen dann doppelt: für Subskription (=Lese-Zugriff) + Open Access\n\n\nMoving Wall\nDie Zeitschrift hat ein Subkriptionsmodell. Nach Ablauf einer festgelegten Frist (üblicherweise zwischen 6 und 48 Monaten) ist der Artikel frei verfügbar.\nnegativ: Forschung wird verlangsamt bzw. vor allem finanziell schwache Personen/Institutionen/Länder werden benachteiligt\n\n\nPromotional\nZur Bewerbung der Zeitschrift werden einzelne ausgewählte Publikationen frei verfügbar veröffentlicht.\nnegativ: Open Washing (Zeitschrift ist nicht offen und verwendet Modell nur, um sich selbst zu bewerben)\n\n\nGreen\nUnabhängig von der Zeitschrift: Autor*innen machen von ihrem Zweitveröffentlichungsrecht gebraucht und laden das Manuskript im Internet hoch. Je nach Veröffentlichungsvertrag können sie das auf ihrer privaten Homepage, einem institutionellen Repositorium, oder auch auf Pre-Print Servern tun. Regelungen dazu können je Zeitschrift hier nachgelesen werden.\nPositiv, wenn die veröffentlichte Version erneut veröffentlicht werden darf (seitengenau gleich und damit gut zitierfähig). Ist häufig jedoch nur für akzeptierte Version oder nach Ablauf eines Embargos möglich.\n\n\nClosed\nPublikationen sind nur gegen eine einmalige oder regelmäßige Gebühr lesbar.\nNegativ: Forschung wird größtenteils auf Kosten der Gesellschaft (d.h. mittels Steuergeldern) durchgeführt und sollte darum auch allen zugänglich sein",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "übergreifend/gen_3.html#wer-zahlt-die-publikationskosten-an-der-universität-münster",
+    "href": "übergreifend/gen_3.html#wer-zahlt-die-publikationskosten-an-der-universität-münster",
+    "title": "Forschungsergebnisse veröffentlichen",
+    "section": "Wer zahlt die Publikationskosten an der Universität Münster?",
+    "text": "Wer zahlt die Publikationskosten an der Universität Münster?\nJe nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im folgenden Prozessdiagramm veranschaulicht.\n\n\n\nVereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "übergreifend/gen_3.html#geldfluss-im-publikationsprozess",
+    "href": "übergreifend/gen_3.html#geldfluss-im-publikationsprozess",
+    "title": "Forschungsergebnisse veröffentlichen",
+    "section": "Geldfluss im Publikationsprozess",
+    "text": "Geldfluss im Publikationsprozess\nWie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publikationen abläuft, ist Forschenden üblicherweise nicht klar noch ist es Teil der wissenschaftlichen Ausbildung. Das folgende Ablaufdiagramm veranschaulicht schematisch verschiedene Wege der Finanzierung. Die häufigsten sind dabei die Bezahlung von Verlagen bzw. Data Analytics Konzernen aus Steuergeldern über Mittel der Universität, welche intern zwischen Fachbereichen und der Bibliothek aufgeteilt werden oder über das DEAL-Konsortium.\n\n\n\nGeldfluss im Publikationsprozess: Beschreibung des Geldflusses bei kostenpflichtigen Publikationen in der Wissenschaft. Der Großteil des Geldes stammt dabei aus Steuergeldern und geht an die Verlage bzw. Data Analytics Konzerne. Dicke Pfeile bezeichnen die häufigsten Wege.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
     "objectID": "übergreifend/gen_3.html#weiterführende-informationen",
     "href": "übergreifend/gen_3.html#weiterführende-informationen",
     "title": "Forschungsergebnisse veröffentlichen",
@@ -967,17 +1000,6 @@
     "crumbs": [
       "Fächerübergreifende Informationen",
       "4. Forschungsergebnisse kommunizieren"
-    ]
-  },
-  {
-    "objectID": "übergreifend/gen_3.html#geldfluss-im-publikationsprozess",
-    "href": "übergreifend/gen_3.html#geldfluss-im-publikationsprozess",
-    "title": "Forschungsergebnisse veröffentlichen",
-    "section": "Geldfluss im Publikationsprozess",
-    "text": "Geldfluss im Publikationsprozess\n\n\n\nGeldfluss im Publikationsprozess",
-    "crumbs": [
-      "Fächerübergreifende Informationen",
-      "3. Forschungsergebnisse veröffentlichen"
     ]
   }
 ]
