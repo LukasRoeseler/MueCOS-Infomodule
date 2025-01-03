@@ -204,11 +204,11 @@ In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen mögl
 
 [^1]: Mittels Open Source Software können auch solche Daten problemlos geöffnet werden.
 
-| Variablenname | Bedeutung                          | Mögliche Werte                                                                   |
-|---------------|------------------------------------|----------------------------------------------------------------------------------|
-| id            | Versuchspersonennummer             | fortlaufende ganze Zahl                                                          |
-| v1            | Selbst berichtetes Geschlecht      | 1 = weiblich, 2 = männlich, 3 = divers, 4 = möchte ich nicht sagen, -1 = fehlend |
-| age           | Selbst berichtetes Alter in Jahren | ganze Zahl                                                                       |
+| Variablenname | Bedeutung | Mögliche Werte |
+|----|----|----|
+| id | Versuchspersonennummer | fortlaufende ganze Zahl |
+| v1 | Selbst berichtetes Geschlecht | 1 = weiblich, 2 = männlich, 3 = divers, 4 = möchte ich nicht sagen, -1 = fehlend |
+| age | Selbst berichtetes Alter in Jahren | ganze Zahl |
 
 : Beispiel für ein Codebook
 
