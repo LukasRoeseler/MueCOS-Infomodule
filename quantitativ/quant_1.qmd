@@ -86,6 +86,8 @@ Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, 
 
 ## Workshops und Vorträge
 
+-   MüCOS/CERes Workshop zu Preregistration: <https://osf.io/64teq>
+
 -   Felix Schönbrodt: Workshop Pre-registration: <https://osf.io/yd487/>
 
 -   Charlie Ebersole and Randy McCarthy: SIPS Preregistration Workshop: <https://docs.google.com/presentation/d/1MJ-kqfSzd34iO9dW5saRLHW1xq3n2Tgm_18K4uTvdfY/edit#slide=id.g233ac2beca_0_15>
