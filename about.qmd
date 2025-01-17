@@ -1,0 +1,12 @@
+---
+title: "Über die Infomodule"
+editor: visual
+---
+
+Die Open Science-Infomodule wurden von dem Münster Center for Open Science auf Basis der Ressourcen des Open Science Kommission Psychologie und in Kooperation mit Open Science-Vertreter\*innen der Fachbereiche sowie der Universitäts- und Landesbibliothek der Universität Münster erstellt. Diese Website befindet sich aktuell im Aufbau. Rückmeldungen, Änderungsvorschläge, und Wünsche der Mitarbeit richten Sie bitte an lukas.roseler\[at\]uni-muenster.de. Alternativ können Sie über Github öffentlich [ein Issue eröffnen](https://github.com/LukasRoeseler/MueCOS-Infomodule/issues/new/choose).
+
+**Lizenz**: CC-By Attribution 4.0 International
+
+**Cite as**: Röseler, L. & Open Science Kommission Psychologie (2025). Open Science Infomodule. <https://lukasroeseler.github.io/MueCOS-Infomodule/>
+
+**Acknowledgements**: Diese Website wurde mithilfe des [jtr13 website templates](https://github.com/jtr13/website-template) erstellt. Wir bedanken uns herzlich für zahlreiche Vorschläge und Hinweise der Open Science Koordinator\*innen der Universität Münster und der Open Access Beauftragten der Universität Münster.
