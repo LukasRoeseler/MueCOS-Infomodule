@@ -2,7 +2,7 @@
 title: "2. Materialien und Daten"
 ---
 
-![](/img/osk2.png){width="600"}
+![](/img/osk2.png){.lightbox width="600"}
 
 # Open Materials
 
@@ -138,7 +138,7 @@ Falls mehrere Variablen zu einer Skala / einem Variablenblock gehören, ist es s
 
 ### **2. Stellen Sie Ihre verwendeten Materialien Bereit**
 
-![](/img/materialien_bereitstellen.png)
+![](/img/materialien_bereitstellen.png){.lightbox}
 
 ### **3. Daten Hochladen**
 
@@ -332,7 +332,7 @@ Konkret beinhaltet „Reproducible Codes":
 
 In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optimal aufbereitet und kommentiert sein und evtl. haben Sie nicht mehr ausreichend Zeit dies nachzuholen. Um in diesem Fall trotzdem zeitnah Reproducible Codes zur Verfügung zu stellen, sollte zumindest geprüft werden, ob die Anwendung der Codes auf die Daten tatsächlich die im Paper berichteten Zahlen erzeugt. Darüber hinaus kann knapp geprüft werden, wo einfache Kommentierungen ergänzt werden können, um die Verständlichkeit der Codes zu erhöhen. Um auch in kurzer Zeit hilfreiche Codes zur Verfügung zu stellen, kann bspw. geprüft werden, ob folgende Kriterien zutreffen:
 
-![Reproducible Code Kurzleitfaden](/img/reproduciblecode_zubeachten.png)
+![Reproducible Code Kurzleitfaden](/img/reproduciblecode_zubeachten.png){.lightbox}
 
 Die Codes sollten in einem öffentlichen und frei zugänglichen online-Repositorium (bspw. [www.osf.io](http://www.osf.io/)) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, so dass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.
 
@@ -362,7 +362,7 @@ Empfohlen wird, eine einfache Gliederung im Skript einzuhalten. Diese kann im Ei
 
 Die Benennung von Variablen und Funktionen könnte nach diesem einfachen Schema erfolgen:
 
-![Schema zur Variablen-Benennung](/img/reproduciblecode_variablennamen.png)
+![Schema zur Variablen-Benennung](/img/reproduciblecode_variablennamen.png){.lightbox}
 
 **Richtlinien zum Kommentieren**
 
@@ -432,7 +432,7 @@ if (condition) {
 
 Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.
 
-![Kurzbeispiel zu Reproducible Code](/img/reproduciblecode_beispiel.png)
+![Kurzbeispiel zu Reproducible Code](/img/reproduciblecode_beispiel.png){.lightbox}
 
 ## Push-Button-Replicability
 

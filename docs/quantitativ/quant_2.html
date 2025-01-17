@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -257,7 +260,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="..\img/osk2.png" class="img-fluid" width="600"></p>
+<p><a href="..\img/osk2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="..\img/osk2.png" class="img-fluid" width="600"></a></p>
 <section id="open-materials" class="level1">
 <h1>Open Materials</h1>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -372,7 +375,7 @@ In einem Satz
 </section>
 <section id="stellen-sie-ihre-verwendeten-materialien-bereit" class="level3">
 <h3 class="anchored" data-anchor-id="stellen-sie-ihre-verwendeten-materialien-bereit"><strong>2. Stellen Sie Ihre verwendeten Materialien Bereit</strong></h3>
-<p><img src="..\img/materialien_bereitstellen.png" class="img-fluid"></p>
+<p><a href="..\img/materialien_bereitstellen.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="..\img/materialien_bereitstellen.png" class="img-fluid"></a></p>
 </section>
 <section id="daten-hochladen" class="level3">
 <h3 class="anchored" data-anchor-id="daten-hochladen"><strong>3. Daten Hochladen</strong></h3>
@@ -596,7 +599,7 @@ In einem Satz
 <p>In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optimal aufbereitet und kommentiert sein und evtl. haben Sie nicht mehr ausreichend Zeit dies nachzuholen. Um in diesem Fall trotzdem zeitnah Reproducible Codes zur Verfügung zu stellen, sollte zumindest geprüft werden, ob die Anwendung der Codes auf die Daten tatsächlich die im Paper berichteten Zahlen erzeugt. Darüber hinaus kann knapp geprüft werden, wo einfache Kommentierungen ergänzt werden können, um die Verständlichkeit der Codes zu erhöhen. Um auch in kurzer Zeit hilfreiche Codes zur Verfügung zu stellen, kann bspw. geprüft werden, ob folgende Kriterien zutreffen:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\img/reproduciblecode_zubeachten.png" class="img-fluid figure-img"></p>
+<p><a href="..\img/reproduciblecode_zubeachten.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Reproducible Code Kurzleitfaden"><img src="..\img/reproduciblecode_zubeachten.png" class="img-fluid figure-img" alt="Reproducible Code Kurzleitfaden"></a></p>
 <figcaption>Reproducible Code Kurzleitfaden</figcaption>
 </figure>
 </div>
@@ -620,7 +623,7 @@ In einem Satz
 <p>Die Benennung von Variablen und Funktionen könnte nach diesem einfachen Schema erfolgen:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\img/reproduciblecode_variablennamen.png" class="img-fluid figure-img"></p>
+<p><a href="..\img/reproduciblecode_variablennamen.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4" title="Schema zur Variablen-Benennung"><img src="..\img/reproduciblecode_variablennamen.png" class="img-fluid figure-img" alt="Schema zur Variablen-Benennung"></a></p>
 <figcaption>Schema zur Variablen-Benennung</figcaption>
 </figure>
 </div>
@@ -670,7 +673,7 @@ In einem Satz
 <p>Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\img/reproduciblecode_beispiel.png" class="img-fluid figure-img"></p>
+<p><a href="..\img/reproduciblecode_beispiel.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Kurzbeispiel zu Reproducible Code"><img src="..\img/reproduciblecode_beispiel.png" class="img-fluid figure-img" alt="Kurzbeispiel zu Reproducible Code"></a></p>
 <figcaption>Kurzbeispiel zu Reproducible Code</figcaption>
 </figure>
 </div>
@@ -1195,6 +1198,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"selector":".lightbox","descPosition":"bottom","loop":false,"openEffect":"zoom","closeEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

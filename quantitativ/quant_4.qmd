@@ -2,7 +2,7 @@
 title: "4. Forschungsergebnisse kommunizieren"
 ---
 
-![](/img/osk4.png){width="600"}
+![](/img/osk4.png){.lightbox width="600"}
 
 # Wissenschaftskommunikation / SciComm
 

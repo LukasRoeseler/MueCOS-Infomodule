@@ -2,7 +2,7 @@
 title: "3. Forschungsergebnisse veröffentlichen"
 ---
 
-![](/img/osk3.png){width="600"}
+![](/img/osk3.png){.lightbox width="600"}
 
 # Pre-Prints
 
@@ -27,7 +27,7 @@ Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte 
 
 Ein Manuskript für einen wissenschaftlichen Artikel oder ein Buch durchläuft von der ersten Version bis zur Veröffentlichung viele Versionen. Alle Varianten eines Manuskript, die nicht von einer Zeitschrift akzeptiert und darüber publiziert sind, heißen *Pre-Prints*. Im Gegensatz dazu werden publizierte Artikel auch *Post-Prints* genannt.
 
-![](images/manuskriptprozess-01.jpg)
+![](images/manuskriptprozess-01.jpg){.lightbox}
 :::
 
 ## Weiterführende Informationen

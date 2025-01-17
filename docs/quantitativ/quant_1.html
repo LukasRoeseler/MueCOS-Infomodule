@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -242,7 +245,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><img src="..\img/osk1.png" class="img-fluid" width="600"></p>
+<p><a href="..\img/osk1.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="..\img/osk1.png" class="img-fluid" width="600"></a></p>
 <section id="literaturrecherche" class="level1">
 <h1>Literaturrecherche</h1>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -347,7 +350,7 @@ In einem Satz
 <p>Eine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten der vielen Abzweigungen. Diese Metapher betrifft den Forschungsprozess oder spezifischer den Weg, den Forschende von den Rohdaten bis zum Ergebnis gehen müssen. Dabei handelt es sich nicht um eine klare Linie, sondern um ein von vielen Entscheidungen durchzogener Weg. Bei vielen dieser Entscheidungen gibt es kein “wahr” oder “falsch”, sondern verschiedene Pfade sind möglich. Gleichzeitig führen verschiedene Wege oft auch zu verschiedenen Ergebnissen. Zweck einer Präregistrierung ist dabei nicht, dass der perfekte Pfad gefunden werden soll, sondern dass ein sinnvoller Pfad geplant wird. Die Wahl des Pfades sollte dann auf Überlegungen beruhen, die unabhängig von den Ergebnissen sind. Anders gesagt, Forschende verhindern, dass sie sich den Analyseweg aussuchen, der ihnen am besten in den Kram passt.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\img/gardenofforkingpaths2.png" class="img-fluid figure-img"></p>
+<p><a href="..\img/gardenofforkingpaths2.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="Garden of Forking Paths"><img src="..\img/gardenofforkingpaths2.png" class="img-fluid figure-img" alt="Garden of Forking Paths"></a></p>
 <figcaption>Garden of Forking Paths</figcaption>
 </figure>
 </div>
@@ -614,7 +617,7 @@ In einem Satz
 <p>Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forscher ist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie <a href="https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources">hier</a> einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="..\img/registeredreport_process.png" class="img-fluid figure-img" alt="Pfeile mit Text darin. Develop Idea, Design study, collect and analyze data, write report, publish report. Zwischen design study und collect and analyze data steht &quot;stage 1 peer review&quot;. Zwischen write report und publish report steht &quot;stage 2 peer review&quot;."></p>
+<p><a href="..\img/registeredreport_process.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Forschungsprozess bei Registered Reports"><img src="..\img/registeredreport_process.png" class="img-fluid figure-img" alt="Pfeile mit Text darin. Develop Idea, Design study, collect and analyze data, write report, publish report. Zwischen design study und collect and analyze data steht &quot;stage 1 peer review&quot;. Zwischen write report und publish report steht &quot;stage 2 peer review&quot;."></a></p>
 <figcaption>Forschungsprozess bei Registered Reports</figcaption>
 </figure>
 </div>
@@ -1071,6 +1074,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","selector":".lightbox","loop":false,"openEffect":"zoom"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 
