@@ -14,7 +14,7 @@ Reproduzierbare Literaturrecherchen sind solche, bei denen andere Forschende bei
 
 ## Worum geht's?
 
-Wenn eine Literaturrecherche die Basis für ein Review oder eine Meta-Analyse bildet, muss das Vorgehen exakt beschrieben werden. Mit den "Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA)" haben Forschende einen Leitfaden für Reviews und Meta-Analysen. Beispielsweise sollten Entscheidungen über die Inklusion von Forschungsartikeln und Suchbegriffe für alle verwendeten Datenbankensystematisch notiert werden.
+Wenn eine Literaturrecherche die Basis für ein Review oder eine Meta-Analyse bildet, muss das Vorgehen exakt beschrieben werden. Mit den "Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA)" haben Forschende einen Leitfaden für Reviews und Meta-Analysen. Beispielsweise sollten Entscheidungen über die Inklusion von Forschungsartikeln und Suchbegriffen für alle verwendeten Datenbanken systematisch notiert werden.
 
 ## Publikationen
 
@@ -46,7 +46,7 @@ Eine Präregistrierung beschreibt den vollständigen Plan der Studiendurchführu
 
 ## Worum geht's?
 
-Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, und Analyseskripte vor der Durchführung einer Studie zu spezifizieren. Dabei wird im Idealfall jede Studie, bei welcher es zu testende Hypothesen gibt, präregistriert und in der Präregistrierung werden alle konfirmatorischen (d.h. geplanten) Tests beschrieben. Dies ist zu verschiedenen Zeitpunkten möglich (vor, während oder nach der Datenerhebung). Am wünschenswerten ist die Präregistrierung *vor* der Datenerhebung, entscheidend ist allerdings der transparente Umgang mit dem gewählten Vorgehen. Präregistrierungen gibt es von sehr kurzen bis sehr detaillierten Varianten. In der Form sogenannter *Registered Reports* können ausführliche Präregistrierungen bei einer [steigenden Anzahl an Journals](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0) vor der Datenerhebung als Paper eingereicht werden. Also ganz kurz in 5 Punkten -
+Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden und Analyseskripte vor der Durchführung einer Studie zu spezifizieren. Dabei wird im Idealfall jede Studie, bei welcher es zu testende Hypothesen gibt, präregistriert und in der Präregistrierung werden alle konfirmatorischen (d.h. geplanten) Tests beschrieben. Dies ist zu verschiedenen Zeitpunkten möglich (vor, während oder nach der Datenerhebung). Am wünschenswertesten ist die Präregistrierung *vor* der Datenerhebung, entscheidend ist allerdings der transparente Umgang mit dem gewählten Vorgehen. Präregistrierungen gibt es von sehr kurzen bis sehr detaillierten Varianten. In der Form sogenannter *Registered Reports* können ausführliche Präregistrierungen bei einer [steigenden Anzahl an Journals](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0) vor der Datenerhebung als Paper eingereicht werden. Also ganz kurz in 5 Punkten -
 
 **Präregistrierung**...
 
@@ -100,7 +100,7 @@ Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, 
 
 ## Garden of Forking Paths
 
-Eine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten der vielen Abzweigungen. Diese Metapher betrifft den Forschungsprozess oder spezifischer den Weg, den Forschende von den Rohdaten bis zum Ergebnis gehen müssen. Dabei handelt es sich nicht um eine klare Linie, sondern um ein von vielen Entscheidungen durchzogener Weg. Bei vielen dieser Entscheidungen gibt es kein "wahr" oder "falsch", sondern verschiedene Pfade sind möglich. Gleichzeitig führen verschiedene Wege oft auch zu verschiedenen Ergebnissen. Zweck einer Präregistrierung ist dabei nicht, dass der perfekte Pfad gefunden werden soll, sondern dass ein sinnvoller Pfad geplant wird. Die Wahl des Pfades sollte dann auf Überlegungen beruhen, die unabhängig von den Ergebnissen sind. Anders gesagt, Forschende verhindern, dass sie sich den Analyseweg aussuchen, der ihnen am besten in den Kram passt.
+Eine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten der vielen Abzweigungen. Diese Metapher betrifft den Forschungsprozess oder spezifischer den Weg, den Forschende von den Rohdaten bis zum Ergebnis gehen müssen. Dabei handelt es sich nicht um eine klare Linie, sondern um einen von vielen Entscheidungen durchzogenen Weg. Bei vielen dieser Entscheidungen gibt es kein "wahr" oder "falsch", sondern verschiedene Pfade sind möglich. Gleichzeitig führen verschiedene Wege oft auch zu verschiedenen Ergebnissen. Zweck einer Präregistrierung ist dabei nicht, dass der perfekte Pfad gefunden werden soll, sondern dass ein sinnvoller Pfad geplant wird. Die Wahl des Pfades sollte dann auf Überlegungen beruhen, die unabhängig von den Ergebnissen sind. Anders gesagt, Forschende verhindern, dass sie sich den Analyseweg aussuchen, der ihnen am besten in den Kram passt.
 
 ![Garden of Forking Paths](/img/gardenofforkingpaths2.png){.lightbox}
 
@@ -124,13 +124,13 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Im folgenden Abschnitt „Registrierungsformulare" können Sie einen Blick in vier verschiedene Formulare werfen und so erfahren, welche Informationen Sie zum Bearbeiten dieser benötigen werden.
 
--   Durch klicken auf das „i"-Symbol finden Sie weitere Informationen zu den einzelnen Formularen.
+-   Durch Klicken auf das „i"-Symbol finden Sie weitere Informationen zu den einzelnen Formularen.
 
 -   Wählen Sie, nachdem Sie sich entschieden haben, das Formular aus und klicken Sie „Create draft".
 
 **3. Füllen Sie das Formular aus**
 
--   Beantworten Sie die Fragen, etwa zum Status des Projekts, und dem Grund für die Registrierung.
+-   Beantworten Sie die Fragen, etwa zum Status des Projekts und dem Grund für die Registrierung.
 
 -   Wenn Sie „Safe as Draft" klicken (unten links auf jeder Seite) können Sie Ihren aktuellen Stand speichern und zu einem späteren Zeitpunkt weiterbearbeiten (oder auch komplett löschen).
 
@@ -140,11 +140,11 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Kontrollieren Sie Ihr Formular auf Fehler (dies ist hierfür die letzte Möglichkeit!).
 
--   Weitere Änderungen sind durch Klicken des „Continue editing"- buttons (unten links) möglich.
+-   Weitere Änderungen sind durch Klicken des „Continue editing"-Buttons (unten links) möglich.
 
 -   Wenn Sie zufrieden sind, wählen Sie „Register" (unten rechts). Ein Fenster wird sich öffnen und Sie nach den gewünschten Privatsphäre-Einstellungen fragen.
 
--   Beachten Sie, dass das gesamte Projekt präregistriert sind und Sie ggf. nicht-anonyme Daten zum Zeitpunkt der Präregistrierung entfernen sollten.
+-   Beachten Sie, dass das gesamte Projekt präregistriert ist und Sie ggf. nicht-anonyme Daten zum Zeitpunkt der Präregistrierung entfernen sollten.
 
 **5. Auswahl der Privatsphäre-Einstellungen Ihrer Registrierung**
 
@@ -164,7 +164,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 -   Wenn ein Administrator nicht zustimmt, wird die Registrierung abgebrochen und Sie werden via E-Mail benachrichtigt.
 
--   Sie haben nach Absenden der Registrierung die Möglichkeiten, sie zu verändern (update) oder zu löschen. Ersteres sollten Sie nur im Falle von Veränderungen *vor* der Datenerhebung tun. Letzteres führt nicht dazu, dass die Registrierung verschwindet, sondern nur, dass sie zurückgezogen wurde (ähnlich wie bei Retraction Notices).
+-   Sie haben nach Absenden der Registrierung die Möglichkeit, sie zu verändern (update) oder zu löschen. Ersteres sollten Sie nur im Falle von Veränderungen *vor* der Datenerhebung tun. Letzteres führt nicht dazu, dass die Registrierung verschwindet, sondern nur, dass sie zurückgezogen wurde (ähnlich wie bei Retraction Notices).
 
 **7. Unterschied zwischen Projekt und Registrierung**
 
@@ -178,19 +178,19 @@ Hier werden vier der am häufigsten gebrauchten Registrierungsformulare kurz vor
 
 Formulare sollten drei Gütekriterien entsprechen:
 
-1.  Vollständigkeit/Präzision: Sie sollten ihr gesamtes Forschungsvorhaben so detailliert wie möglich beschreiben, um sich selbst aller möglichen [Freiheitsgrade](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/full) zu berauben. Bereiten Sie idealerweise einen Analyseplan in Form eines unmissverständlichen Analyseskriptes vor. Wenn Sie z. B. nur sagen, dass Sie Variablen X und Y miteinander korrelieren werden, steigt der Alpha-Fehler von 5% auf über 10%, da Sie damit nicht die Alternativhypothese, Kontinuitätskorrektur, den genauen Korrelationskoeffizienten, usw. spezifiziert haben. Um das Analyseskript zu prüfen, können Sie z. B. Zufallsdaten simulieren oder ggf. Zufallsdaten über Ihre Fragebogensoftware generieren lassen.
+1.  Vollständigkeit/Präzision: Sie sollten Ihr gesamtes Forschungsvorhaben so detailliert wie möglich beschreiben, um sich selbst aller möglichen [Freiheitsgrade](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/full) zu berauben. Bereiten Sie idealerweise einen Analyseplan in Form eines unmissverständlichen Analyseskriptes vor. Wenn Sie z. B. nur sagen, dass Sie Variablen X und Y miteinander korrelieren werden, steigt der Alpha-Fehler von 5% auf über 10%, da Sie damit nicht die Alternativhypothese, Kontinuitätskorrektur, den genauen Korrelationskoeffizienten, usw. spezifiziert haben. Um das Analyseskript zu prüfen, können Sie z. B. Zufallsdaten simulieren oder ggf. Zufallsdaten über Ihre Fragebogensoftware generieren lassen.
 
 2.  Struktur: Andere Forschende und Peer-Reviewer sollten die nötigen Details möglichst schnell finden. Nutzen Sie ein Template mit klaren Überschriften, schreiben Sie keine langen Texte (außer beim Registered Report).
 
-3.  Passung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z. B. korrelative Studie / Experience Sampling / Experiment) und er Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.
+3.  Passung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z. B. korrelative Studie / Experience Sampling / Experiment) und der Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.
 
 **Open-Ended Registration**
 
-Bei diesem Formular werden Sie aufgerufen, eine narrative Zusammenfassung von dem, was in Ihrem Projekt enthalten ist zu geben. Es gibt keine Mindestzeichenanzahl.
+Bei diesem Formular werden Sie aufgerufen, eine narrative Zusammenfassung von dem, was in Ihrem Projekt enthalten ist, zu geben. Es gibt keine Mindestzeichenanzahl.
 
 **OSF-Standard Pre-Data Collection Registration**
 
-In diesem kurzen Formular werden Sie gefragt, ob die Datenerhebung für dieses Projekt schon begonnen hat und ob Sie schon die Daten schon gesichtet haben. Sie erhalten zudem die Möglichkeit, weitere Kommentare entsprechend der open-ended registration über Ihr Projekt abzugeben.
+In diesem kurzen Formular werden Sie gefragt, ob die Datenerhebung für dieses Projekt bereits begonnen hat und ob Sie die Daten gesichtet haben. Sie erhalten zudem die Möglichkeit, weitere Kommentare entsprechend der open-ended registration über Ihr Projekt abzugeben.
 
 **ASPREDICTED PREREGISTRATION**
 
@@ -198,7 +198,7 @@ In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von 
 
 1.  Wurden bereits Daten für diese Studie erhoben? (Ja/Nein)
 
-2.  Was ist die hauptsächliche Frage, beziehungsweise Hypothese die in dieser Studie gefragt/getestet wird?
+2.  Was ist die hauptsächliche Frage, beziehungsweise Hypothese, die in dieser Studie gefragt/getestet wird?
 
 3.  Beschreiben Sie die wichtigste abhängige Variable und wie Sie erhoben werden wird.
 
@@ -226,7 +226,7 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 1.  Grund: Warum haben Sie sich nicht an die Präregistrierung gehalten?
 
-2.  Änderung: Wie sind Sie stattdessen vorgegeangen?
+2.  Änderung: Wie sind Sie stattdessen vorgegangen?
 
 3.  Auswirkung (falls möglich): Wie hat sich diese Änderung auf die Ergebnisse ausgewirkt?
 
@@ -238,13 +238,13 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
     -   der Datensatz bereits besteht, allerdings noch nicht gesichtet wurde (z. B. liegt das Datum der Präregistrierung *vor* dem des Datennutzungsvertrages, den Sie mit einem Panelbetreiber abschließen).
 
-    -   der Datensatz bereits gesichtet und ggf. voranalysiert wurde (beispielsweise von einer anderen Institution), allerdings dem Forscher noch nicht zur Verfügung steht und dieser auch keine Informationen zur Sichtung und ggf. Voranalyse der Daten durch Dritte zur Verfügung stehen.
+    -   der Datensatz bereits gesichtet und ggf. voranalysiert wurde (beispielsweise von einer anderen Institution), allerdings dem Forscher oder der Forscherin noch nicht zur Verfügung steht und auch keine Informationen zur Sichtung und ggf. Voranalyse der Daten durch Dritte zur Verfügung stehen.
 
     -   der Datensatz schon gesichtet wurde, allerdings noch keine Analysen, die die aktuelle Forschungsfrage betreffen, durchgeführt wurden. Es muss dann aber sehr klar beschrieben werden, welche Analysen bereits durchgeführt wurden und sichergestellt werden (z. B. mittles Analsyeskript oder Journal-Datei in SPSS), dass diese tatsächlich in keiner Weise informativ hinsichtlich der registrierten Hypothesen sind.
 
 -   Eine Präregistrierung ergibt keinen Sinn, wenn schon relevante Ergebnisse bekannt sind.
 
-### **Können Dokumente auch privat bleiben? Warum/nicht?**
+### **Können Dokumente auch privat bleiben?**
 
 -   Wenn Sie Ihre Präregistrierung über „aspredicted" oder über osf.io erstellen, kann diese zunächst auch für einen definierten Zeitraum privat bleiben.
 
@@ -252,17 +252,65 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 ### **Gibt es Nachweise, dass Präregistrierung funktioniert?**
 
--   Ja, die Qualität von Registered Reports ist höher als die von Studien, die nach dem klassischen Publikationsmodell veröffentlicht wurden (<https://doi.org/10.1038/s41562-021-01142-4>). Präregistrierungen mit Analyseplan sind weniger anfällig für P-Hacking und Publikationsbias (<https://doi.org/10.1086/730455>). Vereinzelt haben Meta-Analysen Effektstärken von präregistrierten vs. nicht-präregistrierten Studien verglichen, wobei prä-registrierte Studien kleinere Effekte hatten (z. B. [Körner et al., 2022](https://doi.org/10.1037/bul0000356), S. 75).
+-   Ja, die Qualität von Registered Reports ist höher als die von Studien, die nach dem klassischen Publikationsmodell veröffentlicht wurden (<https://doi.org/10.1038/s41562-021-01142-4>). Präregistrierungen mit Analyseplan sind weniger anfällig für P-Hacking und Publikationsbias (<https://doi.org/10.1086/730455>). Vereinzelt haben Meta-Analysen Effektstärken von präregistrierten vs. nicht-präregistrierten Studien verglichen, wobei präregistrierte Studien kleinere Effekte hatten (z. B. [Körner et al., 2022](https://doi.org/10.1037/bul0000356), S. 75).
 
--   Ein Großteil aller Forschenden wendet Questionable Research Practices (QRP, <https://doi.org/10.1371/journal.pone.0304342>, <https://doi.org/10.1371%2Fjournal.pone.0263023>) und gefährdet damit Robustheit und Vertrauenswürdigkeit von Wissenschaft. Präregistrierungen sind ein einfaches und effizientes Mittel dagegen.
+-   Ein Großteil aller Forschenden wendet Questionable Research Practices (QRP, <https://doi.org/10.1371/journal.pone.0304342>, <https://doi.org/10.1371%2Fjournal.pone.0263023>) an und gefährdet damit die Robustheit und Vertrauenswürdigkeit von Wissenschaft. Präregistrierungen sind ein einfaches und effizientes Mittel dagegen.
+
+### Wie wichtig ist es, das Analyseskript zu präregistrieren?
+
+-   Eine Präregistrierung ohne Analyseskript verringert die Freiheitsgrade nur unzureichend (<https://doi.org/10.1086/730455>). Mit einer einfachen Simulation lässt sich zeigen, wie die False-Positive-Rate durch fehlenden Details selbst bei einfachen Korrelationen von 5% auf über 10% steigt. Komplexere statistische Verfahren haben mehr Freiheitsgrade und sind daher anfälliger. Dazu kommen Freiheitsgrade bei der Datensammlung und Datenaufbereitung, die für sich genommen die False-Positive-Rate auf über 60% ansteigen lassen (<https://doi.org/10.1177/0956797611417632>).
+
+```{r P-Hacking Simulation, collapse = TRUE}
+# Pseudozufallszahl festlegen für Reproduzierbarkeit
+set.seed(1)
+sig_level <- .05
+
+# P-Wert bei vielen Signifikanztests ist in 5% der Fälle unter 5%
+paste("False-Positive-Rate bei Präregistrierung:", mean(replicate(10000, cor.test(rnorm(100), rnorm(100))$p.value) < sig_level))
+
+# Nun werden P-Werte für alle möglichen Variationen des Korrelationstests errechnet für die Prüfung, ob mindestens einer der möglichen P-Werte unter 5% ist
+
+# Freiheitsgrade
+alternative <- c("two.sided", "less", "greater")
+method <- c("pearson", "kendall", "spearman")
+continuity <- c(TRUE, FALSE)
+
+# Datensatz vorbereiten
+ps <- NULL
+pmins <- NULL
+
+# Simulation durchführen
+for (i in 1:10000) {
+  x <- rnorm(100)
+  y <- rnorm(100)
+  for (j in alternative) {
+    for (k in method) {
+      for (l in continuity) {
+        
+        # Korrelation mit den entsprechenden Parametern berechnen
+        ps <- c(ps, cor.test(x, y, alternative = j, method = k, continuity = l)$p.value)
+        
+      }
+    }
+  }
+  pmins <- c(pmins, min(ps)) # aus allen berechneten Korrelationen die größte auswählen (d. h. diejenige mit dem kleinsten P-Wert)
+  ps <- NULL
+}
+
+# Wahrscheinlichkeit, eine signifikante Korrelation zu bekommen
+paste("False-Positive-Rate bei P-Hacking:", mean(pmins < sig_level))
+
+```
+
+\
 
 ### **Könnte nicht im Nachhinein „präregistriert" werden (also geschummelt)?**
 
 -   Dies wäre eine klare Täuschung und ist daher hoffentlich in den meisten Fällen eindeutiges wissenschaftliches Fehlverhalten.
 
--   Die Präregistrierung hat einen Zeitstempel und in den meisten Fällen wäre es schwierig, sicher auszuschließen, dass der Zeitpunkt der vorher stattgefundenen Datenerhebung zu ermitteln ist.
+-   Die Präregistrierung hat einen Zeitstempel. Wenn der Zeitpunkt der Datenerhebung bekannt ist, lässt sich prüfen, ob letztere vor der Präregistrierung begonnen wurde.
 
--   Bei Registered Reports wäre dies wahrscheinlich nicht möglich, da Reviewer aller Wahrscheinlichkeit nach Änderungen hinsichtlich der Datenerhebung im Review Stadium vorschlagen werden.
+-   Bei Registered Reports wäre dies schwierig, da Reviewer aller Wahrscheinlichkeit nach Änderungen hinsichtlich der Datenerhebung im Review Stadium vorschlagen werden.
 
 ### **Begrenzt Präregistrierung nicht die explorative Forschung?**
 
@@ -270,7 +318,7 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 -   Auch können selbstverständlich weiterhin zusätzliche (über die Präregistrierung hinausgehende) Fragen und Auswertungsmethoden exploriert werden -- die entsprechenden Fragen/Analysen müssen dann nur im Manuskript explizit als explorativ gekennzeichnet werden.
 
--   Die Absicht von Präregistrierung ist es nur, dass der Unterschied zwischen exploratorischen und konfirmatorischen Resultaten klar und transparent gemacht wird.
+-   Die Absicht von Präregistrierung ist es nur, dass der Unterschied zwischen explorativen und konfirmatorischen Resultaten klar und transparent gemacht wird.
 
 ### **Könnte meine Idee nicht geklaut werden, wenn ich sie öffentlich mache?**
 
@@ -280,7 +328,7 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 ### **Ist Präregistrierung nicht sehr ineffizient?**
 
--   Ein Teil der Schreibarbeit wird von nach der Durchführung der Studie zu davor transferiert. Außerdem lassen sich Fehler vorab besser vermeiden und das analytische Vorgehen wird bereits vorab festgelegt, so dass es im Nachhinein lediglich wie geplant umgesetzt werden muss.
+-   Ein Teil der Manuskripterstellung wird vorverlagert - auf den Zeitpunkt vor der Studiendurchführung. Außerdem lassen sich Fehler vorab besser vermeiden und das analytische Vorgehen wird bereits vorab festgelegt, sodass es im Nachhinein lediglich wie geplant umgesetzt werden muss.
 
 -   Bei Registered Reports wird der Publikationsprozess sogar deutlich effizienter. Sie erhalten vor dem Durchführen der Studie Feedback, sodass Fehler vermieden werden können. Darüber hinaus erhöhen Registered Reports die Planbarkeit und Sicherheit von Publikationen und machen die Wahrscheinlichkeit einer Publikation unabhängig von den Ergebnissen.
 
@@ -288,7 +336,7 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 -   Das Journal, in dem das Paper erscheint, bietet diese Möglichkeit an.
 
--   Ihre Registrierung ist eine öffentliche, Datum und Zeit gestempelte Registrierung in einem institutionellen Registrierungssystem.
+-   Ihre Registrierung ist eine öffentliche, mit Datum und Zeit gestempelte Registrierung in einem institutionellen Registrierungssystem.
 
 -   Registrierung hat vor der Analyse der Daten stattgefunden.
 
@@ -296,21 +344,21 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 -   Komplette Veröffentlichung der Resultate gemäß dem registrierten Plan.
 
-Typischerweise gelten folgende Bedingungen:
+Typischerweise gelten seitens Zeitschriften die folgenden Bedingungen:
 
--   Provide the URL, doi, or other permanent path to the registration in a public, open-access repository.\*
+-   *Provide the URL, doi, or other permanent path to the registration in a public, open-access repository.\**
 
--   Was the analysis plan registered prior to examination of the data or observing the outcomes? If no, explain.\*\*
+-   *Was the analysis plan registered prior to examination of the data or observing the outcomes? If no, explain.\*\**
 
--   Were there additional registrations for the study other than the one reported? If yes, provide links and explain.\*
+-   *Were there additional registrations for the study other than the one reported? If yes, provide links and explain.\**
 
--   Were there any changes to the preregistered analysis plan for the primary confirmatory analysis? If yes, explain.\*\*
+-   *Were there any changes to the preregistered analysis plan for the primary confirmatory analysis? If yes, explain.\*\**
 
--   Are all of the analyses described in the registered plan reported in the article? If no, explain.\*
+-   *Are all of the analyses described in the registered plan reported in the article? If no, explain.\**
 
-\*No badge will be awarded if (1) is not provided, or if (3) is answered "yes" without strong justification, or if (5) is answered "no" without strong justification.
+*\*No badge will be awarded if (1) is not provided, or if (3) is answered "yes" without strong justification, or if (5) is answered "no" without strong justification.*
 
-\*\*If the answer to (2) is "no," the notation DE (Data Exist) will be added to the badge, indicating that registration postdates realization of the outcomes but predates analysis. If the answer to (4) is "yes" with strong justification for changes, the notation TC (Transparent Changes) will be added to the badge, indicating that the analysis plan was altered but the preregistered analyses and rationale for the change are provided.
+*\*\*If the answer to (2) is "no," the notation DE (Data Exist) will be added to the badge, indicating that registration postdates realization of the outcomes but predates analysis. If the answer to (4) is "yes" with strong justification for changes, the notation TC (Transparent Changes) will be added to the badge, indicating that the analysis plan was altered but the preregistered analyses and rationale for the change are provided.*
 
 ------------------------------------------------------------------------
 
@@ -326,7 +374,7 @@ In einem Analyse-Plan beschreiben Forschende alle Transformationen und Analysen 
 
 ## Worum geht's?
 
-Bevor eine Studie durchgeführt wird, sollten Forschende ein klares Bild davon haben, welche Daten sie erheben, wie sie sie aufbereiten, welche Fälle ausgeschlossen werden, und welche Analysen gerechnet werden. Im Idealfall existiert ein simulierter Datensatz oder ein Datensatz mit Werten von Testdurchläufen, für welchen das Analyse-Skript bereits programmiert werden kann. Im Fall von simulierten Daten werden Forschende zusätzlich angeregt, Verteilungen von Variablen und deren Zusammenhänge zu antizipieren. Simulierte Daten eignen sich dadurch auch für Power-Simulationen.
+Bevor eine Studie durchgeführt wird, sollten Forschende ein klares Bild davon haben, welche Daten sie erheben, wie sie sie aufbereiten, welche Fälle ausgeschlossen werden und welche Analysen gerechnet werden. Im Idealfall existiert ein simulierter Datensatz oder ein Datensatz mit Werten von Testdurchläufen, für welchen das Analyse-Skript bereits programmiert werden kann. Im Fall von simulierten Daten werden Forschende zusätzlich angeregt, Verteilungen von Variablen und deren Zusammenhänge zu antizipieren. Simulierte Daten eignen sich dadurch auch für Power-Simulationen.
 
 ## Publikationen
 
@@ -374,9 +422,9 @@ Beim Publikationsformat *Registered Report* wird die Zuverlässigkeit von Forsch
 
 ## Worum geht's?
 
-Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen, und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachter tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
+Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachtenden tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
 
-Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forscher ist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
+Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forschendeist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
 
 ![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png){.lightbox fig-alt="Pfeile mit Text darin. Develop Idea, Design study, collect and analyze data, write report, publish report. Zwischen design study und collect and analyze data steht \"stage 1 peer review\". Zwischen write report und publish report steht \"stage 2 peer review\"."}
 

@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -181,25 +215,25 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#weiterführende-informationen" id="toc-weiterführende-informationen" class="nav-link" data-scroll-target="#weiterführende-informationen">Weiterführende Informationen</a></li>
   <li><a href="#data-wiz-assistenzsystem-für-forschungsdatenmanagement" id="toc-data-wiz-assistenzsystem-für-forschungsdatenmanagement" class="nav-link" data-scroll-target="#data-wiz-assistenzsystem-für-forschungsdatenmanagement">Data Wiz ‑ Assistenzsystem für Forschungsdatenmanagement</a></li>
   <li><a href="#lösungen" id="toc-lösungen" class="nav-link" data-scroll-target="#lösungen">Lösungen</a></li>
-  <li><a href="#open-materials-kurz-und-knapp" id="toc-open-materials-kurz-und-knapp" class="nav-link" data-scroll-target="#open-materials-kurz-und-knapp">Open Materials KURZ UND KNAPP</a>
+  <li><a href="#open-materials-kurz-und-knapp" id="toc-open-materials-kurz-und-knapp" class="nav-link" data-scroll-target="#open-materials-kurz-und-knapp">Open Materials: KURZ UND KNAPP</a>
   <ul class="collapse">
   <li><a href="#beschreiben-sie-die-abläufe-mit-denen-ihre-daten-erzeugt-wurden." id="toc-beschreiben-sie-die-abläufe-mit-denen-ihre-daten-erzeugt-wurden." class="nav-link" data-scroll-target="#beschreiben-sie-die-abläufe-mit-denen-ihre-daten-erzeugt-wurden."><strong>1. Beschreiben Sie die Abläufe, mit denen ihre Daten erzeugt wurden.</strong></a></li>
   <li><a href="#beschreiben-sie-die-erfassten-variablen." id="toc-beschreiben-sie-die-erfassten-variablen." class="nav-link" data-scroll-target="#beschreiben-sie-die-erfassten-variablen."><strong>2. Beschreiben Sie die erfassten Variablen.</strong></a></li>
-  <li><a href="#laden-sie-ihre-dokumentation-hoch" id="toc-laden-sie-ihre-dokumentation-hoch" class="nav-link" data-scroll-target="#laden-sie-ihre-dokumentation-hoch"><strong>3. Laden Sie Ihre Dokumentation hoch</strong></a></li>
-  <li><a href="#verlinken-sie-die-dokumentation-im-paper" id="toc-verlinken-sie-die-dokumentation-im-paper" class="nav-link" data-scroll-target="#verlinken-sie-die-dokumentation-im-paper"><strong>4. Verlinken Sie die Dokumentation im Paper</strong></a></li>
+  <li><a href="#laden-sie-ihre-dokumentation-hoch." id="toc-laden-sie-ihre-dokumentation-hoch." class="nav-link" data-scroll-target="#laden-sie-ihre-dokumentation-hoch."><strong>3. Laden Sie Ihre Dokumentation hoch.</strong></a></li>
+  <li><a href="#verlinken-sie-die-dokumentation-im-paper." id="toc-verlinken-sie-die-dokumentation-im-paper." class="nav-link" data-scroll-target="#verlinken-sie-die-dokumentation-im-paper."><strong>4. Verlinken Sie die Dokumentation im Paper.</strong></a></li>
   </ul></li>
-  <li><a href="#open-materials-detailliert" id="toc-open-materials-detailliert" class="nav-link" data-scroll-target="#open-materials-detailliert">Open materials DETAILLIERT</a>
+  <li><a href="#open-materials-detailliert" id="toc-open-materials-detailliert" class="nav-link" data-scroll-target="#open-materials-detailliert">Open Materials: DETAILLIERT</a>
   <ul class="collapse">
-  <li><a href="#erstellen-sie-ein-codebuch" id="toc-erstellen-sie-ein-codebuch" class="nav-link" data-scroll-target="#erstellen-sie-ein-codebuch"><strong>1. Erstellen Sie ein Codebuch</strong></a></li>
+  <li><a href="#erstellen-sie-ein-codebuch." id="toc-erstellen-sie-ein-codebuch." class="nav-link" data-scroll-target="#erstellen-sie-ein-codebuch."><strong>1. Erstellen Sie ein Codebuch.</strong></a></li>
   <li><a href="#dokumentation-auf-studienebene" id="toc-dokumentation-auf-studienebene" class="nav-link" data-scroll-target="#dokumentation-auf-studienebene"><strong>1.1 Dokumentation auf Studienebene</strong></a></li>
   <li><a href="#dokumentation-auf-variablenebene" id="toc-dokumentation-auf-variablenebene" class="nav-link" data-scroll-target="#dokumentation-auf-variablenebene"><strong>1.2 Dokumentation auf Variablenebene</strong></a></li>
-  <li><a href="#stellen-sie-ihre-verwendeten-materialien-bereit" id="toc-stellen-sie-ihre-verwendeten-materialien-bereit" class="nav-link" data-scroll-target="#stellen-sie-ihre-verwendeten-materialien-bereit"><strong>2. Stellen Sie Ihre verwendeten Materialien Bereit</strong></a></li>
-  <li><a href="#daten-hochladen" id="toc-daten-hochladen" class="nav-link" data-scroll-target="#daten-hochladen"><strong>3. Daten Hochladen</strong></a></li>
+  <li><a href="#stellen-sie-ihre-verwendeten-materialien-bereit" id="toc-stellen-sie-ihre-verwendeten-materialien-bereit" class="nav-link" data-scroll-target="#stellen-sie-ihre-verwendeten-materialien-bereit"><strong>2. Stellen Sie Ihre verwendeten Materialien bereit</strong></a></li>
+  <li><a href="#daten-hochladen" id="toc-daten-hochladen" class="nav-link" data-scroll-target="#daten-hochladen"><strong>3. Daten hochladen</strong></a></li>
   <li><a href="#dokumentation-im-paper-selbst" id="toc-dokumentation-im-paper-selbst" class="nav-link" data-scroll-target="#dokumentation-im-paper-selbst"><strong>4. Dokumentation im Paper selbst</strong></a></li>
   </ul></li>
   <li><a href="#faq" id="toc-faq" class="nav-link" data-scroll-target="#faq">FAQ</a>
   <ul class="collapse">
-  <li><a href="#unter-welchen-bedingungen-bekommt-meine-publikation-ich-den-open-materials-stempel" id="toc-unter-welchen-bedingungen-bekommt-meine-publikation-ich-den-open-materials-stempel" class="nav-link" data-scroll-target="#unter-welchen-bedingungen-bekommt-meine-publikation-ich-den-open-materials-stempel"><strong>Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials” Stempel?</strong></a></li>
+  <li><a href="#unter-welchen-bedingungen-bekommt-meine-publikation-den-open-materials-stempel" id="toc-unter-welchen-bedingungen-bekommt-meine-publikation-den-open-materials-stempel" class="nav-link" data-scroll-target="#unter-welchen-bedingungen-bekommt-meine-publikation-den-open-materials-stempel"><strong>Unter welchen Bedingungen bekommt meine Publikation den „Open materials” Stempel?</strong></a></li>
   <li><a href="#warum-sollte-ich-überhaupt-materialien-so-aufwändig-dokumentieren-und-bereitstellen" id="toc-warum-sollte-ich-überhaupt-materialien-so-aufwändig-dokumentieren-und-bereitstellen" class="nav-link" data-scroll-target="#warum-sollte-ich-überhaupt-materialien-so-aufwändig-dokumentieren-und-bereitstellen"><strong>Warum sollte ich überhaupt Materialien so aufwändig dokumentieren und bereitstellen?</strong></a></li>
   </ul></li>
   </ul></li>
@@ -223,8 +257,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#vorträge-und-workshops" id="toc-vorträge-und-workshops" class="nav-link" data-scroll-target="#vorträge-und-workshops">Vorträge und Workshops</a></li>
   <li><a href="#lösungen-1" id="toc-lösungen-1" class="nav-link" data-scroll-target="#lösungen-1">Lösungen</a>
   <ul class="collapse">
-  <li><a href="#reproducible-codes-kurz-und-knapp" id="toc-reproducible-codes-kurz-und-knapp" class="nav-link" data-scroll-target="#reproducible-codes-kurz-und-knapp">Reproducible codes Kurz und knapp</a></li>
-  <li><a href="#reproducible-codes-detailliert" id="toc-reproducible-codes-detailliert" class="nav-link" data-scroll-target="#reproducible-codes-detailliert">REPRODUCIBLE CODES Detailliert</a></li>
+  <li><a href="#reproducible-codes-kurz-und-knapp" id="toc-reproducible-codes-kurz-und-knapp" class="nav-link" data-scroll-target="#reproducible-codes-kurz-und-knapp">Reproducible codes: KURZ UND KNAPP</a></li>
+  <li><a href="#reproducible-codes-detailliert" id="toc-reproducible-codes-detailliert" class="nav-link" data-scroll-target="#reproducible-codes-detailliert">Reproducible Codes: DETAILLIERT</a></li>
   <li><a href="#ein-einfaches-beispiel" id="toc-ein-einfaches-beispiel" class="nav-link" data-scroll-target="#ein-einfaches-beispiel">Ein EINFACHES BEISPIEL</a></li>
   </ul></li>
   <li><a href="#push-button-replicability" id="toc-push-button-replicability" class="nav-link" data-scroll-target="#push-button-replicability">Push-Button-Replicability</a></li>
@@ -313,11 +347,11 @@ In einem Satz
 </section>
 <section id="lösungen" class="level2">
 <h2 class="anchored" data-anchor-id="lösungen">Lösungen</h2>
-<p>Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, in dem für jede in einem Codebook oder einer Variablenliste beschriebene Variable, auch der im Datensatz verwendete Name angegeben wird.</p>
+<p>Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, indem für jede in einem Codebook oder einer Variablenliste beschriebene Variable auch der im Datensatz verwendete Name angegeben wird.</p>
 </section>
 <section id="open-materials-kurz-und-knapp" class="level2">
-<h2 class="anchored" data-anchor-id="open-materials-kurz-und-knapp">Open Materials KURZ UND KNAPP</h2>
-<p>Auch bei begrenzter Zeit lassen sich Open Materials Praktiken in den Forschungsablauf integrieren. Das Ergebnis der Open Materials Dokumentation könnte bspw. ein 2-3 seitiges PDF-Dokument sein, in dem die Abläufe und Instrumente knapp als bullet point-Listen zusammengefasst sind, ggf. ergänzt um eine Excel-Datei, in der alle Items inkl. Wortlaut und Bereich möglicher Ausprägungen aufgeführt sind. Weitere/alternative schnell zu erstellende Materialien sind je nach Untersuchungskontext denkbar (bspw. exportierte Unipark-Codebooks im Fall von Online Surveys oder Online-Experimenten).</p>
+<h2 class="anchored" data-anchor-id="open-materials-kurz-und-knapp">Open Materials: KURZ UND KNAPP</h2>
+<p>Auch bei begrenzter Zeit lassen sich Open Materials Praktiken in den Forschungsablauf integrieren. Das Ergebnis der Open Materials Dokumentation könnte bspw. ein 2-3-seitiges PDF-Dokument sein, in dem die Abläufe und Instrumente knapp als Bullet-Point-Listen zusammengefasst sind, ggf. ergänzt um eine Excel-Datei, in der alle Items inkl. Wortlaut und Bereich möglicher Ausprägungen aufgeführt sind. Weitere/alternative schnell zu erstellende Materialien sind je nach Untersuchungskontext denkbar (bspw. exportierte Unipark-Codebooks im Fall von Online Surveys oder Online-Experimenten).</p>
 <section id="beschreiben-sie-die-abläufe-mit-denen-ihre-daten-erzeugt-wurden." class="level3">
 <h3 class="anchored" data-anchor-id="beschreiben-sie-die-abläufe-mit-denen-ihre-daten-erzeugt-wurden."><strong>1. Beschreiben Sie die Abläufe, mit denen ihre Daten erzeugt wurden.</strong></h3>
 <p>Ihre Auflistung sollte Nachnutzenden einen Überblick darüber geben, wie Sie bei Ihrem Forschungsvorhaben vorgegangen sind. Nennen Sie alle Versuchsabläufe und verwendeten Instrumente (inkl. ggf. Referenz) in der Reihenfolge der tatsächlichen Durchführung.</p>
@@ -325,25 +359,25 @@ In einem Satz
 <section id="beschreiben-sie-die-erfassten-variablen." class="level3">
 <h3 class="anchored" data-anchor-id="beschreiben-sie-die-erfassten-variablen."><strong>2. Beschreiben Sie die erfassten Variablen.</strong></h3>
 <ol type="1">
-<li><p>Erstellen Sie eine Liste mit allen verwendeten Variablen (inkl. Name, Bedeutung, Wortlaut, Wertebereich)</p></li>
-<li><p>Kennzeichnen Sie eigenkreierte Items, falls vorhanden</p></li>
-<li><p>Nennen Sie die von Ihnen verwendeten Skalen und die Itemzuordnungen zu Skalen (inkl. ggf. notwendige Rekodierungen)</p></li>
+<li><p>Erstellen Sie eine Liste mit allen verwendeten Variablen (inkl. Name, Bedeutung, Wortlaut, Wertebereich).</p></li>
+<li><p>Kennzeichnen Sie eigenkreierte Items, falls vorhanden.</p></li>
+<li><p>Nennen Sie die von Ihnen verwendeten Skalen und die Itemzuordnungen zu Skalen (inkl. ggf. notwendige Rekodierungen).</p></li>
 </ol>
 </section>
-<section id="laden-sie-ihre-dokumentation-hoch" class="level3">
-<h3 class="anchored" data-anchor-id="laden-sie-ihre-dokumentation-hoch"><strong>3. Laden Sie Ihre Dokumentation hoch</strong></h3>
+<section id="laden-sie-ihre-dokumentation-hoch." class="level3">
+<h3 class="anchored" data-anchor-id="laden-sie-ihre-dokumentation-hoch."><strong>3. Laden Sie Ihre Dokumentation hoch.</strong></h3>
 <p>Laden Sie Ihre in den Schritten 1 und 2 erstellte Dokumentation der Methoden und zusätzlich alle verwendeten Originalmaterialien (wenn lizenzrechtlich möglich) auf einem öffentlich zugänglichen Repositorium (bspw. <a href="http://www.osf.io/">www.osf.io</a>) hoch.</p>
 </section>
-<section id="verlinken-sie-die-dokumentation-im-paper" class="level3">
-<h3 class="anchored" data-anchor-id="verlinken-sie-die-dokumentation-im-paper"><strong>4. Verlinken Sie die Dokumentation im Paper</strong></h3>
+<section id="verlinken-sie-die-dokumentation-im-paper." class="level3">
+<h3 class="anchored" data-anchor-id="verlinken-sie-die-dokumentation-im-paper."><strong>4. Verlinken Sie die Dokumentation im Paper.</strong></h3>
 <p>Zusätzlich zur Beschreibung der Methoden im Paper selbst sollten sie in den Text des Papers einen Link integrieren, der zu der Open Materials Dokumentation führt.</p>
 </section>
 </section>
 <section id="open-materials-detailliert" class="level2">
-<h2 class="anchored" data-anchor-id="open-materials-detailliert">Open materials DETAILLIERT</h2>
+<h2 class="anchored" data-anchor-id="open-materials-detailliert">Open Materials: DETAILLIERT</h2>
 <p>Wenn möglich ist eine ausgiebigere und mit Beginn der Planung eines Forschungsprojekts angelegte Dokumentation aller Methoden zu empfehlen.</p>
-<section id="erstellen-sie-ein-codebuch" class="level3">
-<h3 class="anchored" data-anchor-id="erstellen-sie-ein-codebuch"><strong>1. Erstellen Sie ein Codebuch</strong></h3>
+<section id="erstellen-sie-ein-codebuch." class="level3">
+<h3 class="anchored" data-anchor-id="erstellen-sie-ein-codebuch."><strong>1. Erstellen Sie ein Codebuch.</strong></h3>
 <p>Eine vollständige und nachvollziehbare Dokumentation der Methodik über ein systematisches Codebook macht nicht nur die eigene Vorgehensweise transparent und verständlich, sondern hilft auch, Fehler und Hürden früh zu entdecken und zu beseitigen. Sie ist zudem eine gute Grundlage für die Planung weiterer (Anschluss-)Studien. Um eine optimale internationale Rezeption zu ermöglichen, ist es in den meisten Fällen empfehlenswert, eine deutsche und eine englische Version des Codebooks (und aller Materialien) zur Verfügung zu stellen. Häufig empfiehlt sich eine Trennung des Codebooks in eine Dokumentation auf Studienebene und eine Dokumentation auf Variablenebene. Aber auch integrierte Lösungen sind denkbar, in denen bspw. Instruktionen zu einem Verfahren und die jeweilige Referenz direkt von der Beschreibung der mit dem Verfahren erfassten Variablen gefolgt werden. Die im Folgenden beispielhaft beschriebenen Hinweise sind nur eine von vielen möglichen Lösungen.</p>
 </section>
 <section id="dokumentation-auf-studienebene" class="level3">
@@ -374,16 +408,16 @@ In einem Satz
 <p>Ein Beispiel für eine Variable könnte so aussehen:</p>
 <pre><code>FAM_ZU Zufriedenheit mit der Familie (Filterfrage) "Wie zufrieden sind Sie im Augenblick mit Ihrer Familie?" {1;2;3;4} {97;98;99} 1 "nicht zufrieden" 2 "" 3 "" 4 "sehr zufrieden" 97 "fehlender Wert (Vp verweigert)" 98 "fehlender Wert (Vp weiß es nicht)" 99 "fehlender Wert (Frage nicht zutreffend)"</code></pre>
 <p>Speichern Sie ihr Codebuch in einer Plaintext-Datei ab, oder erstellen Sie Ihr Codebuch mit einem Assistenzsystem wie MyPsych Data (<a href="https://mypsychdata.zpid.de/register.php" class="uri">https://mypsychdata.zpid.de/register.php</a>)</p>
-<p><strong>Alternative Lösungen</strong> bestehen darin über Tabellen (in Excel oder Word) zu arbeiten, wobei jede Variable in einer Zeile und jeder Aspekt der Variablendokumentation (Name in Datensatz, Beschreibung, Wortlaut, Skala, Wertebereich, fehlende Werte) in einer Spalte repräsentiert ist.</p>
+<p><strong>Alternative Lösungen</strong> bestehen darin, über Tabellen (in Excel oder Word) zu arbeiten, wobei jede Variable in einer Zeile und jeder Aspekt der Variablendokumentation (Name in Datensatz, Beschreibung, Wortlaut, Skala, Wertebereich, fehlende Werte) in einer Spalte repräsentiert ist.</p>
 <p>Falls mehrere Variablen zu einer Skala / einem Variablenblock gehören, ist es sinnvoll, diese Zugehörigkeit im Codebook kenntlich zu machen und zusätzliche <strong>Informationen zur Verrechnung und Aggregation</strong> der Variablen (ggf. inkl. nötige Rekodierungen) zu geben.</p>
 </section>
 <section id="stellen-sie-ihre-verwendeten-materialien-bereit" class="level3">
-<h3 class="anchored" data-anchor-id="stellen-sie-ihre-verwendeten-materialien-bereit"><strong>2. Stellen Sie Ihre verwendeten Materialien Bereit</strong></h3>
+<h3 class="anchored" data-anchor-id="stellen-sie-ihre-verwendeten-materialien-bereit"><strong>2. Stellen Sie Ihre verwendeten Materialien bereit</strong></h3>
 <p><a href="..\img/materialien_bereitstellen.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img src="..\img/materialien_bereitstellen.png" class="img-fluid"></a></p>
 </section>
 <section id="daten-hochladen" class="level3">
-<h3 class="anchored" data-anchor-id="daten-hochladen"><strong>3. Daten Hochladen</strong></h3>
-<p>Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) auf einem öffentlichen Repositorium hoch (bspw. <a href="http://www.osf.io/">www.osf.io</a>)</p>
+<h3 class="anchored" data-anchor-id="daten-hochladen"><strong>3. Daten hochladen</strong></h3>
+<p>Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) auf einem öffentlichen Repositorium hoch (bspw. <a href="http://www.osf.io/">www.osf.io</a>).</p>
 </section>
 <section id="dokumentation-im-paper-selbst" class="level3">
 <h3 class="anchored" data-anchor-id="dokumentation-im-paper-selbst"><strong>4. Dokumentation im Paper selbst</strong></h3>
@@ -401,24 +435,24 @@ In einem Satz
 <p>“We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study.”</p>
 </div>
 </div>
-<p>Benannte Informationen können entweder im Manuskript selbst, oder aber in den meisten Fällen zusätzlich über die zusätzlich bereitgestellten öffentlich zugänglichen Online-Materialien (siehe 3. Codebook, alle Materialien) gegeben werden, um die Richtigkeit der Aussage zu garantieren. In den meisten Fällen ist es zweckmäßig, alle für ein Paper relevanten Prozeduren und Variablen detailliert im Paper selbst zu beschreiben und zusätzliche Informationen sowie nicht verwendete Prozeduren und Variablen, sowie Details und Hintergrundinformationen über das Online-Material zur Verfügung zu stellen (über einen Link im Paper; bspw. zu Beginn des Methodenteils). Neben den Abläufen und Variablen sollte im Methodenteil eines Papers in jedem Fall auch das Vorgehen der Stichprobenziehung und alle ggf. vorgenommenen Ausschlüsse von Versuchspersonen oder einzelner Daten von Versuchspersonen beschrieben und begründet werden (möglichst inkl. Power-Analyse auf der Basis konservativ geschätzter relevanter Effektstärken).</p>
+<p>Benannte Informationen können entweder im Manuskript selbst, oder aber in den meisten Fällen zusätzlich über die bereitgestellten öffentlich zugänglichen Online-Materialien (siehe 3. Codebook, alle Materialien) gegeben werden, um die Richtigkeit der Aussage zu garantieren. In den meisten Fällen ist es zweckmäßig, alle für ein Paper relevanten Prozeduren und Variablen detailliert im Paper selbst zu beschreiben und zusätzliche Informationen sowie nicht verwendete Prozeduren und Variablen, sowie Details und Hintergrundinformationen über das Online-Material zur Verfügung zu stellen (über einen Link im Paper; bspw. zu Beginn des Methodenteils). Neben den Abläufen und Variablen sollte im Methodenteil eines Papers in jedem Fall auch das Vorgehen der Stichprobenziehung und alle ggf. vorgenommenen Ausschlüsse von Versuchspersonen oder einzelner Daten von Versuchspersonen beschrieben und begründet werden (möglichst inkl. Power-Analyse auf der Basis konservativ geschätzter relevanter Effektstärken).</p>
 </section>
 </section>
 <section id="faq" class="level2">
 <h2 class="anchored" data-anchor-id="faq">FAQ</h2>
-<section id="unter-welchen-bedingungen-bekommt-meine-publikation-ich-den-open-materials-stempel" class="level3">
-<h3 class="anchored" data-anchor-id="unter-welchen-bedingungen-bekommt-meine-publikation-ich-den-open-materials-stempel"><strong>Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials” Stempel?</strong></h3>
+<section id="unter-welchen-bedingungen-bekommt-meine-publikation-den-open-materials-stempel" class="level3">
+<h3 class="anchored" data-anchor-id="unter-welchen-bedingungen-bekommt-meine-publikation-den-open-materials-stempel"><strong>Unter welchen Bedingungen bekommt meine Publikation den „Open materials” Stempel?</strong></h3>
 <ul>
-<li><p>Das Journal in dem das Paper erscheint bietet diese Möglichkeit an.</p></li>
-<li><p>Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen persistent identifier haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.</p></li>
-<li><p>Infrastruktur, Ausrüstung, biologische Materialien, oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, so dass ein unabhängiger Forscher in der Lage ist, das Verfahren zu reproduzieren.</p></li>
+<li><p>Das Journal, in dem das Paper erscheint, bietet diese Möglichkeit an.</p></li>
+<li><p>Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen “persistent identifier” (z. B. DOI über ein öffentliches OSF-Projekt oder ein Zenodo-Projekt) haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.</p></li>
+<li><p>Infrastruktur, Ausrüstung, biologische Materialien oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, sodass unabhängige Forschende in der Lage sind, das Verfahren zu reproduzieren.</p></li>
 <li><p>Es werden ausreichende Erklärungen gegeben, so dass ein unabhängiger Forscher dazu in der Lage ist zu verstehen, wie die Materialien mit der berichteten Methodik in Verbindung stehen.</p></li>
 </ul>
-<p>Typischerweise gelten folgende Bedingungen:</p>
+<p>Typischerweise gelten seitens der Zeitschriften folgende Bedingungen:</p>
 <ul>
-<li>Provide the URL, doi, or other permanent path for accessing the materials in a public, open-access repository:</li>
+<li><em>Provide the URL, doi, or other permanent path for accessing the materials in a public, open-access repository:</em></li>
+<li><em>Confirm that there is sufficient information for an independent researcher to reproduce all of the reported methodology.</em></li>
 </ul>
-<p>Confirm that there is sufficient information for an independent researcher to reproduce all of the reported methodology.</p>
 </section>
 <section id="warum-sollte-ich-überhaupt-materialien-so-aufwändig-dokumentieren-und-bereitstellen" class="level3">
 <h3 class="anchored" data-anchor-id="warum-sollte-ich-überhaupt-materialien-so-aufwändig-dokumentieren-und-bereitstellen"><strong>Warum sollte ich überhaupt Materialien so aufwändig dokumentieren und bereitstellen?</strong></h3>
@@ -501,12 +535,12 @@ In einem Satz
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaftlichen Berichten, erleichtern Replikationen, und dienen als grundlage für zukünftige darauf aufbauende Forschung.</p>
+<p>Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaftlichen Berichten, erleichtern Replikationen und dienen als Grundlage für zukünftige darauf aufbauende Forschung.</p>
 </div>
 </div>
 <section id="worum-gehts-2" class="level2">
 <h2 class="anchored" data-anchor-id="worum-gehts-2">Worum geht’s?</h2>
-<p>Open Data oder offene Daten sind Daten, <em>die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin<a href="https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1"><strong>[1]</strong></a>.</em> Ein weiterer Schritt stellen FAIRe Daten dar. FAIR steht dabei für:</p>
+<p>Open Data oder offene Daten sind Daten, <em>die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin<a href="https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1"><strong>[1]</strong></a>.</em> Einen weiteren Schritt stellen FAIRe Daten dar. FAIR steht dabei für:</p>
 <ul>
 <li><p>Findable: Daten sollten auffindbar sein (z. B. über Meta-Daten mittels&nbsp;Suchmaschinen)</p></li>
 <li><p>Accessible: Daten können öffentlich und ohne Kosten geöffnet werden</p></li>
@@ -583,6 +617,10 @@ In einem Satz
 </section>
 <section id="publikationen-2" class="level2">
 <h2 class="anchored" data-anchor-id="publikationen-2">Publikationen</h2>
+<ul>
+<li><p>Nüst, D., &amp; Eglen, S. J. (2021). CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility. <em>F1000Research</em>, <em>10</em>, 253. <a href="#0">https://doi.org/10.12688/f1000research.51738.2</a></p></li>
+<li><p>Peikert, A., &amp; Brandmaier, A. M. (2021). A reproducible data analysis workflow with R Markdown, Git, Make, and Docker.&nbsp;<em>Quantitative and Computational Methods in Behavioral Sciences</em>, 1-27. <a href="https://doi.org/10.5964/qcmb.3763" class="uri">https://doi.org/10.5964/qcmb.3763</a></p></li>
+</ul>
 </section>
 <section id="weiterführende-informationen-1" class="level2">
 <h2 class="anchored" data-anchor-id="weiterführende-informationen-1">Weiterführende Informationen</h2>
@@ -595,11 +633,14 @@ In einem Satz
 </section>
 <section id="vorträge-und-workshops" class="level2">
 <h2 class="anchored" data-anchor-id="vorträge-und-workshops">Vorträge und Workshops</h2>
+<ul>
+<li>UK Data Service Workshop zu Reproduzierbarkeit: <a href="https://www.youtube.com/watch?v=RDCHTJEOV7g" class="uri">https://www.youtube.com/watch?v=RDCHTJEOV7g</a></li>
+</ul>
 </section>
 <section id="lösungen-1" class="level2">
 <h2 class="anchored" data-anchor-id="lösungen-1">Lösungen</h2>
 <section id="reproducible-codes-kurz-und-knapp" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-codes-kurz-und-knapp">Reproducible codes Kurz und knapp</h3>
+<h3 class="anchored" data-anchor-id="reproducible-codes-kurz-und-knapp">Reproducible codes: KURZ UND KNAPP</h3>
 <p>In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optimal aufbereitet und kommentiert sein und evtl. haben Sie nicht mehr ausreichend Zeit dies nachzuholen. Um in diesem Fall trotzdem zeitnah Reproducible Codes zur Verfügung zu stellen, sollte zumindest geprüft werden, ob die Anwendung der Codes auf die Daten tatsächlich die im Paper berichteten Zahlen erzeugt. Darüber hinaus kann knapp geprüft werden, wo einfache Kommentierungen ergänzt werden können, um die Verständlichkeit der Codes zu erhöhen. Um auch in kurzer Zeit hilfreiche Codes zur Verfügung zu stellen, kann bspw. geprüft werden, ob folgende Kriterien zutreffen:</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -607,17 +648,17 @@ In einem Satz
 <figcaption>Reproducible Code Kurzleitfaden</figcaption>
 </figure>
 </div>
-<p>Die Codes sollten in einem öffentlichen und frei zugänglichen online-Repositorium (bspw. <a href="http://www.osf.io/">www.osf.io</a>) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, so dass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.</p>
+<p>Die Codes sollten in einem öffentlichen und frei zugänglichen Online-Repositorium (bspw. <a href="http://www.osf.io/">www.osf.io</a>) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses- oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, sodass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.</p>
 </section>
 <section id="reproducible-codes-detailliert" class="level3">
-<h3 class="anchored" data-anchor-id="reproducible-codes-detailliert">REPRODUCIBLE CODES Detailliert</h3>
-<p>Optimalerweise wird bereits vor der Datenerhebung geplant ein Codebuch zu führen, die Variablen bei/nach der Datenerhebung entsprechend zu benennen und während der Datenanalyse ein hierzu passendes reproduzierbares und verständliches Skript zu führen.</p>
+<h3 class="anchored" data-anchor-id="reproducible-codes-detailliert">Reproducible Codes: DETAILLIERT</h3>
+<p>Optimalerweise wird bereits vor der Datenerhebung geplant, ein Codebuch zu führen, die Variablen bei/nach der Datenerhebung entsprechend zu benennen und während der Datenanalyse ein hierzu passendes reproduzierbares und verständliches Skript zu führen.</p>
 <p>Die folgenden Tipps und Richtlinien zur Erstellung eines übersichtlichen und nachvollziehbaren Codes haben beispielhaften Charakter und sind für die Statistikumgebung R formuliert.</p>
 <p><strong>Gliederung des Skripts</strong></p>
 <p>Empfohlen wird, eine einfache Gliederung im Skript einzuhalten. Diese kann im Einzelfall auch von empfohlenen Standards abweichen, sollte jedoch eine nachvollziehbare Struktur enthalten. Hier ein Beispiel:</p>
 <ol type="1">
 <li><p>Kommentar zum Copyright</p></li>
-<li><p>Kommentar des Autors</p></li>
+<li><p>Kommentar des Autors / der Autorin</p></li>
 <li><p>Beschreibung der Dateien</p></li>
 <li><p>Quell- und Zielverzeichnis</p></li>
 <li><p>Beschreibung der Funktionen</p></li>
@@ -634,15 +675,19 @@ In einem Satz
 <p><strong>Richtlinien zum Kommentieren</strong></p>
 <ul>
 <li><p>Kommentieren Sie Ihren Code.</p></li>
-<li><p>Ganze Kommentarzeilen, in denen kein Befehl enthalten ist beginnen mit # und anschließendem Leerzeichen.</p></li>
+<li><p>Ganze Kommentarzeilen, in denen kein Befehl enthalten ist, beginnen mit # und anschließendem Leerzeichen.</p></li>
 <li><p>Kurze Kommentare, die Teile eines Befehls oder einer Funktion beschreiben, beginnen in der gleichen Zeile wie der Befehlsteil – nach zwei Leerzeichen und # .</p></li>
 </ul>
-<p># Create histogram of frequency of campaigns by pct budget spent.</p>
-<p>hist(df$pct.spent,</p>
-<p>&nbsp; breaks = “scott”,&nbsp; # method for choosing number of buckets</p>
-<p>&nbsp; main&nbsp;&nbsp; = “Histogram: fraction budget spent by campaignid”,</p>
-<p>&nbsp; xlab&nbsp;&nbsp; = “Fraction of budget spent”,</p>
-<p>&nbsp; ylab&nbsp;&nbsp; = “Frequency (count of campaignids)”)</p>
+<p><strong>Beispiel</strong></p>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Create histogram of frequency of campaigns by pct budget spent.</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="fu">hist</span>(df<span class="sc">$</span>pct.spent,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>     <span class="at">breaks =</span> <span class="st">"scott"</span>, <span class="co"># method for choosing number of buckets</span></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>     <span class="at">main =</span> <span class="st">"Histogram: fraction budget spent by campaignid"</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>     <span class="at">xlab =</span> <span class="st">"Fraction of budget spent"</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>     <span class="at">ylab =</span> <span class="st">"Frequency (count of campaignids)"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
 <p><strong>Richtlinien innerhalb der Syntax</strong></p>
 <p>Auch innerhalb der Syntax sollte einigermaßen Ordnung herrschen. Diese Punkte haben sich etabliert und werden von vielen Anwendern beachtet.</p>
 <ul>
@@ -674,7 +719,7 @@ In einem Satz
 </section>
 <section id="ein-einfaches-beispiel" class="level3">
 <h3 class="anchored" data-anchor-id="ein-einfaches-beispiel">Ein EINFACHES BEISPIEL</h3>
-<p>Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.</p>
+<p>Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v. a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><a href="..\img/reproduciblecode_beispiel.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="Kurzbeispiel zu Reproducible Code"><img src="..\img/reproduciblecode_beispiel.png" class="img-fluid figure-img" alt="Kurzbeispiel zu Reproducible Code"></a></p>
@@ -1202,7 +1247,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","openEffect":"zoom","selector":".lightbox","loop":false,"descPosition":"bottom"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","loop":false,"selector":".lightbox","closeEffect":"zoom"});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

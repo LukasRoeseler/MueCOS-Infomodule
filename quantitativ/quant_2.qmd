@@ -48,11 +48,11 @@ Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrast
 
 ## Lösungen
 
-Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, in dem für jede in einem Codebook oder einer Variablenliste beschriebene Variable, auch der im Datensatz verwendete Name angegeben wird.
+Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, indem für jede in einem Codebook oder einer Variablenliste beschriebene Variable auch der im Datensatz verwendete Name angegeben wird.
 
-## Open Materials KURZ UND KNAPP
+## Open Materials: KURZ UND KNAPP
 
-Auch bei begrenzter Zeit lassen sich Open Materials Praktiken in den Forschungsablauf integrieren. Das Ergebnis der Open Materials Dokumentation könnte bspw. ein 2-3 seitiges PDF-Dokument sein, in dem die Abläufe und Instrumente knapp als bullet point-Listen zusammengefasst sind, ggf. ergänzt um eine Excel-Datei, in der alle Items inkl. Wortlaut und Bereich möglicher Ausprägungen aufgeführt sind. Weitere/alternative schnell zu erstellende Materialien sind je nach Untersuchungskontext denkbar (bspw. exportierte Unipark-Codebooks im Fall von Online Surveys oder Online-Experimenten).
+Auch bei begrenzter Zeit lassen sich Open Materials Praktiken in den Forschungsablauf integrieren. Das Ergebnis der Open Materials Dokumentation könnte bspw. ein 2-3-seitiges PDF-Dokument sein, in dem die Abläufe und Instrumente knapp als Bullet-Point-Listen zusammengefasst sind, ggf. ergänzt um eine Excel-Datei, in der alle Items inkl. Wortlaut und Bereich möglicher Ausprägungen aufgeführt sind. Weitere/alternative schnell zu erstellende Materialien sind je nach Untersuchungskontext denkbar (bspw. exportierte Unipark-Codebooks im Fall von Online Surveys oder Online-Experimenten).
 
 ### **1. Beschreiben Sie die Abläufe, mit denen ihre Daten erzeugt wurden.**
 
@@ -60,25 +60,25 @@ Ihre Auflistung sollte Nachnutzenden einen Überblick darüber geben, wie Sie be
 
 ### **2. Beschreiben Sie die erfassten Variablen.**
 
-1.  Erstellen Sie eine Liste mit allen verwendeten Variablen (inkl. Name, Bedeutung, Wortlaut, Wertebereich)
+1.  Erstellen Sie eine Liste mit allen verwendeten Variablen (inkl. Name, Bedeutung, Wortlaut, Wertebereich).
 
-2.  Kennzeichnen Sie eigenkreierte Items, falls vorhanden
+2.  Kennzeichnen Sie eigenkreierte Items, falls vorhanden.
 
-3.  Nennen Sie die von Ihnen verwendeten Skalen und die Itemzuordnungen zu Skalen (inkl. ggf. notwendige Rekodierungen)
+3.  Nennen Sie die von Ihnen verwendeten Skalen und die Itemzuordnungen zu Skalen (inkl. ggf. notwendige Rekodierungen).
 
-### **3. Laden Sie Ihre Dokumentation hoch**
+### **3. Laden Sie Ihre Dokumentation hoch.**
 
 Laden Sie Ihre in den Schritten 1 und 2 erstellte Dokumentation der Methoden und zusätzlich alle verwendeten Originalmaterialien (wenn lizenzrechtlich möglich) auf einem öffentlich zugänglichen Repositorium (bspw. [www.osf.io](http://www.osf.io/)) hoch.
 
-### **4. Verlinken Sie die Dokumentation im Paper**
+### **4. Verlinken Sie die Dokumentation im Paper.**
 
 Zusätzlich zur Beschreibung der Methoden im Paper selbst sollten sie in den Text des Papers einen Link integrieren, der zu der Open Materials Dokumentation führt.
 
-## Open materials DETAILLIERT
+## Open Materials: DETAILLIERT
 
 Wenn möglich ist eine ausgiebigere und mit Beginn der Planung eines Forschungsprojekts angelegte Dokumentation aller Methoden zu empfehlen.
 
-### **1. Erstellen Sie ein Codebuch**
+### **1. Erstellen Sie ein Codebuch.**
 
 Eine vollständige und nachvollziehbare Dokumentation der Methodik über ein systematisches Codebook macht nicht nur die eigene Vorgehensweise transparent und verständlich, sondern hilft auch, Fehler und Hürden früh zu entdecken und zu beseitigen. Sie ist zudem eine gute Grundlage für die Planung weiterer (Anschluss-)Studien. Um eine optimale internationale Rezeption zu ermöglichen, ist es in den meisten Fällen empfehlenswert, eine deutsche und eine englische Version des Codebooks (und aller Materialien) zur Verfügung zu stellen. Häufig empfiehlt sich eine Trennung des Codebooks in eine Dokumentation auf Studienebene und eine Dokumentation auf Variablenebene. Aber auch integrierte Lösungen sind denkbar, in denen bspw. Instruktionen zu einem Verfahren und die jeweilige Referenz direkt von der Beschreibung der mit dem Verfahren erfassten Variablen gefolgt werden. Die im Folgenden beispielhaft beschriebenen Hinweise sind nur eine von vielen möglichen Lösungen.
 
@@ -132,17 +132,17 @@ FAM_ZU Zufriedenheit mit der Familie (Filterfrage) "Wie zufrieden sind Sie im Au
 
 Speichern Sie ihr Codebuch in einer Plaintext-Datei ab, oder erstellen Sie Ihr Codebuch mit einem Assistenzsystem wie MyPsych Data (<https://mypsychdata.zpid.de/register.php>)
 
-**Alternative Lösungen** bestehen darin über Tabellen (in Excel oder Word) zu arbeiten, wobei jede Variable in einer Zeile und jeder Aspekt der Variablendokumentation (Name in Datensatz, Beschreibung, Wortlaut, Skala, Wertebereich, fehlende Werte) in einer Spalte repräsentiert ist.
+**Alternative Lösungen** bestehen darin, über Tabellen (in Excel oder Word) zu arbeiten, wobei jede Variable in einer Zeile und jeder Aspekt der Variablendokumentation (Name in Datensatz, Beschreibung, Wortlaut, Skala, Wertebereich, fehlende Werte) in einer Spalte repräsentiert ist.
 
 Falls mehrere Variablen zu einer Skala / einem Variablenblock gehören, ist es sinnvoll, diese Zugehörigkeit im Codebook kenntlich zu machen und zusätzliche **Informationen zur Verrechnung und Aggregation** der Variablen (ggf. inkl. nötige Rekodierungen) zu geben.
 
-### **2. Stellen Sie Ihre verwendeten Materialien Bereit**
+### **2. Stellen Sie Ihre verwendeten Materialien bereit**
 
 ![](/img/materialien_bereitstellen.png){.lightbox}
 
-### **3. Daten Hochladen**
+### **3. Daten hochladen**
 
-Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) auf einem öffentlichen Repositorium hoch (bspw. [www.osf.io](http://www.osf.io/))
+Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) auf einem öffentlichen Repositorium hoch (bspw. [www.osf.io](http://www.osf.io/)).
 
 ### **4. Dokumentation im Paper selbst**
 
@@ -154,25 +154,24 @@ Die 21-word solution (Simmons et al., 2012) bietet eine etablierte und ökonomis
 "We report how we determined our sample size, all data exclusions (if any), all manipulations, and all measures in the study."
 :::
 
-Benannte Informationen können entweder im Manuskript selbst, oder aber in den meisten Fällen zusätzlich über die zusätzlich bereitgestellten öffentlich zugänglichen Online-Materialien (siehe 3. Codebook, alle Materialien) gegeben werden, um die Richtigkeit der Aussage zu garantieren. In den meisten Fällen ist es zweckmäßig, alle für ein Paper relevanten Prozeduren und Variablen detailliert im Paper selbst zu beschreiben und zusätzliche Informationen sowie nicht verwendete Prozeduren und Variablen, sowie Details und Hintergrundinformationen über das Online-Material zur Verfügung zu stellen (über einen Link im Paper; bspw. zu Beginn des Methodenteils). Neben den Abläufen und Variablen sollte im Methodenteil eines Papers in jedem Fall auch das Vorgehen der Stichprobenziehung und alle ggf. vorgenommenen Ausschlüsse von Versuchspersonen oder einzelner Daten von Versuchspersonen beschrieben und begründet werden (möglichst inkl. Power-Analyse auf der Basis konservativ geschätzter relevanter Effektstärken).
+Benannte Informationen können entweder im Manuskript selbst, oder aber in den meisten Fällen zusätzlich über die bereitgestellten öffentlich zugänglichen Online-Materialien (siehe 3. Codebook, alle Materialien) gegeben werden, um die Richtigkeit der Aussage zu garantieren. In den meisten Fällen ist es zweckmäßig, alle für ein Paper relevanten Prozeduren und Variablen detailliert im Paper selbst zu beschreiben und zusätzliche Informationen sowie nicht verwendete Prozeduren und Variablen, sowie Details und Hintergrundinformationen über das Online-Material zur Verfügung zu stellen (über einen Link im Paper; bspw. zu Beginn des Methodenteils). Neben den Abläufen und Variablen sollte im Methodenteil eines Papers in jedem Fall auch das Vorgehen der Stichprobenziehung und alle ggf. vorgenommenen Ausschlüsse von Versuchspersonen oder einzelner Daten von Versuchspersonen beschrieben und begründet werden (möglichst inkl. Power-Analyse auf der Basis konservativ geschätzter relevanter Effektstärken).
 
 ## FAQ
 
-### **Unter welchen Bedingungen bekommt meine Publikation ich den „Open materials" Stempel?**
+### **Unter welchen Bedingungen bekommt meine Publikation den „Open materials" Stempel?**
 
--   Das Journal in dem das Paper erscheint bietet diese Möglichkeit an.
+-   Das Journal, in dem das Paper erscheint, bietet diese Möglichkeit an.
 
--   Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen persistent identifier haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.
+-   Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die in einem öffentlichen Open-Access Repositorium abgelegt sind. Die Materialien müssen einen "persistent identifier" (z. B. DOI über ein öffentliches OSF-Projekt oder ein Zenodo-Projekt) haben und in einem zeitgestempelten, unveränderlichen und permanenten Format bereitgestellt sein.
 
--   Infrastruktur, Ausrüstung, biologische Materialien, oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, so dass ein unabhängiger Forscher in der Lage ist, das Verfahren zu reproduzieren.
+-   Infrastruktur, Ausrüstung, biologische Materialien oder andere Bestandteile, die nicht digital geteilt werden können, sind in ausreichender Detailliertheit beschrieben, sodass unabhängige Forschende in der Lage sind, das Verfahren zu reproduzieren.
 
 -   Es werden ausreichende Erklärungen gegeben, so dass ein unabhängiger Forscher dazu in der Lage ist zu verstehen, wie die Materialien mit der berichteten Methodik in Verbindung stehen.
 
-Typischerweise gelten folgende Bedingungen:
+Typischerweise gelten seitens der Zeitschriften folgende Bedingungen:
 
--   Provide the URL, doi, or other permanent path for accessing the materials in a public, open-access repository:
-
-Confirm that there is sufficient information for an independent researcher to reproduce all of the reported methodology.
+-   *Provide the URL, doi, or other permanent path for accessing the materials in a public, open-access repository:*
+-   *Confirm that there is sufficient information for an independent researcher to reproduce all of the reported methodology.*
 
 ### **Warum sollte ich überhaupt Materialien so aufwändig dokumentieren und bereitstellen?**
 
@@ -223,12 +222,12 @@ In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen mögl
 ::: callout-tip
 ## In einem Satz
 
-Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaftlichen Berichten, erleichtern Replikationen, und dienen als grundlage für zukünftige darauf aufbauende Forschung.
+Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaftlichen Berichten, erleichtern Replikationen und dienen als Grundlage für zukünftige darauf aufbauende Forschung.
 :::
 
 ## Worum geht's?
 
-Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin[**\[1\]**](https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1).* Ein weiterer Schritt stellen FAIRe Daten dar. FAIR steht dabei für:
+Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin[**\[1\]**](https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1).* Einen weiteren Schritt stellen FAIRe Daten dar. FAIR steht dabei für:
 
 -   Findable: Daten sollten auffindbar sein (z. B. über Meta-Daten mittels Suchmaschinen)
 
@@ -314,6 +313,10 @@ Konkret beinhaltet „Reproducible Codes":
 
 ## Publikationen
 
+-   Nüst, D., & Eglen, S. J. (2021). CODECHECK: an Open Science initiative for the independent execution of computations underlying research articles during peer review to improve reproducibility. *F1000Research*, *10*, 253. [https://doi.org/10.12688/f1000research.51738.2](#0)
+
+-   Peikert, A., & Brandmaier, A. M. (2021). A reproducible data analysis workflow with R Markdown, Git, Make, and Docker. *Quantitative and Computational Methods in Behavioral Sciences*, 1-27. <https://doi.org/10.5964/qcmb.3763>
+
 ## Weiterführende Informationen
 
 -   <https://www.rstudio.com/wp-content/uploads/2015/06/rmarkdown-german.pdf>
@@ -326,19 +329,21 @@ Konkret beinhaltet „Reproducible Codes":
 
 ## Vorträge und Workshops
 
+-   UK Data Service Workshop zu Reproduzierbarkeit: <https://www.youtube.com/watch?v=RDCHTJEOV7g>
+
 ## Lösungen
 
-### Reproducible codes Kurz und knapp
+### Reproducible codes: KURZ UND KNAPP
 
 In einigen Fällen werden die Codes der statistischen Analysen evtl. nicht optimal aufbereitet und kommentiert sein und evtl. haben Sie nicht mehr ausreichend Zeit dies nachzuholen. Um in diesem Fall trotzdem zeitnah Reproducible Codes zur Verfügung zu stellen, sollte zumindest geprüft werden, ob die Anwendung der Codes auf die Daten tatsächlich die im Paper berichteten Zahlen erzeugt. Darüber hinaus kann knapp geprüft werden, wo einfache Kommentierungen ergänzt werden können, um die Verständlichkeit der Codes zu erhöhen. Um auch in kurzer Zeit hilfreiche Codes zur Verfügung zu stellen, kann bspw. geprüft werden, ob folgende Kriterien zutreffen:
 
 ![Reproducible Code Kurzleitfaden](/img/reproduciblecode_zubeachten.png){.lightbox}
 
-Die Codes sollten in einem öffentlichen und frei zugänglichen online-Repositorium (bspw. [www.osf.io](http://www.osf.io/)) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, so dass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.
+Die Codes sollten in einem öffentlichen und frei zugänglichen Online-Repositorium (bspw. [www.osf.io](http://www.osf.io/)) gespeichert werden. Im Paper (bspw. zu Beginn des Statistical Analyses- oder des Results-Teils) sollte der Link zu den Codes gegeben werden. Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung, sodass die Ergebnisse eines Papers tatsächlich direkt nachvollzogen werden können und ggf. alternative Analysen durchgeführt werden können. Aber selbst wenn die Daten (bspw. aus rechtlichen Gründen oder wegen der fehlenden Möglichkeit der Anonymisierung) nicht frei zugänglich gemacht werden können, helfen Reproducible Codes auch alleine, um die statistischen Analysen (bspw. die exakte Spezifikation komplexerer Modelle) exakt nachvollziehen zu können.
 
-### REPRODUCIBLE CODES Detailliert
+### Reproducible Codes: DETAILLIERT
 
-Optimalerweise wird bereits vor der Datenerhebung geplant ein Codebuch zu führen, die Variablen bei/nach der Datenerhebung entsprechend zu benennen und während der Datenanalyse ein hierzu passendes reproduzierbares und verständliches Skript zu führen.
+Optimalerweise wird bereits vor der Datenerhebung geplant, ein Codebuch zu führen, die Variablen bei/nach der Datenerhebung entsprechend zu benennen und während der Datenanalyse ein hierzu passendes reproduzierbares und verständliches Skript zu führen.
 
 Die folgenden Tipps und Richtlinien zur Erstellung eines übersichtlichen und nachvollziehbaren Codes haben beispielhaften Charakter und sind für die Statistikumgebung R formuliert.
 
@@ -348,7 +353,7 @@ Empfohlen wird, eine einfache Gliederung im Skript einzuhalten. Diese kann im Ei
 
 1.  Kommentar zum Copyright
 
-2.  Kommentar des Autors
+2.  Kommentar des Autors / der Autorin
 
 3.  Beschreibung der Dateien
 
@@ -368,25 +373,26 @@ Die Benennung von Variablen und Funktionen könnte nach diesem einfachen Schema 
 
 -   Kommentieren Sie Ihren Code.
 
--   Ganze Kommentarzeilen, in denen kein Befehl enthalten ist beginnen mit \# und anschließendem Leerzeichen.
+-   Ganze Kommentarzeilen, in denen kein Befehl enthalten ist, beginnen mit \# und anschließendem Leerzeichen.
 
 -   Kurze Kommentare, die Teile eines Befehls oder einer Funktion beschreiben, beginnen in der gleichen Zeile wie der Befehlsteil -- nach zwei Leerzeichen und \# .
 
-\# Create histogram of frequency of campaigns by pct budget spent.
+**Beispiel**
 
-hist(df\$pct.spent,
+``` R
+# Create histogram of frequency of campaigns by pct budget spent.
+pct.spent <- rchisq(50, df = 2, ncp = 0)/20
 
-  breaks = "scott",  \# method for choosing number of buckets
-
-  main   = "Histogram: fraction budget spent by campaignid",
-
-  xlab   = "Fraction of budget spent",
-
-  ylab   = "Frequency (count of campaignids)")
+hist(pct.spent,
+     breaks = "scott", # method for choosing number of buckets
+     main = "Histogram: fraction budget spent by campaignid",
+     xlab = "Fraction of budget spent",
+     ylab = "Frequency (count of campaignids)")
+```
 
 **Richtlinien innerhalb der Syntax**
 
-Auch innerhalb der Syntax sollte einigermaßen Ordnung herrschen. Diese Punkte haben sich etabliert und werden von vielen Anwendern beachtet.
+Auch innerhalb der Syntax sollte einigermaßen Ordnung herrschen. Diese Punkte haben sich etabliert und werden von vielen Anwender\*innen beachtet:
 
 -   Nicht mehr als 80 Zeichen pro Zeile
 
@@ -394,23 +400,25 @@ Auch innerhalb der Syntax sollte einigermaßen Ordnung herrschen. Diese Punkte h
 
 -   Kein Leerzeichen vor Kommas aber danach
 
-tab.prior \<- table(df\[df\$days.from.opt \< 0, "[campaign.id](http://campaign.id/)"\])
-
-total \<- sum(x\[, 1\])
-
-total \<- sum(x\[1, \])
+``` R
+tab.prior <- table(df[df$days.from.opt < 0, "campaign.id"])
+total <- sum(x[, 1])
+total <- sum(x[1, ])
+```
 
 -   Doppeltes Leerzeichen nach einem Befehl
 
--   { bleibt in der gleichen Zeile wie der Befehl, } endet in eigener Zeile
+-   { bleibt in der gleichen Zeile wie der Befehl
+
+-   } endet in eigener Zeile
 
 -   Für Zuweisungen wird \<- benutzt, nicht =
 
+``` R
 if (is.null(ylim)) {
-
-  ylim \<- c(0, 0.06)
-
+ ylim <- c(0, 0.06)
 }
+```
 
 -   Komplexe Befehle sollen auf mehrere Zeilen verteilt werden.
 
@@ -418,25 +426,23 @@ if (is.null(ylim)) {
 
 -   Kein Semikolon verwenden.
 
+``` R
 if (condition) {
-
-  one or more lines
-
+ one or more lines
 } else {
-
-  one or more lines
-
+ one or more lines
 }
+```
 
 ### Ein EINFACHES BEISPIEL
 
-Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v.a. darauf ankommt, jeden Schritt den man in R oder einem anderen Programm tätigt, zu kommentieren um ein nachvollziehbares Skript zu erstellen.
+Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass es v. a. darauf ankommt, jeden Schritt, den man in R oder einem anderen Programm tätigt, zu kommentieren, um ein nachvollziehbares Skript zu erstellen.
 
 ![Kurzbeispiel zu Reproducible Code](/img/reproduciblecode_beispiel.png){.lightbox}
 
 ## Push-Button-Replicability
 
-Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf Reproduzierbarkeit zu Prüfen. Autor\*innen werden dazu aufgefordert, ihren Code so zu gestalten, dass er auf Knopfdruck reproduzierbar ist (replicability und reproducibility werden hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichn:
+Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf Reproduzierbarkeit zu prüfen. Autor\*innen werden dazu aufgefordert, ihren Code so zu gestalten, dass er auf Knopfdruck reproduzierbar ist (Replizierbarkeit und Reproduzierbarkeit werden hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichen:
 
 -   Ergebnisse oder vollständige Manuskripte mit Markdown-Sprache schreiben (z. B. RMarkdown, Quarto)
 
@@ -459,7 +465,7 @@ Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf 
 ::: callout-tip
 ## In einem Satz
 
-Mittels Lizenzen schreiben Forschende, die Daten, Berichte, Skripte, oder andere Forschungsmaterialien teilen Nutzer\*innen vor, unter welchen Bedingungen sie die Ressourcen weiterverwenden dürfen.
+Mittels Lizenzen schreiben Forschende, die Daten, Berichte, Skripte oder andere Forschungsmaterialien teilen, Nutzer\*innen vor, unter welchen Bedingungen sie die Ressourcen weiterverwenden dürfen.
 :::
 
 ## Worum geht's?
