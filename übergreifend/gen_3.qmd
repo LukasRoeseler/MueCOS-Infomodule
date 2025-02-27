@@ -18,23 +18,23 @@ Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forsch
 
 ## Zentrale Typen von Open Access
 
-Im folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.
+Im Folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.
 
 | Typ | Regelung | Bewertung im Hinblick auf Zugänglichkeit und Kosten von Wissen |
 |------------------------|------------------------|------------------------|
-| Diamond | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author/Book Processing Charges) an | positiv |
-| Gold | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author/Book Processing Charges, APC/BPC) an. | positiv bei transparenter Begründung der APC/BPCs und gerechtfertigter Höhe (z. B. Kosten in Höhe von 500€ zur Finanzierung einer gemeinnützigen Organisation und Bezahlung des Type-Settings). |
-| Hybrid | Die Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr können Artikel „freigekauft" und auf Open Access gestellt werden; nur diese Artikel sind dann kostenlos lesbar, die anderen verbleiben hinter der Subskriptions-Pay-Wall. | negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription (=Lese-Zugriff) + Open Access |
-| Moving Wall | Die Zeitschrift hat ein Subkriptionsmodell. Nach Ablauf einer festgelegten Frist (üblicherweise zwischen 6 und 48 Monaten) ist der Artikel frei verfügbar. | negativ: Forschung wird verlangsamt bzw. vor allem finanziell schwache Personen/Institutionen/Länder werden benachteiligt |
-| Promotional | Zur Bewerbung der Zeitschrift werden einzelne ausgewählte Publikationen frei verfügbar veröffentlicht. | negativ: Open Washing (Zeitschrift ist nicht offen und verwendet Modell nur, um sich selbst zu bewerben) |
-| Green | Unabhängig von der Zeitschrift: Autor\*innen machen von ihrem Zweitveröffentlichungsrecht gebraucht und laden das Manuskript im Internet hoch. Je nach Veröffentlichungsvertrag können sie das auf ihrer privaten Homepage, einem institutionellen Repositorium, oder auch auf Pre-Print Servern tun. Regelungen dazu können je Zeitschrift [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. | Positiv, wenn die veröffentlichte Version erneut veröffentlicht werden darf (seitengenau gleich und damit gut zitierfähig). Ist häufig jedoch nur für akzeptierte Version oder nach Ablauf eines Embargos möglich. |
-| Closed | Publikationen sind nur gegen eine einmalige oder regelmäßige Gebühr lesbar. | Negativ: Forschung wird größtenteils auf Kosten der Gesellschaft (d.h. mittels Steuergeldern) durchgeführt und sollte darum auch allen zugänglich sein |
+| Diamond | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author/Book Processing Charges) an | Positiv |
+| Gold | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author/Book Processing Charges, APC/BPC) an. | Positiv bei transparenter Begründung der APC/BPCs und gerechtfertigter Höhe (z. B. Kosten in Höhe von 500€ zur Finanzierung einer gemeinnützigen Organisation und Bezahlung des Type-Settings). |
+| Hybrid | Die Zeitschrift hat ein Subskriptionsmodell (d. h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr können Artikel „freigekauft" und auf Open Access gestellt werden; nur diese Artikel sind dann kostenlos lesbar, die anderen verbleiben hinter der Subskriptions-Pay-Wall. | Negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription (=Lese-Zugriff) + Open Access |
+| Moving Wall | Die Zeitschrift hat ein Subkriptionsmodell. Nach Ablauf einer festgelegten Frist (üblicherweise zwischen 6 und 48 Monaten) ist der Artikel frei verfügbar. | Negativ: Forschung wird verlangsamt bzw. vor allem finanziell schwache Personen/Institutionen/Länder werden benachteiligt |
+| Promotional | Zur Bewerbung der Zeitschrift werden einzelne ausgewählte Publikationen frei verfügbar veröffentlicht. | Negativ: Open Washing (Zeitschrift ist nicht offen und verwendet Modell nur, um sich selbst zu bewerben) |
+| Green | Unabhängig von der Zeitschrift: Autor\*innen machen von ihrem Zweitveröffentlichungsrecht Gebrauch und laden das Manuskript im Internet hoch. Je nach Veröffentlichungsvertrag können sie das auf ihrer privaten Homepage, einem institutionellen Repositorium oder auch auf Pre-Print Servern tun. Regelungen dazu können je Zeitschrift [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. | Positiv, wenn die veröffentlichte Version erneut veröffentlicht werden darf (seitengenau gleich und damit gut zitierfähig); Ist häufig jedoch nur für akzeptierte Version oder nach Ablauf eines Embargos möglich |
+| Closed | Publikationen sind nur gegen eine einmalige oder regelmäßige Gebühr lesbar. | Negativ: Forschung wird größtenteils auf Kosten der Gesellschaft (d. h. mittels Steuergeldern) durchgeführt und sollte darum auch allen zugänglich sein |
 
 : Open Access Typen, für nähere Informationen siehe <https://zenodo.org/records/8322048>
 
 ## Wer zahlt die Publikationskosten an der Universität Münster?
 
-Je nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im folgenden Prozessdiagramm veranschaulicht.
+Je nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im Folgenden Prozessdiagramm veranschaulicht.
 
 ![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg){.lightbox}
 
