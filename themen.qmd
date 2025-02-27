@@ -2,7 +2,7 @@
 title: "Themen und Ansprechpersonen"
 ---
 
-Der Bereich Open Science kann durch die Vielfalt schnell überfordern. Hier erhalten Sie eine kurze Zusammenfassung typischer Themen. Für einen Großteil der relevanten Aspekte hat die Universität Münster für ihre Angehörigen bereits Beratungsangebot. Scrollen Sie nach rechts, um Links zu den angegebenen Ansprechpersonen aufzurufen.
+Der Bereich Open Science kann durch die Vielfalt schnell überfordern. Hier erhalten Sie eine kurze Zusammenfassung typischer Themen. Für einen Großteil der relevanten Aspekte hat die Universität Münster für ihre Angehörigen bereits Beratungsangebote. Scrollen Sie nach rechts (Mausrad gedrückt halten), um Links zu den angegebenen Ansprechpersonen aufzurufen.
 
 ```{r}
 #| echo: false

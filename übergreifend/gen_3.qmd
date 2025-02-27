@@ -36,11 +36,14 @@ Im Folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es 
 
 Je nach Publikationstyp können Kosten unterschiedlicher Art und Höhe entstehen. Welche Instanz unter welchen Bedingungen die Kosten trägt, ist im Folgenden Prozessdiagramm veranschaulicht.
 
-![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.](/img/werzahlt.jpg){.lightbox}
+![Vereinfachte Beschreibung der Kostenaufteilung je nach Publikationstyp. Diese Darstellung enthält nicht alle denkbaren Varianten. Wenden Sie sich in spezifischen Fällen an die Open Access Beauftragten der Universität.\
+DFG: Deutsche Forschungsgemeinschaft\
+MPDL: Max Planck Digital Library\
+\*Eine Übersicht über Vereinbarungen mit verschiedenen Zeitschriften ist online verfügbar: <https://www.uni-muenster.de/Publizieren/open-access/wwu/verlage.html>](/img/werzahlt.jpg){.lightbox}
 
 ## Geldfluss im Publikationsprozess
 
-Wie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publikationen abläuft, ist Forschenden üblicherweise nicht klar noch ist es Teil der wissenschaftlichen Ausbildung. Das folgende Ablaufdiagramm veranschaulicht schematisch verschiedene Wege der Finanzierung. Die häufigsten sind dabei die Bezahlung von Verlagen bzw. Data Analytics Konzernen aus Steuergeldern über Mittel der Universität, welche intern zwischen Fachbereichen und der Bibliothek aufgeteilt werden oder über das DEAL-Konsortium.
+Wie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publikationen abläuft, ist Forschenden üblicherweise nicht klar, noch ist es Teil der wissenschaftlichen Ausbildung. Das folgende Ablaufdiagramm veranschaulicht schematisch verschiedene Wege der Finanzierung. Die häufigsten sind dabei die Bezahlung von Verlagen bzw. Data Analytics Konzernen aus Steuergeldern über Mittel der Universität, welche intern zwischen Fachbereichen und der Bibliothek aufgeteilt werden oder über das DEAL-Konsortium.
 
 ![Geldfluss im Publikationsprozess: Beschreibung des Geldflusses bei kostenpflichtigen Publikationen in der Wissenschaft. Der Großteil des Geldes stammt dabei aus Steuergeldern und geht an die Verlage bzw. Data Analytics Konzerne. Dicke Pfeile bezeichnen die häufigsten Wege.](/img/geldfluss_publikationsprozess.jpg){.lightbox}
 
@@ -54,6 +57,6 @@ Wie die Finanzierung von Publikationskosten im Fall von kostenpflichtigen Publik
 
 -   Informationen des DEAL-Konsortiums, weshalb CC BY die beste Wahl für Open-Access-Publikationen ist: <https://deal-konsortium.de/warum-ccby>
 
--   Interaktives und lebendiger Datensatz zu Publikationskosten deutscher Institutionen: <https://treemaps.openapc.net/apcdata/openapc/> bzw. [Daten von Münster](https://treemaps.openapc.net/apcdata/muenster-u/)
+-   Interaktiver und lebendiger Datensatz zu Publikationskosten deutscher Institutionen: <https://treemaps.openapc.net/apcdata/openapc/> bzw. [Daten von Münster](https://treemaps.openapc.net/apcdata/muenster-u/)
 
 -   Dashboard zum Tracking von Open Access Publikationen in Deutschland: <https://open-access-monitor.de>

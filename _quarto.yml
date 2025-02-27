@@ -25,6 +25,8 @@ website:
         text: Quantitative Forschung
       # - href: formal.qmd
       #   text: Formale Forschung
+      - href: themen.qmd
+        text: Themen und Ansprechpersonen
       - href: about.qmd
         text: Über die Infomodule
         
@@ -50,8 +52,7 @@ website:
          href: übergreifend/gen_3.qmd
        - text: "4. Forschungsergebnisse kommunizieren"
          href: übergreifend/gen_4.qmd
-       - text: "Themen und Anlaufstellen"
-         href: übergreifend/themen.qmd
+
 
    - id: quantitativ
      title: "Quantitative Forschung"

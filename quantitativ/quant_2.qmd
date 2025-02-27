@@ -9,7 +9,7 @@ title: "2. Materialien und Daten"
 ::: callout-tip
 ## In einem Satz
 
-Öffentlich zugängliche und sauber aufbereitete Forschungsmaterialien erhöhen die Nachvollziehbarkeit von Forschung und vereinfachen Replikations- und Reproduktionsversuche.
+Öffentlich zugängliche und sauber aufbereitete Forschungsmaterialien erhöhen die Nachvollziehbarkeit von Forschung und vereinfachen Reproduktion (erneute Prüfung mit denselben Daten) und Replikation (erneute Prüfung mit neuen Daten).
 :::
 
 ## Worum geht's?
