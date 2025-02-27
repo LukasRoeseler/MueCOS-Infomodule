@@ -14,7 +14,7 @@ Die Version eines Manuskriptes, die noch nicht von einer Zeitschrift begutachtet
 
 ## Worum geht's?
 
-Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte an ihren Manuskripten ab. In Extremfällen können Verlage Autor\*innen verbieten, Manuskripte einzureichen, die bereits als Pre-Prints verfügbar sind (z.B. um blind peer review garantieren zu können). Forschende sollten Gebrauch von Ihren Rechten machen, Pre-Prints zu veröffentlichen. Wie die Policy je Zeitschrift aussieht, kann [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. Pre-Prints zu veröffentlichen hat folgende Vorteile:
+Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte an ihren Manuskripten ab. In Extremfällen können Verlage Autor\*innen verbieten, Manuskripte einzureichen, die bereits als Pre-Prints verfügbar sind (z. B. um blind peer review garantieren zu können). Forschende sollten Gebrauch von Ihren Rechten machen, Pre-Prints zu veröffentlichen. Wie die Policy je Zeitschrift aussieht, kann [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. Pre-Prints zu veröffentlichen hat folgende Vorteile:
 
 -   Gute Wissenschaftliche Praxis: Forschung ist frei verfügbar und der Fortschritt [beschleunigt](https://asapbio.org/what-do-researchers-think-about-scholarly-publishing-five-key-takeaways-from-a-new-survey-by-coalition-s)
 
@@ -57,7 +57,7 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 **Open Access Modelle bei wissenschaftlichen Zeitschriften (siehe auch [AG Openness](https://zenodo.org/records/8322048))**
 
 | Typ | Regelung | Bewertung[^1] |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Diamond Open Access | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author Processing Charges) an | positiv |
 | Gold Open Access | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author Processing Charges, APC) an | positiv bei transparenter Begründung der APCs und gerechtfertigter Höhe |
 | Hybrid | Die Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr werden die veröffentlichten Artikel öffentlich zugänglich gemacht, sie sind also auch nach Ablauf der Subskription oder für andere Institutionen und Privatpersonen kostenlos lesbar. | negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription + Open Access |
@@ -121,7 +121,7 @@ Autor\*innen sollten mit einer standardisierten Taxonomy klar und transparent ko
 
 ## Worum geht's?
 
-Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artikel bestimmte Rolle verknüpft (z.B. Supervisor an letzter Stelle). Wenn die tatsächlichen Rollen nicht dem üblichen Muster entsprechen, kann das zum Nachteil der Mitwirkenden sein. Es ist daher zu empfehlen, Beiträge aller Autor\*innen klar zu beschreiben. Eine standardisierte Terminologie, welche bereits von einigen Zeitschriften gefordert wird, ist die Contributor Roles Taxonomy ([CRediT](https://credit.niso.org)).
+Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artikel bestimmte Rolle verknüpft (z. B. Supervisor an letzter Stelle). Wenn die tatsächlichen Rollen nicht dem üblichen Muster entsprechen, kann das zum Nachteil der Mitwirkenden sein. Es ist daher zu empfehlen, Beiträge aller Autor\*innen klar zu beschreiben. Eine standardisierte Terminologie, welche bereits von einigen Zeitschriften gefordert wird, ist die Contributor Roles Taxonomy ([CRediT](https://credit.niso.org)).
 
 -   Klare Zuweisung verschiedener Verantwortungen
 
@@ -129,11 +129,11 @@ Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artik
 
 -   Erleichterung von Evaluation einzelner Autor\*innen
 
--   Anerkennung von "Spezialrollen" wie z.B. "Statistiker\*in"
+-   Anerkennung von "Spezialrollen" wie z. B. "Statistiker\*in"
 
 -   Erleichterung von Meta-Wissenschaft
 
--   Erleichterung von nicht-traditionellen Forschungs-Outputs (z.B. Software, interdisziplinäre Zusamenarbeit)
+-   Erleichterung von nicht-traditionellen Forschungs-Outputs (z. B. Software, interdisziplinäre Zusamenarbeit)
 
 ## Publikationen
 

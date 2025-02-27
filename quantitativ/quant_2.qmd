@@ -92,7 +92,7 @@ Erstellen Sie eine Datei, in der Sie Angaben zu folgenden Kategorien machen:
 
 3.  Hintergrund der Studie: Theoretischer Hintergrund, Verweise auf Hintergrundliteratur, Zielsetzung, Fragestellung etc.
 
-4.  Stichprobenmerkmale: Details zur Gewinnung der Stichprobe z.B. Beschreibung der Zielpopulation, Power-Analyse, Ziehungsprozedur, finale Stichprobengröße etc.)
+4.  Stichprobenmerkmale: Details zur Gewinnung der Stichprobe z. B. Beschreibung der Zielpopulation, Power-Analyse, Ziehungsprozedur, finale Stichprobengröße etc.)
 
 5.  Gewichtungsverfahren: falls relevant: Beschreibung der Prozedur zur Gewinnung von Gewichtungsfaktoren
 
@@ -108,7 +108,7 @@ Erstellen Sie eine Datei, in der Sie Angaben zu folgenden Kategorien machen:
 
 11. Fördermittel, Förderkennzeichen
 
-12. Schlagworte zur inhaltlichen und methodischen Charakterisierung der Studie: z.B. Klinische Studie, Querschnittsstudie
+12. Schlagworte zur inhaltlichen und methodischen Charakterisierung der Studie: z. B. Klinische Studie, Querschnittsstudie
 
 13. Aus der Studie hervorgegangene Datensätze: Beschreibung der Datensätze und Verweis auf die entsprechenden Datensatz-Dateien
 
@@ -202,12 +202,12 @@ Daten können nur wiederverwendet werden, wenn Variablen und Werte klar in einem
 
 ## Worum geht's?
 
-In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen möglichen Werte beschrieben. Das ermöglicht die Weiterverwendung der Daten durch Dritte (beispielsweise Kollegen, Nachfolgen, oder andere Forschende). Je nach Programm gibt es die Möglichkeit, Variablen- und Werte-Labels zu ergänzen (z.B. in .sav Daten via SPSS[^1]). Alternativ kann eine Übersichtstabelle erstellt werden.
+In einem Codebook sind alle Variablen eines Datensatzes und die jeweiligen möglichen Werte beschrieben. Das ermöglicht die Weiterverwendung der Daten durch Dritte (beispielsweise Kollegen, Nachfolgen, oder andere Forschende). Je nach Programm gibt es die Möglichkeit, Variablen- und Werte-Labels zu ergänzen (z. B. in .sav Daten via SPSS[^1]). Alternativ kann eine Übersichtstabelle erstellt werden.
 
 [^1]: Mittels Open Source Software können auch solche Daten problemlos geöffnet werden.
 
 | Variablenname | Bedeutung | Mögliche Werte |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | id | Versuchspersonennummer | fortlaufende ganze Zahl |
 | v1 | Selbst berichtetes Geschlecht | 1 = weiblich, 2 = männlich, 3 = divers, 4 = möchte ich nicht sagen, -1 = fehlend |
 | age | Selbst berichtetes Alter in Jahren | ganze Zahl |
@@ -230,7 +230,7 @@ Offene und strukturierte Daten dienen als Grundlage zur Prüfung von wissenschaf
 
 Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwendet und geteilt werden können - die einzige Einschränkung betrifft je nach Lizenz die Verpflichtung zur Nennung des Urhebers/der Urheberin[**\[1\]**](https://confluence.uni-muenster.de/display/OS/Open+Data#_ftn1).* Ein weiterer Schritt stellen FAIRe Daten dar. FAIR steht dabei für:
 
--   Findable: Daten sollten auffindbar sein (z.B. über Meta-Daten mittels Suchmaschinen)
+-   Findable: Daten sollten auffindbar sein (z. B. über Meta-Daten mittels Suchmaschinen)
 
 -   Accessible: Daten können öffentlich und ohne Kosten geöffnet werden
 
@@ -438,7 +438,7 @@ Das folgende Beispiel ist bewusst einfach gehalten und soll verdeutlichen, dass 
 
 Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf Reproduzierbarkeit zu Prüfen. Autor\*innen werden dazu aufgefordert, ihren Code so zu gestalten, dass er auf Knopfdruck reproduzierbar ist (replicability und reproducibility werden hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichn:
 
--   Ergebnisse oder vollständige Manuskripte mit Markdown-Sprache schreiben (z.B. RMarkdown, Quarto)
+-   Ergebnisse oder vollständige Manuskripte mit Markdown-Sprache schreiben (z. B. RMarkdown, Quarto)
 
 -   Daten ins OSF hochladen und direkt von dort aus in Statistik-Programm einlesen, sodass zur Prüfung nur das Skript benötigt wird
 
@@ -446,7 +446,7 @@ Nach und nach folgen wissenschaftliche Zeitschriften dem Appell, Ergebnisse auf 
 
 -   Abbildungen und Tabellen aus dem Skript heraus speichern
 
--   Bei mehreren Studien, Skripte über ein Master-Skript ausführen lassen (in R z.B. via source() - funktioniert auch mit Skripten, die im OSF hochgeladen sind)
+-   Bei mehreren Studien, Skripte über ein Master-Skript ausführen lassen (in R z. B. via source() - funktioniert auch mit Skripten, die im OSF hochgeladen sind)
 
 -   Beispiel für Instruktionen zur Push-Button-Replicability für das Journal of Comments and Replications in Economics: <https://osf.io/qmkn6>
 
@@ -464,7 +464,7 @@ Mittels Lizenzen schreiben Forschende, die Daten, Berichte, Skripte, oder andere
 
 ## Worum geht's?
 
-Forschung zu veröffentlichen heißt (abgesehen bei Publikationen in kommerziellen Zeitschriften) nicht, dass Forschende alle ihre Rechte daran abtreten. Mittels Lizenzen kann bestimmt werden, wofür und in welcher Weise z.B. Daten verwendet werden dürfen. Dabei kann unter anderem bestimmt werden:
+Forschung zu veröffentlichen heißt (abgesehen bei Publikationen in kommerziellen Zeitschriften) nicht, dass Forschende alle ihre Rechte daran abtreten. Mittels Lizenzen kann bestimmt werden, wofür und in welcher Weise z. B. Daten verwendet werden dürfen. Dabei kann unter anderem bestimmt werden:
 
 -   Müssen die Autor\*innen zitiert werden?
 
@@ -490,7 +490,7 @@ Daten zu einzelnen Studien lassen sich auch alleinstehend bei darauf spezialisie
 
 ## Worum geht's?
 
-Für gewöhnlich bestehen Publikationen aus einer Frage, einer Antwort, und dazwischengeschalteten Studien mit jeweils dafür erhobenen Daten. In Fällen, bei denen eine Verwendung der Daten durch andere sinnvoll erscheint (z.B. Längsschnittstudien, Daten mit großen Stichproben, besondere Datenformate wie Liebesbriefe), bietet sich eine Datenpublikation an.
+Für gewöhnlich bestehen Publikationen aus einer Frage, einer Antwort, und dazwischengeschalteten Studien mit jeweils dafür erhobenen Daten. In Fällen, bei denen eine Verwendung der Daten durch andere sinnvoll erscheint (z. B. Längsschnittstudien, Daten mit großen Stichproben, besondere Datenformate wie Liebesbriefe), bietet sich eine Datenpublikation an.
 
 ## Weiterführende Informationen
 

@@ -146,7 +146,7 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 **5. Auswahl der Privatsphäre-Einstellungen Ihrer Registrierung**
 
--   Sie können im „Registration Choice" Menü zwischen „Make registration public immediately" und „Embargo registration up to 4 years" wählen. Nach Ablauf des Embargos ist Ihre Registrierung öffentlich und erscheint z.B. als Publikation bei Literatursuchen oder -alerts über Google Scholar.
+-   Sie können im „Registration Choice" Menü zwischen „Make registration public immediately" und „Embargo registration up to 4 years" wählen. Nach Ablauf des Embargos ist Ihre Registrierung öffentlich und erscheint z. B. als Publikation bei Literatursuchen oder -alerts über Google Scholar.
 
 -   Wenn Sie Ihre Registrierung noch nicht öffentlich machen möchten, wird ein „Embargo end date" Feld unter dem Menü erscheinen.
 
@@ -170,17 +170,17 @@ Im Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung a
 
 ### Registrierungsformulare
 
-Hier werden vier der am häufigsten gebrauchten Registrierungsformulare kurz vorgestellt. Dies soll einen kurzen Überblick über die abgefragten Themengebiete und den Umfang der Formulare geben. Möchten Sie in ein Registrierungsformular einen ausführlicheren Blick werfen, so finden Sie diese im Anhang. Zuerst wird hier das kürzeste und abschließend das ausführlichste Registrierungsformular behandelt. Diese Sortierung wird auch im Anhang beibehalten. Es gibt eine Reihe weiterer Formularvorlagen (siehe bspw. <https://osf.io/zg78t>[)]{.underline}. Natürlich können Sie sich auch ein persönliches, für Ihre Forschung maßgeschneidertes Präregistrierungstemplate zusammenbauen und dieses als open-ended registration oder in Ergänzung einer der anderen Registrierungsvorlagen hochladen. Präregistriert werden können sowohl konkrete Hypothesen als auch explorative Fragen, wobei sie jeweils als solche kenntlich gemacht werden sollten. Im Idealfall ist der Analsye-Plan mitsamt Analyse-Skript Teil der Präregistrierung, da ansonsten die Wahrscheinlichkeit groß ist, dass Entscheidungen nicht spezifiziert wurden (z.B. ob eine Hypothese gerichtet ist, welche genauen Einstellungen für ein statistisches Modell verwendet werden, usw.).
+Hier werden vier der am häufigsten gebrauchten Registrierungsformulare kurz vorgestellt. Dies soll einen kurzen Überblick über die abgefragten Themengebiete und den Umfang der Formulare geben. Möchten Sie in ein Registrierungsformular einen ausführlicheren Blick werfen, so finden Sie diese im Anhang. Zuerst wird hier das kürzeste und abschließend das ausführlichste Registrierungsformular behandelt. Diese Sortierung wird auch im Anhang beibehalten. Es gibt eine Reihe weiterer Formularvorlagen (siehe bspw. <https://osf.io/zg78t>[)]{.underline}. Natürlich können Sie sich auch ein persönliches, für Ihre Forschung maßgeschneidertes Präregistrierungstemplate zusammenbauen und dieses als open-ended registration oder in Ergänzung einer der anderen Registrierungsvorlagen hochladen. Präregistriert werden können sowohl konkrete Hypothesen als auch explorative Fragen, wobei sie jeweils als solche kenntlich gemacht werden sollten. Im Idealfall ist der Analsye-Plan mitsamt Analyse-Skript Teil der Präregistrierung, da ansonsten die Wahrscheinlichkeit groß ist, dass Entscheidungen nicht spezifiziert wurden (z. B. ob eine Hypothese gerichtet ist, welche genauen Einstellungen für ein statistisches Modell verwendet werden, usw.).
 
 ### **Gütekriterien einer Präregistrierung**
 
 Formulare sollten drei Gütekriterien entsprechen:
 
-1.  Vollständigkeit/Präzision: Sie sollten ihr gesamtes Forschungsvorhaben so detailliert wie möglich beschreiben, um sich selbst aller möglichen [Freiheitsgrade](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/full) zu berauben. Bereiten Sie idealerweise einen Analyseplan in Form eines unmissverständlichen Analyseskriptes vor. Wenn Sie z.B. nur sagen, dass Sie Variablen X und Y miteinander korrelieren werden, steigt der Alpha-Fehler von 5% auf über 10%, da Sie damit nicht die Alternativhypothese, Kontinuitätskorrektur, den genauen Korrelationskoeffizienten, usw. spezifiziert haben. Um das Analyseskript zu prüfen, können Sie z.B. Zufallsdaten simulieren oder ggf. Zufallsdaten über Ihre Fragebogensoftware generieren lassen.
+1.  Vollständigkeit/Präzision: Sie sollten ihr gesamtes Forschungsvorhaben so detailliert wie möglich beschreiben, um sich selbst aller möglichen [Freiheitsgrade](https://www.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2016.01832/full) zu berauben. Bereiten Sie idealerweise einen Analyseplan in Form eines unmissverständlichen Analyseskriptes vor. Wenn Sie z. B. nur sagen, dass Sie Variablen X und Y miteinander korrelieren werden, steigt der Alpha-Fehler von 5% auf über 10%, da Sie damit nicht die Alternativhypothese, Kontinuitätskorrektur, den genauen Korrelationskoeffizienten, usw. spezifiziert haben. Um das Analyseskript zu prüfen, können Sie z. B. Zufallsdaten simulieren oder ggf. Zufallsdaten über Ihre Fragebogensoftware generieren lassen.
 
 2.  Struktur: Andere Forschende und Peer-Reviewer sollten die nötigen Details möglichst schnell finden. Nutzen Sie ein Template mit klaren Überschriften, schreiben Sie keine langen Texte (außer beim Registered Report).
 
-3.  Passung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z.B. korrelative Studie / Experience Sampling / Experiment) und er Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.
+3.  Passung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z. B. korrelative Studie / Experience Sampling / Experiment) und er Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.
 
 **Open-Ended Registration**
 
@@ -214,11 +214,11 @@ In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von 
 
 Es kommt [sehr häufig](https://doi.org/10.31234/osf.io/nj4es) vor, dass Sie von Ihrer Präregistrierung abweichen müssen oder Teile unzureichend spezifiziert haben. Gründe für Abweichungen sind vielfältig, zum Beispiel:
 
--   In der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z.B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant).
+-   In der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z. B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant).
 
--   Ein Fehler war vorhanden (z.B. war im Analyseskript ein Programmierfehler, bei dem die falsche Variable genommen wurde).
+-   Ein Fehler war vorhanden (z. B. war im Analyseskript ein Programmierfehler, bei dem die falsche Variable genommen wurde).
 
--   Aufgrund der vorhandenen Daten, mussten Sie von Ihrem Plan abweichen (z.B. gab es zu wenige Versuchspersonen in einer der Untergruppen, sodass Sie diese Gruppe für eine Analyse ausschließen mussten).
+-   Aufgrund der vorhandenen Daten, mussten Sie von Ihrem Plan abweichen (z. B. gab es zu wenige Versuchspersonen in einer der Untergruppen, sodass Sie diese Gruppe für eine Analyse ausschließen mussten).
 
 In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie transparent damit umgehen. Erklären Sie in der Diskussion Ihres Artikels für jede Abweichung:
 
@@ -234,11 +234,11 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 -   Ja, das geht, so lange hinsichtlich der präregistrierten Aspekte relevante Ergebnisse noch nicht bekannt sind. Optimalerweise findet die Präregistrierung selbstverständlich vor dem Beginn der Datenerhebung statt -- dies ist aber nicht immer möglich, bspw. wenn eine eigene Datenerhebung bereits begonnen wurde oder abgeschlossen ist oder wenn es um die Sekundäranalyse bestehender Datensätze geht. Ziel der Präregistrierung ist es, Analyseentscheidungen, die auf bekannten Resultaten der betreffenden Daten basieren, zu vermeiden. Zentral ist Transparenz hinsichtlich des Stands der Datenerhebung, der Bekanntheit der Daten und etwaiger Voranalysen. Zum Beispiel kann spezifiziert werden, dass...
 
-    -   der Datensatz bereits besteht, allerdings noch nicht gesichtet wurde (z.B. liegt das Datum der Präregistrierung *vor* dem des Datennutzungsvertrages, den Sie mit einem Panelbetreiber abschließen).
+    -   der Datensatz bereits besteht, allerdings noch nicht gesichtet wurde (z. B. liegt das Datum der Präregistrierung *vor* dem des Datennutzungsvertrages, den Sie mit einem Panelbetreiber abschließen).
 
     -   der Datensatz bereits gesichtet und ggf. voranalysiert wurde (beispielsweise von einer anderen Institution), allerdings dem Forscher noch nicht zur Verfügung steht und dieser auch keine Informationen zur Sichtung und ggf. Voranalyse der Daten durch Dritte zur Verfügung stehen.
 
-    -   der Datensatz schon gesichtet wurde, allerdings noch keine Analysen, die die aktuelle Forschungsfrage betreffen, durchgeführt wurden. Es muss dann aber sehr klar beschrieben werden, welche Analysen bereits durchgeführt wurden und sichergestellt werden (z.B. mittles Analsyeskript oder Journal-Datei in SPSS), dass diese tatsächlich in keiner Weise informativ hinsichtlich der registrierten Hypothesen sind.
+    -   der Datensatz schon gesichtet wurde, allerdings noch keine Analysen, die die aktuelle Forschungsfrage betreffen, durchgeführt wurden. Es muss dann aber sehr klar beschrieben werden, welche Analysen bereits durchgeführt wurden und sichergestellt werden (z. B. mittles Analsyeskript oder Journal-Datei in SPSS), dass diese tatsächlich in keiner Weise informativ hinsichtlich der registrierten Hypothesen sind.
 
 -   Eine Präregistrierung ergibt keinen Sinn, wenn schon relevante Ergebnisse bekannt sind.
 
@@ -250,7 +250,7 @@ In allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie 
 
 ### **Gibt es Nachweise, dass Präregistrierung funktioniert?**
 
--   Ja, die Qualität von Registered Reports ist höher als die von Studien, die nach dem klassischen Publikationsmodell veröffentlicht wurden (<https://doi.org/10.1038/s41562-021-01142-4>). Präregistrierungen mit Analyseplan sind weniger anfällig für P-Hacking und Publikationsbias (<https://doi.org/10.1086/730455>). Vereinzelt haben Meta-Analysen Effektstärken von präregistrierten vs. nicht-präregistrierten Studien verglichen, wobei prä-registrierte Studien kleinere Effekte hatten (z.B. [Körner et al., 2022](https://doi.org/10.1037/bul0000356), S. 75).
+-   Ja, die Qualität von Registered Reports ist höher als die von Studien, die nach dem klassischen Publikationsmodell veröffentlicht wurden (<https://doi.org/10.1038/s41562-021-01142-4>). Präregistrierungen mit Analyseplan sind weniger anfällig für P-Hacking und Publikationsbias (<https://doi.org/10.1086/730455>). Vereinzelt haben Meta-Analysen Effektstärken von präregistrierten vs. nicht-präregistrierten Studien verglichen, wobei prä-registrierte Studien kleinere Effekte hatten (z. B. [Körner et al., 2022](https://doi.org/10.1037/bul0000356), S. 75).
 
 -   Ein Großteil aller Forschenden wendet Questionable Research Practices (QRP, <https://doi.org/10.1371/journal.pone.0304342>, <https://doi.org/10.1371%2Fjournal.pone.0263023>) und gefährdet damit Robustheit und Vertrauenswürdigkeit von Wissenschaft. Präregistrierungen sind ein einfaches und effizientes Mittel dagegen.
 

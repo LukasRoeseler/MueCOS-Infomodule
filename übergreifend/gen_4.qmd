@@ -6,9 +6,9 @@ Die transparente und breit zugängliche Kommunikation von Forschungsergebnissen 
 
 -   Verfassen von inhaltlich vertretbaren und verständlichen Pressemitteilungen und sonstigen Presseaktivitäten im Einklang mit Open Science-Prinzipien
 
--   Veröffentlichung von Lehrmaterialien über ein Repositorium (z.B. Zenodo)
+-   Veröffentlichung von Lehrmaterialien über ein Repositorium (z. B. Zenodo)
 
--   Verwendung bestehender Lehrmaterialien (z.B. Open Scholarship Knowledge Base)
+-   Verwendung bestehender Lehrmaterialien (z. B. Open Scholarship Knowledge Base)
 
 -   Erweiterung einer Publikation um Blog-Einträge, interaktive Analysen, oder Dashboards
 

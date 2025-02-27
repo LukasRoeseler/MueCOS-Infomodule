@@ -5,13 +5,19 @@ about:
   template: marquee
 ---
 
-Open Science bezeichnet die Bemühungen von Wissenschaftlerinnen und Wissenschaftlern, Forschung nachvollziehbarer und dadurch robuster zu gestalten. Spezifische Techniken werden in verschiedenen Disziplinen entwickelt und sind jeweils auf spezifische Problemstellungen zugeschnitten. Auf dieser Website finden Sie die **Infomodule zum Thema Open Science**, die einen Überblick über all diese Themen bieten sollen. Sie werden vom [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/index.html) bereitgestellt und verwaltet. Sie basieren teilweise auf den Informationssammlungen der Open Science Kommission Psychologie (<https://osf.io/x3s5c/>). Um Änderungen vorzuschlagen oder an diesem Projekt mitzuwirken, senden Sie eine E-Mail an die [Geschäftsführung des Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/personen/index.html).
+Open Science bezeichnet die Bemühungen von Wissenschaftlerinnen und Wissenschaftlern, Forschung nachvollziehbarer und dadurch robuster zu gestalten. Spezifische Techniken werden in verschiedenen Disziplinen entwickelt und sind jeweils auf spezifische Problemstellungen zugeschnitten. Auf dieser Website finden Sie die **Informationen zur Umsetzung von Open Science in verschiedenen Forschungsbereichen**.
+
+![](img/Open-Science-Kreislauf.png){.lightbox fig-alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: 1. Offene Dokumentation der Ableitung neuer Forschungsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation dre verwendeten Materialien und erhobenen Dtaen. 3. Offene Veröffentlichung der Forschugnsergebnisse. Und 4. offene Kommunikation der Forschungsergebnisse."}
 
 ::: callout-tip
-Wählen Sie den *Forschungstyp* in der Kopfleiste aus. Gehen Sie anschließend an den gewünschten Punkt des *Forschungszyklus* in der Seitennavigation am Rand. Falls Sie sich unsicher sind, klicken Sie oben rechts auf die Lupe, geben den Namen Ihres Fachs ein, und stöbern Sie los.
-:::
+## Navigation auf dieser Seite
 
-![Open Science-Kreislauf](img/Open-Science-Kreislauf.png){.lightbox fig-alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: 1. Offene Dokumentation der Ableitung neuer Forschungsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation dre verwendeten Materialien und erhobenen Dtaen. 3. Offene Veröffentlichung der Forschugnsergebnisse. Und 4. offene Kommunikation der Forschungsergebnisse."}
+Wählen Sie den in der Kopfleiste zwischen **Fächerübergreifenden Informationen** und spezifischen Bereichen. Gehen Sie anschließend an den gewünschten Punkt des *Forschungszyklus* in der linken Seitennavigation.
+
+-   Falls Sie sich unsicher sind, verschaffen Sie sich einen Überblick über [fächerübergreifende Informationen](https://lukasroeseler.github.io/MueCOS-Infomodule/fächerübergreifend.html).
+
+-   Falls Sie spezifische Informationen suchen (z.B. zu "Green Open Access"), klicken Sie oben rechts auf die Lupe und geben den Suchbegriff ein.
+:::
 
 ------------------------------------------------------------------------
 
