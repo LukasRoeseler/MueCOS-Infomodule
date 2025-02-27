@@ -9,18 +9,18 @@ title: "4. Forschungsergebnisse kommunizieren"
 ::: callout-tip
 ## In einem Satz
 
-Wissenschaftskommunikation bezeichnet das Berichten von Forschungsergebnissen innerhalb der Wissenschaft und für die öffentlichkeit
+Wissenschaftskommunikation bezeichnet das Berichten von Forschungsergebnissen innerhalb der Wissenschaft und für die Öffentlichkeit.
 :::
 
 ## Worum geht's?
 
-Entgegen dem Stereotyp des Elfenbeinturms ist nach Forschung und Lehre der Transfer ein bedeutender Bestandteil der wissenschaftlichen Tätigkeit, wofür zahlreiche Werkzeuge existieren. Damit werden Museen, Planetarien, Tage der offenen Tür, aber auch Interviews und Citizen Science gezählt.
+Entgegen dem Stereotyp des Elfenbeinturms ist der Transfer von neuen wissenschaftlichen Erkenntnissen in die Gesellschaft – neben Forschung und Lehre – ebenfalls eine zentrale wissenschaftliche Tätigkeit. Möglichkeiten des „wissenschaftlichen Transfers“ finden sich beispielsweise in Form von Museen, Planetarien, Tagen der offenen Tür aber auch Interviews und Citizen Science.
 
--   **Interviews**: Forschende können sich für Interview-Anfragen bei [Call a Scientist](https://call-a-scientist.org) registrieren
+-   **Interviews**: Forschende können sich für Interview-Anfragen bei [Call a Scientist](https://call-a-scientist.org) registrieren.
 
--   **Persönliche Websites und Blogs**: Mittels Github und RStudio können Forschende in wenigen Minuten eigene Websites erstellen
+-   **Persönliche Websites und Blogs**: Mittels Github und RStudio können Forschende in wenigen Minuten eigene Websites erstellen.
 
--   **Citizen Science**: Je nach Projekt können Bürgerinnen und Bürger in den Forschungsprozess mit einbezogen. Damit ist nicht allein die Erhebung von Daten aber auch die Verarbeitung, Auswertung, oder Interpretation gemeint.
+-   **Citizen Science**: Je nach Projekt können Bürger\*innen in den Forschungsprozess mit einbezogen werden. Damit ist nicht allein die Erhebung von Daten, sondern auch die Verarbeitung, Auswertung, oder Interpretation gemeint.
 
 ## Weiterführende Informationen
 
@@ -36,7 +36,7 @@ Open Educational Resources (OER) meint Bildungsressourcen, auf die alle Personen
 
 ## Worum geht's?
 
-Lehrmaterialien in Form von Vorlesungsfolien, Video-Aufzeichnungen Vorträge jeglicher Art, Skripten, usw. können über Repositorien wie Zenodo.org oder OSF.io einfach, wenn gewünscht mit bestimmten Lizenzen, und zitierbar geteilt werden. Das erlaubt Lernenden einen niedrigschwelligen Zugang und sorgt für die Inklusion von Personen, die aufgrund anderer Verpflichtungen nicht an bestimmten Veranstaltungen teilnehmen können.
+Lehrmaterialien in Form von Vorlesungsfolien, Video-Aufzeichnungen von Vorträgen jeglicher Art, Skripten, usw. können über Repositorien wie Zenodo.org oder OSF.io einfach, wenn gewünscht mit bestimmten Lizenzen und zitierbar geteilt werden. Das erlaubt Lernenden einen niedrigschwelligen Zugang und sorgt für die Inklusion von Personen, die aufgrund anderer Verpflichtungen nicht an bestimmten Veranstaltungen teilnehmen können.
 
 ## Weiterführende Informationen
 

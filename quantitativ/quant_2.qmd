@@ -40,12 +40,6 @@ Die akkurate Beschreibung der relevanten Methoden im Paper (Vorgehen und Begrün
 
 -   ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
 
-## Data Wiz ‑ Assistenzsystem für Forschungsdatenmanagement
-
-Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist gerade dabei, ein Assistenzsystem für das Management psychologischer Forschungsdaten mit dem Namen Data Wiz zu entwickeln (<https://datawiz.zpid.de/>). Data Wiz soll bei der systematischen Dokumentation aller Abläufe und Maße helfen. Die so systematisch gesicherten und dokumentierten Materialien können dann über ein Repositorium wie OSF zur Verfügung gestellt werden. Das Assistenzsystem befindet sich momentan in der öffentlichen Testphase und kann hier getestet werden: <https://datawizdemo.zpid.de/> .
-
-Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
-
 ## Lösungen
 
 Open Materials können auf sehr unterschiedliche Art und Weise, mit unterschiedlichsten Hilfsmitteln und in sehr unterschiedlichem Detailgrad bereitgestellt werden. Ziel sollte es jeweils sein, einen vollständigen Überblick der Methodik einer Studie zu geben (inkl. solcher Prozeduren und Variablen, die ggf. nicht in ein konkretes Paper eingeflossen sind) und hierüber eine angemessene Interpretation der Ergebnisse und eine direkte Replikation der Datenerhebung prinzipiell zu ermöglichen. Optimalerweise sollte eine direkte Verbindung mit Open Data gegeben sein, indem für jede in einem Codebook oder einer Variablenliste beschriebene Variable auch der im Datensatz verwendete Name angegeben wird.
@@ -130,8 +124,6 @@ Ein Beispiel für eine Variable könnte so aussehen:
 FAM_ZU Zufriedenheit mit der Familie (Filterfrage) "Wie zufrieden sind Sie im Augenblick mit Ihrer Familie?" {1;2;3;4} {97;98;99} 1 "nicht zufrieden" 2 "" 3 "" 4 "sehr zufrieden" 97 "fehlender Wert (Vp verweigert)" 98 "fehlender Wert (Vp weiß es nicht)" 99 "fehlender Wert (Frage nicht zutreffend)"
 ```
 
-Speichern Sie ihr Codebuch in einer Plaintext-Datei ab, oder erstellen Sie Ihr Codebuch mit einem Assistenzsystem wie MyPsych Data (<https://mypsychdata.zpid.de/register.php>)
-
 **Alternative Lösungen** bestehen darin, über Tabellen (in Excel oder Word) zu arbeiten, wobei jede Variable in einer Zeile und jeder Aspekt der Variablendokumentation (Name in Datensatz, Beschreibung, Wortlaut, Skala, Wertebereich, fehlende Werte) in einer Spalte repräsentiert ist.
 
 Falls mehrere Variablen zu einer Skala / einem Variablenblock gehören, ist es sinnvoll, diese Zugehörigkeit im Codebook kenntlich zu machen und zusätzliche **Informationen zur Verrechnung und Aggregation** der Variablen (ggf. inkl. nötige Rekodierungen) zu geben.
@@ -146,7 +138,7 @@ Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle Materialien) a
 
 ### **4. Dokumentation im Paper selbst**
 
-Die 21-word solution (Simmons et al., 2012) bietet eine etablierte und ökonomische Möglichkeit, die ohne großen Aufwand in jeden Methodenteil eines Manuskripts integriert werden kann (ggf. so adaptiert, dass sie korrekt ist).
+Die 21-word solution ([Simmons et al., 2012](https://dx.doi.org/10.2139/ssrn.2160588)) bietet eine etablierte und ökonomische Möglichkeit, die ohne großen Aufwand in jeden Methodenteil eines Manuskripts integriert werden kann (ggf. so adaptiert, dass sie korrekt ist).
 
 ::: callout-tip
 ## 21 word solution
@@ -243,7 +235,7 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 -   Poline, J. B., Breeze, J. L., Ghosh, S. S., Gorgolewski, K., Halchenko, Y. O., Hanke, M., & Ashburner, J. (2012). Data sharing in neuroimaging research. *Frontiers in neuroinformatics*, *6*, 9. <https://doi.org/10.3389/fninf.2012.00009>
 
--   [Schönbrodt, F., Gollwitzer, M. & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35.](http://www.dfg.de/download/pdf/foerderung/antragstellung/forschungsdaten/empfehlungen_forschungsdaten_psychologie.pdf)
+-   Schönbrodt, F., Gollwitzer, M. & Abele-Brehm, A. (2017). Der Umgang mit Forschungsdaten im Fach Psychologie: Konkretisierung der DFG-Leitlinien. *Psychologische Rundschau,* *68*, 20--35. <https://doi.org/10.1026/0033-3042/a000341>
 
 -   Spindler, G., & Hillegeist, T. (2011). Rechtliche Probleme der elektronischen Langzeitarchivierung von Forschungsdaten. In S. Büttner, H.-C. Hobohm & L. Müller (Hrsg.), *Handbuch Forschungsdatenmanagement* (S. 63-69). Bad Honnef: Bock und Herchen Verlag. Online verfügbar unter <https://univerlag.uni-goettingen.de/bitstream/handle/3/isbn-978-3-86395-066-8/GSI8_Hillegeist.pdf?sequence=1&isAllowed=y>
 
@@ -253,13 +245,9 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 -   FAIR Prinzipien: <https://www.go-fair.org/fair-principles/>
 
--   Datenmanagement und Data Sharing in der Psychologie: Einführung und Manual: <https://www.psychdata.de/downloads/PsychData-Handbuch_2013.pdf>
-
 -   Data Wiz - Ein Assistenzsystem für Forschungsdatenmanagement: <https://datawiz.zpid.de/>
 
--   ICPSR. (n.d.). Guide to social science data preparation and archiving: Phase 3: *Data collection and file creation*. Retrieved from <http://www.icpsr.umich.edu/icpsrweb/content/deposit/guide/chapter3quant.html>
-
--   Infos der zu Datenmanagementplänen: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/> und <http://www.forschungsdaten.org/index.php/Data_Management_Pl%C3%A4ne>
+-   Infos der zu Datenmanagementplänen: <http://www.forschungsdaten.org/index.php/Data_Management_Pl%C3%A4ne>
 
 -   Infos über Repositorien: <http://www.forschungsdaten.org/index.php/Repositorium> und <https://open-access.net/informationen-zu-open-access/repositorien/>
 
@@ -267,23 +255,17 @@ Open Data oder offene Daten sind Daten, *die von allen frei benutzt, weiterverwe
 
 -   Datenbank mit Datenrepositorien: [re3data.org](http://re3data.org/)
 
--   Daten über die Uni Münster publizieren: <https://www.uni-muenster.de/forschungsdaten/publizieren/>
+-   Daten über die Uni Münster publizieren: <https://www.uni-muenster.de/Publizieren/veroeffentlichung/forschungsdaten/>
 
 -   FAIR Aware Tool (Wissenstest zu FAIR): [https://fairaware.dans.knaw.nl](https://fairaware.dans.knaw.nl/)
 
 ## Workshops und Vorträge
 
--   MANTRA -  Research Data Management Training: <http://datalib.edina.ac.uk/mantra/>
-
--   Consortium of European Social Science Data Archives: Data Management ‑ Archive & Publish: <https://www.cessda.eu/Research-Infrastructure/Training/Expert-tour-guide-on-Data-Management/6.-Archive-Publish>
-
--   Open Data 101 introduction crash course: <http://www.opencon2017.org/open_data_101>
-
 -   Rechtliche Rahmenbedingungen bei der Anonymisierung von Daten: <https://osf.io/4e8bn/>
 
 ## Data Wiz ‑ Assistenzsystem für Forschungsdatenmanagement
 
-Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist gerade dabei, ein Assistenzsystem für das Management psychologischer Forschungsdaten mit dem Namen Data Wiz zu entwickeln (<https://leibniz-psychology.org/das-institut/drittmittelprojekte/datawiz-ii>). Data Wiz soll bei der systematischen Dokumentation von Forschungsdaten helfen. Die so systematisch gesicherten und dokumentierten Daten können dann über ein Repositorium wie OSF zur Verfügung gestellt werden.
+Das Leibniz-Zentrum für Psychologische Information und Dokumentation (ZPID) ist gerade dabei, ein Assistenzsystem für das Management psychologischer Forschungsdaten mit dem Namen Data Wiz zu entwickeln (<https://datawizkb.leibniz-psychology.org>). Data Wiz soll bei der systematischen Dokumentation aller Abläufe und Maße helfen. Die so systematisch gesicherten und dokumentierten Materialien können dann über ein Repositorium wie OSF zur Verfügung gestellt werden. Das Assistenzsystem befindet sich momentan in der Testphase.
 
 Das ZPID richtet sich momentan strategisch generell neu aus als Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts. Hierbei ist mittelfristig geplant, in ähnlicher Weise wie das OSF verschiedene Open Science Angebote der Projektplanung, -registrierung, -dokumentation, -durchführung, -archivierung und -veröffentlichung zu integrieren (siehe <http://leibniz-psychology.org/>).
 

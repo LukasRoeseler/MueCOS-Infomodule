@@ -9,12 +9,12 @@ title: "3. Forschungsergebnisse veröffentlichen"
 ::: callout-tip
 ## In einem Satz
 
-Die Version eines Manuskriptes, die noch nicht von einer Zeitschrift begutachtet wurde (bzw. zur Publikation abgelehnt wurde) heißt Pre-Print und sie zu veröffentlichen hat zahlreiche Vorteile für Forschenden.
+Die Version eines Manuskriptes, die noch nicht von einer Zeitschrift begutachtet wurde (bzw. zur Publikation abgelehnt wurde), heißt Pre-Print und sie zu veröffentlichen, hat zahlreiche Vorteile für Autor\*innen und Leser\*innen.
 :::
 
 ## Worum geht's?
 
-Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte an ihren Manuskripten ab. In Extremfällen können Verlage Autor\*innen verbieten, Manuskripte einzureichen, die bereits als Pre-Prints verfügbar sind (z. B. um blind peer review garantieren zu können). Forschende sollten Gebrauch von Ihren Rechten machen, Pre-Prints zu veröffentlichen. Wie die Policy je Zeitschrift aussieht, kann [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. Pre-Prints zu veröffentlichen hat folgende Vorteile:
+Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte an ihren Manuskripten ab. In Extremfällen können Verlage Autor\*innen verbieten, Manuskripte einzureichen, die bereits als Pre-Prints verfügbar sind (z. B. um blind peer review garantieren zu können). Forschende sollten Gebrauch von Ihren Rechten machen, Pre-Prints zu veröffentlichen. Wie die Policy je Zeitschrift aussieht, kann [hier](https://openpolicyfinder.jisc.ac.uk) (Open Policy Finder, ehem. Sherpa Romeo) nachgelesen werden. Pre-Prints zu veröffentlichen, hat folgende Vorteile:
 
 -   Gute Wissenschaftliche Praxis: Forschung ist frei verfügbar und der Fortschritt [beschleunigt](https://asapbio.org/what-do-researchers-think-about-scholarly-publishing-five-key-takeaways-from-a-new-survey-by-coalition-s)
 
@@ -25,7 +25,7 @@ Bei den meisten Verlagen treten Autor\*innen im Publikations-Prozess die Rechte 
 ::: callout-note
 ## Pre-Print vs. Post-Print
 
-Ein Manuskript für einen wissenschaftlichen Artikel oder ein Buch durchläuft von der ersten Version bis zur Veröffentlichung viele Versionen. Alle Varianten eines Manuskript, die nicht von einer Zeitschrift akzeptiert und darüber publiziert sind, heißen *Pre-Prints*. Im Gegensatz dazu werden publizierte Artikel auch *Post-Prints* genannt.
+Ein Manuskript für einen wissenschaftlichen Artikel oder ein Buch durchläuft von der ersten Version bis zur Veröffentlichung viele Versionen. Alle Varianten eines Manuskripts, die nicht von einer Zeitschrift akzeptiert und darüber publiziert sind, heißen *Pre-Prints*. Im Gegensatz dazu werden publizierte Artikel auch *Post-Prints* genannt.
 
 ![](images/manuskriptprozess-01.jpg){.lightbox}
 :::
@@ -36,7 +36,7 @@ Ein Manuskript für einen wissenschaftlichen Artikel oder ein Buch durchläuft v
 
 -   Pre-Print Server durchsuchen oder auf ihnen veröffentlichen: <https://osf.io/preprints>
 
--   Tool zum Prüfen der Pre-Print Policy nach Journal: <https://v2.sherpa.ac.uk/romeo/search.html>
+-   Tool zum Prüfen der Pre-Print Policy nach Journal: <https://openpolicyfinder.jisc.ac.uk>
 
 ------------------------------------------------------------------------
 
@@ -63,7 +63,7 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 | Hybrid | Die Zeitschrift hat ein Subskriptionsmodell (d.h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr werden die veröffentlichten Artikel öffentlich zugänglich gemacht, sie sind also auch nach Ablauf der Subskription oder für andere Institutionen und Privatpersonen kostenlos lesbar. | negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription + Open Access |
 | Moving Wall | Die Zeitschrift hat ein Subkriptionsmodell. Nach Ablauf einer festgelegten Frist (üblicherweise zwischen 6 und 48 Monaten) ist der Artikel frei verfügbar. | negativ: Forschung wird verlangsamt bzw. vor allem finanziell schwache Personen/Institutionen/Länder werden benachteiligt |
 | Promotional | Zur Bewerbung der Zeitschrift werden einzelne ausgewählte Publikationen frei verfügbar veröffentlicht. | negativ: *Open Washing* (Zeitschrift ist nicht offen und verwendet Modell nur, um sich selbst zu bewerben) |
-| Green | *Unabhängig von der Zeitschrift:* Autor\*innen machen von ihrem Zweitveröffentlichungsrecht gebraucht und laden das Manuskript im Internet hoch. Je nach Veröffentlichungsvertrag können sie das auf ihrer privaten Homepage, einem institutionellen Repositorium, oder auch auf Pre-Print Servern tun. Regelungen dazu können je Zeitschrift [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. | positiv: Forschung ist ohne Kosten und mit geringem Aufwand frei verfügbar |
+| Green | *Unabhängig von der Zeitschrift:* Autor\*innen machen von ihrem Zweitveröffentlichungsrecht Gebrauch und laden das Manuskript im Internet hoch. Je nach Veröffentlichungsvertrag können sie das auf ihrer privaten Homepage, einem institutionellen Repositorium oder auch auf Pre-Print Servern tun. Regelungen dazu können je Zeitschrift [hier](https://v2.sherpa.ac.uk/romeo/search.html) nachgelesen werden. | positiv: Forschung ist ohne Kosten und mit geringem Aufwand frei verfügbar |
 
 [^1]: Open Access ist per se unabhängig von der wissenschaftlichen Qualität. Gold OA kann von Verlagen genutzt werden, um mit geringer oder fehlender Qualitätskontrolle (Peer Review) viel Geld zu verdienen (*Predatory Publishing*). Hohe wissenschaftliche Qualität ist *nicht* am Impact Factor erkennbar, stattdessen sollten sich Forschende auf objektive Kriterien wie Transparenz (https://topfactor.org/journals), Reproducibility Checks, oder Open Peer Review verlassen.
 
@@ -79,7 +79,7 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 
 -   Das CERes veranstaltet jedes Semester gemeinsam mit der ULB einen Workshop zu [Open Access](https://www.uni-muenster.de/Publizieren/open-access/) publizieren (abwechselnd auf Deutsch und Englisch), aktuelle Workshopangebote sind online verfügbar: <https://www.uni-muenster.de/CERes/qualifizierung/workshops/index.html>
 
--   Film zu den Nachteilen der aktuellen Publikationskultur: [paywallthemovie.com](https://paywallthemovie.com)
+-   Film zu den Nachteilen der aktuellen Publikationskultur: <https://www.youtube.com/watch?v=C5lNqL87m64>
 
 ------------------------------------------------------------------------
 
@@ -90,14 +90,14 @@ Mit Open Access meinen Forschende in Bezug auf veröffentlichte Forschungsartike
 ::: callout-tip
 ## In einem Satz
 
-Verschiedene Forschenden-Communities organisieren Begutachtungsprozess von Pre-Prints und stellen somit die wissenschaftliche Qualitätskontrolle sicher.
+Verschiedene Forschenden-Communities organisieren den Begutachtungsprozess von Pre-Prints und stellen somit die wissenschaftliche Qualitätskontrolle sicher.
 :::
 
 ## Worum geht's?
 
-Peer Review, was durch Zeitschriften organisiert wird, ist häufig intransparent. Im Extremfall bleiben Reviewer und die Gutachten unter Verschluss, was [Review Mills](https://www.chemistryworld.com/news/review-mills-identified-as-a-new-form-of-peer-review-fraud/4018888.article) und Diskriminierung begünstigt. Dem wissenschaftlichen Interesse nach hoher Qualität steht das kommerzielle Interesse, viele Artikel zu veröffentlichen, entgegen. Inwiefern das amtierende Peer Review Modell zur wissenschaftliche Qualitätssicherung beiträgt ist umstritten daher.
+Peer Review, was durch Zeitschriften organisiert wird, ist häufig intransparent. Im Extremfall bleiben Reviewer und die Gutachten unter Verschluss, was [Review Mills](https://www.chemistryworld.com/news/review-mills-identified-as-a-new-form-of-peer-review-fraud/4018888.article) und Diskriminierung begünstigt. Dem wissenschaftlichen Interesse nach hoher Qualität steht das kommerzielle Interesse, viele Artikel zu veröffentlichen, entgegen. Inwiefern das amtierende Peer Review Modell zur wissenschaftliche Qualitätssicherung beiträgt, ist deswegen umstritten.
 
-Communities verschiedener Fächer nehmen daher die Qualitätskontrolle in Form des Peer Reviews selbst in die Hand. Über Plattformen wie PCI oder f1000research.com werden Pre-Prints begutachtet. Im PCI-System können sie optional nach einem positiven Review bei teilnehmenden Zeitschriften ohne weiteres Review veröffentlicht werden.
+Communities verschiedener Fächer nehmen die Qualitätskontrolle in Form des Peer Reviews selbst in die Hand. Über Plattformen wie PCI oder f1000research.com werden Pre-Prints begutachtet. Im PCI-System können sie optional nach einem positiven Review bei teilnehmenden Zeitschriften ohne weiteres Review veröffentlicht werden.
 
 ## Weiterführende Informationen
 
@@ -116,12 +116,12 @@ Communities verschiedener Fächer nehmen daher die Qualitätskontrolle in Form d
 ::: callout-tip
 ## In einem Satz
 
-Autor\*innen sollten mit einer standardisierten Taxonomy klar und transparent kommunizieren, welche Beteiligten für welche Inhalte verantwortlich sind.
+Autor\*innen sollten mit einer standardisierten Taxonomie klar und transparent kommunizieren, welche Beteiligten für welche Inhalte verantwortlich sind.
 :::
 
 ## Worum geht's?
 
-Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artikel bestimmte Rolle verknüpft (z. B. Supervisor an letzter Stelle). Wenn die tatsächlichen Rollen nicht dem üblichen Muster entsprechen, kann das zum Nachteil der Mitwirkenden sein. Es ist daher zu empfehlen, Beiträge aller Autor\*innen klar zu beschreiben. Eine standardisierte Terminologie, welche bereits von einigen Zeitschriften gefordert wird, ist die Contributor Roles Taxonomy ([CRediT](https://credit.niso.org)).
+Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artikel bestimmte Rollen verknüpft (z. B. Supervisor an letzter Stelle). Wenn die tatsächlichen Rollen nicht dem üblichen Muster entsprechen, kann das zum Nachteil der Mitwirkenden sein. Es wird daher empfohlen, Beiträge aller Autor\*innen klar zu beschreiben. Eine standardisierte Terminologie, welche bereits von einigen Zeitschriften gefordert wird, ist die Contributor Roles Taxonomy ([CRediT](https://credit.niso.org)).
 
 -   Klare Zuweisung verschiedener Verantwortungen
 
@@ -143,6 +143,6 @@ Je nach Fach sind mit den Reihenfolgen von Autor\*innen wissenschaftlicher Artik
 
 ## Weiterführende Informationen
 
--   Definition der Contributorship Rollen: <http://www.casrai.org/credit.html>
+-   Definition der Contributorship Rollen: <https://credit.niso.org>
 
 -   ShinyApp zur Erstellung einer CRediT Tabelle: <https://martonbalazskovacs.shinyapps.io/tenzing/>

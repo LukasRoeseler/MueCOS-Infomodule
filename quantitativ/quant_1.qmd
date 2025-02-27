@@ -198,7 +198,7 @@ In diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von 
 
 1.  Wurden bereits Daten für diese Studie erhoben? (Ja/Nein)
 
-2.  Was ist die hauptsächliche Frage, beziehungsweise Hypothese, die in dieser Studie gefragt/getestet wird?
+2.  Was ist die zentrale Frage, beziehungsweise Hypothese, die in dieser Studie untersucht wird?
 
 3.  Beschreiben Sie die wichtigste abhängige Variable und wie Sie erhoben werden wird.
 
@@ -398,7 +398,7 @@ Ein Datenmanagement-Plan (DMP) hilft, den Umgang mit Daten und Ergebnissen zu pl
 
 ## Worum geht's?
 
-*Diese Informationen stammen von der [DMP-Website](https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/) der Universität Münster.*
+*Diese Informationen stammen von der [DMP-Website](https://www.uni-muenster.de/Forschungsdaten/en/datenmanagement/organisieren/planen/) der Universität Münster.*
 
 Schon vor Beginn eines Forschungsvorhabens ist es wichtig und hilfreich, den Umgang mit anfallenden Daten und Ergebnissen für die kommende Arbeitsphase vorauszuplanen. Ein geeignetes Werkzeug hierfür ist der Datenmanagementplan (DMP), in dem Rahmenbedingungen und konkrete Strategien zu Erstellung und Verarbeitung, zu Umfang und Sicherung sowie ggf. späterer Veröffentlichung der anfallenden Forschungsdaten definiert und dokumentiert werden.
 
@@ -406,7 +406,7 @@ Ein DMP kann in einigen Disziplinen oder Förderlinien eine Voraussetzung für d
 
 ## Weiterführende Informationen
 
--   Infos der Universität Münster: <https://www.uni-muenster.de/Forschungsdaten/organisieren/datenmanagementplan/>
+-   Infos der Universität Münster: <https://www.uni-muenster.de/Forschungsdaten/en/datenmanagement/organisieren/planen/>
 
 ------------------------------------------------------------------------
 
@@ -422,9 +422,9 @@ Beim Publikationsformat *Registered Report* wird die Zuverlässigkeit von Forsch
 
 ## Worum geht's?
 
-Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Preregistered Reports durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachtenden tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
+Registered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Registered Reports (manchmal auch **Pre**registered Reports genannt) durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachtenden tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance", d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.
 
-Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forschendeist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://cos.io/rr/?_ga=1.182696367.885338256.1493454749#resources) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
+Die Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forschendeist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie [hier](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit?gid=0#gid=0) einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.
 
 ![Forschungsprozess bei Registered Reports](/img/registeredreport_process.png){.lightbox fig-alt="Pfeile mit Text darin. Develop Idea, Design study, collect and analyze data, write report, publish report. Zwischen design study und collect and analyze data steht \"stage 1 peer review\". Zwischen write report und publish report steht \"stage 2 peer review\"."}
 
