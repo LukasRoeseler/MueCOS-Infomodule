@@ -46,7 +46,9 @@ Eine Präregistrierung beschreibt den vollständigen Plan der Studiendurchführu
 
 ## Worum geht's?
 
-Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, und Analyseskripte vor der Durchführung einer Studie zu spezifizieren. Dabei wird im Idealfall jede Studie, bei welcher es zu testende Hypothesen gibt, präregistriert und in der Präregistrierung werden alle konfirmatorischen (d.h. geplanten) Tests beschrieben. Dies ist zu verschiedenen Zeitpunkten möglich (vor, während oder nach der Datenerhebung). Am wünschenswerten ist die Präregistrierung *vor* der Datenerhebung, entscheidend ist allerdings der transparente Umgang mit dem gewählten Vorgehen. Präregistrierungen gibt es von sehr kurzen bis sehr detaillierten Varianten. In der Form sogenannter *Registered Reports* können ausführliche Präregistrierungen bei einer [steigenden Anzahl an Journals](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0) vor der Datenerhebung als Paper eingereicht werden. Also ganz kurz in 5 Punkten - **Präregistrierung**...
+Bei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden, und Analyseskripte vor der Durchführung einer Studie zu spezifizieren. Dabei wird im Idealfall jede Studie, bei welcher es zu testende Hypothesen gibt, präregistriert und in der Präregistrierung werden alle konfirmatorischen (d.h. geplanten) Tests beschrieben. Dies ist zu verschiedenen Zeitpunkten möglich (vor, während oder nach der Datenerhebung). Am wünschenswerten ist die Präregistrierung *vor* der Datenerhebung, entscheidend ist allerdings der transparente Umgang mit dem gewählten Vorgehen. Präregistrierungen gibt es von sehr kurzen bis sehr detaillierten Varianten. In der Form sogenannter *Registered Reports* können ausführliche Präregistrierungen bei einer [steigenden Anzahl an Journals](https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit#gid=0) vor der Datenerhebung als Paper eingereicht werden. Also ganz kurz in 5 Punkten -
+
+**Präregistrierung**...
 
 1.  macht klar, was im Vorfeld zu einer Studie geplant und vermutet war und was nicht.
 
