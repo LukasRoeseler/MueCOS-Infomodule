@@ -21,7 +21,7 @@ Das MüCOS bündelt die Expertise zur transparenten Veröffentlichung von Forsch
 Im Folgenden werden die häufigsten Open Access Typen genannt, erklärt, und es werden MüCOS-Empfehlungen zu ihrer Verwendung ausgesprochen.
 
 | Typ | Regelung | Bewertung im Hinblick auf Zugänglichkeit und Kosten von Wissen |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Diamond | Alle Publikationen sind kostenlos lesbar, es fallen **keine** Publikationskosten (Author/Book Processing Charges) an | Positiv |
 | Gold | Alle Publikationen sind kostenlos lesbar, es fallen Publikationskosten (Author/Book Processing Charges, APC/BPC) an. | Positiv bei transparenter Begründung der APC/BPCs und gerechtfertigter Höhe (z. B. Kosten in Höhe von 500€ zur Finanzierung einer gemeinnützigen Organisation und Bezahlung des Type-Settings). |
 | Hybrid | Die Zeitschrift hat ein Subskriptionsmodell (d. h. die Universität zahlt jährliche Kosten dafür, dass Universitätsangehörige Zugriff auf die Literatur haben). Gegen eine Gebühr können Artikel „freigekauft" und auf Open Access gestellt werden; nur diese Artikel sind dann kostenlos lesbar, die anderen verbleiben hinter der Subskriptions-Pay-Wall. | Negativ wegen "Double Dipping" - Universitäten zahlen dann doppelt: für Subskription (=Lese-Zugriff) + Open Access |

@@ -1,0 +1,64 @@
+---
+title: "Open Access: All you need to know"
+---
+
+# Test
+
+Scientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:
+
+-   Choosing Open Access options for a given target journal (e.g., Moving Wall vs. Green Open Access)
+
+-   Publishing a study with open peer review via a Peer-Community-In platform in microbiology
+
+-   Selecting a pre-print server for an epidemiological study
+
+-   Transparent reporting of author contributions using standardized taxonomies (e.g., CRediT)
+
+-   Establishing a Diamond Open Access journal led by researchers
+
+MüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on Open Access and digital publishing, manages numerous Open Access journals, the publication server Miami, and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the Open Journal System.
+
+## **Main Types of Open Access**
+
+The following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.
+
+| **Type** | **Regulation** | **Assessment in Terms of Accessibility and Cost of Knowledge** |
+|----|----|----|
+| Diamond | All publications are freely accessible; **no** publication costs (Author/Book Processing Charges) are incurred. | Positive |
+| Gold | All publications are freely accessible; publication costs (Author/Book Processing Charges, APC/BPC) are incurred. | Positive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs). |
+| Hybrid | The journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall. | Negative due to "double dipping" – universities pay twice: for the subscription (= reading access) plus Open Access. |
+| Moving Wall | The journal has a subscription model. After a specified period (typically between 6 and 48 months), the article becomes freely accessible. | Negative: Research is slowed down, and especially financially weak individuals/institutions/countries are disadvantaged. |
+| Promotional | Selected publications are made freely available to promote the journal. | Negative: Open Washing (the journal itself is not open and uses the model only for self-promotion). |
+| Green | Independently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal [**here**](https://v2.sherpa.ac.uk/romeo/search.html). | Positive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period. |
+| Closed | Publications are only accessible against a one-time or recurring fee. | Negative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone. |
+
+: Open Access types, for more information see \<[**https://zenodo.org/records/8322048\>**](https://zenodo.org/records/8322048)
+
+## **Who Pays the Publication Costs at the University of Münster?**
+
+Depending on the type of publication, costs of various kinds and amounts may arise. Which entity covers the costs under which conditions is illustrated in the following process diagram.
+
+\![Simplified description of cost allocation depending on the type of publication. This diagram does not cover all possible variants. In specific cases, contact the Open Access representatives of the university.\
+DFG: German Research Foundation\
+MPDL: Max Planck Digital Library\
+\*An overview of agreements with various journals is available online: \<[**https://www.uni-muenster.de/Publizieren/open-access/wwu/verlage.html\>\](/img/werzahlt.jpg){.lightbox}**](https://www.uni-muenster.de/Publizieren/open-access/wwu/verlage.html%3E](/img/werzahlt.jpg)%7B.lightbox%7D)
+
+## **Cash Flow in the Publication Process**
+
+How the financing of publication costs works for fee-based publications is usually unclear to researchers and is not part of scientific training. The following flowchart schematically illustrates various ways in which financing can occur. The most common are payments to publishers or data analytics corporations from public funds via the university, which are internally split between departments and the library, or via the DEAL consortium.
+
+![Cash flow in the publication process: Illustration of the flow of money for fee-based publications in academia. The majority of funds come from public money and go to publishers or data analytics corporations. Thick arrows indicate the most common paths.](https://gpt.uni-muenster.de/img/geldfluss_publikationsprozess.jpg){alt="Cash flow in the publication process: Illustration of the flow of money for fee-based publications in academia. The majority of funds come from public money and go to publishers or data analytics corporations. Thick arrows indicate the most common paths."}{.lightbox}
+
+## **Further Information**
+
+-   Comprehensive tool for comparing various journal policies: \<[**https://finder.open-access.network\>**](https://finder.open-access.network/)
+
+-   Portal for searching numerous preprint servers: \<[**https://osf.io/preprints\>**](https://osf.io/preprints)
+
+-   Portal for searching Open Access journals including information on licenses and publication fees: \<[**https://doaj.org\>**](https://doaj.org/)
+
+-   Information from the DEAL Consortium on why CC BY is the best choice for Open Access publications: \<[**https://deal-konsortium.de/warum-ccby\>**](https://deal-konsortium.de/warum-ccby)
+
+-   Interactive and live dataset of publication fees at German institutions: \<[**https://treemaps.openapc.net/apcdata/openapc/\>**](https://treemaps.openapc.net/apcdata/openapc/) or [**Münster data**](https://treemaps.openapc.net/apcdata/muenster-u/)
+
+-   Dashboard for tracking Open Access publications in Germany: \<[**https://open-access-monitor.de\>**](https://open-access-monitor.de/)

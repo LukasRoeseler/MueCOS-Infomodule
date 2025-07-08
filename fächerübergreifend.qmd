@@ -9,7 +9,7 @@ Hier finden Sie einen Überblick über fächerübergreifende Informationen zu Op
 Forschende an Hochschulen werden aus Steuergeldern für ihre Arbeit bezahlt, sie arbeiten also im Auftrag der Gesellschaft. Dass sie mit den ihnen zugewiesenen Mitteln verantwortungsvoll umgehen und Mitglieder der Gesellschaft davon profitieren, ist also die Grundlage von Wissenschaft. Fächerübergreifend werden zahlreiche Probleme diskutiert, nach denen Wissenschaft nicht funktioniert, wie sie es sollte. Open Science ist ein Überbegriff für Lösungsansätze dieser Probleme.
 
 | Problem | Lösungsansätze |
-|------------------------------------|------------------------------------|
+|----|----|
 | Hohe Publikationskosten | Bereitstellung von Publikationsinfrastrukturen für Diamond Open Access Zeitschriften, Förderung von Open Access Publikationen, Zweitveröffentlichungen in Form von Pre-Prints, Verhandlung mit Verlagen über Konsortien (z. B. U15, DEAL) |
 | Geringes Vertrauen in Wissenschaft | Höhere Transparenz von Forschung (z. B. durch offene und interaktive Datenbanken), Erklärung von wissenschaftlichen Tätigkeiten im Rahmen von Wissenschaftskommunikation, Involvierung von Bürger\*innen in den Forschungsprozess im Rahmen von Citizen Science |
 | Machtmissbrauch | Auflösung von Doppelabhängigkeiten, Thematisierung von hierarchischen Strukturen gemeinsam mit Wissenschaftler\*innen früher Karrierephasen |
@@ -24,7 +24,7 @@ Forschende an Hochschulen werden aus Steuergeldern für ihre Arbeit bezahlt, sie
 Aus wissenschaftlicher Perspektive können Forschungsgegenstände auf vielerlei Weise beschrieben werden. Alle Fächer im Hinblick auf die Relevanz verschiedener Open Science-Facetten gleich zu behandeln, würde der Heterogenität nicht gerecht. Alle Fächer einzeln zu diskutieren, würde zu großen Redundanzen führen und Synergie-Effekte verhindern. Wir haben uns daher entschieden, spezifische Open Science-Lösungen nach drei *Forschungstypen* aufzuteilen. Forschungstypen lassen sich nicht klar und eindeutig den Fächern zuordnen: Während einige Fächer einen klaren Forschungstyp aufweisen (z. B. vorwiegend quantitative Forschung in der Verhaltensökonomie), ist es in anderen Bereichen gemischt (z. B. qualitative und quantitative Ansätze in der Soziologie oder qualitative Interpretationen und formale Logik in der Philosophie). Je Bereich führen wir auf den Hauptseiten einige Fächer beispielsweise auf, in denen die jeweiligen Herangehensweisen Verwendung finden.
 
 | Qualitativ | Quantitativ | Formal |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | in Sprache, Bildern, oder Tönen ausgedrückt | in Zahlen ausgedrückt | in Formeln ausgedrückt |
 
 : Definition der drei Forschungstypen über den Ausdruck der untersuchten Phänomene
