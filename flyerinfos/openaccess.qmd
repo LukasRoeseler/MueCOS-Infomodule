@@ -88,7 +88,7 @@ To assess whether a journal is predatory, you can follow these steps:
 
 2.  Check the [Norwegian Scientific Index](https://kanalregister.hkdir.no/forlag?id=26841) if the journal or publisher is academic.
 
-3.  Further resources such as the [DOAJ](https://doaj.org/search/journals?ref=homepage-box&source=%7B"query"%3A%7B"query_string"%3A%7B"query"%3A"Frontiers"%2C"default_operator"%3A"AND"%2C"default_field"%3A"bibjson.publisher.name"%7D%7D%2C"track_total_hits"%3Atrue%7D) (has a very low bar for journals to be indexed) or the website [Predatory Journals](https://www.predatoryjournals.org) (has anonymous authors and intransparent rating systems) may provide additional insights.
+3.  Further resources such as the [DOAJ](https://doaj.org/search/journals?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Frontiers%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.publisher.name%22%7D%7D%2C%22track_total_hits%22%3Atrue%7D) (has a very low bar for journals to be indexed) or the website [Predatory Journals](https://www.predatoryjournals.org) (has anonymous authors and intransparent rating systems) may provide additional insights.
 
 ## **The Prisoner's Dilemma of OA Publishing**
 
