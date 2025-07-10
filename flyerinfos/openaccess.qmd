@@ -5,9 +5,9 @@ title: "Open Access: All you need to know"
 ::: callout-tip
 *This is a narrative summary of the most important Open Access infos for researchers and part of the [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/en/index.html)'s info materials.*
 
--   *OA flyer: \[ADD LINK\]*
+-   [*OA flyer*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_flyer.pdf)
 
--   *OA cheat sheet: \[ADD LINK\]*
+-   [*OA cheat sheet*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_cheatsheet.pdf)
 :::
 
 Scientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:
@@ -43,7 +43,7 @@ There are numerous types of open access that differ with respect to:
 The following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.
 
 | **Type** | **Regulation** | **Assessment in Terms of Accessibility and Cost of Knowledge** |
-|----|----|----|
+|------------------------|------------------------|------------------------|
 | Diamond (Gold with APC = 0) | All publications are freely accessible; **no** publication costs (Author/Book Processing Charges) are incurred. | Positive |
 | Gold | All publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC). | Positive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs). |
 | Hybrid | The journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall. | Negative due to "double dipping" – universities pay twice: for the subscription (= reading access) plus Open Access. |
@@ -90,9 +90,9 @@ To assess whether a journal is predatory, you can follow these steps:
 
 3.  Further resources such as the [DOAJ](https://doaj.org/search/journals?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Frontiers%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.publisher.name%22%7D%7D%2C%22track_total_hits%22%3Atrue%7D) (has a very low bar for journals to be indexed) or the website [Predatory Journals](https://www.predatoryjournals.org) (has anonymous authors and intransparent rating systems) may provide additional insights.
 
-## **The Prisoner's Dilemma of OA Publishing**
+## **The Prisoner's Dilemma of Publishing**
 
-In many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and [resignations of entire editorial boards](https://retractionwatch.com/the-retraction-watch-mass-resignations-list/). In other words, early career researchers' academic success can rely on publications in expensive journals. For example, a publication in Nature Human Behavior costs more than € 10,000.00. Beware that you may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., [SF DORA](sfdora.org), [CoARA](https://coara.eu)) but are relatively likely to reward publications in high impact journals over open access publications.
+In many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and [resignations of entire editorial boards](https://retractionwatch.com/the-retraction-watch-mass-resignations-list/). In other words, early career researchers' [academic success can rely on publications](https://doi.org/10.1177/1745691612459060) in [prestigious and expensive](https://doi.org/10.1162/qss_a_00015) journals. For example, a publication in the prestigious journal *Nature Human Behavior* costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., [SF DORA](#0), [CoARA](#0)) but are relatively likely to reward publications in high impact journals over open access publications.
 
 ## **Further Information**
 
