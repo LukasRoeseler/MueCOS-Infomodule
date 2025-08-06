@@ -1,0 +1,115 @@
+---
+title: "Preregistrations: All you need to know"
+---
+
+::: callout-tip
+*This is a narrative summary of the most important Preregistration infos for researchers. It is part of the [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/en/index.html)'s info materials.*
+
+-   *Preregistration flyer*
+
+-   *Preregistration cheat sheet*
+:::
+
+More and more researchers in the social, behavioral and cognitive sciences are required to preregister their studies or choose to do so to increase transparency and robustness. The MüCOS offers advice on how to preregister, such as workshops and this brief guide since preregistrations have multiple advantages and almost no disadvantage:
+
+-   Clarify what was planned and predicted
+
+-   Improve credibility and replicability
+
+-   Establish intellectual ownership
+
+-   Receive guidance for empirical studies
+
+::: callout-note
+[**FORRT Glossary Definition of Preregistration**](https://forrt.org/glossary/english/preregistration)(Parsons et al., 2022):
+
+-   **The practice of publishing the plan for a study, including research questions/hypotheses, research design, data analysis before the data has been collected or examined.**
+
+-   \[...\] A preregistration document is time-stamped and typically registered with an independent party (e.g., a repository) so that it can be publicly shared with others (possibly after an embargo period).
+
+-   Preregistration provides a transparent documentation of what was planned at a certain time point, and allows third parties to assess what changes may have occurred afterwards. The more detailed a preregistration is, the better third parties can assess these changes and with that the validity of the performed analyses.
+
+-   Preregistration aims to clearly distinguish confirmatory from exploratory research.
+:::
+
+## The Problem: Garden of Forking Paths
+
+A common metaphor used to explain preregistration is the "garden of forking paths." This metaphor relates to the research process, or more specifically, to the journey researchers take from *raw data* to the *final results*. This journey is not a straight line, but rather a path filled with many decisions. For many of these decisions, there is no clear "right" or "wrong" but several routes are possible. At the same time, different paths often lead to different outcomes. The purpose of preregistration is not to find the perfect path, but to **plan a reasonable and justifiable path in advance**. The choice of this path should be based on considerations that are independent of the observed results. In other words, preregistration helps researchers avoid choosing the analytical route that simply suits them best after seeing the data.
+
+Flexibility in choice of analyses is suspected to be one of the many intertwined reasons for **low rates of replication and reproduction success** across sciences (see the [Wikipedia article](https://en.wikipedia.org/wiki/Replication_crisis#Prevalence) for prevalence in Psychology, Medicine, Economics, etc.)
+
+## Myths of Preregistrations
+
+| Myths | Facts |
+|----|----|
+| Ps are laborious. | If done correctly, Ps can save work because only one analysis is conducted. |
+| Ps allow scooping from other researchers. | Researchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY). |
+| Ps prohibit researchers from conducting exploratory analyses and restrict creativity. | Ps allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory. |
+| Journals do not value Ps. | As of February 2025, [125 journals](topfactor.org/journals?factor=Study+Preregistration) require authors to disclose whether the study they report was preregistered. Check your journal's guidelines for authors. |
+
+## Best Practices
+
+-   **Comprehensiveness**: Try to plan every detail of the study that, if decided upon later, can affect the results. Choose between [over 20 templates](https://osf.io/7xrn9) for guidance in what to determine. Ideally, finish your study's analysis script (e.g., R or Python script, SPSS syntax) and attach the file to the preregistration.
+
+-   **Structure**: To facilitate review of the preregistration or comparison between planned and conducted analyses, you can use a template. There are [over 20 templates](https://osf.io/7xrn9) for many types of studies. They can also guide you in planning (e.g., suggest parts of the research design that you need to consider).
+
+-   **Transparency**: Be as transparent as possible with respect to your plans. If needed, create an anonymized view-only link for blind peer review. Make the preregistration publicly accessible at the moment of publication or earlier and link to it from the corresponding research article.
+
+-   **Updates:** If you notice necessary changes before starting data collection, you can update the preregistration. If data collection is already underway or you are using secondary data, you can simply deviate.
+
+-   **Deviations**: Difficult to see the future is. In up to 90% of all studies, there will be at least one deviation. You should discuss all deviations from the preregistration in three respects: **How did you deviate** (e.g., corrected a coding error)? **Why did you deviate** (e.g., preregistered code did not run)? **How did it affect the results** (allowed to run the code)? This also applies to cases where you had not not specified anything.
+
+## Where to preregister?
+
+-   [OSF Registries](https://osf.io/registries): Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science
+
+-   [ZPID PreReg Service](https://prereg-psych.org): Primarily for psychological research and maintained by the Leibniz Institute for Psychology.
+
+-   [Aspredicted.org](https://aspredicted.org) \[not recommended\]: Fixed template with too few questions, maintained by researchers from the US University of Pennsylvania
+
+Further services such as [Prospero](https://www.crd.york.ac.uk/prospero), the [German Clinical Trials Register (DRKS)](https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html) or [ClinicalTrials.gov](https://clinicaltrials.gov) primarily serve other services but can serve as preregistration platforms as well.
+
+**FAQs**
+
+**Q: What should I do if a reviewer asks me to deviate from my preregistration?**\
+A: If they provide a good reason, make the change but clearly discuss the deviation and check whether it leads to different results.
+
+**Q: What should I do if I want to publish a study that was not preregistered?**\
+A: Conduct another preregistered study or compensate for the missing preregistration by increasing transparency.
+
+**Q: Are there other ways to know if I can trust a finding besides checking whether it was preregistered?**\
+A: Yes; you can use p-curve analysis, check if unusually many results are significant, consider plausibility of effect sizes, analyze available data, look for unpublished replications, and more.
+
+**Q: What if I get null results and cannot tweak my results so they are significant and publishable?**\
+A: Tweaking results (also known as p-hacking) is a questionable research practices that you should never apply. There are journals that publish good research regardless of results, some even use results-blind peer review, and you can submit as a registered report if you expect a null finding. In these cases, beware of predatory publishers and commercial open access journals ([see also Open Access infos](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html)).
+
+**Q: Can I still do exploratory analyses?**\
+A: Yes, just make sure to clearly label which analyses are confirmatory and which are exploratory.
+
+**Q: Can other people steal my idea by browsing preregistrations?**\
+A: First, you can put your preregistration under embargo and release it when you choose (consider that it may benefit science if others replicate or build on your idea). Second, you can assign a license to your preregistration which requires others to cite it (e.g., CC-BY).
+
+**Q: What should I do if my co-authors object to preregistering our study?**\
+A: Discuss their reasons and concerns. If they insist on using questionable research practices, reconsidedr the collaboration.
+
+## **Further reading**
+
+-   Brodeur, A., Cook, N. M., Hartley, J. S., & Heyes, A. (2024). Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement. *Journal of Political Economy Microeconomics*, *2*(3), 527-561. <https://doi.org/10.1086/730455>
+
+-   Mellor, D. T. (2017, September 23). Preregistration and increased transparency will benefit science. <http://doi.org/10.20316/ESE.2017.43.018>
+
+-   Nosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2017, August 24). The preregistration revolution. Retrieved from [osf.io/2dxu5](http://osf.io/2dxu5)
+
+-   Nosek, B. A., & Lakens, D. (2016, August 15). Registered reports: A method to increase the credibility of published reports. Retrieved from [psyarxiv.com/mgxyg](http://psyarxiv.com/mgxyg)
+
+-   Parsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. *Nature Human Behaviour, 6*(3), 312-318. <https://doi.org/10.1038/s41562-021-01269-4>
+
+-   Simmons, J. P., Nelson, L. D., & Simonsohn, U. (2021). Pre‐registration is a game changer. But, like random assignment, it is neither necessary nor sufficient for credible science. *Journal of Consumer Psychology*, *31*(1), 177-180. <http://dx.doi.org/10.1002/jcpy.1207>
+
+-   Soderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., … & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. *Nature Human Behaviour*, *5*(8), 990-997. <https://doi.org/10.1038/s41562-021-01142-4>
+
+## **Workshops and Materials**
+
+-   MüCOS/CERes Workshop on Preregistration: <https://osf.io/64teq>
+
+-   90 minutes preregistration workshop: <https://www.youtube.com/watch?v=EnKkGO3OM9c>

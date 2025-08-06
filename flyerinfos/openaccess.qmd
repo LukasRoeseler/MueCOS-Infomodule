@@ -18,24 +18,12 @@ Scientific results can be published in a variety of ways, and the available and 
 
 -   Selecting a pre-print server
 
--   Transparent reporting of author contributions using standardized taxonomies (e.g., CRediT)
-
--   Establishing a Diamond Open Access journal led by researchers
-
 MüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on [Open Access](https://www.uni-muenster.de/Publizieren/en/open-access/index.html) and digital publishing, manages numerous [Open Access journals](https://www.uni-muenster.de/Ejournals/), the publication server [Miami](https://miami.uni-muenster.de), and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software *Open Journal System*.
 
 ## **Main Types of Open Access**
 
 ::: callout-tip
-There are numerous types of open access that differ with respect to:
-
--   publication costs
-
--   reading costs
-
--   peer review status
-
--   copyright retainment by authors
+There are numerous types of open access that differ with respect to publication costs, reading costs, peer review status, and copyright ownership.
 
 ![*Diagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281*](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Open_Access_colours_Venn.svg/960px-Open_Access_colours_Venn.svg.png?20240822231754)
 :::
@@ -57,7 +45,7 @@ For more information on Open Access types please see <https://zenodo.org/records
 ## Diamond or Closed+Green
 
 ::: callout-tip
-**If possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.**
+If possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.
 :::
 
 If you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in *prestigious journals* to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain *Journal Impact Factor*, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the [Open Policy Finder](openpolicyfinder.jisc.ac.uk).
@@ -72,7 +60,7 @@ If you decide to upload a preprint, beware that there are different types of pre
 
 We recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see <https://en.wikipedia.org/wiki/List_of_preprint_repositories>.
 
-## **Open Access and quality: Predatory Publishing**
+## **Open Access and Quality: Predatory Publishing**
 
 ::: callout-note
 Open Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.

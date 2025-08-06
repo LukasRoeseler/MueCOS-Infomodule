@@ -1,40 +1,5 @@
 [
   {
-    "objectID": "flyerinfos/openaccess.html",
-    "href": "flyerinfos/openaccess.html",
-    "title": "Open Access: All you need to know",
-    "section": "",
-    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Open Access infos for researchers and part of the Münster Center for Open Science’s info materials.\n\nOA flyer\nOA cheat sheet\nScientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:\nMüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on Open Access and digital publishing, manages numerous Open Access journals, the publication server Miami, and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software Open Journal System."
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#main-types-of-open-access",
-    "href": "flyerinfos/openaccess.html#main-types-of-open-access",
-    "title": "Open Access: All you need to know",
-    "section": "Main Types of Open Access",
-    "text": "Main Types of Open Access\n\n\n\n\n\n\nTip\n\n\n\nThere are numerous types of open access that differ with respect to:\n\npublication costs\nreading costs\npeer review status\ncopyright retainment by authors\n\n\n\n\nDiagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281\n\n\n\n\nThe following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.\n\n\n\nType\nRegulation\nAssessment in Terms of Accessibility and Cost of Knowledge\n\n\n\n\nDiamond (Gold with APC = 0)\nAll publications are freely accessible; no publication costs (Author/Book Processing Charges) are incurred.\nPositive\n\n\nGold\nAll publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC).\nPositive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs).\n\n\nHybrid\nThe journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall.\nNegative due to “double dipping” – universities pay twice: for the subscription (= reading access) plus Open Access.\n\n\nMoving Wall\nThe journal has a subscription model. After a specified period (typically between 6 and 48 months), the article becomes freely accessible.\nNegative: Research is slowed down, and especially financially weak individuals/institutions/countries are disadvantaged.\n\n\nPromotional\nSelected publications are made freely available to promote the journal.\nNegative: Open Washing (the journal itself is not open and uses the model only for self-promotion).\n\n\nGreen\nIndependently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal here.\nPositive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period.\n\n\nClosed\nPublications are only accessible against a one-time or recurring fee.\nNegative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone.\n\n\n\nFor more information on Open Access types please see https://zenodo.org/records/8322048"
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#who-pays-the-publication-costs-at-the-university-of-münster",
-    "href": "flyerinfos/openaccess.html#who-pays-the-publication-costs-at-the-university-of-münster",
-    "title": "Open Access: All you need to know",
-    "section": "",
-    "text": "Depending on the type of publication, costs of various kinds and amounts may arise. Which entity covers the costs under which conditions is illustrated in the following process diagram.\n!Simplified description of cost allocation depending on the type of publication. This diagram does not cover all possible variants. In specific cases, contact the Open Access representatives of the university.\nDFG: German Research Foundation\nMPDL: Max Planck Digital Library\n*An overview of agreements with various journals is available online: &lt;[https://www.uni-muenster.de/Publizieren/open-access/wwu/verlage.html&gt;](/img/werzahlt.jpg){.lightbox}](https://www.uni-muenster.de/Publizieren/open-access/wwu/verlage.html%3E%7B.lightbox%7D)"
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#cash-flow-in-the-publication-process",
-    "href": "flyerinfos/openaccess.html#cash-flow-in-the-publication-process",
-    "title": "Open Access: All you need to know",
-    "section": "",
-    "text": "How the financing of publication costs works for fee-based publications is usually unclear to researchers and is not part of scientific training. The following flowchart schematically illustrates various ways in which financing can occur. The most common are payments to publishers or data analytics corporations from public funds via the university, which are internally split between departments and the library, or via the DEAL consortium.\n{.lightbox}"
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#further-information",
-    "href": "flyerinfos/openaccess.html#further-information",
-    "title": "Open Access: All you need to know",
-    "section": "Further Information",
-    "text": "Further Information\n\nComprehensive tool for comparing various journal policies: https://finder.open-access.network\nPortal for searching numerous preprint servers: https://osf.io/preprints\nPortal for searching Open Access journals including information on licenses and publication fees: https://doaj.org\nInformation from the DEAL Consortium on why CC BY is the best choice for Open Access publications: https://deal-konsortium.de/warum-ccby\nInteractive and live dataset of publication fees at German institutions: https://treemaps.openapc.net/apcdata/openapc/ or Münster data\nDashboard for tracking Open Access publications in Germany: https://open-access-monitor.de\nHistory of Open Access: https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement"
-  },
-  {
     "objectID": "übergreifend/gen_4.html",
     "href": "übergreifend/gen_4.html",
     "title": "Forschungsergebnisse kommunizieren",
@@ -416,6 +381,469 @@
     ]
   },
   {
+    "objectID": "qualitativ.html",
+    "href": "qualitativ.html",
+    "title": "Definition und Beispiele",
+    "section": "",
+    "text": "Vorsicht\n\n\n\nDieser Bereich befindet sich aktuell im Aufbau.\n\n\nMit qualitativer Forschung sind Vorhaben gemeint, die Phänomene über verschiedene Medien wie Texte oder Bilder erforschen. Das kann zum Beispiel der Fall der Berliner Mauer aus geschichtlicher Perspektive oder Sprachwandel in der Fernsehwerbung in den 2010er Jahren sein. Ihnen gemeinsam ist, dass sie ein tiefgehendes Verständnis anstreben. Dabei verwenden Ansätze, die zu großen Teilen auf menschlicher Interpretation beruhen, wie zum Beispiel qualitative Inhaltsanalysen, unstrukturierte oder teilstrukturierte Befragungen, oder Beobachtungen.\nQualitative Forschung ist vor allem in den Geisteswissenschaften präsent. Darunter fallen beispielsweise Theologie, Erziehungswissenschaften, Sozialwissenschaften, Geschichte, Philosophie, Philologie, Geowissenschaften, Sportwissenschaften, und Soziologie.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
+    "crumbs": [
+      "Definition und Beispiele"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_3.html",
+    "href": "qualitativ/qual_3.html",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "",
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
+  },
+  {
+    "objectID": "qualitativ/qual_1.html",
+    "href": "qualitativ/qual_1.html",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "",
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
+  },
+  {
+    "objectID": "fächerübergreifend.html",
+    "href": "fächerübergreifend.html",
+    "title": "Allgemeine Informationen",
+    "section": "",
+    "text": "Hier finden Sie einen Überblick über fächerübergreifende Informationen zu Open Science. Für spezifische Informationen klicken Sie oben auf einen der drei Forschungstypen und wählen Sie links aus, zu welchem Punkt des Forschungszyklus Sie die Infos aufrufen möchten.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Allgemeine Informationen"
+    ]
+  },
+  {
+    "objectID": "fächerübergreifend.html#wozu-open-science",
+    "href": "fächerübergreifend.html#wozu-open-science",
+    "title": "Allgemeine Informationen",
+    "section": "Wozu Open Science?",
+    "text": "Wozu Open Science?\nForschende an Hochschulen werden aus Steuergeldern für ihre Arbeit bezahlt, sie arbeiten also im Auftrag der Gesellschaft. Dass sie mit den ihnen zugewiesenen Mitteln verantwortungsvoll umgehen und Mitglieder der Gesellschaft davon profitieren, ist also die Grundlage von Wissenschaft. Fächerübergreifend werden zahlreiche Probleme diskutiert, nach denen Wissenschaft nicht funktioniert, wie sie es sollte. Open Science ist ein Überbegriff für Lösungsansätze dieser Probleme.\n\nBeispiele von Problemen und Lösungsansätzen\n\n\n\n\n\n\nProblem\nLösungsansätze\n\n\n\n\nHohe Publikationskosten\nBereitstellung von Publikationsinfrastrukturen für Diamond Open Access Zeitschriften, Förderung von Open Access Publikationen, Zweitveröffentlichungen in Form von Pre-Prints, Verhandlung mit Verlagen über Konsortien (z. B. U15, DEAL)\n\n\nGeringes Vertrauen in Wissenschaft\nHöhere Transparenz von Forschung (z. B. durch offene und interaktive Datenbanken), Erklärung von wissenschaftlichen Tätigkeiten im Rahmen von Wissenschaftskommunikation, Involvierung von Bürger*innen in den Forschungsprozess im Rahmen von Citizen Science\n\n\nMachtmissbrauch\nAuflösung von Doppelabhängigkeiten, Thematisierung von hierarchischen Strukturen gemeinsam mit Wissenschaftler*innen früher Karrierephasen\n\n\nProbleme bei Reproduzierbarkeit und Replizierbarkeit von Forschung\nStandardisierte Reproduzierbarkeits-Checks, Richtlinien und Hilfestellungen zum Schreiben von Software und Code\n\n\nVerzerrung des “Scientific Record” durch Selektion nach Innovation (Publikationsbias)\nErhöhung methodischer Standards, niedrigschwellige Publikationsmögilchkeiten (z. B. Pre-Prints), Forschungsdatenbanken\n\n\nDiskriminierung durch teuren Wissenszugang\nKostenlose und barrierearme Veröffentlichung von wissenschaftlichen Artikeln, Daten, und Lehrmaterialien (Open Educational Resources)",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Allgemeine Informationen"
+    ]
+  },
+  {
+    "objectID": "fächerübergreifend.html#struktur-der-infomodule",
+    "href": "fächerübergreifend.html#struktur-der-infomodule",
+    "title": "Allgemeine Informationen",
+    "section": "Struktur der Infomodule",
+    "text": "Struktur der Infomodule\nAus wissenschaftlicher Perspektive können Forschungsgegenstände auf vielerlei Weise beschrieben werden. Alle Fächer im Hinblick auf die Relevanz verschiedener Open Science-Facetten gleich zu behandeln, würde der Heterogenität nicht gerecht. Alle Fächer einzeln zu diskutieren, würde zu großen Redundanzen führen und Synergie-Effekte verhindern. Wir haben uns daher entschieden, spezifische Open Science-Lösungen nach drei Forschungstypen aufzuteilen. Forschungstypen lassen sich nicht klar und eindeutig den Fächern zuordnen: Während einige Fächer einen klaren Forschungstyp aufweisen (z. B. vorwiegend quantitative Forschung in der Verhaltensökonomie), ist es in anderen Bereichen gemischt (z. B. qualitative und quantitative Ansätze in der Soziologie oder qualitative Interpretationen und formale Logik in der Philosophie). Je Bereich führen wir auf den Hauptseiten einige Fächer beispielsweise auf, in denen die jeweiligen Herangehensweisen Verwendung finden.\n\nDefinition der drei Forschungstypen über den Ausdruck der untersuchten Phänomene\n\n\n\n\n\n\n\nQualitativ\nQuantitativ\nFormal\n\n\n\n\nin Sprache, Bildern, oder Tönen ausgedrückt\nin Zahlen ausgedrückt\nin Formeln ausgedrückt",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Allgemeine Informationen"
+    ]
+  },
+  {
+    "objectID": "fächerübergreifend.html#einzelfall-und-allgemeingültigkeit",
+    "href": "fächerübergreifend.html#einzelfall-und-allgemeingültigkeit",
+    "title": "Allgemeine Informationen",
+    "section": "Einzelfall und Allgemeingültigkeit",
+    "text": "Einzelfall und Allgemeingültigkeit\nQualitative und quantitative/formale Untersuchungen werden häufig nach idiosynkratisch, also kontextgebundene Einzelfälle erforschend, versus nomothetisch, also übergreifende Muster erforschend, aufgeteilt. Wir denken jedoch, dass dieser Zusammenhang keine Notwendigkeit ist, also auch quantitative Herangehensweisen bei Einzelfällen möglich sind (z. B. N=1 Studien) oder qualitative Studien allgemeingültige Zusammenhänge erforschen können.",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Allgemeine Informationen"
+    ]
+  },
+  {
+    "objectID": "fächerübergreifend.html#weiterführende-informationen-zum-einstieg-in-open-science",
+    "href": "fächerübergreifend.html#weiterführende-informationen-zum-einstieg-in-open-science",
+    "title": "Allgemeine Informationen",
+    "section": "Weiterführende Informationen zum Einstieg in Open Science",
+    "text": "Weiterführende Informationen zum Einstieg in Open Science\n\nKurze Übersicht an Open Science Praktiken in Englischer Sprache: https://www.cos.io/open-science\nOpen Science-Glossar von FORRT: https://forrt.org/glossary/german/\nTED-Talk zur Publikationskultur und Open Science: https://www.youtube.com/watch?v=c-bemNZ-IqA",
+    "crumbs": [
+      "Fächerübergreifende Informationen",
+      "Allgemeine Informationen"
+    ]
+  },
+  {
+    "objectID": "formal/formal_4.html",
+    "href": "formal/formal_4.html",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "",
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
+  },
+  {
+    "objectID": "formal/formal_2.html",
+    "href": "formal/formal_2.html",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "",
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html",
+    "href": "flyerinfos/preregistration.html",
+    "title": "Preregistrations: All you need to know",
+    "section": "",
+    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Preregistration infos for researchers. It is part of the Münster Center for Open Science’s info materials.\n\nPreregistration flyer\nPreregistration cheat sheet\nMore and more researchers in the social, behavioral and cognitive sciences are required to preregister their studies or choose to do so to increase transparency and robustness. The MüCOS offers advice on how to preregister, such as workshops and this brief guide since preregistrations have multiple advantages and almost no disadvantage:"
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
+    "href": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
+    "title": "Preregistrations: All you need to know",
+    "section": "The Problem: Garden of Forking Paths",
+    "text": "The Problem: Garden of Forking Paths\nA common metaphor used to explain preregistration is the “garden of forking paths.” This metaphor relates to the research process, or more specifically, to the journey researchers take from raw data to the final results. This journey is not a straight line, but rather a path filled with many decisions. For many of these decisions, there is no clear “right” or “wrong” but several routes are possible. At the same time, different paths often lead to different outcomes. The purpose of preregistration is not to find the perfect path, but to plan a reasonable and justifiable path in advance. The choice of this path should be based on considerations that are independent of the observed results. In other words, preregistration helps researchers avoid choosing the analytical route that simply suits them best after seeing the data.\nFlexibility in choice of analyses is suspected to be one of the many intertwined reasons for low rates of replication and reproduction success across sciences (see the Wikipedia article for prevalence in Psychology, Medicine, Economics, etc.)"
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#myths-of-preregistrations",
+    "href": "flyerinfos/preregistration.html#myths-of-preregistrations",
+    "title": "Preregistrations: All you need to know",
+    "section": "Myths of Preregistrations",
+    "text": "Myths of Preregistrations\n\n\n\nMyths\nFacts\n\n\n\n\nPs are laborious.\nIf done correctly, Ps can save work because only one analysis is conducted.\n\n\nPs allow scooping from other researchers.\nResearchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY).\n\n\nPs prohibit researchers from conducting exploratory analyses and restrict creativity.\nPs allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory.\n\n\nJournals do not value Ps.\nAs of February 2025, 125 journals require authors to disclose whether the study they report was preregistered. Check your journal’s guidelines for authors."
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#best-practices",
+    "href": "flyerinfos/preregistration.html#best-practices",
+    "title": "Preregistrations: All you need to know",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nComprehensiveness: Try to plan every detail of the study that, if decided upon later, can affect the results. Choose between over 20 templates for guidance in what to determine. Ideally, finish your study’s analysis script (e.g., R or Python script, SPSS syntax) and attach the file to the preregistration.\nStructure: To facilitate review of the preregistration or comparison between planned and conducted analyses, you can use a template. There are over 20 templates for many types of studies. They can also guide you in planning (e.g., suggest parts of the research design that you need to consider).\nTransparency: Be as transparent as possible with respect to your plans. If needed, create an anonymized view-only link for blind peer review. Make the preregistration publicly accessible at the moment of publication or earlier and link to it from the corresponding research article.\nUpdates: If you notice necessary changes before starting data collection, you can update the preregistration. If data collection is already underway or you are using secondary data, you can simply deviate.\nDeviations: Difficult to see the future is. In up to 90% of all studies, there will be at least one deviation. You should discuss all deviations from the preregistration in three respects: How did you deviate (e.g., corrected a coding error)? Why did you deviate (e.g., preregistered code did not run)? How did it affect the results (allowed to run the code)? This also applies to cases where you had not not specified anything."
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#where-to-preregister",
+    "href": "flyerinfos/preregistration.html#where-to-preregister",
+    "title": "Preregistrations: All you need to know",
+    "section": "Where to preregister?",
+    "text": "Where to preregister?\n\nOSF Registries: Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science\nZPID PreReg Service: Primarily for psychological research and maintained by the Leibniz Institute for Psychology.\nAspredicted.org [not recommended]: Fixed template with too few questions, maintained by researchers from the US University of Pennsylvania\n\nFurther services such as Prospero, the German Clinical Trials Register (DRKS) or ClinicalTrials.gov primarily serve other services but can serve as preregistration platforms as well.\nFAQs\nQ: What should I do if a reviewer asks me to deviate from my preregistration?\nA: If they provide a good reason, make the change but clearly discuss the deviation and check whether it leads to different results.\nQ: What should I do if I want to publish a study that was not preregistered?\nA: Conduct another preregistered study or compensate for the missing preregistration by increasing transparency.\nQ: Are there other ways to know if I can trust a finding besides checking whether it was preregistered?\nA: Yes; you can use p-curve analysis, check if unusually many results are significant, consider plausibility of effect sizes, analyze available data, look for unpublished replications, and more.\nQ: What if I get null results and cannot tweak my results so they are significant and publishable?\nA: Tweaking results (also known as p-hacking) is a questionable research practices that you should never apply. There are journals that publish good research regardless of results, some even use results-blind peer review, and you can submit as a registered report if you expect a null finding. In these cases, beware of predatory publishers and commercial open access journals (see also Open Access infos).\nQ: Can I still do exploratory analyses?\nA: Yes, just make sure to clearly label which analyses are confirmatory and which are exploratory.\nQ: Can other people steal my idea by browsing preregistrations?\nA: First, you can put your preregistration under embargo and release it when you choose (consider that it may benefit science if others replicate or build on your idea). Second, you can assign a license to your preregistration which requires others to cite it (e.g., CC-BY).\nQ: What should I do if my co-authors object to preregistering our study?\nA: Discuss their reasons and concerns. If they insist on using questionable research practices, reconsidedr the collaboration."
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#further-reading",
+    "href": "flyerinfos/preregistration.html#further-reading",
+    "title": "Preregistrations: All you need to know",
+    "section": "Further reading",
+    "text": "Further reading\n\nBrodeur, A., Cook, N. M., Hartley, J. S., & Heyes, A. (2024). Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement. Journal of Political Economy Microeconomics, 2(3), 527-561. https://doi.org/10.1086/730455\nMellor, D. T. (2017, September 23). Preregistration and increased transparency will benefit science. http://doi.org/10.20316/ESE.2017.43.018\nNosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2017, August 24). The preregistration revolution. Retrieved from osf.io/2dxu5\nNosek, B. A., & Lakens, D. (2016, August 15). Registered reports: A method to increase the credibility of published reports. Retrieved from psyarxiv.com/mgxyg\nParsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature Human Behaviour, 6(3), 312-318. https://doi.org/10.1038/s41562-021-01269-4\nSimmons, J. P., Nelson, L. D., & Simonsohn, U. (2021). Pre‐registration is a game changer. But, like random assignment, it is neither necessary nor sufficient for credible science. Journal of Consumer Psychology, 31(1), 177-180. http://dx.doi.org/10.1002/jcpy.1207\nSoderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., … & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. Nature Human Behaviour, 5(8), 990-997. https://doi.org/10.1038/s41562-021-01142-4"
+  },
+  {
+    "objectID": "flyerinfos/preregistration.html#workshops-and-materials",
+    "href": "flyerinfos/preregistration.html#workshops-and-materials",
+    "title": "Preregistrations: All you need to know",
+    "section": "Workshops and Materials",
+    "text": "Workshops and Materials\n\nMüCOS/CERes Workshop on Preregistration: https://osf.io/64teq\n90 minutes preregistration workshop: https://www.youtube.com/watch?v=EnKkGO3OM9c"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Über die Infomodule",
+    "section": "",
+    "text": "Die Open Science-Infomodule wurden von dem Münster Center for Open Science auf Basis der Ressourcen der Open Science Kommission Psychologie (https://osf.io/x3s5c/) und in Kooperation mit Open Science-Vertreter*innen der Fachbereiche sowie der Universitäts- und Landesbibliothek der Universität Münster erstellt. Diese Website befindet sich aktuell im Aufbau. Rückmeldungen, Änderungsvorschläge, und Wünsche der Mitarbeit richten Sie bitte an lukas.roseler[at]uni-muenster.de. Alternativ können Sie über Github öffentlich ein Issue eröffnen.\nLizenz: CC-By Attribution 4.0 International\nCite as: Röseler, L. & Open Science Kommission Psychologie (2025). Open Science Infomodule. https://lukasroeseler.github.io/MueCOS-Infomodule/\nAcknowledgements: Diese Website wurde mithilfe des jtr13 website templates erstellt. Wir bedanken uns herzlich für zahlreiche Vorschläge und Hinweise der Open Science Koordinator*innen der Universität Münster, einzelnen Forschenden, und der Open Access Beauftragten der Universität Münster."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html",
+    "href": "flyerinfos/openaccess.html",
+    "title": "Open Access: All you need to know",
+    "section": "",
+    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Open Access infos for researchers and part of the Münster Center for Open Science’s info materials.\n\nOA flyer\nOA cheat sheet\nScientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:\nMüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on Open Access and digital publishing, manages numerous Open Access journals, the publication server Miami, and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software Open Journal System."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#main-types-of-open-access",
+    "href": "flyerinfos/openaccess.html#main-types-of-open-access",
+    "title": "Open Access: All you need to know",
+    "section": "Main Types of Open Access",
+    "text": "Main Types of Open Access\n\n\n\n\n\n\nTip\n\n\n\nThere are numerous types of open access that differ with respect to publication costs, reading costs, peer review status, and copyright ownership.\n\n\n\nDiagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281\n\n\n\n\nThe following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.\n\n\n\nType\nRegulation\nAssessment in Terms of Accessibility and Cost of Knowledge\n\n\n\n\nDiamond (Gold with APC = 0)\nAll publications are freely accessible; no publication costs (Author/Book Processing Charges) are incurred.\nPositive\n\n\nGold\nAll publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC).\nPositive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs).\n\n\nHybrid\nThe journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall.\nNegative due to “double dipping” – universities pay twice: for the subscription (= reading access) plus Open Access.\n\n\nMoving Wall\nThe journal has a subscription model. After a specified period (typically between 6 and 48 months), the article becomes freely accessible.\nNegative: Research is slowed down, and especially financially weak individuals/institutions/countries are disadvantaged.\n\n\nPromotional\nSelected publications are made freely available to promote the journal.\nNegative: Open Washing (the journal itself is not open and uses the model only for self-promotion).\n\n\nGreen\nIndependently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal here.\nPositive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period.\n\n\nClosed\nPublications are only accessible against a one-time or recurring fee.\nNegative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone.\n\n\n\nFor more information on Open Access types please see https://zenodo.org/records/8322048"
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#diamond-or-closedgreen",
+    "href": "flyerinfos/openaccess.html#diamond-or-closedgreen",
+    "title": "Open Access: All you need to know",
+    "section": "Diamond or Closed+Green",
+    "text": "Diamond or Closed+Green\n\n\n\n\n\n\nTip\n\n\n\nIf possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.\n\n\nIf you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in prestigious journals to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain Journal Impact Factor, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the Open Policy Finder."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#choosing-a-preprint-server",
+    "href": "flyerinfos/openaccess.html#choosing-a-preprint-server",
+    "title": "Open Access: All you need to know",
+    "section": "Choosing a Preprint Server",
+    "text": "Choosing a Preprint Server\nIf you decide to upload a preprint, beware that there are different types of preprint servers.\n\nNon-profit preprint repositories are managed by scientific communities. They are moderated by researchers and the respective communities’ values are aligned with scientific ideals. Examples are Zenodo.org, Arxiv.org, and osf.io/preprints.\nCommercial preprint repositories are owned by publishers. They may be moderated by non-researchers or bots and they prioritize profit. They may be used to create lock-in effects for researchers using them (e.g., nudging users to submit to journals from the respective publisher).\n\nWe recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see https://en.wikipedia.org/wiki/List_of_preprint_repositories."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
+    "href": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
+    "title": "Open Access: All you need to know",
+    "section": "Open Access and Quality: Predatory Publishing",
+    "text": "Open Access and Quality: Predatory Publishing\n\n\n\n\n\n\nNote\n\n\n\nOpen Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.\n\n\nWhile the idea of open access is for research to be available online for free and without any restrictions (e.g., required log-in or paywall), commercial publishers have recommercialized the idea. This is usually referred to as Gold Open Access and involves Article Processing Charges (APCs). That is, authors have to pay the journal to get their article published. APCs are positively correlated with journal citation impact and exceed justified costs by far. Due to researchers’ pressure to publish, some journals offer publication against a fee and provide insufficient quality assurance. For example, peer review may be falsified or revisions may not actually be required to address peer reviewers’ comments. This creates the picture of a high-quality peer reviewed journal when it is actually merely a very expensive service to publish any article. Publishers engaging in these practices have also had aggressive marketing strategies such as emailing authors with requests to submit their article to their journal, advertising impact factors, forcing authors to include articles from their journal in the citations to artificially increase the impact factor, and reward researchers for reviews with coupons that allow them to waive APCs in said journals. Another feature of predatory journals has been low variance in turn over times and a large number of special issues (e.g., &gt;300 special issues per year).\n\nThink-Check-Submit\nTo assess whether a journal is predatory, you can follow these steps:\n\nFollow the recommendations by Think-Check-Submit and COPE.\nCheck the Norwegian Scientific Index if the journal or publisher is academic.\nFurther resources such as the DOAJ (has a very low bar for journals to be indexed) or the website Predatory Journals (has anonymous authors and intransparent rating systems) may provide additional insights."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
+    "href": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
+    "title": "Open Access: All you need to know",
+    "section": "The Prisoner’s Dilemma of Publishing",
+    "text": "The Prisoner’s Dilemma of Publishing\nIn many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and resignations of entire editorial boards. In other words, early career researchers’ academic success can rely on publications in prestigious and expensive journals. For example, a publication in the prestigious journal Nature Human Behavior costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., SF DORA, CoARA) but are relatively likely to reward publications in high impact journals over open access publications."
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#further-information",
+    "href": "flyerinfos/openaccess.html#further-information",
+    "title": "Open Access: All you need to know",
+    "section": "Further Information",
+    "text": "Further Information\n\nComprehensive tool for comparing various journal policies: https://finder.open-access.network\nPortal for searching numerous preprint servers: https://osf.io/preprints\nPortal for searching Open Access journals including information on licenses and publication fees: https://doaj.org\nInformation from the DEAL Consortium on why CC BY is the best choice for Open Access publications: https://deal-konsortium.de/warum-ccby\nInteractive and live dataset of publication fees at German institutions: https://treemaps.openapc.net/apcdata/openapc/ or Münster data\nDashboard for tracking Open Access publications in Germany: https://open-access-monitor.de\nHistory of Open Access: https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement"
+  },
+  {
+    "objectID": "formal/formal_1.html",
+    "href": "formal/formal_1.html",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "",
+    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
+  },
+  {
+    "objectID": "formal/formal_3.html",
+    "href": "formal/formal_3.html",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "",
+    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
+  },
+  {
+    "objectID": "formal.html",
+    "href": "formal.html",
+    "title": "Definition und Beispiele",
+    "section": "",
+    "text": "Vorsicht\n\n\n\nDieser Bereich befindet sich aktuell im Aufbau.\n\n\nMit formaler Forschung sind Vorhaben gemeint, die Phänomene mittels mathematischer Modelle (Formeln) erforschen. Dabei handelt es sich häufig um a priori, also ohne vorhergehende empirische Untersuchung, oder aus bestimmten Prämissen logisch folgend geltende Zusammenhänge. Das kann zum Beispiel eine Anwendung von Kirchberg Algebra oder eine Kritik der Bonnay und Westerstahl Lösung zu Carnaps Problem sein. Forschende verwenden dabei mathematische Herleitungen oder Beweise.\nFormale Forschung ist vor allem in der Mathematik und Philosophie (z. B. formale Logik) vorzufinden. Darüber hinaus kommt sie jedoch auch in anderen Disziplinen, wie zum Beispiel Informatik oder Physik vor.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
+    "crumbs": [
+      "Definition und Beispiele"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Open Science Infomodule",
+    "section": "",
+    "text": "Open Science bezeichnet die Bemühungen von Wissenschaftlerinnen und Wissenschaftlern, Forschung nachvollziehbarer und dadurch robuster zu gestalten. Spezifische Techniken werden in verschiedenen Disziplinen entwickelt und sind jeweils auf spezifische Problemstellungen zugeschnitten. Auf dieser Website finden Sie die Informationen zur Umsetzung von Open Science in verschiedenen Forschungsbereichen.\n\n\n\n\n\n\n\nNavigation auf dieser Seite\n\n\n\nWählen Sie den in der Kopfleiste zwischen Fächerübergreifenden Informationen und spezifischen Bereichen. Gehen Sie anschließend an den gewünschten Punkt des Forschungszyklus in der linken Seitennavigation.\n\nFalls Sie sich unsicher sind, verschaffen Sie sich einen Überblick über fächerübergreifende Informationen.\nFalls Sie spezifische Informationen suchen (z.B. zu “Green Open Access”), klicken Sie oben rechts auf die Lupe und geben den Suchbegriff ein."
+  },
+  {
+    "objectID": "qualitativ/qual_2.html",
+    "href": "qualitativ/qual_2.html",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "",
+    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
+  },
+  {
+    "objectID": "qualitativ/qual_4.html",
+    "href": "qualitativ/qual_4.html",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "",
+    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#worum-gehts",
+    "href": "quantitativ/quant_1.html#worum-gehts",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Worum geht’s?",
+    "text": "Worum geht’s?\nWenn eine Literaturrecherche die Basis für ein Review oder eine Meta-Analyse bildet, muss das Vorgehen exakt beschrieben werden. Mit den “Preferred Reporting Items for Systematic reviews and Meta-Analyses (PRISMA)” haben Forschende einen Leitfaden für Reviews und Meta-Analysen. Beispielsweise sollten Entscheidungen über die Inklusion von Forschungsartikeln und Suchbegriffen für alle verwendeten Datenbanken systematisch notiert werden.",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#publikationen",
+    "href": "quantitativ/quant_1.html#publikationen",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Publikationen",
+    "text": "Publikationen\n\nCarlsson, R., Batinovic, L., Hyltse, N., Kalmendal, A., Nordström, T., & Topor, M. (2024, May 12). A Beginner’s Guide to Open and Reproducible Systematic Reviews in Psychology. https://doi.org/10.31234/osf.io/59vsw\nPage, M. J., McKenzie, J. E., Bossuyt, P. M., Boutron, I., Hoffmann, T. C., Mulrow, C. D., … & Moher, D. (2021). The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. bmj, 372. http://dx.doi.org/10.1136/bmj.n71",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#weiterführende-informationen",
+    "href": "quantitativ/quant_1.html#weiterführende-informationen",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Weiterführende Informationen",
+    "text": "Weiterführende Informationen\n\nWebsite mit PRISMA Statements für verschiedene Disziplinen und in verschiedenen Sprachen: https://www.prisma-statement.org/extensions\nTemplate für reproduzierbare Meta-Analysen: https://osf.io/ytgrp/",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#workshops-und-vorträge",
+    "href": "quantitativ/quant_1.html#workshops-und-vorträge",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Workshops und Vorträge",
+    "text": "Workshops und Vorträge\n\nVideo-Einführung zu PRISMA: https://www.youtube.com/watch?v=JbePmLWV76I",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#worum-gehts-1",
+    "href": "quantitativ/quant_1.html#worum-gehts-1",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Worum geht’s?",
+    "text": "Worum geht’s?\nBei der Präregistrierung geht es darum, Fragestellungen, Hypothesen, Methoden und Analyseskripte vor der Durchführung einer Studie zu spezifizieren. Dabei wird im Idealfall jede Studie, bei welcher es zu testende Hypothesen gibt, präregistriert und in der Präregistrierung werden alle konfirmatorischen (d.h. geplanten) Tests beschrieben. Dies ist zu verschiedenen Zeitpunkten möglich (vor, während oder nach der Datenerhebung). Am wünschenswertesten ist die Präregistrierung vor der Datenerhebung, entscheidend ist allerdings der transparente Umgang mit dem gewählten Vorgehen. Präregistrierungen gibt es von sehr kurzen bis sehr detaillierten Varianten. In der Form sogenannter Registered Reports können ausführliche Präregistrierungen bei einer steigenden Anzahl an Journals vor der Datenerhebung als Paper eingereicht werden. Also ganz kurz in 5 Punkten -\nPräregistrierung…\n\nmacht klar, was im Vorfeld zu einer Studie geplant und vermutet war und was nicht.\nist ein Werkzeug, um die Glaubwürdigkeit und Replizierbarkeit der Forschung zu optimieren.\nerlaubt es, die eigenen Ideen früher für sich zu beanspruchen.\ngibt es entsprechend der Vielfalt der Forschungsmethoden und vorhandenen Ressourcen in vielen Varianten.\nist in der Form eines Registered Reports eine vielversprechende neue Option des Publizierens.",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#publikationen-1",
+    "href": "quantitativ/quant_1.html#publikationen-1",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Publikationen",
+    "text": "Publikationen\n\nBurlig, F. (2017, October 30). Improving transparency in observational social science research: A pre-analysis plan approach. Retrieved from osf.io/preprints/bitss/qemkz\nBrodeur, A., Cook, N. M., Hartley, J. S., & Heyes, A. (2024). Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement. Journal of Political Economy Microeconomics, 2(3), 527-561. https://doi.org/10.1086/730455\nMellor, D. T. (2017, September 23). Preregistration and increased transparency will benefit science. http://doi.org/10.20316/ESE.2017.43.018\nNosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2017, August 24). The preregistration revolution. Retrieved from osf.io/2dxu5\nNosek, B. A., & Lakens, D. (2016, August 15). Registered reports: A method to increase the credibility of published reports. Retrieved from psyarxiv.com/mgxyg\nSimmons, J. P., Nelson, L. D., & Simonsohn, U. (2021). Pre‐registration is a game changer. But, like random assignment, it is neither necessary nor sufficient for credible science. Journal of Consumer Psychology, 31(1), 177-180. http://dx.doi.org/10.1002/jcpy.1207\nSoderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., … & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. Nature Human Behaviour, 5(8), 990-997. https://doi.org/10.1038/s41562-021-01142-4",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#weiterführende-informationen-1",
+    "href": "quantitativ/quant_1.html#weiterführende-informationen-1",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Weiterführende Informationen",
+    "text": "Weiterführende Informationen\n\nOSF-Seite zu preregistration: https://cos.io/prereg/\nÜberblick und Hilfe zum Verständnis der gängigsten Präregistrierungsformulare: https://help.osf.io/article/229-select-a-registration-template\nUmfangreiche Liste mit Präregistrierungs-Templates: https://osf.io/zg78t\nInformationen zu Registered Reports: https://cos.io/rr/\nListe präregistrierter Studien und Registered Reports: https://www.zotero.org/groups/osf/items/collectionKey/KEJP68G9",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#workshops-und-vorträge-1",
+    "href": "quantitativ/quant_1.html#workshops-und-vorträge-1",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Workshops und Vorträge",
+    "text": "Workshops und Vorträge\n\nMüCOS/CERes Workshop zu Preregistration: https://osf.io/64teq\nFelix Schönbrodt: Workshop Pre-registration: https://osf.io/yd487/\nCharlie Ebersole and Randy McCarthy: SIPS Preregistration Workshop: https://docs.google.com/presentation/d/1MJ-kqfSzd34iO9dW5saRLHW1xq3n2Tgm_18K4uTvdfY/edit#slide=id.g233ac2beca_0_15\nVideo zu Preregistration: https://www.youtube.com/watch?v=EnKkGO3OM9c",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#garden-of-forking-paths",
+    "href": "quantitativ/quant_1.html#garden-of-forking-paths",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Garden of Forking Paths",
+    "text": "Garden of Forking Paths\nEine übliche Metapher bei der Erklärung von Präregistrierungen ist der Garten der vielen Abzweigungen. Diese Metapher betrifft den Forschungsprozess oder spezifischer den Weg, den Forschende von den Rohdaten bis zum Ergebnis gehen müssen. Dabei handelt es sich nicht um eine klare Linie, sondern um einen von vielen Entscheidungen durchzogenen Weg. Bei vielen dieser Entscheidungen gibt es kein “wahr” oder “falsch”, sondern verschiedene Pfade sind möglich. Gleichzeitig führen verschiedene Wege oft auch zu verschiedenen Ergebnissen. Zweck einer Präregistrierung ist dabei nicht, dass der perfekte Pfad gefunden werden soll, sondern dass ein sinnvoller Pfad geplant wird. Die Wahl des Pfades sollte dann auf Überlegungen beruhen, die unabhängig von den Ergebnissen sind. Anders gesagt, Forschende verhindern, dass sie sich den Analyseweg aussuchen, der ihnen am besten in den Kram passt.\n\n\n\nGarden of Forking Paths",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#lösungen",
+    "href": "quantitativ/quant_1.html#lösungen",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Lösungen",
+    "text": "Lösungen\nIm Folgenden sollen konkrete Möglichkeiten und Schritte der Präregistrierung am Beispiel der Umsetzung im Open Science Framework (OSF) vorgestellt werden. Ein großer Teil dieses Abschnitts befasst sich mit Informationen zu den verschiedenen Registrierungsformularen (vgl.: https://help.osf.io/article/229-select-a-registration-template). Tatsächlich überlegen Sie sich lediglich im Vorhinein, was Sie untersuchen möchten und wie. Dies beschreiben Sie in einem Formular und sichern es online.\n\nPräregistrierung in sieben Schritten\n1. Erstellen einer Registrierung\n\nErstellen Sie einen Account bzw. loggen Sie sich auf der OSF Seite ein (osf.io).\nGehen Sie auf das Projekt, für welches Sie eine Registrierung erstellen möchten (wenn Sie noch kein Projekt erstellt haben, gehen Sie auf: „My Projects” → „Create Project” → und geben Sie dem Projekt einen Namen).\nWählen Sie auf der „Project Overview Page” den Button „Registrations” und als zweites „New registration”.\n\n2. Wählen Sie ein Registrierungsformular\n\nEs öffnet sich nun ein Fenster, in dem Sie zwischen verschiedenen Formularen wählen können.\nIm folgenden Abschnitt „Registrierungsformulare” können Sie einen Blick in vier verschiedene Formulare werfen und so erfahren, welche Informationen Sie zum Bearbeiten dieser benötigen werden.\nDurch Klicken auf das „i”-Symbol finden Sie weitere Informationen zu den einzelnen Formularen.\nWählen Sie, nachdem Sie sich entschieden haben, das Formular aus und klicken Sie „Create draft”.\n\n3. Füllen Sie das Formular aus\n\nBeantworten Sie die Fragen, etwa zum Status des Projekts und dem Grund für die Registrierung.\nWenn Sie „Safe as Draft” klicken (unten links auf jeder Seite) können Sie Ihren aktuellen Stand speichern und zu einem späteren Zeitpunkt weiterbearbeiten (oder auch komplett löschen).\nHaben Sie das Ausfüllen beendet, wählen Sie „Preview for submission” (unten rechts auf jeder Seite).\n\n4. Vorschau anzeigen und registrieren\n\nKontrollieren Sie Ihr Formular auf Fehler (dies ist hierfür die letzte Möglichkeit!).\nWeitere Änderungen sind durch Klicken des „Continue editing”-Buttons (unten links) möglich.\nWenn Sie zufrieden sind, wählen Sie „Register” (unten rechts). Ein Fenster wird sich öffnen und Sie nach den gewünschten Privatsphäre-Einstellungen fragen.\nBeachten Sie, dass das gesamte Projekt präregistriert ist und Sie ggf. nicht-anonyme Daten zum Zeitpunkt der Präregistrierung entfernen sollten.\n\n5. Auswahl der Privatsphäre-Einstellungen Ihrer Registrierung\n\nSie können im „Registration Choice” Menü zwischen „Make registration public immediately” und „Embargo registration up to 4 years” wählen. Nach Ablauf des Embargos ist Ihre Registrierung öffentlich und erscheint z. B. als Publikation bei Literatursuchen oder -alerts über Google Scholar.\nWenn Sie Ihre Registrierung noch nicht öffentlich machen möchten, wird ein „Embargo end date” Feld unter dem Menü erscheinen.\nWenn Sie auf das „Embargo end date” Feld klicken, können Sie auf dem erscheinenden Kalender das Enddatum des Embargos festlegen.\nWenn Sie bereit sind, Ihre Registrierung abzuschließen, klicken Sie „Continue” und Ihr registriertes Projekt wird erscheinen.\n\n6. Zustimmen oder Ablehnen der Registrierung\n\nWenn das Projekt registriert ist, werden alle Mitglieder des OSF-Projekts mit Administrationsrechten via E-Mail benachrichtigt und können durch Verfolgen des Links der Registrierung zustimmen oder diese ablehnen.\nWenn alle Administratoren zugestimmt haben oder 48 Stunden vergangen sind, tritt die Registrierung in Kraft.\nWenn ein Administrator nicht zustimmt, wird die Registrierung abgebrochen und Sie werden via E-Mail benachrichtigt.\nSie haben nach Absenden der Registrierung die Möglichkeit, sie zu verändern (update) oder zu löschen. Ersteres sollten Sie nur im Falle von Veränderungen vor der Datenerhebung tun. Letzteres führt nicht dazu, dass die Registrierung verschwindet, sondern nur, dass sie zurückgezogen wurde (ähnlich wie bei Retraction Notices).\n\n7. Unterschied zwischen Projekt und Registrierung\n\nHaben Sie Ihre Präregistrierung abgeschlossen, so zeigt ein Wasserzeichen an, dass Registrierungen nur zu lesen (und nicht zu bearbeiten) sind. Auf der „Registration Overview” Seite finden Sie weiterhin ein blaues Warnsignal (oben) was anzeigt, dass das Projekt eine Registrierung und einen Link zurück zum originalen Projekt beinhaltet.\n\n\n\nRegistrierungsformulare\nHier werden vier der am häufigsten gebrauchten Registrierungsformulare kurz vorgestellt. Dies soll einen kurzen Überblick über die abgefragten Themengebiete und den Umfang der Formulare geben. Möchten Sie in ein Registrierungsformular einen ausführlicheren Blick werfen, so finden Sie diese im Anhang. Zuerst wird hier das kürzeste und abschließend das ausführlichste Registrierungsformular behandelt. Diese Sortierung wird auch im Anhang beibehalten. Es gibt eine Reihe weiterer Formularvorlagen (siehe bspw. https://osf.io/zg78t). Natürlich können Sie sich auch ein persönliches, für Ihre Forschung maßgeschneidertes Präregistrierungstemplate zusammenbauen und dieses als open-ended registration oder in Ergänzung einer der anderen Registrierungsvorlagen hochladen. Präregistriert werden können sowohl konkrete Hypothesen als auch explorative Fragen, wobei sie jeweils als solche kenntlich gemacht werden sollten. Im Idealfall ist der Analsye-Plan mitsamt Analyse-Skript Teil der Präregistrierung, da ansonsten die Wahrscheinlichkeit groß ist, dass Entscheidungen nicht spezifiziert wurden (z. B. ob eine Hypothese gerichtet ist, welche genauen Einstellungen für ein statistisches Modell verwendet werden, usw.).\n\n\nGütekriterien einer Präregistrierung\nFormulare sollten drei Gütekriterien entsprechen:\n\nVollständigkeit/Präzision: Sie sollten Ihr gesamtes Forschungsvorhaben so detailliert wie möglich beschreiben, um sich selbst aller möglichen Freiheitsgrade zu berauben. Bereiten Sie idealerweise einen Analyseplan in Form eines unmissverständlichen Analyseskriptes vor. Wenn Sie z. B. nur sagen, dass Sie Variablen X und Y miteinander korrelieren werden, steigt der Alpha-Fehler von 5% auf über 10%, da Sie damit nicht die Alternativhypothese, Kontinuitätskorrektur, den genauen Korrelationskoeffizienten, usw. spezifiziert haben. Um das Analyseskript zu prüfen, können Sie z. B. Zufallsdaten simulieren oder ggf. Zufallsdaten über Ihre Fragebogensoftware generieren lassen.\nStruktur: Andere Forschende und Peer-Reviewer sollten die nötigen Details möglichst schnell finden. Nutzen Sie ein Template mit klaren Überschriften, schreiben Sie keine langen Texte (außer beim Registered Report).\nPassung: Welche Freiheitsgrade Sie haben, hängt stark von der Studienart (z. B. korrelative Studie / Experience Sampling / Experiment) und der Datenart (Primärdaten / Sekundärdaten / Inzidentelle Daten) ab. Benutzen Sie ein möglichst passendes Template oder - falls keines vorliegt - erstellen Sie eins.\n\nOpen-Ended Registration\nBei diesem Formular werden Sie aufgerufen, eine narrative Zusammenfassung von dem, was in Ihrem Projekt enthalten ist, zu geben. Es gibt keine Mindestzeichenanzahl.\nOSF-Standard Pre-Data Collection Registration\nIn diesem kurzen Formular werden Sie gefragt, ob die Datenerhebung für dieses Projekt bereits begonnen hat und ob Sie die Daten gesichtet haben. Sie erhalten zudem die Möglichkeit, weitere Kommentare entsprechend der open-ended registration über Ihr Projekt abzugeben.\nASPREDICTED PREREGISTRATION\nIn diesem Formular beantworten Sie acht Fragen, die auf der Verfahrensweise von AsPredicted.org basieren.\n\nWurden bereits Daten für diese Studie erhoben? (Ja/Nein)\nWas ist die zentrale Frage, beziehungsweise Hypothese, die in dieser Studie untersucht wird?\nBeschreiben Sie die wichtigste abhängige Variable und wie Sie erhoben werden wird.\nWie viele und welche Bedingungen wird es geben, denen Versuchspersonen zugewiesen werden können?\nSpezifizieren Sie exakt, welche Analysen Sie durchführen werden, um Ihre hauptsächliche Frage/Hypothese zu testen.\nGibt es zusätzliche Analysen?\nWie viele Beobachtungen werden erhoben werden / was wird Ihre Stichprobengröße determinieren? (Sie müssen hier Ihre Entscheidung nicht begründen, nur die Methode nennen, wie die Anzahl festgelegt wurde.)\nMöchten Sie noch etwas Weiteres präregistrieren?",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#abweichungen-von-präregistrierungen",
+    "href": "quantitativ/quant_1.html#abweichungen-von-präregistrierungen",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Abweichungen von Präregistrierungen",
+    "text": "Abweichungen von Präregistrierungen\nEs kommt sehr häufig vor, dass Sie von Ihrer Präregistrierung abweichen müssen oder Teile unzureichend spezifiziert haben. Gründe für Abweichungen sind vielfältig, zum Beispiel:\n\nIn der Präregistrierung wurde etwas nicht spezifiziert, wozu Sie später Stellung nehmen mussten (z. B. lag Varianzheterogenität vor, wie Sie damit umgehen, haben Sie nicht geplant).\nEin Fehler war vorhanden (z. B. war im Analyseskript ein Programmierfehler, bei dem die falsche Variable genommen wurde).\nAufgrund der vorhandenen Daten, mussten Sie von Ihrem Plan abweichen (z. B. gab es zu wenige Versuchspersonen in einer der Untergruppen, sodass Sie diese Gruppe für eine Analyse ausschließen mussten).\n\nIn allen diesen Fällen ist eine Abweichung unproblematisch, jedoch sollten Sie transparent damit umgehen. Erklären Sie in der Diskussion Ihres Artikels für jede Abweichung:\n\nGrund: Warum haben Sie sich nicht an die Präregistrierung gehalten?\nÄnderung: Wie sind Sie stattdessen vorgegangen?\nAuswirkung (falls möglich): Wie hat sich diese Änderung auf die Ergebnisse ausgewirkt?",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#faq",
+    "href": "quantitativ/quant_1.html#faq",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "FAQ",
+    "text": "FAQ\n\nKann ich einen schon existierenden Datensatz für meine Präregistrierung verwenden?\n\nJa, das geht, so lange hinsichtlich der präregistrierten Aspekte relevante Ergebnisse noch nicht bekannt sind. Optimalerweise findet die Präregistrierung selbstverständlich vor dem Beginn der Datenerhebung statt – dies ist aber nicht immer möglich, bspw. wenn eine eigene Datenerhebung bereits begonnen wurde oder abgeschlossen ist oder wenn es um die Sekundäranalyse bestehender Datensätze geht. Ziel der Präregistrierung ist es, Analyseentscheidungen, die auf bekannten Resultaten der betreffenden Daten basieren, zu vermeiden. Zentral ist Transparenz hinsichtlich des Stands der Datenerhebung, der Bekanntheit der Daten und etwaiger Voranalysen. Zum Beispiel kann spezifiziert werden, dass…\n\nder Datensatz bereits besteht, allerdings noch nicht gesichtet wurde (z. B. liegt das Datum der Präregistrierung vor dem des Datennutzungsvertrages, den Sie mit einem Panelbetreiber abschließen).\nder Datensatz bereits gesichtet und ggf. voranalysiert wurde (beispielsweise von einer anderen Institution), allerdings dem Forscher oder der Forscherin noch nicht zur Verfügung steht und auch keine Informationen zur Sichtung und ggf. Voranalyse der Daten durch Dritte zur Verfügung stehen.\nder Datensatz schon gesichtet wurde, allerdings noch keine Analysen, die die aktuelle Forschungsfrage betreffen, durchgeführt wurden. Es muss dann aber sehr klar beschrieben werden, welche Analysen bereits durchgeführt wurden und sichergestellt werden (z. B. mittles Analsyeskript oder Journal-Datei in SPSS), dass diese tatsächlich in keiner Weise informativ hinsichtlich der registrierten Hypothesen sind.\n\nEine Präregistrierung ergibt keinen Sinn, wenn schon relevante Ergebnisse bekannt sind.\n\n\n\nKönnen Dokumente auch privat bleiben?\n\nWenn Sie Ihre Präregistrierung über „aspredicted” oder über osf.io erstellen, kann diese zunächst auch für einen definierten Zeitraum privat bleiben.\nIm OSF wird jede Präregistrierung zu einem bestimmten Zeitpunkt veröffentlicht. Hier ist der Ansatz, das „file drawer-problem” abzuschwächen (andernfalls würden diese wegen nicht passender Resultate möglicherweise privat bleiben). Weiterhin wird so verhindert, dass für die selbe Studie viele Präregistrierungen erstellt werden und am Ende nur die passende veröffentlicht wird.\n\n\n\nGibt es Nachweise, dass Präregistrierung funktioniert?\n\nJa, die Qualität von Registered Reports ist höher als die von Studien, die nach dem klassischen Publikationsmodell veröffentlicht wurden (https://doi.org/10.1038/s41562-021-01142-4). Präregistrierungen mit Analyseplan sind weniger anfällig für P-Hacking und Publikationsbias (https://doi.org/10.1086/730455). Vereinzelt haben Meta-Analysen Effektstärken von präregistrierten vs. nicht-präregistrierten Studien verglichen, wobei präregistrierte Studien kleinere Effekte hatten (z. B. Körner et al., 2022, S. 75).\nEin Großteil aller Forschenden wendet Questionable Research Practices (QRP, https://doi.org/10.1371/journal.pone.0304342, https://doi.org/10.1371%2Fjournal.pone.0263023) an und gefährdet damit die Robustheit und Vertrauenswürdigkeit von Wissenschaft. Präregistrierungen sind ein einfaches und effizientes Mittel dagegen.\n\n\n\nWie wichtig ist es, das Analyseskript zu präregistrieren?\n\nEine Präregistrierung ohne Analyseskript verringert die Freiheitsgrade nur unzureichend (https://doi.org/10.1086/730455). Mit einer einfachen Simulation lässt sich zeigen, wie die False-Positive-Rate durch fehlenden Details selbst bei einfachen Korrelationen von 5% auf über 10% steigt. Komplexere statistische Verfahren haben mehr Freiheitsgrade und sind daher anfälliger. Dazu kommen Freiheitsgrade bei der Datensammlung und Datenaufbereitung, die für sich genommen die False-Positive-Rate auf über 60% ansteigen lassen (https://doi.org/10.1177/0956797611417632).\n\n\n# Pseudozufallszahl festlegen für Reproduzierbarkeit\nset.seed(1)\nsig_level &lt;- .05\n\n# P-Wert bei vielen Signifikanztests ist in 5% der Fälle unter 5%\npaste(\"False-Positive-Rate bei Präregistrierung:\", mean(replicate(10000, cor.test(rnorm(100), rnorm(100))$p.value) &lt; sig_level))\n## [1] \"False-Positive-Rate bei Präregistrierung: 0.0497\"\n\n# Nun werden P-Werte für alle möglichen Variationen des Korrelationstests errechnet für die Prüfung, ob mindestens einer der möglichen P-Werte unter 5% ist\n\n# Freiheitsgrade\nalternative &lt;- c(\"two.sided\", \"less\", \"greater\")\nmethod &lt;- c(\"pearson\", \"kendall\", \"spearman\")\ncontinuity &lt;- c(TRUE, FALSE)\n\n# Datensatz vorbereiten\nps &lt;- NULL\npmins &lt;- NULL\n\n# Simulation durchführen\nfor (i in 1:10000) {\n  x &lt;- rnorm(100)\n  y &lt;- rnorm(100)\n  for (j in alternative) {\n    for (k in method) {\n      for (l in continuity) {\n        \n        # Korrelation mit den entsprechenden Parametern berechnen\n        ps &lt;- c(ps, cor.test(x, y, alternative = j, method = k, continuity = l)$p.value)\n        \n      }\n    }\n  }\n  pmins &lt;- c(pmins, min(ps)) # aus allen berechneten Korrelationen die größte auswählen (d. h. diejenige mit dem kleinsten P-Wert)\n  ps &lt;- NULL\n}\n\n# Wahrscheinlichkeit, eine signifikante Korrelation zu bekommen\npaste(\"False-Positive-Rate bei P-Hacking:\", mean(pmins &lt; sig_level))\n## [1] \"False-Positive-Rate bei P-Hacking: 0.1306\"\n\n\n\n\n\nKönnte nicht im Nachhinein „präregistriert” werden (also geschummelt)?\n\nDies wäre eine klare Täuschung und ist daher hoffentlich in den meisten Fällen eindeutiges wissenschaftliches Fehlverhalten.\nDie Präregistrierung hat einen Zeitstempel. Wenn der Zeitpunkt der Datenerhebung bekannt ist, lässt sich prüfen, ob letztere vor der Präregistrierung begonnen wurde.\nBei Registered Reports wäre dies schwierig, da Reviewer aller Wahrscheinlichkeit nach Änderungen hinsichtlich der Datenerhebung im Review Stadium vorschlagen werden.\n\n\n\nBegrenzt Präregistrierung nicht die explorative Forschung?\n\nNein, auch explorative Fragen können und sollen präregistriert werden.\nAuch können selbstverständlich weiterhin zusätzliche (über die Präregistrierung hinausgehende) Fragen und Auswertungsmethoden exploriert werden – die entsprechenden Fragen/Analysen müssen dann nur im Manuskript explizit als explorativ gekennzeichnet werden.\nDie Absicht von Präregistrierung ist es nur, dass der Unterschied zwischen explorativen und konfirmatorischen Resultaten klar und transparent gemacht wird.\n\n\n\nKönnte meine Idee nicht geklaut werden, wenn ich sie öffentlich mache?\n\nDurch die Präregistrierung wird festgehalten, dass die Idee von Ihnen ist.\nIst es trotzdem ein Problem für Sie, so können Sie Ihre Registrierung noch für maximal 4 Jahre privat lassen.\n\n\n\nIst Präregistrierung nicht sehr ineffizient?\n\nEin Teil der Manuskripterstellung wird vorverlagert - auf den Zeitpunkt vor der Studiendurchführung. Außerdem lassen sich Fehler vorab besser vermeiden und das analytische Vorgehen wird bereits vorab festgelegt, sodass es im Nachhinein lediglich wie geplant umgesetzt werden muss.\nBei Registered Reports wird der Publikationsprozess sogar deutlich effizienter. Sie erhalten vor dem Durchführen der Studie Feedback, sodass Fehler vermieden werden können. Darüber hinaus erhöhen Registered Reports die Planbarkeit und Sicherheit von Publikationen und machen die Wahrscheinlichkeit einer Publikation unabhängig von den Ergebnissen.\n\n\n\nUnter welchen Bedingungen bekommt meine Publikation den „Pre-registered” Stempel?\n\nDas Journal, in dem das Paper erscheint, bietet diese Möglichkeit an.\nIhre Registrierung ist eine öffentliche, mit Datum und Zeit gestempelte Registrierung in einem institutionellen Registrierungssystem.\nRegistrierung hat vor der Analyse der Daten stattgefunden.\nRegistriertes Design und Analyseplan korrespondieren direkt zu berichtetem Design und Analysen.\nKomplette Veröffentlichung der Resultate gemäß dem registrierten Plan.\n\nTypischerweise gelten seitens Zeitschriften die folgenden Bedingungen:\n\nProvide the URL, doi, or other permanent path to the registration in a public, open-access repository.*\nWas the analysis plan registered prior to examination of the data or observing the outcomes? If no, explain.**\nWere there additional registrations for the study other than the one reported? If yes, provide links and explain.*\nWere there any changes to the preregistered analysis plan for the primary confirmatory analysis? If yes, explain.**\nAre all of the analyses described in the registered plan reported in the article? If no, explain.*\n\n*No badge will be awarded if (1) is not provided, or if (3) is answered “yes” without strong justification, or if (5) is answered “no” without strong justification.\n**If the answer to (2) is “no,” the notation DE (Data Exist) will be added to the badge, indicating that registration postdates realization of the outcomes but predates analysis. If the answer to (4) is “yes” with strong justification for changes, the notation TC (Transparent Changes) will be added to the badge, indicating that the analysis plan was altered but the preregistered analyses and rationale for the change are provided.",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#worum-gehts-2",
+    "href": "quantitativ/quant_1.html#worum-gehts-2",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Worum geht’s?",
+    "text": "Worum geht’s?\nBevor eine Studie durchgeführt wird, sollten Forschende ein klares Bild davon haben, welche Daten sie erheben, wie sie sie aufbereiten, welche Fälle ausgeschlossen werden und welche Analysen gerechnet werden. Im Idealfall existiert ein simulierter Datensatz oder ein Datensatz mit Werten von Testdurchläufen, für welchen das Analyse-Skript bereits programmiert werden kann. Im Fall von simulierten Daten werden Forschende zusätzlich angeregt, Verteilungen von Variablen und deren Zusammenhänge zu antizipieren. Simulierte Daten eignen sich dadurch auch für Power-Simulationen.",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#publikationen-2",
+    "href": "quantitativ/quant_1.html#publikationen-2",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Publikationen",
+    "text": "Publikationen\n\nFife, D. (2020). The eight steps of data analysis: A graphical framework to promote sound statistical analysis. Perspectives on Psychological Science, 15(4), 1054-1075. https://doi.org/10.1177/1745691620917333",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#weiterführende-informationen-2",
+    "href": "quantitativ/quant_1.html#weiterführende-informationen-2",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Weiterführende Informationen",
+    "text": "Weiterführende Informationen\n\nAnleitung zur Datensimulation mit R und Zufallszahlen: https://stirlingcodingclub.github.io/simulating_data/index.html",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#worum-gehts-3",
+    "href": "quantitativ/quant_1.html#worum-gehts-3",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Worum geht’s?",
+    "text": "Worum geht’s?\nDiese Informationen stammen von der DMP-Website der Universität Münster.\nSchon vor Beginn eines Forschungsvorhabens ist es wichtig und hilfreich, den Umgang mit anfallenden Daten und Ergebnissen für die kommende Arbeitsphase vorauszuplanen. Ein geeignetes Werkzeug hierfür ist der Datenmanagementplan (DMP), in dem Rahmenbedingungen und konkrete Strategien zu Erstellung und Verarbeitung, zu Umfang und Sicherung sowie ggf. späterer Veröffentlichung der anfallenden Forschungsdaten definiert und dokumentiert werden.\nEin DMP kann in einigen Disziplinen oder Förderlinien eine Voraussetzung für die Bewilligung von Drittmitteln sein und wird zusammen mit dem Projektantrag begutachtet.",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#weiterführende-informationen-3",
+    "href": "quantitativ/quant_1.html#weiterführende-informationen-3",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Weiterführende Informationen",
+    "text": "Weiterführende Informationen\n\nInfos der Universität Münster: https://www.uni-muenster.de/Forschungsdaten/en/datenmanagement/organisieren/planen/",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#worum-gehts-4",
+    "href": "quantitativ/quant_1.html#worum-gehts-4",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Worum geht’s?",
+    "text": "Worum geht’s?\nRegistered Reports werden von einigen Journals als neue Publikationsoption angeboten. Im Unterschied zur herkömmlichen Publikationspraxis werden Manuskripte hierbei VOR der Datenerhebung eingereicht und beinhalten entsprechend noch keinen Ergebnis- und Diskussionsteil. Im Prinzip entsprechen Sie einer ausführlichen Präregistrierung inkl. theoretischem und empirischem Hintergrund und der Ableitung der Fragestellungen und Hypothesen und einem ausführlichen Methodenteil, in dem alle geplanten Methoden der Datenerhebung und Datenanalyse festgehalten sind. Registered Reports (manchmal auch Preregistered Reports genannt) durchlaufen dann ein übliches erstes Peer-Reviewverfahren, mit dem wesentlichen Unterschied, dass das Feedback der Gutachtenden tatsächlich noch in die Spezifikation der Hypothesen und die Verbesserung der Datenerhebung und -analyse einfließen kann (da die Daten ja noch nicht erhoben wurden). Nach diesem ersten Reviewverfahren bzw. nach Revisionen werden Paper entweder abgelehnt oder erhalten eine „in principle acceptance”, d.h. sie werden akzeptiert unter der Bedingung, dass die Datenerhebung und -analyse inkl. der Hypothesentestung tatsächlich so wie beschrieben später auch durchgeführt wird. Dies wird in einem zweiten Reviewschritt nach der Datenerhebung und Fertigstellung des Papers überprüft. Die Entscheidung über die finale Akzeptanz des Papers ist aber dann nur noch von der sauberen Durchführung gemäß des präregistrierten Plans und NICHT von den Ergebnissen abhängig.\nDie Registered Reports sind also eine besondere Form des Publizierens, die sowohl attraktiv für Forschendeist (weil die eigene Forschung schneller und unabhängig von den Ergebnissen akzeptiert wird) als auch geeignet ist, einige der wichtigsten Ursachen der geringen Robustheit veröffentlichter wissenschaftlicher Befunde (v.a. flexible Auswahl von Variablen, flexible Regeln zum Ausschluss von Daten, Hypothesen, Analysemethoden, post-hoc Generierung von Hypothesen gemäß der Ergebnisse, keine Veröffentlichung von Nullbefunden) zu beseitigen. Momentan verwenden 89 Journals Registered Reports als reguläre Einreichungsoption oder Teil einer einzelnen besonderen Ausgabe. Eine Liste dieser Journals können Sie hier einsehen. Auch können Sie dort die spezifischen Regeln der aufgeführten Journals einsehen.\n\n\n\nForschungsprozess bei Registered Reports",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#publikationen-3",
+    "href": "quantitativ/quant_1.html#publikationen-3",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Publikationen",
+    "text": "Publikationen\n\nChambers, C.D., Tzavella, L. The past, present and future of Registered Reports. Nat Hum Behav 6, 29–42 (2022). https://doi.org/10.1038/s41562-021-01193-7",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "quantitativ/quant_1.html#weiterführende-informationen-4",
+    "href": "quantitativ/quant_1.html#weiterführende-informationen-4",
+    "title": "1. Forschungsfragen und Forschungsplanung",
+    "section": "Weiterführende Informationen",
+    "text": "Weiterführende Informationen\n\nWebsite des COS zu Registered Reports: https://www.cos.io/initiatives/registered-reports\nListe teilnehmender Zeitschriften: https://docs.google.com/spreadsheets/d/1D4_k-8C_UENTRtbPzXfhjEyu3BfLxdOsn9j-otrO870/edit?gid=0#gid=0",
+    "crumbs": [
+      "Quantitative Forschung",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
     "objectID": "quantitativ/quant_3.html#worum-gehts",
     "href": "quantitativ/quant_3.html#worum-gehts",
     "title": "3. Forschungsergebnisse veröffentlichen",
@@ -634,33 +1062,5 @@
       "Fächerübergreifende Informationen",
       "3. Forschungsergebnisse veröffentlichen"
     ]
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#diamond-or-closedgreen",
-    "href": "flyerinfos/openaccess.html#diamond-or-closedgreen",
-    "title": "Open Access: All you need to know",
-    "section": "Diamond or Closed+Green",
-    "text": "Diamond or Closed+Green\n\n\n\n\n\n\nTip\n\n\n\nIf possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.\n\n\nIf you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in prestigious journals to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain Journal Impact Factor, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the Open Policy Finder."
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#choosing-a-preprint-server",
-    "href": "flyerinfos/openaccess.html#choosing-a-preprint-server",
-    "title": "Open Access: All you need to know",
-    "section": "Choosing a Preprint Server",
-    "text": "Choosing a Preprint Server\nIf you decide to upload a preprint, beware that there are different types of preprint servers.\n\nNon-profit preprint repositories are managed by scientific communities. They are moderated by researchers and the respective communities’ values are aligned with scientific ideals. Examples are Zenodo.org, Arxiv.org, and osf.io/preprints.\nCommercial preprint repositories are owned by publishers. They may be moderated by non-researchers or bots and they prioritize profit. They may be used to create lock-in effects for researchers using them (e.g., nudging users to submit to journals from the respective publisher).\n\nWe recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see https://en.wikipedia.org/wiki/List_of_preprint_repositories."
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
-    "href": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
-    "title": "Open Access: All you need to know",
-    "section": "Open Access and quality: Predatory Publishing",
-    "text": "Open Access and quality: Predatory Publishing\n\n\n\n\n\n\nNote\n\n\n\nOpen Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.\n\n\nWhile the idea of open access is for research to be available online for free and without any restrictions (e.g., required log-in or paywall), commercial publishers have recommercialized the idea. This is usually referred to as Gold Open Access and involves Article Processing Charges (APCs). That is, authors have to pay the journal to get their article published. APCs are positively correlated with journal citation impact and exceed justified costs by far. Due to researchers’ pressure to publish, some journals offer publication against a fee and provide insufficient quality assurance. For example, peer review may be falsified or revisions may not actually be required to address peer reviewers’ comments. This creates the picture of a high-quality peer reviewed journal when it is actually merely a very expensive service to publish any article. Publishers engaging in these practices have also had aggressive marketing strategies such as emailing authors with requests to submit their article to their journal, advertising impact factors, forcing authors to include articles from their journal in the citations to artificially increase the impact factor, and reward researchers for reviews with coupons that allow them to waive APCs in said journals. Another feature of predatory journals has been low variance in turn over times and a large number of special issues (e.g., &gt;300 special issues per year).\n\nThink-Check-Submit\nTo assess whether a journal is predatory, you can follow these steps:\n\nFollow the recommendations by Think-Check-Submit and COPE.\nCheck the Norwegian Scientific Index if the journal or publisher is academic.\nFurther resources such as the DOAJ (has a very low bar for journals to be indexed) or the website Predatory Journals (has anonymous authors and intransparent rating systems) may provide additional insights."
-  },
-  {
-    "objectID": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
-    "href": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
-    "title": "Open Access: All you need to know",
-    "section": "The Prisoner’s Dilemma of Publishing",
-    "text": "The Prisoner’s Dilemma of Publishing\nIn many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and resignations of entire editorial boards. In other words, early career researchers’ academic success can rely on publications in prestigious and expensive journals. For example, a publication in the prestigious journal Nature Human Behavior costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., SF DORA, CoARA) but are relatively likely to reward publications in high impact journals over open access publications."
   }
 ]
