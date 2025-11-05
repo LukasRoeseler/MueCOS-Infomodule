@@ -474,53 +474,91 @@
     "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
   },
   {
-    "objectID": "flyerinfos/preregistration.html",
-    "href": "flyerinfos/preregistration.html",
-    "title": "Preregistrations: All you need to know",
+    "objectID": "flyerlanding.html",
+    "href": "flyerlanding.html",
+    "title": "Flyer & Cheatsheets",
     "section": "",
-    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Preregistration infos for researchers. It is part of the Münster Center for Open Science’s info materials.\n\nPreregistration flyer\nPreregistration cheat sheet\nMore and more researchers in the social, behavioral and cognitive sciences are required to preregister their studies or choose to do so to increase transparency and robustness. The MüCOS offers advice on how to preregister, such as workshops and this brief guide since preregistrations have multiple advantages and almost no disadvantage:"
+    "text": "Access cheatsheets, flyers, and additional infos on central open science-topics via this site.\n\nOpen Access\nOpen Data (via University of Münster website)\nPreregistration",
+    "crumbs": [
+      "Flyer & Cheatsheets"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
-    "href": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
-    "title": "Preregistrations: All you need to know",
-    "section": "The Problem: Garden of Forking Paths",
-    "text": "The Problem: Garden of Forking Paths\nA common metaphor used to explain preregistration is the “garden of forking paths.” This metaphor relates to the research process, or more specifically, to the journey researchers take from raw data to the final results. This journey is not a straight line, but rather a path filled with many decisions. For many of these decisions, there is no clear “right” or “wrong” but several routes are possible. At the same time, different paths often lead to different outcomes. The purpose of preregistration is not to find the perfect path, but to plan a reasonable and justifiable path in advance. The choice of this path should be based on considerations that are independent of the observed results. In other words, preregistration helps researchers avoid choosing the analytical route that simply suits them best after seeing the data.\nFlexibility in choice of analyses is suspected to be one of the many intertwined reasons for low rates of replication and reproduction success across sciences (see the Wikipedia article for prevalence in Psychology, Medicine, Economics, etc.)"
+    "objectID": "flyerinfos/openaccess.html",
+    "href": "flyerinfos/openaccess.html",
+    "title": "Open Access: All you need to know",
+    "section": "",
+    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Open Access infos for researchers and part of the Münster Center for Open Science’s info materials.\n\nOA flyer\nOA cheat sheet\nScientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:\nMüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on Open Access and digital publishing, manages numerous Open Access journals, the publication server Miami, and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software Open Journal System.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#myths-of-preregistrations",
-    "href": "flyerinfos/preregistration.html#myths-of-preregistrations",
-    "title": "Preregistrations: All you need to know",
-    "section": "Myths of Preregistrations",
-    "text": "Myths of Preregistrations\n\n\n\nMyths\nFacts\n\n\n\n\nPs are laborious.\nIf done correctly, Ps can save work because only one analysis is conducted.\n\n\nPs allow scooping from other researchers.\nResearchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY).\n\n\nPs prohibit researchers from conducting exploratory analyses and restrict creativity.\nPs allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory.\n\n\nJournals do not value Ps.\nAs of February 2025, 125 journals require authors to disclose whether the study they report was preregistered. Check your journal’s guidelines for authors."
+    "objectID": "flyerinfos/openaccess.html#main-types-of-open-access",
+    "href": "flyerinfos/openaccess.html#main-types-of-open-access",
+    "title": "Open Access: All you need to know",
+    "section": "Main Types of Open Access",
+    "text": "Main Types of Open Access\n\n\n\n\n\n\nTip\n\n\n\nThere are numerous types of open access that differ with respect to publication costs, reading costs, peer review status, and copyright ownership.\n\n\n\nDiagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281\n\n\n\n\nThe following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.\n\n\n\nType\nRegulation\nAssessment in Terms of Accessibility and Cost of Knowledge\n\n\n\n\nDiamond (Gold with APC = 0)\nAll publications are freely accessible; no publication costs (Author/Book Processing Charges) are incurred.\nPositive\n\n\nGold\nAll publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC).\nPositive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs).\n\n\nHybrid\nThe journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall.\nNegative due to “double dipping” – universities pay twice: for the subscription (= reading access) plus Open Access.\n\n\nMoving Wall\nThe journal has a subscription model. After a specified period (typically between 6 and 48 months), the article becomes freely accessible.\nNegative: Research is slowed down, and especially financially weak individuals/institutions/countries are disadvantaged.\n\n\nPromotional\nSelected publications are made freely available to promote the journal.\nNegative: Open Washing (the journal itself is not open and uses the model only for self-promotion).\n\n\nGreen\nIndependently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal here.\nPositive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period.\n\n\nClosed\nPublications are only accessible against a one-time or recurring fee.\nNegative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone.\n\n\n\nFor more information on Open Access types please see https://zenodo.org/records/8322048",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#best-practices",
-    "href": "flyerinfos/preregistration.html#best-practices",
-    "title": "Preregistrations: All you need to know",
-    "section": "Best Practices",
-    "text": "Best Practices\n\nComprehensiveness: Try to plan every detail of the study that, if decided upon later, can affect the results. Choose between over 20 templates for guidance in what to determine. Ideally, finish your study’s analysis script (e.g., R or Python script, SPSS syntax) and attach the file to the preregistration.\nStructure: To facilitate review of the preregistration or comparison between planned and conducted analyses, you can use a template. There are over 20 templates for many types of studies. They can also guide you in planning (e.g., suggest parts of the research design that you need to consider).\nTransparency: Be as transparent as possible with respect to your plans. If needed, create an anonymized view-only link for blind peer review. Make the preregistration publicly accessible at the moment of publication or earlier and link to it from the corresponding research article.\nUpdates: If you notice necessary changes before starting data collection, you can update the preregistration. If data collection is already underway or you are using secondary data, you can simply deviate.\nDeviations: Difficult to see the future is. In up to 90% of all studies, there will be at least one deviation. You should discuss all deviations from the preregistration in three respects: How did you deviate (e.g., corrected a coding error)? Why did you deviate (e.g., preregistered code did not run)? How did it affect the results (allowed to run the code)? This also applies to cases where you had not not specified anything."
+    "objectID": "flyerinfos/openaccess.html#diamond-or-closedgreen",
+    "href": "flyerinfos/openaccess.html#diamond-or-closedgreen",
+    "title": "Open Access: All you need to know",
+    "section": "Diamond or Closed+Green",
+    "text": "Diamond or Closed+Green\n\n\n\n\n\n\nTip\n\n\n\nIf possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.\n\n\nIf you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in prestigious journals to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain Journal Impact Factor, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the Open Policy Finder.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#where-to-preregister",
-    "href": "flyerinfos/preregistration.html#where-to-preregister",
-    "title": "Preregistrations: All you need to know",
-    "section": "Where to preregister?",
-    "text": "Where to preregister?\n\nOSF Registries: Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science\nZPID PreReg Service: Primarily for psychological research and maintained by the Leibniz Institute for Psychology.\nAspredicted.org [not recommended]: Fixed template with too few questions, maintained by researchers from the US University of Pennsylvania\n\nFurther services such as Prospero, the German Clinical Trials Register (DRKS) or ClinicalTrials.gov primarily serve other services but can serve as preregistration platforms as well.\nFAQs\nQ: What should I do if a reviewer asks me to deviate from my preregistration?\nA: If they provide a good reason, make the change but clearly discuss the deviation and check whether it leads to different results.\nQ: What should I do if I want to publish a study that was not preregistered?\nA: Conduct another preregistered study or compensate for the missing preregistration by increasing transparency.\nQ: Are there other ways to know if I can trust a finding besides checking whether it was preregistered?\nA: Yes; you can use p-curve analysis, check if unusually many results are significant, consider plausibility of effect sizes, analyze available data, look for unpublished replications, and more.\nQ: What if I get null results and cannot tweak my results so they are significant and publishable?\nA: Tweaking results (also known as p-hacking) is a questionable research practices that you should never apply. There are journals that publish good research regardless of results, some even use results-blind peer review, and you can submit as a registered report if you expect a null finding. In these cases, beware of predatory publishers and commercial open access journals (see also Open Access infos).\nQ: Can I still do exploratory analyses?\nA: Yes, just make sure to clearly label which analyses are confirmatory and which are exploratory.\nQ: Can other people steal my idea by browsing preregistrations?\nA: First, you can put your preregistration under embargo and release it when you choose (consider that it may benefit science if others replicate or build on your idea). Second, you can assign a license to your preregistration which requires others to cite it (e.g., CC-BY).\nQ: What should I do if my co-authors object to preregistering our study?\nA: Discuss their reasons and concerns. If they insist on using questionable research practices, reconsidedr the collaboration."
+    "objectID": "flyerinfos/openaccess.html#choosing-a-preprint-server",
+    "href": "flyerinfos/openaccess.html#choosing-a-preprint-server",
+    "title": "Open Access: All you need to know",
+    "section": "Choosing a Preprint Server",
+    "text": "Choosing a Preprint Server\nIf you decide to upload a preprint, beware that there are different types of preprint servers.\n\nNon-profit preprint repositories are managed by scientific communities. They are moderated by researchers and the respective communities’ values are aligned with scientific ideals. Examples are Zenodo.org, Arxiv.org, and osf.io/preprints.\nCommercial preprint repositories are owned by publishers. They may be moderated by non-researchers or bots and they prioritize profit. They may be used to create lock-in effects for researchers using them (e.g., nudging users to submit to journals from the respective publisher).\n\nWe recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see https://en.wikipedia.org/wiki/List_of_preprint_repositories.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#further-reading",
-    "href": "flyerinfos/preregistration.html#further-reading",
-    "title": "Preregistrations: All you need to know",
-    "section": "Further reading",
-    "text": "Further reading\n\nBrodeur, A., Cook, N. M., Hartley, J. S., & Heyes, A. (2024). Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement. Journal of Political Economy Microeconomics, 2(3), 527-561. https://doi.org/10.1086/730455\nMellor, D. T. (2017, September 23). Preregistration and increased transparency will benefit science. http://doi.org/10.20316/ESE.2017.43.018\nNosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2017, August 24). The preregistration revolution. Retrieved from osf.io/2dxu5\nNosek, B. A., & Lakens, D. (2016, August 15). Registered reports: A method to increase the credibility of published reports. Retrieved from psyarxiv.com/mgxyg\nParsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature Human Behaviour, 6(3), 312-318. https://doi.org/10.1038/s41562-021-01269-4\nSimmons, J. P., Nelson, L. D., & Simonsohn, U. (2021). Pre‐registration is a game changer. But, like random assignment, it is neither necessary nor sufficient for credible science. Journal of Consumer Psychology, 31(1), 177-180. http://dx.doi.org/10.1002/jcpy.1207\nSoderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., … & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. Nature Human Behaviour, 5(8), 990-997. https://doi.org/10.1038/s41562-021-01142-4"
+    "objectID": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
+    "href": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
+    "title": "Open Access: All you need to know",
+    "section": "Open Access and Quality: Predatory Publishing",
+    "text": "Open Access and Quality: Predatory Publishing\n\n\n\n\n\n\nNote\n\n\n\nOpen Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.\n\n\nWhile the idea of open access is for research to be available online for free and without any restrictions (e.g., required log-in or paywall), commercial publishers have recommercialized the idea. This is usually referred to as Gold Open Access and involves Article Processing Charges (APCs). That is, authors have to pay the journal to get their article published. APCs are positively correlated with journal citation impact and exceed justified costs by far. Due to researchers’ pressure to publish, some journals offer publication against a fee and provide insufficient quality assurance. For example, peer review may be falsified or revisions may not actually be required to address peer reviewers’ comments. This creates the picture of a high-quality peer reviewed journal when it is actually merely a very expensive service to publish any article. Publishers engaging in these practices have also had aggressive marketing strategies such as emailing authors with requests to submit their article to their journal, advertising impact factors, forcing authors to include articles from their journal in the citations to artificially increase the impact factor, and reward researchers for reviews with coupons that allow them to waive APCs in said journals. Another feature of predatory journals has been low variance in turn over times and a large number of special issues (e.g., &gt;300 special issues per year).\n\nThink-Check-Submit\nTo assess whether a journal is predatory, you can follow these steps:\n\nFollow the recommendations by Think-Check-Submit and COPE.\nCheck the Norwegian Scientific Index if the journal or publisher is academic.\nFurther resources such as the DOAJ (has a very low bar for journals to be indexed) or the website Predatory Journals (has anonymous authors and intransparent rating systems) may provide additional insights.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
-    "objectID": "flyerinfos/preregistration.html#workshops-and-materials",
-    "href": "flyerinfos/preregistration.html#workshops-and-materials",
-    "title": "Preregistrations: All you need to know",
-    "section": "Workshops and Materials",
-    "text": "Workshops and Materials\n\nMüCOS/CERes Workshop on Preregistration: https://osf.io/64teq\n90 minutes preregistration workshop: https://www.youtube.com/watch?v=EnKkGO3OM9c"
+    "objectID": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
+    "href": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
+    "title": "Open Access: All you need to know",
+    "section": "The Prisoner’s Dilemma of Publishing",
+    "text": "The Prisoner’s Dilemma of Publishing\nIn many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and resignations of entire editorial boards. In other words, early career researchers’ academic success can rely on publications in prestigious and expensive journals. For example, a publication in the prestigious journal Nature Human Behavior costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., SF DORA, CoARA) but are relatively likely to reward publications in high impact journals over open access publications.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
+  },
+  {
+    "objectID": "flyerinfos/openaccess.html#further-information",
+    "href": "flyerinfos/openaccess.html#further-information",
+    "title": "Open Access: All you need to know",
+    "section": "Further Information",
+    "text": "Further Information\n\nComprehensive tool for comparing various journal policies: https://finder.open-access.network\nPortal for searching numerous preprint servers: https://osf.io/preprints\nPortal for searching Open Access journals including information on licenses and publication fees: https://doaj.org\nInformation from the DEAL Consortium on why CC BY is the best choice for Open Access publications: https://deal-konsortium.de/warum-ccby\nInteractive and live dataset of publication fees at German institutions: https://treemaps.openapc.net/apcdata/openapc/ or Münster data\nDashboard for tracking Open Access publications in Germany: https://open-access-monitor.de\nHistory of Open Access: https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Open Access"
+    ]
   },
   {
     "objectID": "about.html",
@@ -530,53 +568,81 @@
     "text": "Die Open Science-Infomodule wurden von dem Münster Center for Open Science auf Basis der Ressourcen der Open Science Kommission Psychologie (https://osf.io/x3s5c/) und in Kooperation mit Open Science-Vertreter*innen der Fachbereiche sowie der Universitäts- und Landesbibliothek der Universität Münster erstellt. Diese Website befindet sich aktuell im Aufbau. Rückmeldungen, Änderungsvorschläge, und Wünsche der Mitarbeit richten Sie bitte an lukas.roseler[at]uni-muenster.de. Alternativ können Sie über Github öffentlich ein Issue eröffnen.\nLizenz: CC-By Attribution 4.0 International\nCite as: Röseler, L. & Open Science Kommission Psychologie (2025). Open Science Infomodule. https://lukasroeseler.github.io/MueCOS-Infomodule/\nAcknowledgements: Diese Website wurde mithilfe des jtr13 website templates erstellt. Wir bedanken uns herzlich für zahlreiche Vorschläge und Hinweise der Open Science Koordinator*innen der Universität Münster, einzelnen Forschenden, und der Open Access Beauftragten der Universität Münster."
   },
   {
-    "objectID": "flyerinfos/openaccess.html",
-    "href": "flyerinfos/openaccess.html",
-    "title": "Open Access: All you need to know",
+    "objectID": "flyerinfos/preregistration.html",
+    "href": "flyerinfos/preregistration.html",
+    "title": "Preregistrations: All you need to know",
     "section": "",
-    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Open Access infos for researchers and part of the Münster Center for Open Science’s info materials.\n\nOA flyer\nOA cheat sheet\nScientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:\nMüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on Open Access and digital publishing, manages numerous Open Access journals, the publication server Miami, and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software Open Journal System."
+    "text": "Tip\n\n\n\nThis is a narrative summary of the most important Preregistration infos for researchers. It is part of the Münster Center for Open Science’s info materials.\n\nPreregistration flyer\nPreregistration cheat sheet\nMore and more researchers in the social, behavioral and cognitive sciences are required to preregister their studies or choose to do so to increase transparency and robustness. The MüCOS offers advice on how to preregister, such as workshops and this brief guide since preregistrations have multiple advantages and almost no disadvantage:",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#main-types-of-open-access",
-    "href": "flyerinfos/openaccess.html#main-types-of-open-access",
-    "title": "Open Access: All you need to know",
-    "section": "Main Types of Open Access",
-    "text": "Main Types of Open Access\n\n\n\n\n\n\nTip\n\n\n\nThere are numerous types of open access that differ with respect to publication costs, reading costs, peer review status, and copyright ownership.\n\n\n\nDiagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281\n\n\n\n\nThe following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.\n\n\n\nType\nRegulation\nAssessment in Terms of Accessibility and Cost of Knowledge\n\n\n\n\nDiamond (Gold with APC = 0)\nAll publications are freely accessible; no publication costs (Author/Book Processing Charges) are incurred.\nPositive\n\n\nGold\nAll publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC).\nPositive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs).\n\n\nHybrid\nThe journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall.\nNegative due to “double dipping” – universities pay twice: for the subscription (= reading access) plus Open Access.\n\n\nMoving Wall\nThe journal has a subscription model. After a specified period (typically between 6 and 48 months), the article becomes freely accessible.\nNegative: Research is slowed down, and especially financially weak individuals/institutions/countries are disadvantaged.\n\n\nPromotional\nSelected publications are made freely available to promote the journal.\nNegative: Open Washing (the journal itself is not open and uses the model only for self-promotion).\n\n\nGreen\nIndependently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal here.\nPositive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period.\n\n\nClosed\nPublications are only accessible against a one-time or recurring fee.\nNegative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone.\n\n\n\nFor more information on Open Access types please see https://zenodo.org/records/8322048"
+    "objectID": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
+    "href": "flyerinfos/preregistration.html#the-problem-garden-of-forking-paths",
+    "title": "Preregistrations: All you need to know",
+    "section": "The Problem: Garden of Forking Paths",
+    "text": "The Problem: Garden of Forking Paths\nA common metaphor used to explain preregistration is the “garden of forking paths.” This metaphor relates to the research process, or more specifically, to the journey researchers take from raw data to the final results. This journey is not a straight line, but rather a path filled with many decisions. For many of these decisions, there is no clear “right” or “wrong” but several routes are possible. At the same time, different paths often lead to different outcomes. The purpose of preregistration is not to find the perfect path, but to plan a reasonable and justifiable path in advance. The choice of this path should be based on considerations that are independent of the observed results. In other words, preregistration helps researchers avoid choosing the analytical route that simply suits them best after seeing the data.\nFlexibility in choice of analyses is suspected to be one of the many intertwined reasons for low rates of replication and reproduction success across sciences (see the Wikipedia article for prevalence in Psychology, Medicine, Economics, etc.)",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#diamond-or-closedgreen",
-    "href": "flyerinfos/openaccess.html#diamond-or-closedgreen",
-    "title": "Open Access: All you need to know",
-    "section": "Diamond or Closed+Green",
-    "text": "Diamond or Closed+Green\n\n\n\n\n\n\nTip\n\n\n\nIf possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.\n\n\nIf you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in prestigious journals to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain Journal Impact Factor, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the Open Policy Finder."
+    "objectID": "flyerinfos/preregistration.html#myths-of-preregistrations",
+    "href": "flyerinfos/preregistration.html#myths-of-preregistrations",
+    "title": "Preregistrations: All you need to know",
+    "section": "Myths of Preregistrations",
+    "text": "Myths of Preregistrations\n\n\n\nMyths\nFacts\n\n\n\n\nPs are laborious.\nIf done correctly, Ps can save work because only one analysis is conducted.\n\n\nPs allow scooping from other researchers.\nResearchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY).\n\n\nPs prohibit researchers from conducting exploratory analyses and restrict creativity.\nPs allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory.\n\n\nJournals do not value Ps.\nAs of February 2025, 125 journals required authors to disclose whether the study they report was preregistered. Check your journal’s guidelines for authors.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#choosing-a-preprint-server",
-    "href": "flyerinfos/openaccess.html#choosing-a-preprint-server",
-    "title": "Open Access: All you need to know",
-    "section": "Choosing a Preprint Server",
-    "text": "Choosing a Preprint Server\nIf you decide to upload a preprint, beware that there are different types of preprint servers.\n\nNon-profit preprint repositories are managed by scientific communities. They are moderated by researchers and the respective communities’ values are aligned with scientific ideals. Examples are Zenodo.org, Arxiv.org, and osf.io/preprints.\nCommercial preprint repositories are owned by publishers. They may be moderated by non-researchers or bots and they prioritize profit. They may be used to create lock-in effects for researchers using them (e.g., nudging users to submit to journals from the respective publisher).\n\nWe recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see https://en.wikipedia.org/wiki/List_of_preprint_repositories."
+    "objectID": "flyerinfos/preregistration.html#best-practices",
+    "href": "flyerinfos/preregistration.html#best-practices",
+    "title": "Preregistrations: All you need to know",
+    "section": "Best Practices",
+    "text": "Best Practices\n\nComprehensiveness: Try to plan every detail of the study that, if decided upon later, can affect the results. Choose between over 20 templates for guidance in what to determine. Ideally, finish your study’s analysis script (e.g., R or Python script, SPSS syntax) and attach the file to the preregistration.\nStructure: To facilitate review of the preregistration or comparison between planned and conducted analyses, you can use a template. There are over 20 templates for many types of studies. They can also guide you in planning (e.g., suggest parts of the research design that you need to consider).\nTransparency: Be as transparent as possible with respect to your plans. If needed, create an anonymized view-only link for blind peer review. Make the preregistration publicly accessible at the moment of publication or earlier and link to it from the corresponding research article.\nUpdates: If you notice necessary changes before starting data collection, you can update the preregistration. If data collection is already underway or you are using secondary data, you can simply deviate.\nDeviations: Difficult to see the future is. In up to 90% of all studies, there will be at least one deviation. You should discuss all deviations from the preregistration in three respects: How did you deviate (e.g., corrected a coding error)? Why did you deviate (e.g., preregistered code did not run)? How did it affect the results (allowed to run the code)? This also applies to cases where you had not not specified anything.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
-    "href": "flyerinfos/openaccess.html#open-access-and-quality-predatory-publishing",
-    "title": "Open Access: All you need to know",
-    "section": "Open Access and Quality: Predatory Publishing",
-    "text": "Open Access and Quality: Predatory Publishing\n\n\n\n\n\n\nNote\n\n\n\nOpen Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.\n\n\nWhile the idea of open access is for research to be available online for free and without any restrictions (e.g., required log-in or paywall), commercial publishers have recommercialized the idea. This is usually referred to as Gold Open Access and involves Article Processing Charges (APCs). That is, authors have to pay the journal to get their article published. APCs are positively correlated with journal citation impact and exceed justified costs by far. Due to researchers’ pressure to publish, some journals offer publication against a fee and provide insufficient quality assurance. For example, peer review may be falsified or revisions may not actually be required to address peer reviewers’ comments. This creates the picture of a high-quality peer reviewed journal when it is actually merely a very expensive service to publish any article. Publishers engaging in these practices have also had aggressive marketing strategies such as emailing authors with requests to submit their article to their journal, advertising impact factors, forcing authors to include articles from their journal in the citations to artificially increase the impact factor, and reward researchers for reviews with coupons that allow them to waive APCs in said journals. Another feature of predatory journals has been low variance in turn over times and a large number of special issues (e.g., &gt;300 special issues per year).\n\nThink-Check-Submit\nTo assess whether a journal is predatory, you can follow these steps:\n\nFollow the recommendations by Think-Check-Submit and COPE.\nCheck the Norwegian Scientific Index if the journal or publisher is academic.\nFurther resources such as the DOAJ (has a very low bar for journals to be indexed) or the website Predatory Journals (has anonymous authors and intransparent rating systems) may provide additional insights."
+    "objectID": "flyerinfos/preregistration.html#where-to-preregister",
+    "href": "flyerinfos/preregistration.html#where-to-preregister",
+    "title": "Preregistrations: All you need to know",
+    "section": "Where to preregister?",
+    "text": "Where to preregister?\nWhen choosing a preregistration service, make sure that it meets standards for high-quality preregistrations and check if it is recognized by your field.\n\nOSF Registries: Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science\nZPID PreReg Service: Primarily for psychological research and maintained by the Leibniz Institute for Psychology.\nAspredicted.org [not recommended]: Highly popular brief template with too few questions, maintained by researchers from the US University of Pennsylvania\n\nFurther services such as Prospero, the German Clinical Trials Register (DRKS) or ClinicalTrials.gov primarily serve other services but can serve as preregistration platforms as well.\nFAQs\nQ: What should I do if a reviewer asks me to deviate from my preregistration?\nA: If they provide a good reason, make the change but clearly discuss the deviation and check whether it leads to different results.\nQ: What should I do if I want to publish a study that was not preregistered?\nA: Conduct another preregistered study or compensate for the missing preregistration by increasing transparency.\nQ: Are there other ways to know if I can trust a finding besides checking whether it was preregistered?\nA: Yes; you can use p-curve analysis, check if unusually many results are significant, consider plausibility of effect sizes, analyze available data, look for unpublished replications, and more.\nQ: What if I get null results and cannot tweak my results so they are significant and publishable?\nA: Tweaking results (also known as p-hacking) is a questionable research practices that you should never apply. There are journals that publish good research regardless of results, some even use results-blind peer review, and you can submit as a registered report if you expect a null finding. In these cases, beware of predatory publishers and commercial open access journals (see also Open Access infos).\nQ: Can I still do exploratory analyses?\nA: Yes, just make sure to clearly label which analyses are confirmatory and which are exploratory.\nQ: Can other people steal my idea by browsing preregistrations?\nA: First, you can put your preregistration under embargo and release it when you choose (consider that it may benefit science if others replicate or build on your idea). Second, you can assign a license to your preregistration which requires others to cite it (e.g., CC-BY).\nQ: What should I do if my co-authors object to preregistering our study?\nA: Discuss their reasons and concerns. If they insist on using questionable research practices, reconsidedr the collaboration.",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
-    "href": "flyerinfos/openaccess.html#the-prisoners-dilemma-of-publishing",
-    "title": "Open Access: All you need to know",
-    "section": "The Prisoner’s Dilemma of Publishing",
-    "text": "The Prisoner’s Dilemma of Publishing\nIn many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and resignations of entire editorial boards. In other words, early career researchers’ academic success can rely on publications in prestigious and expensive journals. For example, a publication in the prestigious journal Nature Human Behavior costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., SF DORA, CoARA) but are relatively likely to reward publications in high impact journals over open access publications."
+    "objectID": "flyerinfos/preregistration.html#further-reading",
+    "href": "flyerinfos/preregistration.html#further-reading",
+    "title": "Preregistrations: All you need to know",
+    "section": "Further reading",
+    "text": "Further reading\n\nBrodeur, A., Cook, N. M., Hartley, J. S., & Heyes, A. (2024). Do Preregistration and Preanalysis Plans Reduce p-Hacking and Publication Bias? Evidence from 15,992 Test Statistics and Suggestions for Improvement. Journal of Political Economy Microeconomics, 2(3), 527-561. https://doi.org/10.1086/730455\nMellor, D. T. (2017, September 23). Preregistration and increased transparency will benefit science. http://doi.org/10.20316/ESE.2017.43.018\nNosek, B. A., Ebersole, C. R., DeHaven, A. C., & Mellor, D. T. (2017, August 24). The preregistration revolution. Retrieved from osf.io/2dxu5\nNosek, B. A., & Lakens, D. (2016, August 15). Registered reports: A method to increase the credibility of published reports. Retrieved from psyarxiv.com/mgxyg\nParsons, S., Azevedo, F., Elsherif, M. M., Guay, S., Shahim, O. N., Govaart, G. H., … & Aczel, B. (2022). A Community-Sourced Glossary of Open Scholarship Terms. Nature Human Behaviour, 6(3), 312-318. https://doi.org/10.1038/s41562-021-01269-4\nSimmons, J. P., Nelson, L. D., & Simonsohn, U. (2021). Pre‐registration is a game changer. But, like random assignment, it is neither necessary nor sufficient for credible science. Journal of Consumer Psychology, 31(1), 177-180. http://dx.doi.org/10.1002/jcpy.1207\nSoderberg, C. K., Errington, T. M., Schiavone, S. R., Bottesini, J., Thorn, F. S., Vazire, S., … & Nosek, B. A. (2021). Initial evidence of research quality of registered reports compared with the standard publishing model. Nature Human Behaviour, 5(8), 990-997. https://doi.org/10.1038/s41562-021-01142-4",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
-    "objectID": "flyerinfos/openaccess.html#further-information",
-    "href": "flyerinfos/openaccess.html#further-information",
-    "title": "Open Access: All you need to know",
-    "section": "Further Information",
-    "text": "Further Information\n\nComprehensive tool for comparing various journal policies: https://finder.open-access.network\nPortal for searching numerous preprint servers: https://osf.io/preprints\nPortal for searching Open Access journals including information on licenses and publication fees: https://doaj.org\nInformation from the DEAL Consortium on why CC BY is the best choice for Open Access publications: https://deal-konsortium.de/warum-ccby\nInteractive and live dataset of publication fees at German institutions: https://treemaps.openapc.net/apcdata/openapc/ or Münster data\nDashboard for tracking Open Access publications in Germany: https://open-access-monitor.de\nHistory of Open Access: https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement"
+    "objectID": "flyerinfos/preregistration.html#workshops-and-materials",
+    "href": "flyerinfos/preregistration.html#workshops-and-materials",
+    "title": "Preregistrations: All you need to know",
+    "section": "Workshops and Materials",
+    "text": "Workshops and Materials\n\nMüCOS/CERes Workshop on Preregistration: https://osf.io/64teq\n90 minutes preregistration workshop: https://www.youtube.com/watch?v=EnKkGO3OM9c",
+    "crumbs": [
+      "Flyer & Cheatsheets",
+      "Preregistration"
+    ]
   },
   {
     "objectID": "formal/formal_1.html",

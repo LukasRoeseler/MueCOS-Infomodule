@@ -31,7 +31,7 @@ There are numerous types of open access that differ with respect to publication 
 The following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.
 
 | **Type** | **Regulation** | **Assessment in Terms of Accessibility and Cost of Knowledge** |
-|------------------------|------------------------|------------------------|
+|----|----|----|
 | Diamond (Gold with APC = 0) | All publications are freely accessible; **no** publication costs (Author/Book Processing Charges) are incurred. | Positive |
 | Gold | All publications are freely accessible but there are publication costs (Article/Book/Chapter Processing Charges, i.e., APC/BPC/CPC). | Positive if APC/BPCs are transparent and justifiable (e.g., €500 to finance a non-profit and cover type-setting costs). |
 | Hybrid | The journal operates under a subscription model (i.e., the university pays annual costs for access). For a fee, articles can be “bought out” and made Open Access; only these articles are free to read, others remain behind the paywall. | Negative due to "double dipping" – universities pay twice: for the subscription (= reading access) plus Open Access. |

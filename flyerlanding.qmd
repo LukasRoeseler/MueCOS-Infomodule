@@ -1,0 +1,11 @@
+---
+title: "Flyer & Cheatsheets"
+---
+
+**Access cheatsheets, flyers, and additional infos on central open science-topics via this site.**
+
+-   [Open Access](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html)
+
+-   [Open Data](https://www.uni-muenster.de/Forschungsdaten/en) (via University of Münster website)
+
+-   [Preregistration](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/preregistration.html)

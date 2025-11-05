@@ -71,7 +71,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed">
+<body class="nav-sidebar floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -101,6 +101,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Themen und Ansprechpersonen</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link active" href="../flyerlanding.html" aria-current="page"> 
+<span class="menu-text">Flyer &amp; Cheatsheets</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Über die Infomodule</span></a>
   </li>  
@@ -111,6 +115,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
       </div> <!-- /container-fluid -->
     </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../flyerinfos/preregistration.html">Preregistration</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
   <div id="quarto-announcement" data-announcement-id="3aff8b9c3bbcde43abd25d2297d9e56f" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
 <p><strong>Achtung</strong> - Diese Seite befindet sich im Aufbau und ist noch unvollständig.</p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
@@ -118,6 +132,31 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../flyerlanding.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Flyer &amp; Cheatsheets</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../flyerinfos/openaccess.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Open Access</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../flyerinfos/preregistration.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Preregistration</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -134,7 +173,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<main class="content column-body" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -143,7 +182,7 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta column-body">
 
     
   
@@ -168,7 +207,7 @@ Tip
 <p><em>This is a narrative summary of the most important Preregistration infos for researchers. It is part of the <a href="https://www.uni-muenster.de/MueCOS/en/index.html">Münster Center for Open Science</a>’s info materials.</em></p>
 <ul>
 <li><p><em>Preregistration flyer</em></p></li>
-<li><p><em>Preregistration cheat sheet</em></p></li>
+<li><p><a href="https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/Prereg%20Cheatsheet.pdf"><em>Preregistration cheat sheet</em></a></p></li>
 </ul>
 </div>
 </div>
@@ -189,10 +228,10 @@ Note
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p><a href="https://forrt.org/glossary/english/preregistration"><strong>FORRT Glossary Definition of Preregistration</strong></a>(Parsons et al., 2022):</p>
+<p><a href="https://forrt.org/glossary/english/preregistration"><strong>FORRT Glossary Definition of Preregistration</strong></a> (<a href="https://doi.org/10.1038/s41562-021-01269-4">Parsons et al., 2022</a>, emphasis added):</p>
 <ul>
-<li><p><strong>The practice of publishing the plan for a study, including research questions/hypotheses, research design, data analysis before the data has been collected or examined.</strong></p></li>
-<li><p>[…] A preregistration document is time-stamped and typically registered with an independent party (e.g., a repository) so that it can be publicly shared with others (possibly after an embargo period).</p></li>
+<li><p><strong>The practice of publishing the plan for a study, including research questions/hypotheses, research design, data analysis before the data has been collected or examined.</strong> […]</p></li>
+<li><p>A preregistration document is time-stamped and typically registered with an independent party (e.g., a repository) so that it can be publicly shared with others (possibly after an embargo period).</p></li>
 <li><p>Preregistration provides a transparent documentation of what was planned at a certain time point, and allows third parties to assess what changes may have occurred afterwards. The more detailed a preregistration is, the better third parties can assess these changes and with that the validity of the performed analyses.</p></li>
 <li><p>Preregistration aims to clearly distinguish confirmatory from exploratory research.</p></li>
 </ul>
@@ -227,7 +266,7 @@ Note
 </tr>
 <tr class="even">
 <td>Journals do not value Ps.</td>
-<td>As of February 2025, <a href="topfactor.org/journals?factor=Study+Preregistration">125 journals</a> require authors to disclose whether the study they report was preregistered. Check your journal’s guidelines for authors.</td>
+<td>As of February 2025, <a href="topfactor.org/journals?factor=Study+Preregistration">125 journals</a> required authors to disclose whether the study they report was preregistered. Check your journal’s guidelines for authors.</td>
 </tr>
 </tbody>
 </table>
@@ -244,10 +283,11 @@ Note
 </section>
 <section id="where-to-preregister" class="level2">
 <h2 class="anchored" data-anchor-id="where-to-preregister">Where to preregister?</h2>
+<p>When choosing a preregistration service, make sure that it meets standards for high-quality preregistrations and check if it is recognized by your field.</p>
 <ul>
 <li><p><a href="https://osf.io/registries">OSF Registries</a>: Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science</p></li>
 <li><p><a href="https://prereg-psych.org">ZPID PreReg Service</a>: Primarily for psychological research and maintained by the Leibniz Institute for Psychology.</p></li>
-<li><p><a href="https://aspredicted.org">Aspredicted.org</a> [not recommended]: Fixed template with too few questions, maintained by researchers from the US University of Pennsylvania</p></li>
+<li><p><a href="https://aspredicted.org">Aspredicted.org</a> [not recommended]: Highly popular brief template with too few questions, maintained by researchers from the US University of Pennsylvania</p></li>
 </ul>
 <p>Further services such as <a href="https://www.crd.york.ac.uk/prospero">Prospero</a>, the <a href="https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html">German Clinical Trials Register (DRKS)</a> or <a href="https://clinicaltrials.gov">ClinicalTrials.gov</a> primarily serve other services but can serve as preregistration platforms as well.</p>
 <p><strong>FAQs</strong></p>

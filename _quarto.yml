@@ -27,6 +27,8 @@ website:
       #   text: Formale Forschung
       - href: themen.qmd
         text: Themen und Ansprechpersonen
+      - href: flyerlanding.qmd
+        text: Flyer & Cheatsheets
       - href: about.qmd
         text: Über die Infomodule
         
@@ -103,9 +105,23 @@ website:
        # - text: "4. Forschungsergebnisse kommunizieren"
        #   href: formal/formal_4.qmd
             
+   - id: flyerinfos
+     title: "Flyer & Cheatsheets"
+     style: "floating"
+     collapse-level: 2
+     align: left
+     contents:
+      - flyerlanding.qmd
+      - text: "Open Access"
+        href: flyerinfos/openaccess.qmd
+      - text: "Preregistration"
+        href: flyerinfos/preregistration.qmd
+          
+
+
   page-footer:
     right: "Mit [Quarto](https://quarto.org/) erstellt"
-    left: "&copy; Copyright 2024, Münster Center for Open Science"
+    left: "&copy; Copyright 2025, Münster Center for Open Science"
 
 format:
   html:
