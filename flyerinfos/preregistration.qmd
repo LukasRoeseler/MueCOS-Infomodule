@@ -7,7 +7,7 @@ title: "Preregistrations: All you need to know"
 
 -   *Preregistration flyer*
 
--   *Preregistration cheat sheet*
+-   [*Preregistration cheat sheet*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/Prereg%20Cheatsheet.pdf)
 :::
 
 More and more researchers in the social, behavioral and cognitive sciences are required to preregister their studies or choose to do so to increase transparency and robustness. The MüCOS offers advice on how to preregister, such as workshops and this brief guide since preregistrations have multiple advantages and almost no disadvantage:
