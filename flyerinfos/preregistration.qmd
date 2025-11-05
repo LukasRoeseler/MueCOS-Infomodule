@@ -21,11 +21,11 @@ More and more researchers in the social, behavioral and cognitive sciences are r
 -   Receive guidance for empirical studies
 
 ::: callout-note
-[**FORRT Glossary Definition of Preregistration**](https://forrt.org/glossary/english/preregistration)(Parsons et al., 2022):
+[**FORRT Glossary Definition of Preregistration**](https://forrt.org/glossary/english/preregistration) ([Parsons et al., 2022](https://doi.org/10.1038/s41562-021-01269-4), emphasis added):
 
--   **The practice of publishing the plan for a study, including research questions/hypotheses, research design, data analysis before the data has been collected or examined.**
+-   **The practice of publishing the plan for a study, including research questions/hypotheses, research design, data analysis before the data has been collected or examined.** \[...\]
 
--   \[...\] A preregistration document is time-stamped and typically registered with an independent party (e.g., a repository) so that it can be publicly shared with others (possibly after an embargo period).
+-   A preregistration document is time-stamped and typically registered with an independent party (e.g., a repository) so that it can be publicly shared with others (possibly after an embargo period).
 
 -   Preregistration provides a transparent documentation of what was planned at a certain time point, and allows third parties to assess what changes may have occurred afterwards. The more detailed a preregistration is, the better third parties can assess these changes and with that the validity of the performed analyses.
 
@@ -41,11 +41,11 @@ Flexibility in choice of analyses is suspected to be one of the many intertwined
 ## Myths of Preregistrations
 
 | Myths | Facts |
-|----|----|
+|------------------------------------|------------------------------------|
 | Ps are laborious. | If done correctly, Ps can save work because only one analysis is conducted. |
 | Ps allow scooping from other researchers. | Researchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY). |
 | Ps prohibit researchers from conducting exploratory analyses and restrict creativity. | Ps allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory. |
-| Journals do not value Ps. | As of February 2025, [125 journals](topfactor.org/journals?factor=Study+Preregistration) require authors to disclose whether the study they report was preregistered. Check your journal's guidelines for authors. |
+| Journals do not value Ps. | As of February 2025, [125 journals](topfactor.org/journals?factor=Study+Preregistration) required authors to disclose whether the study they report was preregistered. Check your journal's guidelines for authors. |
 
 ## Best Practices
 
@@ -61,11 +61,13 @@ Flexibility in choice of analyses is suspected to be one of the many intertwined
 
 ## Where to preregister?
 
+When choosing a preregistration service, make sure that it meets standards for high-quality preregistrations and check if it is recognized by your field.
+
 -   [OSF Registries](https://osf.io/registries): Comes with several templates, allows linking to articles posted on many preprint repositories, open source software, maintained by the non-profit Center for Open Science
 
 -   [ZPID PreReg Service](https://prereg-psych.org): Primarily for psychological research and maintained by the Leibniz Institute for Psychology.
 
--   [Aspredicted.org](https://aspredicted.org) \[not recommended\]: Fixed template with too few questions, maintained by researchers from the US University of Pennsylvania
+-   [Aspredicted.org](https://aspredicted.org) \[not recommended\]: Highly popular brief template with too few questions, maintained by researchers from the US University of Pennsylvania
 
 Further services such as [Prospero](https://www.crd.york.ac.uk/prospero), the [German Clinical Trials Register (DRKS)](https://www.bfarm.de/DE/Das-BfArM/Aufgaben/Deutsches-Register-Klinischer-Studien/_node.html) or [ClinicalTrials.gov](https://clinicaltrials.gov) primarily serve other services but can serve as preregistration platforms as well.
 
