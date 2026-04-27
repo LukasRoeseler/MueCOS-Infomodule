@@ -41,7 +41,7 @@ Flexibility in choice of analyses is suspected to be one of the many intertwined
 ## Myths of Preregistrations
 
 | Myths | Facts |
-|------------------------------------|------------------------------------|
+|----|----|
 | Ps are laborious. | If done correctly, Ps can save work because only one analysis is conducted. |
 | Ps allow scooping from other researchers. | Researchers can embargo their Ps for multiple years if they do not wish to share their plans before publication. Every P is timestamped and you should assign it a license (e.g., CC-BY). |
 | Ps prohibit researchers from conducting exploratory analyses and restrict creativity. | Ps allow a clear distinction between what parts of the research are confirmatory and what parts are exploratory. |

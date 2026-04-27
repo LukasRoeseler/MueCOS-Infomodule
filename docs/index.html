@@ -92,23 +92,43 @@ ul.task-list li input[type="checkbox"] {
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
     <a class="nav-link" href="./fächerübergreifend.html"> 
-<span class="menu-text">Fächerübergreifende Informationen</span></a>
+<span class="menu-text">FÄCHERÜBERGREIFENDE INFORMATIONEN</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./quantitativ.html"> 
-<span class="menu-text">Quantitative Forschung</span></a>
+<span class="menu-text">QUANTITATIVE FORSCHUNG</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./themen.html"> 
-<span class="menu-text">Themen und Ansprechpersonen</span></a>
+<span class="menu-text">THEMEN UND ANSPRECHPERSONEN</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./flyerlanding.html"> 
-<span class="menu-text">Flyer &amp; Cheatsheets</span></a>
+<span class="menu-text">FLYER &amp; CHEATSHEETS</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
-<span class="menu-text">Über die Infomodule</span></a>
+<span class="menu-text">ÜBER DIE INFOMODULE</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -122,16 +142,18 @@ ul.task-list li input[type="checkbox"] {
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<div class="quarto-about-marquee column-page">
+<div class="quarto-about-marquee page-columns page-full">
   <div class="about-image-container">
   </div>
-  <div class="about-contents">
-     <main class="content column-page" id="quarto-document-content">
+  <div class="about-contents page-columns page-full">
+     <main class="content page-columns page-full" id="quarto-document-content">
 <p>Open Science bezeichnet die Bemühungen von Wissenschaftlerinnen und Wissenschaftlern, Forschung nachvollziehbarer und dadurch robuster zu gestalten. Spezifische Techniken werden in verschiedenen Disziplinen entwickelt und sind jeweils auf spezifische Problemstellungen zugeschnitten. Auf dieser Website finden Sie die <strong>Informationen zur Umsetzung von Open Science in verschiedenen Forschungsbereichen</strong>.</p>
 <p><a href="img/Open-Science-Kreislauf.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="img/Open-Science-Kreislauf.png" class="img-fluid" alt="In der Mitte steht Open Science. Drum herum ist ein eckiger zyklischer Prozess mit vier Punkten: 1. Offene Dokumentation der Ableitung neuer Forschungsfragen und Hypothesen des Forschungsplans, 2. offene Dokumentation dre verwendeten Materialien und erhobenen Dtaen. 3. Offene Veröffentlichung der Forschugnsergebnisse. Und 4. offene Kommunikation der Forschungsergebnisse."></a></p>
 <div class="callout callout-style-default callout-tip callout-titled">
@@ -151,7 +173,25 @@ Navigation auf dieser Seite
 </ul>
 </div>
 </div>
-<hr>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<div class="sidebar-widget">
+<div class="sidebar-widget-header">
+<p><span><i class="bi bi-envelope"></i> Kontakt</span> <i class="bi bi-chevron-up"></i></p>
+</div>
+<div class="sidebar-widget-content">
+<p><strong>Münster Center for Open Science</strong><br> Fliednerstraße 21<br> Raum FL/P/2b<br> 48149 Münster<br> <br> <a href="mailto:email@uni-muenster.de"><i class="bi bi-envelope-fill"></i> lukas.roeseler@uni-muenster.de</a></p>
+</div>
+</div>
+<div class="sidebar-widget">
+<div class="sidebar-widget-header">
+<p><span><i class="bi bi-link-45deg"></i> Wichtige Links</span> <i class="bi bi-chevron-up"></i></p>
+</div>
+<div class="sidebar-widget-content">
+<p><a href="#"><i class="bi bi-chevron-right"></i> Themen und Ansprechpersonen</a> <a href="#"><i class="bi bi-chevron-right"></i> Flyer &amp; Cheatsheets</a></p>
+</div>
+</div>
+</div></div><hr>
 <p><a href="https://www.uni-muenster.de/MueCOS/index.html"><img src="images/mücos_logo.jpg" class="img-fluid" alt="MüCOS Logo: Sechs graue und blaue Dreiecke, daneben steht MüCOS Münster Center for Open Science" width="450"></a></p>
 
 
@@ -586,7 +626,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","descPosition":"bottom","closeEffect":"zoom","loop":false,"selector":".lightbox"});
+<script>var lightboxQuarto = GLightbox({"openEffect":"zoom","selector":".lightbox","descPosition":"bottom","closeEffect":"zoom","loop":false});
 (function() {
   let previousOnload = window.onload;
   window.onload = () => {

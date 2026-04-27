@@ -3,7 +3,7 @@ project:
   output-dir: docs
   
 website:
-
+  # The announcement banner will automatically take on the new dark red/gray theme colors
   announcement: 
     icon: info-circle
     dismissable: true
@@ -15,28 +15,30 @@ website:
   favicon: "logo.png"
   
   title: "Open Science Infomodule"
+  
+  # Updated Navbar: White background, separated items, ALL CAPS to match Image 1
   navbar:
+    background: "#ffffff"
+    collapse-below: lg
     left:
       - href: fächerübergreifend.qmd
-        text: Fächerübergreifende Informationen
-      # - href: qualitativ.qmd
-      #   text: Qualitative Forschung
+        text: "FÄCHERÜBERGREIFENDE INFORMATIONEN"
+      - text: "|"
       - href: quantitativ.qmd
-        text: Quantitative Forschung
-      # - href: formal.qmd
-      #   text: Formale Forschung
+        text: "QUANTITATIVE FORSCHUNG"
+      - text: "|"
       - href: themen.qmd
-        text: Themen und Ansprechpersonen
+        text: "THEMEN UND ANSPRECHPERSONEN"
+      - text: "|"
       - href: flyerlanding.qmd
-        text: Flyer & Cheatsheets
+        text: "FLYER & CHEATSHEETS"
+      - text: "|"
       - href: about.qmd
-        text: Über die Infomodule
+        text: "ÜBER DIE INFOMODULE"
         
     tools:
       - icon: github
         href: https://github.com/LukasRoeseler/MueCOS-Infomodule
-        
-        
         
   sidebar:
    - id: fächerübergreifend
@@ -54,7 +56,6 @@ website:
          href: übergreifend/gen_3.qmd
        - text: "4. Forschungsergebnisse kommunizieren"
          href: übergreifend/gen_4.qmd
-
 
    - id: quantitativ
      title: "Quantitative Forschung"
@@ -79,15 +80,6 @@ website:
      align: left
      contents:
        - qualitativ.qmd
-       # - text: "1. Forschungsfragen und Forschungsplanung"
-       #   href: qualitativ/qual_1.qmd
-       # - text: "2. Materialien und Daten"
-       #   href: qualitativ/qual_2.qmd
-       # - text: "3. Forschungsergebnisse veröffentlichen"
-       #   href: qualitativ/qual_3.qmd
-       # - text: "4. Forschungsergebnisse kommunizieren"
-       #   href: qualitativ/qual_4.qmd
-          
           
    - id: formal
      title: "Formale Forschung"
@@ -96,14 +88,6 @@ website:
      align: left
      contents:
        - formal.qmd
-       # - text: "1. Forschungsfragen und Forschungsplanung"
-       #   href: formal/formal_1.qmd
-       # - text: "2. Materialien und Daten"
-       #   href: formal/formal_2.qmd
-       # - text: "3. Forschungsergebnisse veröffentlichen"
-       #   href: formal/formal_3.qmd
-       # - text: "4. Forschungsergebnisse kommunizieren"
-       #   href: formal/formal_4.qmd
             
    - id: flyerinfos
      title: "Flyer & Cheatsheets"
@@ -117,17 +101,21 @@ website:
       - text: "Preregistration"
         href: flyerinfos/preregistration.qmd
           
-
-
   page-footer:
     right: "Mit [Quarto](https://quarto.org/) erstellt"
     left: "&copy; Copyright 2025, Münster Center for Open Science"
 
 format:
   html:
-    theme: simplex
+    # Changed from 'simplex' to 'cosmo' + your custom styling file
+    theme: 
+      - cosmo
+      - custom.scss
+    # Removed page-layout: full to stop the text from stretching too wide
+    page-layout: article
+    # Adjusting grid to make room for right-hand "Kontakt" widgets if you use them
+    grid:
+      margin-width: 350px 
     toc: true
-    page-layout: full
 
 editor: source
-

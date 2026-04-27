@@ -1,0 +1,73 @@
+/*-- scss:defaults --*/
+
+// Match the University Fonts (Arial/Helvetica are safe defaults)
+$font-family-sans-serif: "Arial", "Helvetica Neue", Helvetica, sans-serif !default;
+
+// Match the exact colors from Image 1
+$primary: #a32638; /* The dark red used for links/accents in Image 1 */
+$body-color: #333333; /* Dark gray text, not pure black, for readability */
+$link-color: $primary;
+
+// Navbar styling
+$navbar-bg: #ffffff;
+$navbar-fg: #000000;
+
+/*-- scss:rules --*/
+
+/* 1. Emulate the top navigation borders from Image 1 */
+.navbar {
+  border-top: 3px solid #333333;
+  border-bottom: 1px solid #333333;
+  margin-top: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-transform: uppercase; /* Makes the menu items ALL CAPS */
+  font-size: 0.95rem;
+}
+
+/* 2. Constrain the width of the text for readability */
+.page-columns {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* 3. Style the main heading to look like Image 1 */
+h1.title {
+  color: #3f444c; /* The specific dark gray of the "Münster Center..." header */
+  font-weight: 700;
+  border-bottom: none; 
+  padding-bottom: 10px;
+}
+
+
+/* Style for the sidebar widgets */
+.sidebar-widget {
+  border: 1px solid #e0e0e0;
+  margin-bottom: 20px;
+  background-color: #ffffff;
+}
+
+.sidebar-widget-header {
+  background-color: #4a4e59; /* Dark gray from the image */
+  color: white;
+  padding: 8px 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-widget-content {
+  padding: 15px;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.sidebar-widget-content a {
+  color: #a32638; /* Red links */
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+}
