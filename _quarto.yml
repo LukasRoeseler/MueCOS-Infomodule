@@ -122,7 +122,7 @@ website:
           
   page-footer:
     right: "Mit [Quarto](https://quarto.org/) erstellt"
-    left: "&copy; Copyright 2025, Münster Center for Open Science"
+    left: "&copy; Copyright 2026, Münster Center for Open Science"
 
 format:
   html:
