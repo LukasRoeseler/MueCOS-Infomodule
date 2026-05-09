@@ -2,12 +2,50 @@
 title: "QUANT 3: Forschungsergebnisse veröffentlichen"
 ---
 
-# Open Access
 
-# Open Access Typen
+```{=html}
+<div style="position:fixed; top:0; right:0; width:160px; height:160px; overflow:hidden; pointer-events:none; z-index:9999;">
+  <div style="position:absolute; top:32px; right:-42px; width:180px; background:#a32638; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:0.08em; padding:6px 0; transform:rotate(45deg); box-shadow:0 2px 6px rgba(0,0,0,0.2);">WORK IN PROGRESS</div>
+</div>
+```
 
-# Pre-Prints
+::: {.callout-warning}
+Diese Seite befindet sich im Aufbau. Inhalte sind vorläufig und werden laufend ergänzt.
+:::
 
-# Pre-Print Review
+Qualitative Forschung wird häufig in Monografien, Sammelbandbeiträgen und Zeitschriftenartikeln veröffentlicht — Publikationsformate, die sich in ihrer Open-Access-Logik teils erheblich voneinander unterscheiden. Die folgenden Abschnitte geben einen Überblick.
 
-# Autor\*innenschaft
+## Open Access: Grundprinzip
+
+Open Access (OA) bedeutet, dass Forschungsergebnisse kostenfrei, dauerhaft und ohne technische Zugangshürden öffentlich zugänglich sind. Zwei Hauptwege sind etabliert:
+
+- **Goldener Weg:** Primärpublikation direkt als OA-Artikel oder -Buch, oft in Verbindung mit einer Article Processing Charge (APC). Die Universität Münster hat Transformationsverträge (DEAL) mit großen Verlagen abgeschlossen, die APCs für WWU-Angehörige teilweise oder vollständig abdecken.
+- **Grüner Weg:** Zweitveröffentlichung einer akzeptierten Manuskriptversion (Postprint) auf einem institutionellen oder fachlichen Repository — ohne zusätzliche Kosten, mit verlagsabhängigen Fristen.
+
+Die [Universitäts- und Landesbibliothek Münster (ULB)](https://www.ulb.uni-muenster.de/open-access/) berät zu beiden Wegen und übernimmt in vielen Fällen die Einreichung in das institutionelle Repositorium.
+
+## Zeitschriftenartikel
+
+Für qualitative Zeitschriftenartikel gilt dasselbe OA-Prinzip wie für alle Artikel. Zu beachten:
+
+- Viele qualitative Fachzeitschriften bieten hybride OA-Optionen an; über den grünen Weg ist OA jedoch fast immer möglich.
+- Die Frist für die Zweitveröffentlichung beträgt je nach Verlag 6–24 Monate. Das Tool [Sherpa/Romeo](https://v2.sherpa.ac.uk/romeo/) gibt Auskunft über die jeweiligen Verlagsrichtlinien.
+- Preprints (s. u.) können parallel zur Einreichung veröffentlicht werden und erhöhen die Sichtbarkeit vor der Begutachtung.
+
+## Bücher und Sammelbandbeiträge
+
+Monografien und Buchkapitel sind in qualitativen Disziplinen besonders relevant — und im OA-Bereich komplexer als Artikel.
+
+- **Open-Access-Bücher (Book Processing Charge, BPC):** Einige Verlage (z. B. Transcript Open, Nomos eLibrary, Springer Open) publizieren qualitative Monografien open access. Die Universität Münster fördert BPCs über den [OA-Publikationsfonds der ULB](https://www.ulb.uni-muenster.de/open-access/foerderfonds/).
+- **Sammelbandbeiträge:** Hier liegt die OA-Entscheidung beim Herausgeberteam. Als Beitragende können Sie jedoch darauf bestehen, Ihr Kapitel als Postprint auf einem Repository zugänglich zu machen — dies ist bei den meisten Verlagen nach einer Embargo-Frist möglich.
+- **Diamond Open Access:** Einige qualitative Zeitschriften und Plattformen publizieren ohne Kosten für Autor:innen und Lesende (z. B. Forum Qualitative Sozialforschung/FQS).
+
+## Preprints
+
+Preprints — Manuskripte vor oder während der Begutachtung — sind in qualitativen Disziplinen noch weniger verbreitet als in quantitativen Feldern, gewinnen aber an Bedeutung.
+
+- **SocArXiv** und **EarthArXiv** nehmen qualitative Sozial- und Geisteswissenschaften auf
+- **OSF Preprints** ist disziplinübergreifend nutzbar
+- Preprints erhöhen die Sichtbarkeit und ermöglichen frühe Rückmeldung aus der Community
+
+

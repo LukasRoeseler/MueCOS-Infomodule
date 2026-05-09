@@ -1,0 +1,1378 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de-DE" xml:lang="de-DE"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.5.53">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Antragsmodule – Open Science Infomodule</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./logo.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Open Science Infomodule</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Suchen"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Navigation umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./fächerübergreifend.html"> 
+<span class="menu-text">FÄCHERÜBERGREIFENDE INFORMATIONEN</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./quantitativ.html"> 
+<span class="menu-text">QUANTITATIVE FORSCHUNG</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./qualitativ.html"> 
+<span class="menu-text">QUALITATIVE FORSCHUNG</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./themen.html"> 
+<span class="menu-text">THEMEN UND ANSPRECHPERSONEN</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./flyerlanding.html"> 
+<span class="menu-text">FLYER &amp; CHEATSHEETS</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./antragsmodule.html" aria-current="page"> 
+<span class="menu-text">ANTRAGSMODULE</span></a>
+  </li>  
+  <li class="nav-item">
+    <span class="nav-link">
+<span class="menu-text">|</span>
+    </span>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">ÜBER DIE INFOMODULE</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+    <a href="https://github.com/LukasRoeseler/MueCOS-Infomodule" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./antragsmodule.html">Antragsmodule</a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+    </div>
+  </nav>
+  <div id="quarto-announcement" data-announcement-id="3aff8b9c3bbcde43abd25d2297d9e56f" class="alert alert-primary hidden"><i class="bi bi-info-circle quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>Achtung</strong> - Diese Seite befindet sich im Aufbau und ist noch unvollständig.</p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./antragsmodule.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Antragsmodule</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Antragsmodule</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<div class="antragsmodul-intro">
+<p><strong>Open Science im Forschungsantrag – Textbausteine für Ihr Projekt</strong></p>
+<p>Das Münster Center for Open Science (MüCOS) bietet Forschenden der Universität Münster konkrete Unterstützung dabei, Open-Science-Praktiken in Drittmittelanträge zu integrieren. Die folgenden Module liefern fertige, anpassbare Textbausteine auf Deutsch und Englisch – jeweils mit einer realistischen Schätzung des FTE-Bedarfs (Vollzeitäquivalent in Prozent).</p>
+<p>Das Modell der <strong>gebündelten Stellenfinanzierung</strong> ermöglicht es mehreren Arbeitsgruppen, ihren jeweiligen FTE-Anteil in einen gemeinsamen Pool einzubringen. Aus diesem Pool wird über eine <strong>Ausfallbürgschaft der Universität Münster</strong> eine gemeinsam finanzierte Expert:innenstelle (z. B. Datenmanagement, Code-Review, Statistik) besetzt – eine Lösung, die für Einzelprojekte zu kleinteilig, im Verbund aber hocheffizient ist.</p>
+<p><strong>So funktioniert die Auswahl:</strong> Klicken Sie auf die Module, die für Ihr Vorhaben relevant sind. Der Werkzeugkasten berechnet den Gesamt-FTE-Bedarf und gibt den poolbaren Anteil aus. Über „Exportieren” erhalten Sie einen konsolidierten Entwurfstext für Ihren Antrag – direkt weiterverarbeitbar.</p>
+<p>Für eine individuelle Beratung wenden Sie sich gerne an das <strong>MüCOS-Team</strong> unter <a href="mailto:lukas.roeseler@uni-muenster.de">lukas.roeseler@uni-muenster.de</a>.</p>
+</div>
+<style>
+/* ════════════════════════════════════════════════════════════════
+   MüCOS Antragsmodule — scoped to #os-picker
+   all: unset on buttons kills Cosmo's Bootstrap overrides
+   ════════════════════════════════════════════════════════════════ */
+
+#os-picker {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
+  font-size: 14px;
+  color: #2b2420;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
+#os-picker *, #os-picker *::before, #os-picker *::after {
+  box-sizing: border-box;
+}
+
+/* ── Controls bar ─────────────────────────────────────────────── */
+#os-picker .osp-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e4ddd5;
+}
+#os-picker .osp-lang-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: #8c8278;
+}
+#os-picker .osp-lang-group {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+#os-picker button.osp-lang-btn {
+  all: unset !important;
+  display: inline-block !important;
+  padding: 5px 16px !important;
+  border-radius: 2px !important;
+  border: 1.5px solid #c9bfb5 !important;
+  background: #ffffff !important;
+  font-size: 12px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important;
+  color: #4a4239 !important;
+  cursor: pointer !important;
+  transition: all 0.12s !important;
+  line-height: 1.5 !important;
+}
+#os-picker button.osp-lang-btn:hover {
+  border-color: #a32638 !important;
+  color: #a32638 !important;
+}
+#os-picker button.osp-lang-btn.active {
+  background: #a32638 !important;
+  border-color: #a32638 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* ── Phase tabs ───────────────────────────────────────────────── */
+#os-picker .osp-tabs {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+#os-picker button.osp-tab {
+  all: unset !important;
+  display: inline-block !important;
+  padding: 5px 14px !important;
+  border-radius: 20px !important;
+  border: 1px solid #ddd5cc !important;
+  background: #faf8f5 !important;
+  font-size: 11.5px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important;
+  color: #6b6059 !important;
+  cursor: pointer !important;
+  transition: all 0.12s !important;
+  line-height: 1.5 !important;
+  white-space: nowrap !important;
+}
+#os-picker button.osp-tab:hover {
+  background: #f0e9e2 !important;
+  border-color: #a32638 !important;
+  color: #7d1c29 !important;
+}
+#os-picker button.osp-tab.active {
+  background: #a32638 !important;
+  border-color: #a32638 !important;
+  color: #ffffff !important;
+  font-weight: 700 !important;
+}
+
+/* ── Summary bar ──────────────────────────────────────────────── */
+#os-picker .osp-summary {
+  background: #ffffff;
+  border: 2px solid #a32638;
+  border-radius: 6px;
+  padding: 1.1rem 1.4rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 10px rgba(163,38,56,0.09);
+}
+#os-picker .osp-summary-header {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #a32638;
+  margin-bottom: 0.85rem;
+}
+#os-picker .osp-stats {
+  display: flex;
+  gap: 0;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+#os-picker .osp-stat {
+  padding-right: 1.5rem;
+  margin-right: 1.5rem;
+  border-right: 1px solid #e4ddd5;
+}
+#os-picker .osp-stat:last-child {
+  border-right: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+#os-picker .osp-stat-label {
+  font-size: 11px;
+  color: #8c8278;
+  margin-bottom: 1px;
+  white-space: nowrap;
+}
+#os-picker .osp-stat-value {
+  font-size: 28px;
+  font-weight: 700;
+  color: #2b2420;
+  line-height: 1.1;
+}
+#os-picker .osp-unit {
+  font-size: 13px;
+  font-weight: 400;
+  color: #8c8278;
+  margin-left: 2px;
+}
+#os-picker .osp-btn-row {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+#os-picker button.osp-btn-primary {
+  all: unset !important;
+  display: inline-block !important;
+  padding: 8px 20px !important;
+  background: #a32638 !important;
+  color: #ffffff !important;
+  border-radius: 3px !important;
+  font-size: 13px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important;
+  cursor: pointer !important;
+  letter-spacing: 0.01em !important;
+  transition: background 0.12s !important;
+  line-height: 1.5 !important;
+}
+#os-picker button.osp-btn-primary:hover { background: #7d1c29 !important; }
+#os-picker button.osp-btn-ghost {
+  all: unset !important;
+  display: inline-block !important;
+  padding: 8px 18px !important;
+  background: transparent !important;
+  color: #4a4239 !important;
+  border: 1px solid #c9bfb5 !important;
+  border-radius: 3px !important;
+  font-size: 13px !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  transition: background 0.12s !important;
+  line-height: 1.5 !important;
+}
+#os-picker button.osp-btn-ghost:hover {
+  background: #f2ede7 !important;
+  border-color: #8c8278 !important;
+}
+
+/* ── Card grid ────────────────────────────────────────────────── */
+#os-picker .osp-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 12px;
+}
+
+#os-picker .osp-card {
+  background: #ffffff;
+  border: 1px solid #ddd5cc;
+  border-radius: 6px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+#os-picker .osp-card:hover {
+  border-color: #b0a49c;
+  box-shadow: 0 2px 10px rgba(43,36,32,0.08);
+}
+#os-picker .osp-card.selected {
+  border-color: #a32638 !important;
+  border-width: 2px;
+  box-shadow: 0 2px 12px rgba(163,38,56,0.12);
+}
+
+/* Phase colour strip along the top */
+#os-picker .osp-stripe {
+  height: 3px;
+  background: #ddd5cc;
+}
+#os-picker .osp-card.ph-planning    .osp-stripe { background: #4a7c9e; }
+#os-picker .osp-card.ph-data        .osp-stripe { background: #3a7a3a; }
+#os-picker .osp-card.ph-analysis    .osp-stripe { background: #7a5a9e; }
+#os-picker .osp-card.ph-publication .osp-stripe { background: #c47d0e; }
+#os-picker .osp-card.ph-communication .osp-stripe { background: #a32638; }
+
+/* Card header row */
+#os-picker .osp-card-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 0.85rem 1rem 0.6rem;
+}
+
+/* Checkbox */
+#os-picker .osp-check {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 4px;
+  border: 2px solid #c9bfb5;
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2px;
+  transition: all 0.12s;
+}
+#os-picker .osp-card.selected .osp-check {
+  background: #a32638;
+  border-color: #a32638;
+}
+#os-picker .osp-checkmark {
+  display: none;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 1;
+}
+#os-picker .osp-card.selected .osp-checkmark { display: block; }
+
+/* Meta block */
+#os-picker .osp-meta { flex: 1; min-width: 0; }
+
+#os-picker .osp-phase-pill {
+  display: inline-block;
+  font-size: 9.5px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  padding: 2px 9px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+  background: #f0e9e2;
+  color: #6b6059;
+  border: 1px solid #ddd5cc;
+}
+#os-picker .osp-card.ph-planning    .osp-phase-pill { background:#e8f0f5; color:#2d5570; border-color:#aacfe0; }
+#os-picker .osp-card.ph-data        .osp-phase-pill { background:#eaf2ea; color:#2a582a; border-color:#aacfaa; }
+#os-picker .osp-card.ph-analysis    .osp-phase-pill { background:#f0eaf7; color:#4a2a7a; border-color:#c8aae8; }
+#os-picker .osp-card.ph-publication .osp-phase-pill { background:#fdf3e0; color:#7a4a00; border-color:#efbe6e; }
+#os-picker .osp-card.ph-communication .osp-phase-pill { background:#fbeaed; color:#7d1c29; border-color:#e8aab5; }
+
+#os-picker .osp-title {
+  font-size: 15px !important;
+  font-weight: 700 !important;
+  color: #2b2420 !important;
+  line-height: 1.3 !important;
+  margin: 0 0 4px !important;
+  display: block;
+}
+#os-picker .osp-card.selected .osp-title { color: #7d1c29 !important; }
+
+#os-picker .osp-münster-badge {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 600;
+  padding: 2px 9px;
+  border-radius: 3px;
+  background: #fdf3e0;
+  border: 1px solid #e8b84b;
+  color: #7a4a00;
+  margin-top: 3px;
+}
+
+/* FTE badge — top right */
+#os-picker .osp-fte-badge {
+  flex-shrink: 0;
+  align-self: flex-start;
+  font-size: 11.5px;
+  font-weight: 700;
+  padding: 4px 11px;
+  border-radius: 3px;
+  background: #f0e9e2;
+  border: 1px solid #ddd5cc;
+  color: #4a4239;
+  white-space: nowrap;
+  margin-top: 1px;
+}
+#os-picker .osp-card.selected .osp-fte-badge {
+  background: #fbeaed;
+  border-color: #e8aab5;
+  color: #7d1c29;
+}
+
+/* Card body */
+#os-picker .osp-body {
+  padding: 0.65rem 1rem 0.85rem 3.2rem;
+  border-top: 1px solid #f0e9e2;
+}
+#os-picker .osp-short {
+  font-size: 13px !important;
+  color: #4a4239 !important;
+  line-height: 1.65 !important;
+  margin: 0 0 0.6rem !important;
+}
+#os-picker .osp-full-text {
+  display: none;
+  font-size: 13px;
+  color: #2b2420;
+  line-height: 1.75;
+  margin-top: 0.6rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed #ddd5cc;
+  white-space: pre-wrap;
+}
+#os-picker .osp-full-text.open { display: block; }
+
+#os-picker .osp-footer {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 5px;
+}
+#os-picker button.osp-expand-btn {
+  all: unset !important;
+  font-size: 12px !important;
+  color: #a32638 !important;
+  font-family: Arial, Helvetica, sans-serif !important;
+  cursor: pointer !important;
+  text-decoration: underline !important;
+  text-underline-offset: 2px !important;
+  transition: color 0.1s !important;
+}
+#os-picker button.osp-expand-btn:hover { color: #7d1c29 !important; }
+
+#os-picker .osp-link-chip {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 500;
+  padding: 2px 9px;
+  border-radius: 20px;
+  background: #eef5f5;
+  border: 1px solid #7ab8b8;
+  color: #1a5050;
+}
+
+#os-picker .osp-empty {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #8c8278;
+  font-size: 13px;
+  border: 1px dashed #ddd5cc;
+  border-radius: 6px;
+  background: #faf8f5;
+}
+</style>
+
+<div id="os-picker">
+
+  <div class="osp-controls">
+    <div class="osp-lang-group">
+      <span class="osp-lang-label">Sprache </span>
+      <button class="osp-lang-btn active" onclick="ospSetLang('de')">Deutsch</button>
+      <button class="osp-lang-btn" onclick="ospSetLang('en')">English</button>
+    </div>
+  </div>
+
+  <div class="osp-tabs" id="osp-tabs"></div>
+
+  <div id="osp-summary" class="osp-summary" style="display:none;">
+    <div class="osp-summary-header" id="osp-sum-title">Ausgewählte Module</div>
+    <div class="osp-stats">
+      <div class="osp-stat">
+        <div class="osp-stat-label" id="osp-lbl-n">Module gewählt</div>
+        <div class="osp-stat-value" id="osp-n">0</div>
+      </div>
+      <div class="osp-stat">
+        <div class="osp-stat-label" id="osp-lbl-fte">Gesamt-FTE (Ø)</div>
+        <div class="osp-stat-value" id="osp-fte">0 <span class="osp-unit">% FTE</span></div>
+      </div>
+      <div class="osp-stat">
+        <div class="osp-stat-label" id="osp-lbl-pool">Poolbarer Anteil (50 %)</div>
+        <div class="osp-stat-value" id="osp-pool">0 <span class="osp-unit">% FTE</span></div>
+      </div>
+    </div>
+    <div class="osp-btn-row">
+      <button class="osp-btn-primary" onclick="ospExportDocx()">Als .docx herunterladen ↓</button>
+      <button class="osp-btn-primary" onclick="ospCopyClipboard()" id="osp-clip-btn" style="background:#4a4239 !important;">In Zwischenablage kopieren</button>
+      <button class="osp-btn-ghost" id="osp-clear-btn" onclick="ospClearAll()">Alle abwählen</button>
+    </div>
+  </div>
+
+  <div id="osp-grid" class="osp-grid"></div>
+</div>
+
+<script>
+(function () {
+  const PC = { planning:'ph-planning', data:'ph-data', analysis:'ph-analysis', publication:'ph-publication', communication:'ph-communication' };
+
+  const MODULES = [
+    {
+      id:'preregistration', phase:'planning', phase_de:'Planung', phase_en:'Planning',
+      fte_min:5, fte_max:10,
+      title_de:'Präregistrierungspaket', title_en:'Pre-registration package',
+      short_de:'Vorregistrierung von Hypothesen, Studiendesign und Analyseplänen auf einem anerkannten Repository vor Beginn der Datenerhebung.',
+      short_en:'Pre-registration of hypotheses, study design, and analysis plans on a recognised repository prior to data collection.',
+      full_de:`Das Vorhaben beinhaltet die vollständige Präregistrierung aller Forschungshypothesen, des Studiendesigns sowie detaillierter statistischer Analysepläne auf einem international anerkannten Repository (z. B. OSF, AsPredicted, PROSPERO). Die Präregistrierung wird vor Beginn der Datenerhebung abgeschlossen und öffentlich zugänglich gemacht. Damit wird transparente Unterscheidung zwischen konfirmatorischer und explorativer Forschung gewährleistet sowie die Replizierbarkeit nachhaltig gestärkt.
+
+Das MüCOS unterstützt Forschende bei der Auswahl des geeigneten Formats (Standard-Präregistrierung, Registered Report) und bietet Beratung zu peer-reviewed Registered Reports in Zeitschriften, die dieses Format etabliert haben.`,
+      full_en:`The project includes full pre-registration of all research hypotheses, study design, and detailed statistical analysis plans on an internationally recognised repository (e.g. OSF, AsPredicted, PROSPERO). Pre-registration is completed before data collection begins and made publicly accessible. This ensures transparent distinction between confirmatory and exploratory research and durably strengthens replicability.
+
+MüCOS supports researchers in selecting the appropriate format (standard pre-registration, Registered Report) and advises on peer-reviewed Registered Reports in journals that have adopted this format.`,
+      links:['OSF.io','AsPredicted.org'], münster:true
+    },
+    {
+      id:'open-materials', phase:'data', phase_de:'Materialien & Daten', phase_en:'Materials & Data',
+      fte_min:5, fte_max:12,
+      title_de:'Open Materials', title_en:'Open materials',
+      short_de:'Vollständige, annotierte Bereitstellung aller Forschungsmaterialien (Stimuli, Fragebögen, Protokolle, Skripte) auf einem dauerhaften, öffentlich zugänglichen Repository.',
+      short_en:'Complete, annotated sharing of all research materials (stimuli, questionnaires, protocols, scripts) on a persistent, publicly accessible repository.',
+      full_de:`Alle im Forschungsvorhaben eingesetzten Materialien – inklusive Stimuli, Erhebungsinstrumente, Versuchsprotokolle und Instruktionen – werden strukturiert dokumentiert, mit umfangreichen README-Dateien versehen und auf einem dauerhaften Repository (z. B. OSF, Zenodo, RADAR) veröffentlicht. Proprietäre Formate werden soweit möglich durch offene, langzeitstabile Alternativen ersetzt. Die Materialien erhalten einen persistenten Identifier (DOI) und eine klare Lizenz (bevorzugt CC BY 4.0).
+
+Das MüCOS bietet Beratung zur Lizenzwahl, Formatstandards und zur Einbindung sensibler oder urheberrechtlich geschützter Inhalte.`,
+      full_en:`All materials used in the project — including stimuli, instruments, protocols, and instructions — are systematically documented, provided with comprehensive README files, and published on a persistent repository (e.g. OSF, Zenodo, RADAR). Proprietary formats are replaced by open, long-term stable alternatives wherever possible. Materials receive a persistent identifier (DOI) and a clear licence (preferably CC BY 4.0).
+
+MüCOS advises on licence selection, format standards, and the handling of sensitive or copyright-protected content.`,
+      links:['Zenodo.org','OSF.io'], münster:false
+    },
+    {
+      id:'data-curation', phase:'data', phase_de:'Materialien & Daten', phase_en:'Materials & Data',
+      fte_min:8, fte_max:20,
+      title_de:'Datenkuration & Langzeitstabilität', title_en:'Data curation & long-term stability',
+      short_de:'Professionelle Aufbereitung, Dokumentation und Archivierung von Forschungsdaten in nicht-proprietären Formaten mit Metadatenstandards für eine Nutzungsdauer von mindestens 10 Jahren.',
+      short_en:'Professional preparation, documentation, and archiving of research data in non-proprietary formats with metadata standards ensuring usability for at least 10 years.',
+      full_de:`Das Vorhaben umfasst eine umfassende Datenkuration durch qualifiziertes Personal: Bereinigung und Qualitätskontrolle der Rohdaten, Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF), Erstellung vollständiger Codebooks sowie Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core). Die kuratierten Daten werden auf einem zertifizierten Repository (z. B. da|ra, PANGAEA, Zenodo) mit DOI und standardisierten Zugangsbedingungen hinterlegt.
+
+Das MüCOS verfügt über ausgewiesene Expertise in Forschungsdatenmanagement und unterstützt bei der Erstellung disziplinspezifischer Datenmanagementsoftware (DMP) sowie bei der Zusammenarbeit mit dem ULB-Repositorium der Universität Münster.`,
+      full_en:`The project includes comprehensive data curation by qualified personnel: cleaning and quality control of raw data, conversion to non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF), creation of complete codebooks, and documentation using discipline-specific metadata standards (e.g. DDI, Dublin Core). Curated data are deposited on a certified repository (e.g. da|ra, PANGAEA, Zenodo) with a DOI and standardised access conditions.
+
+MüCOS has recognised expertise in research data management and supports the creation of discipline-specific data management plans (DMPs) as well as collaboration with the ULB repository of the University of Münster.`,
+      links:['Zenodo.org','PANGAEA'], münster:true
+    },
+    {
+      id:'codecheck', phase:'analysis', phase_de:'Analyse & Code', phase_en:'Analysis & Code',
+      fte_min:8, fte_max:18,
+      title_de:'CODECHECK-Zertifizierung & Code-Review', title_en:'CODECHECK certification & code review',
+      short_de:'Unabhängige Reproduzierbarkeits-Zertifizierung aller Analyseskripte durch das internationale CODECHECK-Netzwerk sowie ein strukturiertes internes Code-Review-Verfahren.',
+      short_en:'Independent reproducibility certification of all analysis scripts through the international CODECHECK network, plus a structured internal code review process.',
+      full_de:`Das Vorhaben strebt die öffentliche CODECHECK-Zertifizierung durch unabhängige Prüferinnen und Prüfer des CODECHECK.org.uk-Netzwerks an. Dabei wird die vollständige Reproduzierbarkeit aller Analyseschritte anhand des bereitgestellten Codes und der Daten überprüft und mit einem öffentlich zugänglichen Zertifikat bestätigt. Ergänzend wird ein strukturiertes internes Code-Review eingeführt, bei dem alle Analyseskripte (R, Python, MATLAB o. ä.) nach den FAIR-Prinzipien für Software dokumentiert, versioniert (Git/GitHub) und überprüft werden.
+
+Das MüCOS ist eines der wenigen Zentren in Deutschland, das aktive Unterstützung bei der CODECHECK-Einreichung und der Vorbereitung reproduzierbarer Analyseumgebungen (z. B. Docker, Binder) anbietet.`,
+      full_en:`The project aims for public CODECHECK certification by independent reviewers from the CODECHECK.org.uk network. Full reproducibility of all analysis steps is verified using the provided code and data, and confirmed with a publicly accessible certificate. In addition, a structured internal code review process is established in which all analysis scripts (R, Python, MATLAB, etc.) are documented according to FAIR software principles, version-controlled (Git/GitHub), and reviewed.
+
+MüCOS is one of the few centres in Germany offering active support for CODECHECK submission and preparation of reproducible analysis environments (e.g. Docker, Binder).`,
+      links:['CODECHECK.org.uk','GitHub.com'], münster:true
+    },
+    {
+      id:'robustness', phase:'analysis', phase_de:'Analyse & Code', phase_en:'Analysis & Code',
+      fte_min:6, fte_max:15,
+      title_de:'Robustheitsanalysen & Multiverse', title_en:'Robustness analyses & multiverse',
+      short_de:'Systematische Prüfung der Stabilität von Ergebnissen über alternative Analysespezifikationen, Ausschlusskriterien und Modellvarianten hinweg (Specification Curve, Multiverse Analysis).',
+      short_en:'Systematic testing of result stability across alternative analysis specifications, exclusion criteria, and model variants (specification curve, multiverse analysis).',
+      full_de:`Um die Robustheit der zentralen Befunde zu belegen, werden systematische Sensitivitätsanalysen durchgeführt. Dies umfasst Specification-Curve-Analysen (Simonsohn et al.), Multiverse-Analysen über relevante Analysepfade sowie explizit ausgewiesene Subgruppenanalysen. Alle alternativen Spezifikationen werden vorab (sofern präregistriert) oder transparent post-hoc dokumentiert und gemeinsam mit den Hauptanalysen veröffentlicht.
+
+Das MüCOS bietet Schulungen und individuelle Beratung zu Multiverse-Methoden sowie fertige R- und Python-Pakete (z. B. multiverse, specr) an.`,
+      full_en:`To demonstrate the robustness of key findings, systematic sensitivity analyses are conducted. This includes specification curve analyses (Simonsohn et al.), multiverse analyses across relevant analysis paths, and explicitly reported subgroup analyses. All alternative specifications are documented in advance (if pre-registered) or transparently post-hoc, and published alongside the main analyses.
+
+MüCOS offers training and individual consultation on multiverse methods, as well as ready-to-use R and Python packages (e.g. multiverse, specr).`,
+      links:['OSF.io/specr'], münster:true
+    },
+    {
+      id:'open-access', phase:'publication', phase_de:'Publikation', phase_en:'Publication',
+      fte_min:3, fte_max:8,
+      title_de:'Open Access & Open Peer Review', title_en:'Open access & open peer review',
+      short_de:'Veröffentlichung aller Projektergebnisse im goldenen oder grünen Open-Access-Weg, verbunden mit der Einreichung bei Zeitschriften mit transparentem, offenem Begutachtungsverfahren.',
+      short_en:'Publication of all project outputs via gold or green open access, combined with submission to journals offering transparent, open peer review.',
+      full_de:`Alle aus dem Vorhaben resultierenden Publikationen werden über den goldenen OA-Weg (bevorzugt in DEAL-Vertragszeitschriften der Universität Münster) oder über den grünen Weg (Zweitveröffentlichung über das ULB-Repositorium) öffentlich zugänglich gemacht. Ergänzend werden Preprints auf fachspezifischen Servern (arXiv, bioRxiv, PsyArXiv o. ä.) zeitnah zur Einreichung veröffentlicht.
+
+Die Universität Münster stellt über die ULB umfangreiche Förder- und Beratungsangebote für Open-Access-Publikationen bereit.`,
+      full_en:`All publications resulting from the project are made publicly accessible via the gold OA route (preferably in DEAL contract journals of the University of Münster) or via the green route (secondary publication through the ULB repository). Additionally, preprints are published on discipline-specific servers (arXiv, bioRxiv, PsyArXiv, etc.) promptly upon submission.
+
+The University of Münster provides comprehensive funding and advisory services for open access publications through the ULB.`,
+      links:['PsyArXiv.com','bioRxiv.org'], münster:false
+    },
+    {
+      id:'sci-comm', phase:'communication', phase_de:'Kommunikation', phase_en:'Communication',
+      fte_min:4, fte_max:10,
+      title_de:'Wissenschaftskommunikation & Open Educational Resources', title_en:'Science communication & open educational resources',
+      short_de:'Proaktive, zielgruppengerechte Kommunikation der Forschungsergebnisse an die breite Öffentlichkeit sowie die Erstellung frei nutzbarer Lehr- und Lernmaterialien.',
+      short_en:'Proactive, audience-appropriate communication of research results to the general public, as well as creation of freely usable teaching and learning materials.',
+      full_de:`Das Vorhaben umfasst eine strukturierte Wissenschaftskommunikationsstrategie: Aufbereitung der zentralen Ergebnisse für nicht-wissenschaftliche Zielgruppen (laienverständliche Zusammenfassungen, Infografiken, Blogbeiträge), Nutzung sozialer Medien und öffentlicher Veranstaltungsformate. Darüber hinaus werden aus den Forschungsergebnissen frei lizenzierte Open Educational Resources (OER) nach Creative-Commons-Lizenzen erstellt und auf Plattformen wie OERSI oder dem Münster OER-Portal veröffentlicht.
+
+Das MüCOS vernetzt Forschende mit dem Science Communication Center der WWU und berät zur OER-Erstellung und -Veröffentlichung.`,
+      full_en:`The project includes a structured science communication strategy: translating key findings for non-specialist audiences (plain-language summaries, infographics, blog posts), use of social media, and public event formats. Freely licensed Open Educational Resources (OER) are also created under Creative Commons licences and published on platforms such as OERSI or the Münster OER portal.
+
+MüCOS connects researchers with the Science Communication Centre of WWU and advises on OER creation and publication.`,
+      links:['OERSI.org'], münster:false
+    }
+  ];
+
+  const PHASES = [
+    { id:'all',           de:'Alle Module',        en:'All modules' },
+    { id:'planning',      de:'Planung',             en:'Planning' },
+    { id:'data',          de:'Materialien & Daten', en:'Materials & Data' },
+    { id:'analysis',      de:'Analyse & Code',      en:'Analysis & Code' },
+    { id:'publication',   de:'Publikation',         en:'Publication' },
+    { id:'communication', de:'Kommunikation',       en:'Communication' }
+  ];
+
+  let lang = 'de', activePhase = 'all';
+  const selected = new Set(), expanded = new Set();
+  const t = (de, en) => lang === 'de' ? de : en;
+  const $ = id => document.getElementById(id);
+
+  window.ospSetLang = function(l) {
+    lang = l;
+    document.querySelectorAll('#os-picker .osp-lang-btn').forEach((b,i) =>
+      b.classList.toggle('active', (i===0&&l==='de')||(i===1&&l==='en')));
+    render();
+  };
+  window.ospSetPhase = function(p) { activePhase = p; render(); };
+  window.ospToggle   = function(id) { selected.has(id)?selected.delete(id):selected.add(id); render(); };
+  window.ospToggleExpand = function(id, e) {
+    e.stopPropagation();
+    expanded.has(id) ? expanded.delete(id) : expanded.add(id);
+    const el  = $('osp-full-'+id);
+    const btn = $('osp-xbtn-'+id);
+    if (el)  el.classList.toggle('open', expanded.has(id));
+    if (btn) btn.textContent = expanded.has(id)
+      ? t('Weniger anzeigen','Show less')
+      : t('Volltext für Antrag →','Full proposal text →');
+  };
+  window.ospClearAll = function() { selected.clear(); render(); };
+  function buildText() {
+    const sel = MODULES.filter(m => selected.has(m.id));
+    if (!sel.length) return '';
+    let out = t(
+      '=== Open-Science-Textbausteine für Forschungsantrag ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
+      '=== Open Science Text Modules for Research Proposal ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
+    );
+    sel.forEach(m => {
+      out += (lang==='de'?m.title_de:m.title_en)+'\n';
+      out += t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE\n`,`FTE requirement: ${m.fte_min}–${m.fte_max}% FTE\n`);
+      out += (lang==='de'?m.full_de:m.full_en)+'\n\n---\n\n';
+    });
+    const avg = MODULES.filter(m=>selected.has(m.id)).reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
+    out += t(
+      `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE\nPoolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
+      `Total FTE (average): approx. ${Math.round(avg)}% FTE\nPoolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`
+    );
+    return out;
+  }
+
+  window.ospCopyClipboard = function() {
+    const text = buildText();
+    if (!text) return;
+    navigator.clipboard.writeText(text).then(() => {
+      const btn = document.getElementById('osp-clip-btn');
+      const orig = btn.textContent;
+      btn.textContent = '✓ Kopiert!';
+      setTimeout(() => { btn.textContent = orig; }, 2000);
+    }).catch(() => {
+      // Fallback for older browsers
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      document.execCommand('copy');
+      document.body.removeChild(ta);
+      const btn = document.getElementById('osp-clip-btn');
+      const orig = btn.textContent;
+      btn.textContent = '✓ Kopiert!';
+      setTimeout(() => { btn.textContent = orig; }, 2000);
+    });
+  };
+
+  window.ospExportDocx = function() {
+    const sel = MODULES.filter(m => selected.has(m.id));
+    if (!sel.length) return;
+    const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
+
+    // Build minimal Word XML (WordprocessingML)
+    const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    const para = (text, bold, size) => {
+      const rpr = `<w:rPr>${bold?'<w:b/>':''}<w:sz w:val="${size||24}"/><w:szCs w:val="${size||24}"/></w:rPr>`;
+      return `<w:p><w:pPr><w:spacing w:after="120"/></w:pPr><w:r>${rpr}<w:t xml:space="preserve">${esc(text)}</w:t></w:r></w:p>`;
+    };
+    const hr = () => `<w:p><w:pPr><w:pBdr><w:bottom w:val="single" w:sz="4" w:space="1" w:color="C0B4A8"/></w:pBdr></w:pPr></w:p>`;
+
+    let body = para(t('Open-Science-Textbausteine für Forschungsantrag','Open Science Text Modules for Research Proposal'), true, 32);
+    body += para('Münster Center for Open Science (MüCOS), Universität Münster', false, 22);
+    body += para('', false, 20);
+
+    sel.forEach(m => {
+      body += para(t(m.title_de, m.title_en), true, 28);
+      body += para(t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE`, `FTE requirement: ${m.fte_min}–${m.fte_max}% FTE`), false, 20);
+      body += para('', false, 20);
+      const lines = (lang==='de'?m.full_de:m.full_en).split('\n');
+      lines.forEach(line => { body += para(line, false, 22); });
+      body += hr();
+      body += para('', false, 20);
+    });
+
+    body += para(t(
+      `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE | Poolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
+      `Total FTE (average): approx. ${Math.round(avg)}% FTE | Poolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`
+    ), true, 22);
+
+    const xml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
+  xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
+  xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
+<w:body>${body}<w:sectPr><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134"/></w:sectPr></w:body>
+</w:document>`;
+
+    const blob = new Blob([xml], {type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'});
+    const a = document.createElement('a');
+    a.href = URL.createObjectURL(blob);
+    a.download = lang==='de'?'MüCOS_Antragsmodule.docx':'MüCOS_ProposalModules.docx';
+    a.click();
+  };
+
+  function render() {
+    $('osp-tabs').innerHTML = PHASES.map(p =>
+      `<button class="osp-tab ${activePhase===p.id?'active':''}" onclick="ospSetPhase('${p.id}')">${t(p.de,p.en)}</button>`
+    ).join('');
+
+    const selArr = MODULES.filter(m => selected.has(m.id));
+    const sumEl  = $('osp-summary');
+    if (selArr.length) {
+      sumEl.style.display = 'block';
+      const avg = selArr.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2, 0);
+      $('osp-sum-title').textContent = t('Ausgewählte Module','Selected modules');
+      $('osp-lbl-n').textContent     = t('Module gewählt','Modules selected');
+      $('osp-lbl-fte').textContent   = t('Gesamt-FTE (Ø)','Total FTE (avg)');
+      $('osp-lbl-pool').textContent  = t('Poolbarer Anteil (50 %)','Poolable share (50%)');
+      $('osp-n').textContent         = selArr.length;
+      $('osp-fte').innerHTML         = `${Math.round(avg)} <span class="osp-unit">% FTE</span>`;
+      $('osp-pool').innerHTML        = `${Math.round(avg*0.5)} <span class="osp-unit">% FTE</span>`;
+      $('osp-clear-btn').textContent = t('Alle abwählen','Deselect all');
+      document.querySelector('#os-picker .osp-btn-primary').textContent =
+        t('Als .docx herunterladen ↓','Download as .docx ↓');
+    } else {
+      sumEl.style.display = 'none';
+    }
+
+    const filtered = activePhase==='all' ? MODULES : MODULES.filter(m=>m.phase===activePhase);
+    if (!filtered.length) {
+      $('osp-grid').innerHTML = `<div class="osp-empty">${t('Keine Module in dieser Phase.','No modules in this phase.')}</div>`;
+      return;
+    }
+    $('osp-grid').innerHTML = filtered.map(m => {
+      const isSel = selected.has(m.id);
+      const isExp = expanded.has(m.id);
+      return `
+<div class="osp-card ${isSel?'selected':''} ${PC[m.phase]||''}" onclick="ospToggle('${m.id}')">
+  <div class="osp-stripe"></div>
+  <div class="osp-card-header">
+    <div class="osp-check"><span class="osp-checkmark">✓</span></div>
+    <div class="osp-meta">
+      <div class="osp-phase-pill">${t(m.phase_de,m.phase_en)}</div>
+      <span class="osp-title">${t(m.title_de,m.title_en)}</span>
+      ${m.münster?`<div class="osp-münster-badge">★ ${t('MüCOS-Alleinstellungsmerkmal','MüCOS unique capability')}</div>`:''}
+    </div>
+    <div class="osp-fte-badge">${m.fte_min}–${m.fte_max}&thinsp;%&thinsp;FTE</div>
+  </div>
+  <div class="osp-body">
+    <div class="osp-short">${t(m.short_de,m.short_en)}</div>
+    <div class="osp-full-text ${isExp?'open':''}" id="osp-full-${m.id}">${lang==='de'?m.full_de:m.full_en}</div>
+    <div class="osp-footer">
+      <button class="osp-expand-btn" id="osp-xbtn-${m.id}" onclick="ospToggleExpand('${m.id}',event)">
+        ${isExp?t('Weniger anzeigen','Show less'):t('Volltext für Antrag →','Full proposal text →')}
+      </button>
+      ${m.links.map(l=>`<span class="osp-link-chip">${l}</span>`).join('')}
+    </div>
+  </div>
+</div>`;
+    }).join('');
+  }
+
+  render();
+})();
+</script>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Copyright 2025, Münster Center for Open Science</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p>Mit <a href="https://quarto.org/">Quarto</a> erstellt</p>
+</div>
+  </div>
+</footer>
+
+
+
+
+</body></html>

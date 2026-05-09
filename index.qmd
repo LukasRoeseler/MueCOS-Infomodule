@@ -20,34 +20,6 @@ Wählen Sie den in der Kopfleiste zwischen **Fächerübergreifenden Informatione
 :::
 
 
-::: {.column-margin}
-
-::: {.sidebar-widget}
-<div class="sidebar-widget-header">
-  <span><i class="bi bi-envelope"></i> Kontakt</span>
-  <i class="bi bi-chevron-up"></i>
-</div>
-<div class="sidebar-widget-content">
-  <strong>Münster Center for Open Science</strong><br>
-  Fliednerstraße 21<br>
-  Raum FL/P/2b<br>
-  48149 Münster<br>
-  <br>
-  <a href="mailto:email@uni-muenster.de"><i class="bi bi-envelope-fill"></i> lukas.roeseler@uni-muenster.de</a>
-</div>
-:::
-
-::: {.sidebar-widget}
-<div class="sidebar-widget-header">
-  <span><i class="bi bi-link-45deg"></i> Wichtige Links</span>
-  <i class="bi bi-chevron-up"></i>
-</div>
-<div class="sidebar-widget-content">
-  <a href="#"><i class="bi bi-chevron-right"></i> Themen und Ansprechpersonen</a>
-  <a href="#"><i class="bi bi-chevron-right"></i> Flyer & Cheatsheets</a>
-</div>
-:::
-
 :::
 
 ------------------------------------------------------------------------

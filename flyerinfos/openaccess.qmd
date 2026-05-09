@@ -3,32 +3,59 @@ title: "Open Access: All you need to know"
 ---
 
 ::: callout-tip
-*This is a narrative summary of the most important Open Access infos for researchers and part of the [Münster Center for Open Science](https://www.uni-muenster.de/MueCOS/en/index.html)'s info materials.*
+*This is a narrative summary of the most important Open Access infos for
+researchers and part of the [Münster Center for Open
+Science](https://www.uni-muenster.de/MueCOS/en/index.html)'s info
+materials.*
 
--   [*OA flyer*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_flyer.pdf)
+-   [*OA
+    flyer*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_flyer.pdf)
 
--   [*OA cheat sheet*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_cheatsheet.pdf)
+-   [*OA cheat
+    sheet*](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OA_cheatsheet.pdf)
 :::
 
-Scientific results can be published in a variety of ways, and the available and used publication formats are becoming more diverse. Within the framework of a professional Open Science approach, researchers can be supported in deriving the optimal publication strategy for the respective case, given the tension between reputation, costs, quality assurance, and accessibility. This includes, for example:
+Scientific results can be published in a variety of ways, and the
+available and used publication formats are becoming more diverse. Within
+the framework of a professional Open Science approach, researchers can
+be supported in deriving the optimal publication strategy for the
+respective case, given the tension between reputation, costs, quality
+assurance, and accessibility. This includes, for example:
 
--   Choosing Open Access options for a given target journal (e.g., Moving Wall vs. Green Open Access)
+-   Choosing Open Access options for a given target journal (e.g.,
+    Moving Wall vs. Green Open Access)
 
--   Publishing a study with open peer review via a Peer-Community-In platform in microbiology
+-   Publishing a study with open peer review via a Peer-Community-In
+    platform in microbiology
 
 -   Selecting a pre-print server
 
-MüCOS brings together expertise for the transparent publication of research results, in close coordination with existing specific offerings: The University and State Library Münster provides advice on [Open Access](https://www.uni-muenster.de/Publizieren/en/open-access/index.html) and digital publishing, manages numerous [Open Access journals](https://www.uni-muenster.de/Ejournals/), the publication server [Miami](https://miami.uni-muenster.de), and offers guidance and support for the founding of new Open Access journals as well as the migration of journals to the journal management software *Open Journal System*.
+MüCOS brings together expertise for the transparent publication of
+research results, in close coordination with existing specific
+offerings: The University and State Library Münster provides advice on
+[Open
+Access](https://www.uni-muenster.de/Publizieren/en/open-access/index.html)
+and digital publishing, manages numerous [Open Access
+journals](https://www.uni-muenster.de/Ejournals/), the publication
+server [Miami](https://miami.uni-muenster.de), and offers guidance and
+support for the founding of new Open Access journals as well as the
+migration of journals to the journal management software *Open Journal
+System*.
 
 ## **Main Types of Open Access**
 
 ::: callout-tip
-There are numerous types of open access that differ with respect to publication costs, reading costs, peer review status, and copyright ownership.
+There are numerous types of open access that differ with respect to
+publication costs, reading costs, peer review status, and copyright
+ownership.
 
-![*Diagram by Jamie-farquharson - https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0, https://commons.wikimedia.org/w/index.php?curid=125787281*](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Open_Access_colours_Venn.svg/960px-Open_Access_colours_Venn.svg.png?20240822231754)
+![*Diagram by Jamie-farquharson -
+https://doi.org/10.6084/m9.figshare.21598179, CC BY 4.0,
+https://commons.wikimedia.org/w/index.php?curid=125787281*](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Open_Access_colours_Venn.svg/960px-Open_Access_colours_Venn.svg.png?20240822231754)
 :::
 
-The following section lists and explains the most common Open Access types, along with MüCOS recommendations for their use.
+The following section lists and explains the most common Open Access
+types, along with MüCOS recommendations for their use.
 
 | **Type** | **Regulation** | **Assessment in Terms of Accessibility and Cost of Knowledge** |
 |----|----|----|
@@ -40,60 +67,140 @@ The following section lists and explains the most common Open Access types, alon
 | Green | Independently of the journal: authors exercise their right of secondary publication and upload the manuscript to the Internet. Depending on the publication contract, they may do this via their private homepage, an institutional repository, or pre-print servers. Policies can be checked per journal [**here**](https://v2.sherpa.ac.uk/romeo/search.html). | Positive if the published version can be re-published (identical to the original, thus easily citable); often only possible for the accepted manuscript or after an embargo period. |
 | Closed | Publications are only accessible against a one-time or recurring fee. | Negative: Most research is conducted at the expense of society (i.e., funded by taxpayers) and should therefore be accessible to everyone. |
 
-For more information on Open Access types please see <https://zenodo.org/records/8322048>
+For more information on Open Access types please see
+<https://zenodo.org/records/8322048>
 
 ## Diamond or Closed+Green
 
 ::: callout-tip
-If possible, go for diamond OA. Otherwise, rather choose the closed option that does not have APCs and complement it with publishing the preprint.
+If possible, go for diamond OA. Otherwise, rather choose the closed
+option that does not have APCs and complement it with publishing the
+preprint.
 :::
 
-If you have the choice between different journals and OA types, open access is generally recommended. Note, however, that you may be expected to publish in *prestigious journals* to advance your scientific career. Diamond open access journals sometimes do not meet certain field-specific criteria such as a certain *Journal Impact Factor*, driving you towards commercial journals. These often have open access paths and closed paths. For these cases, we recommend choosing the closed path because it does not involve any additional costs and supplement it with publishing the preprint. To see which version you can upload to a preprint server, check the [Open Policy Finder](openpolicyfinder.jisc.ac.uk).
+If you have the choice between different journals and OA types, open
+access is generally recommended. Note, however, that you may be expected
+to publish in *prestigious journals* to advance your scientific career.
+Diamond open access journals sometimes do not meet certain
+field-specific criteria such as a certain *Journal Impact Factor*,
+driving you towards commercial journals. These often have open access
+paths and closed paths. For these cases, we recommend choosing the
+closed path because it does not involve any additional costs and
+supplement it with publishing the preprint. To see which version you can
+upload to a preprint server, check the [Open Policy
+Finder](openpolicyfinder.jisc.ac.uk).
 
 ## **Choosing a Preprint Server**
 
-If you decide to upload a preprint, beware that there are different types of preprint servers.
+If you decide to upload a preprint, beware that there are different
+types of preprint servers.
 
--   Non-profit preprint repositories are managed by scientific communities. They are moderated by researchers and the respective communities' values are aligned with scientific ideals. Examples are Zenodo.org, Arxiv.org, and osf.io/preprints.
+-   Non-profit preprint repositories are managed by scientific
+    communities. They are moderated by researchers and the respective
+    communities' values are aligned with scientific ideals. Examples are
+    Zenodo.org, Arxiv.org, and osf.io/preprints.
 
--   Commercial preprint repositories are owned by publishers. They may be moderated by non-researchers or bots and they prioritize profit. They may be used to create [lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in) effects for researchers using them (e.g., nudging users to submit to journals from the respective publisher).
+-   Commercial preprint repositories are owned by publishers. They may
+    be moderated by non-researchers or bots and they prioritize profit.
+    They may be used to create
+    [lock-in](https://en.wikipedia.org/wiki/Vendor_lock-in) effects for
+    researchers using them (e.g., nudging users to submit to journals
+    from the respective publisher).
 
-We recommend choosing a non-profit preprint server. For a comprehensive list of preprint repositories, see <https://en.wikipedia.org/wiki/List_of_preprint_repositories>.
+We recommend choosing a non-profit preprint server. For a comprehensive
+list of preprint repositories, see
+<https://en.wikipedia.org/wiki/List_of_preprint_repositories>.
 
 ## **Open Access and Quality: Predatory Publishing**
 
 ::: callout-note
-Open Access is not a business model. Predatory publishers use the Gold Open Access model to generate review while not conducting proper peer-reviwe.
+Open Access is not a business model. Predatory publishers use the Gold
+Open Access model to generate review while not conducting proper
+peer-reviwe.
 :::
 
-While the idea of open access is for research to be available online for free and without any restrictions (e.g., required log-in or paywall), commercial publishers have *recommercialized* the idea. This is usually referred to as Gold Open Access and involves Article Processing Charges (APCs). That is, authors have to pay the journal to get their article published. APCs are [positively correlated with journal citation impact](https://doi.org/10.1162/qss_a_00015) and [exceed justified costs by far](https://doi.org/10.12688/f1000research.27468.2). Due to researchers' pressure to publish, some journals offer publication against a fee and provide insufficient quality assurance. For example, peer review may be falsified or revisions may not actually be required to address peer reviewers' comments. This creates the picture of a high-quality peer reviewed journal when it is actually merely a very expensive service to publish any article. Publishers engaging in these practices have also had aggressive marketing strategies such as emailing authors with requests to submit their article to their journal, advertising impact factors, forcing authors to include articles from their journal in the citations to artificially increase the impact factor, and reward researchers for reviews with coupons that allow them to waive APCs in said journals. Another feature of predatory journals has been low variance in turn over times and a large number of special issues (e.g., \>300 special issues per year).
+While the idea of open access is for research to be available online for
+free and without any restrictions (e.g., required log-in or paywall),
+commercial publishers have *recommercialized* the idea. This is usually
+referred to as Gold Open Access and involves Article Processing Charges
+(APCs). That is, authors have to pay the journal to get their article
+published. APCs are [positively correlated with journal citation
+impact](https://doi.org/10.1162/qss_a_00015) and [exceed justified costs
+by far](https://doi.org/10.12688/f1000research.27468.2). Due to
+researchers' pressure to publish, some journals offer publication
+against a fee and provide insufficient quality assurance. For example,
+peer review may be falsified or revisions may not actually be required
+to address peer reviewers' comments. This creates the picture of a
+high-quality peer reviewed journal when it is actually merely a very
+expensive service to publish any article. Publishers engaging in these
+practices have also had aggressive marketing strategies such as emailing
+authors with requests to submit their article to their journal,
+advertising impact factors, forcing authors to include articles from
+their journal in the citations to artificially increase the impact
+factor, and reward researchers for reviews with coupons that allow them
+to waive APCs in said journals. Another feature of predatory journals
+has been low variance in turn over times and a large number of special
+issues (e.g., \>300 special issues per year).
 
 ### Think-Check-Submit
 
 To assess whether a journal is predatory, you can follow these steps:
 
-1.  Follow the recommendations by [Think-Check-Submit](https://thinkchecksubmit.org/journals/) and [COPE](https://publicationethics.org/news/identifying-fake-journals).
+1.  Follow the recommendations by
+    [Think-Check-Submit](https://thinkchecksubmit.org/journals/) and
+    [COPE](https://publicationethics.org/news/identifying-fake-journals).
 
-2.  Check the [Norwegian Scientific Index](https://kanalregister.hkdir.no/forlag?id=26841) if the journal or publisher is academic.
+2.  Check the [Norwegian Scientific
+    Index](https://kanalregister.hkdir.no/forlag?id=26841) if the
+    journal or publisher is academic.
 
-3.  Further resources such as the [DOAJ](https://doaj.org/search/journals?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Frontiers%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.publisher.name%22%7D%7D%2C%22track_total_hits%22%3Atrue%7D) (has a very low bar for journals to be indexed) or the website [Predatory Journals](https://www.predatoryjournals.org) (has anonymous authors and intransparent rating systems) may provide additional insights.
+3.  Further resources such as the
+    [DOAJ](https://doaj.org/search/journals?ref=homepage-box&source=%7B%22query%22%3A%7B%22query_string%22%3A%7B%22query%22%3A%22Frontiers%22%2C%22default_operator%22%3A%22AND%22%2C%22default_field%22%3A%22bibjson.publisher.name%22%7D%7D%2C%22track_total_hits%22%3Atrue%7D)
+    (has a very low bar for journals to be indexed) or the website
+    [Predatory Journals](https://www.predatoryjournals.org) (has
+    anonymous authors and intransparent rating systems) may provide
+    additional insights.
 
 ## **The Prisoner's Dilemma of Publishing**
 
-In many fields, established and prestigious journals are owned by commercial journals and - although researchers are usually members of the editorial board - they can be pressured by the publisher to lower quality standards. This has led to conflicts and [resignations of entire editorial boards](https://retractionwatch.com/the-retraction-watch-mass-resignations-list/). In other words, early career researchers' [academic success can rely on publications](https://doi.org/10.1177/1745691612459060) in [prestigious and expensive](https://doi.org/10.1162/qss_a_00015) journals. For example, a publication in the prestigious journal *Nature Human Behavior* costs more than € 10,000.00. Researchers may arrive at the decision between a low-prestige diamond OA journal and a high-prestige gold OA (or closed access) journal. Institutions are currently revising their research evaluation (e.g., [SF DORA](#0), [CoARA](#0)) but are relatively likely to reward publications in high impact journals over open access publications.
+In many fields, established and prestigious journals are owned by
+commercial journals and - although researchers are usually members of
+the editorial board - they can be pressured by the publisher to lower
+quality standards. This has led to conflicts and [resignations of entire
+editorial
+boards](https://retractionwatch.com/the-retraction-watch-mass-resignations-list/).
+In other words, early career researchers' [academic success can rely on
+publications](https://doi.org/10.1177/1745691612459060) in [prestigious
+and expensive](https://doi.org/10.1162/qss_a_00015) journals. For
+example, a publication in the prestigious journal *Nature Human
+Behavior* costs more than € 10,000.00. Researchers may arrive at the
+decision between a low-prestige diamond OA journal and a high-prestige
+gold OA (or closed access) journal. Institutions are currently revising
+their research evaluation (e.g., [SF DORA](#0), [CoARA](#0)) but are
+relatively likely to reward publications in high impact journals over
+open access publications.
 
 ## **Further Information**
 
--   Comprehensive tool for comparing various journal policies: [https://finder.open-access.network](https://finder.open-access.network/)
+-   Comprehensive tool for comparing various journal policies:
+    [https://finder.open-access.network](https://finder.open-access.network/)
 
--   Portal for searching numerous preprint servers: <https://osf.io/preprints>
+-   Portal for searching numerous preprint servers:
+    <https://osf.io/preprints>
 
--   Portal for searching Open Access journals including information on licenses and publication fees: [https://doaj.org](https://doaj.org/)
+-   Portal for searching Open Access journals including information on
+    licenses and publication fees: [https://doaj.org](https://doaj.org/)
 
--   Information from the DEAL Consortium on why CC BY is the best choice for Open Access publications: <https://deal-konsortium.de/warum-ccby>
+-   Information from the DEAL Consortium on why CC BY is the best choice
+    for Open Access publications:
+    <https://deal-konsortium.de/warum-ccby>
 
--   Interactive and live dataset of publication fees at German institutions: <https://treemaps.openapc.net/apcdata/openapc/> or [Münster data](https://treemaps.openapc.net/apcdata/muenster-u/)
+-   Interactive and live dataset of publication fees at German
+    institutions: <https://treemaps.openapc.net/apcdata/openapc/> or
+    [Münster data](https://treemaps.openapc.net/apcdata/muenster-u/)
 
--   Dashboard for tracking Open Access publications in Germany: [https://open-access-monitor.de](https://open-access-monitor.de/)
+-   Dashboard for tracking Open Access publications in Germany:
+    [https://open-access-monitor.de](https://open-access-monitor.de/)
 
--   History of Open Access: <https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement>
+-   History of Open Access:
+    <https://open-access.network/en/information/open-access-primers/history-of-the-open-access-movement>

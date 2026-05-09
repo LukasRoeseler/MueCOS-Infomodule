@@ -2,12 +2,45 @@
 title: "QUANT 1: Forschungsfragen und Forschungsplanung"
 ---
 
-# Literaturrecherche
 
-# Präregistrierung
+```{=html}
+<div style="position:fixed; top:0; right:0; width:160px; height:160px; overflow:hidden; pointer-events:none; z-index:9999;">
+  <div style="position:absolute; top:32px; right:-42px; width:180px; background:#a32638; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:0.08em; padding:6px 0; transform:rotate(45deg); box-shadow:0 2px 6px rgba(0,0,0,0.2);">WORK IN PROGRESS</div>
+</div>
+```
 
-# Analyse-Plan
+::: {.callout-warning}
+Diese Seite befindet sich im Aufbau. Inhalte sind vorläufig und werden laufend ergänzt.
+:::
 
-# Datenmanagement-Plan
+Open Science beginnt nicht erst bei der Veröffentlichung — viele relevante Entscheidungen fallen bereits in der Planungsphase. Die folgenden Abschnitte geben einen Überblick über zentrale Praktiken für qualitative Forschung.
 
-# Registered Report
+## Literaturrecherche und Transparenz
+
+Eine systematische und dokumentierte Literaturrecherche ist Grundlage guter wissenschaftlicher Praxis. Für qualitative Forschung bedeutet das nicht zwingend ein formales systematisches Review, aber eine nachvollziehbare Recherchestrategie — welche Datenbanken wurden durchsucht, mit welchen Suchbegriffen, zu welchem Zeitpunkt — stärkt die Glaubwürdigkeit des Vorhabens erheblich.
+
+**Empfehlung:** Halten Sie Recherchestrategien in einem kurzen Memo oder einer Tabelle fest und veröffentlichen Sie diese als ergänzendes Material.
+
+## Präregistrierung in der qualitativen Forschung
+
+Präregistrierung ist kein rein quantitatives Konzept. Auch in qualitativen Studien lässt sich vorab transparent machen, welche Fragestellungen verfolgt werden, welches Sampling-Verfahren geplant ist und welcher Analyseansatz (z. B. Grounded Theory, thematische Analyse, Dokumentenanalyse) angewendet werden soll.
+
+Eine Präregistrierung soll keine Flexibilität unterbinden — sie dokumentiert den *geplanten* Ausgangspunkt und ermöglicht damit eine klare Unterscheidung zwischen geplanter und emergenter Erkenntnis.
+
+- **OSF** (osf.io) bietet qualitative Präregistrierungsvorlagen, u. a. das [Qualitative Preregistration Template](https://osf.io/j7ghv)
+- Eine einfache Zeitstempel-Lösung (z. B. ein gesperrtes OSF-Dokument) reicht für viele Zwecke aus
+
+## Analyseplan
+
+In qualitativen Projekten ist ein detaillierter Analyseplan selten vorab vollständig formulierbar — das ist methodisch begründet. Sinnvoll ist es dennoch, zentrale Entscheidungen festzuhalten:
+
+- Welcher Analyseansatz wird verwendet und warum?
+- Wie wird die Kodierung dokumentiert (Codebuch, Memos)?
+- Wer kodiert, und wie wird Intercoder-Übereinstimmung oder Reflexivität gehandhabt?
+- Wie werden Abweichungen vom ursprünglichen Plan kenntlich gemacht?
+
+## Datenmanagementplan (DMP)
+
+Ein Datenmanagementplan beschreibt frühzeitig, wie Forschungsdaten im Projektverlauf erhoben, gespeichert, gesichert und nach Projektende zugänglich gemacht werden. Für qualitative Daten (Interviews, Feldnotizen, Fotos, Videos) sind insbesondere Datenschutz und Anonymisierung frühzeitig zu klären.
+
+Die Universität Münster stellt Vorlagen und Beratung über das [Forschungsdatenmanagement-Portal](https://www.uni-muenster.de/Forschungsdatenmanagement/) bereit. Förderinstitutionen wie DFG und EU verlangen zunehmend einen DMP bereits im Antrag.

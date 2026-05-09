@@ -1,73 +1,350 @@
 /*-- scss:defaults --*/
 
-// Match the University Fonts (Arial/Helvetica are safe defaults)
+// ── Typography ──────────────────────────────────────────────────────────────
 $font-family-sans-serif: "Arial", "Helvetica Neue", Helvetica, sans-serif !default;
+$font-size-base:         1rem !default;
+$line-height-base:       1.65 !default;
 
-// Match the exact colors from Image 1
-$primary: #a32638; /* The dark red used for links/accents in Image 1 */
-$body-color: #333333; /* Dark gray text, not pure black, for readability */
-$link-color: $primary;
+// ── Institutional Warm Palette ───────────────────────────────────────────────
+// Primary: WWU Münster dark red
+$primary:       #a32638;
+$primary-dark:  #7d1c29;
+$primary-light: #f5e8ea;
 
-// Navbar styling
-$navbar-bg: #ffffff;
-$navbar-fg: #000000;
+// Warm neutrals — replace cold grays with slightly warm equivalents
+$warm-100: #faf8f5;   // page background tint
+$warm-200: #f2ede7;   // sidebar / widget backgrounds
+$warm-300: #e4ddd5;   // borders, dividers
+$warm-500: #8c8278;   // secondary text
+$warm-700: #4a4239;   // headings, strong UI text
+$warm-900: #2b2420;   // near-black body copy
+
+// Accent: a muted institutional teal-green for positive/info states
+$accent:        #2a6e6e;
+$accent-light:  #e4f0f0;
+
+// Body / link
+$body-color:    $warm-900;
+$link-color:    $primary;
+$link-hover-color: $primary-dark;
+
+// Navbar
+$navbar-bg:     #ffffff;
+$navbar-fg:     $warm-700;
+
+// Cards / panels
+$card-border-color: $warm-300;
+$card-bg:           #ffffff;
+
+// Code
+$code-bg:   $warm-200;
+$code-color: $warm-700;
+
 
 /*-- scss:rules --*/
 
-/* 1. Emulate the top navigation borders from Image 1 */
-.navbar {
-  border-top: 3px solid #333333;
-  border-bottom: 1px solid #333333;
-  margin-top: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-transform: uppercase; /* Makes the menu items ALL CAPS */
-  font-size: 0.95rem;
+// ── Base ─────────────────────────────────────────────────────────────────────
+body {
+  background-color: $warm-100;
+  color: $body-color;
 }
 
-/* 2. Constrain the width of the text for readability */
+// ── Navbar ───────────────────────────────────────────────────────────────────
+.navbar {
+  border-top: 3px solid $primary;
+  border-bottom: 1px solid $warm-300;
+  margin-top: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #ffffff !important;
+  box-shadow: 0 1px 4px rgba(43, 36, 32, 0.06);
+}
+
+.navbar-brand {
+  font-weight: 700;
+  font-size: 1rem;
+  color: $warm-700 !important;
+  letter-spacing: 0.01em;
+  white-space: normal;
+  max-width: 180px;
+  line-height: 1.25;
+}
+
+.navbar-nav .nav-link {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: $warm-700 !important;
+  padding: 6px 10px !important;
+  border-radius: 2px;
+  transition: color 0.15s, background 0.15s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: $primary !important;
+  background-color: $primary-light;
+}
+
+// Pipe separators between nav items — style them purely decoratively
+.navbar-nav .nav-item .nav-link[href="#"] {
+  color: $warm-300 !important;
+  pointer-events: none;
+  padding: 0 4px !important;
+  cursor: default;
+}
+
+// ── Announcement bar ─────────────────────────────────────────────────────────
+.announcement-bar,
+div[class*="announcement"] {
+  background-color: $warm-200;
+  border-bottom: 1px solid $warm-300;
+  color: $warm-700;
+  font-size: 0.88rem;
+}
+
+// ── Page layout ──────────────────────────────────────────────────────────────
 .page-columns {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-/* 3. Style the main heading to look like Image 1 */
-h1.title {
-  color: #3f444c; /* The specific dark gray of the "Münster Center..." header */
-  font-weight: 700;
-  border-bottom: none; 
-  padding-bottom: 10px;
+#quarto-content {
+  padding-top: 2rem;
 }
 
+// ── Typography ───────────────────────────────────────────────────────────────
+h1, h2, h3, h4, h5, h6 {
+  color: $warm-700;
+  font-weight: 700;
+  line-height: 1.3;
+}
 
-/* Style for the sidebar widgets */
-.sidebar-widget {
-  border: 1px solid #e0e0e0;
-  margin-bottom: 20px;
+h1.title {
+  color: $warm-700;
+  font-weight: 700;
+  font-size: 1.75rem;
+  border-bottom: 2px solid $primary;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  border-bottom: 1px solid $warm-300;
+  padding-bottom: 0.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.9rem;
+}
+
+h3 { font-size: 1.1rem; margin-top: 1.5rem; }
+
+p { margin-bottom: 1rem; }
+
+a {
+  text-decoration: none;
+  transition: color 0.15s;
+  &:hover { text-decoration: underline; color: $primary-dark; }
+}
+
+// ── Sidebar ──────────────────────────────────────────────────────────────────
+.sidebar-navigation {
   background-color: #ffffff;
+  border-right: 1px solid $warm-300;
+}
+
+.sidebar-title {
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: $warm-500;
+  padding: 1rem 1rem 0.4rem;
+  margin: 0;
+}
+
+.sidebar-item .sidebar-item-text {
+  font-size: 0.88rem;
+  color: $warm-700;
+  padding: 4px 1rem;
+  border-radius: 3px;
+  display: block;
+  transition: background 0.12s, color 0.12s;
+  &:hover {
+    background-color: $warm-200;
+    color: $primary;
+    text-decoration: none;
+  }
+}
+
+.sidebar-item.active > .sidebar-item-text,
+.sidebar-item.active > a {
+  color: $primary !important;
+  font-weight: 600;
+  background-color: $primary-light;
+  border-left: 3px solid $primary;
+  padding-left: calc(1rem - 3px);
+}
+
+// ── Sidebar widgets (custom HTML blocks) ─────────────────────────────────────
+.sidebar-widget {
+  border: 1px solid $warm-300;
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+  background-color: #ffffff;
+  overflow: hidden;
+  box-shadow: 0 1px 3px rgba(43, 36, 32, 0.05);
 }
 
 .sidebar-widget-header {
-  background-color: #4a4e59; /* Dark gray from the image */
-  color: white;
-  padding: 8px 15px;
-  font-weight: 600;
+  background-color: $warm-700;
+  color: #ffffff;
+  padding: 8px 14px;
+  font-weight: 700;
   text-transform: uppercase;
-  font-size: 0.9rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
 .sidebar-widget-content {
-  padding: 15px;
+  padding: 12px 14px;
   font-size: 0.85rem;
-  line-height: 1.4;
+  line-height: 1.5;
+  color: $warm-700;
+  background-color: $warm-100;
+
+  a {
+    color: $primary;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 8px;
+    padding: 2px 0;
+    border-bottom: 1px dotted $warm-300;
+    &:hover { color: $primary-dark; text-decoration: none; }
+    &:last-child { border-bottom: none; margin-bottom: 0; }
+  }
 }
 
-.sidebar-widget-content a {
-  color: #a32638; /* Red links */
-  text-decoration: none;
-  display: block;
-  margin-bottom: 10px;
+// ── TOC (right margin) ───────────────────────────────────────────────────────
+#TOC {
+  font-size: 0.83rem;
+  border-left: 2px solid $warm-300;
+  padding-left: 1rem;
+
+  .toc-title {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: $warm-500;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: $warm-500;
+    display: block;
+    padding: 2px 0;
+    transition: color 0.12s;
+    &:hover, &.active { color: $primary; text-decoration: none; }
+  }
+}
+
+// ── Callout boxes ─────────────────────────────────────────────────────────────
+.callout {
+  border-radius: 4px;
+  border-left-width: 4px;
+}
+
+.callout-note    { border-left-color: $accent; background-color: $accent-light; }
+.callout-warning { border-left-color: #c47d0e; background-color: #fdf3e0; }
+.callout-tip     { border-left-color: #3a7a3a; background-color: #eaf2ea; }
+.callout-important { border-left-color: $primary; background-color: $primary-light; }
+
+// ── Code blocks ──────────────────────────────────────────────────────────────
+pre, code {
+  font-size: 0.87rem;
+  border-radius: 3px;
+}
+
+pre {
+  background-color: $warm-200;
+  border: 1px solid $warm-300;
+  padding: 1rem;
+}
+
+code {
+  background-color: $warm-200;
+  color: $warm-700;
+  padding: 1px 5px;
+}
+
+// ── Tables ───────────────────────────────────────────────────────────────────
+table {
+  font-size: 0.9rem;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead th {
+  background-color: $warm-700;
+  color: #ffffff;
+  padding: 8px 12px;
+  text-align: left;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+tbody tr {
+  border-bottom: 1px solid $warm-300;
+  &:nth-child(even) { background-color: $warm-100; }
+  &:hover { background-color: $primary-light; }
+}
+
+tbody td { padding: 7px 12px; }
+
+// ── Buttons ───────────────────────────────────────────────────────────────────
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: #ffffff;
+  font-size: 0.88rem;
+  font-weight: 600;
+  border-radius: 3px;
+  padding: 7px 18px;
+  transition: background 0.15s, border-color 0.15s;
+
+  &:hover, &:focus {
+    background-color: $primary-dark;
+    border-color: $primary-dark;
+  }
+}
+
+// ── Antragsmodule page — hero intro block ────────────────────────────────────
+.antragsmodul-intro {
+  background: linear-gradient(135deg, $warm-200 0%, $primary-light 100%);
+  border-left: 4px solid $primary;
+  border-radius: 4px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  line-height: 1.7;
+  color: $warm-700;
+
+  strong { color: $primary; }
+}
+
+// ── Footer ───────────────────────────────────────────────────────────────────
+.nav-footer {
+  background-color: $warm-700;
+  color: $warm-300;
+  font-size: 0.82rem;
+  padding: 0.75rem 0;
+  border-top: 3px solid $primary;
+
+  a { color: $warm-300; &:hover { color: #ffffff; } }
 }

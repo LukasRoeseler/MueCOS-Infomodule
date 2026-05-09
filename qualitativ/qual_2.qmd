@@ -2,22 +2,55 @@
 title: "QUANT 2: Materialien und Daten"
 ---
 
-# Open Materials
 
-# Codebook
+```{=html}
+<div style="position:fixed; top:0; right:0; width:160px; height:160px; overflow:hidden; pointer-events:none; z-index:9999;">
+  <div style="position:absolute; top:32px; right:-42px; width:180px; background:#a32638; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:0.08em; padding:6px 0; transform:rotate(45deg); box-shadow:0 2px 6px rgba(0,0,0,0.2);">WORK IN PROGRESS</div>
+</div>
+```
 
-# Anonymisierung und Pseudonymisierung
+::: {.callout-warning}
+Diese Seite befindet sich im Aufbau. Inhalte sind vorläufig und werden laufend ergänzt.
+:::
 
-# Open Data
+Qualitative Forschung arbeitet häufig mit sensiblen Daten — Interviews, Beobachtungsprotokolle, Dokumente, audiovisuelle Materialien. Das Teilen dieser Materialien erfordert sorgfältige Abwägungen zwischen Offenheit, Datenschutz und Forschungsethik.
 
-# Reproduzierbarkeit/Replizierbarkeit
+## Offene Materialien
 
-# FAIR-Prinzipien
+Viele Materialien qualitativer Forschung lassen sich ohne Einschränkungen offen teilen: Interviewleitfäden, Codebücher, Analysememos, Kategoriensysteme, synthetisierte Ergebnistabellen. Diese sollten standardmäßig auf einem dauerhaften Repository (z. B. OSF, Zenodo) mit DOI und einer offenen Lizenz (bevorzugt CC BY 4.0) veröffentlicht werden.
 
-# CARE-Prinzipien
+**Offenheit dort, wo möglich — Schutz dort, wo nötig.** Nicht alle Daten müssen geteilt werden; aber die Entscheidung sollte explizit, begründet und dokumentiert sein.
 
-# Open Code
+## Offene Daten und Anonymisierung
 
-# Lizenzen
+Primäre Interviewdaten, Transkripte oder Feldnotizen können in vielen Fällen nach Anonymisierung geteilt werden. Dabei sind mehrere Ebenen zu berücksichtigen:
 
-# Datensatz Publikationen
+- **Direkte Identifikatoren** (Namen, Orte, Institutionen) werden ersetzt oder entfernt
+- **Indirekte Identifikatoren** (Kombination von Merkmalen, die zur Identifikation führen könnten) werden geprüft
+- Der Grad der Anonymisierung ist im Begleitdokument transparent zu beschreiben
+
+Für besonders sensible Daten (z. B. aus vulnerablen Gruppen, klinischen Kontexten oder bei Gefährdungsrisiko) kann eine kontrollierte Datenweitergabe (z. B. über ein Data Use Agreement) oder eine vollständige Nicht-Veröffentlichung gerechtfertigt sein — dies ist dann ebenso offen zu kommunizieren.
+
+::: {.callout-note}
+Das [Forschungsdatenzentrum Qualitative Daten (FDZ-QD)](https://www.fdz-dza.de/) der Deutschen Zentralbibliothek für Wirtschaftswissenschaften sowie das GESIS-Datenarchiv bieten spezialisierte Infrastruktur für die Archivierung qualitativer Daten unter kontrollierten Zugangsbedingungen.
+:::
+
+## FAIR-Prinzipien in der qualitativen Forschung
+
+Die FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden für Forschungsdaten aller Art entwickelt und lassen sich auch auf qualitative Materialien anwenden — mit Anpassungen:
+
+| Prinzip | Bedeutung für qualitative Daten |
+|---|---|
+| **Findable** | Persistenter Identifier (DOI), standardisierte Metadaten |
+| **Accessible** | Klare Zugangsbedingungen, auch bei eingeschränktem Zugang |
+| **Interoperable** | Offene Dateiformate (TXT, PDF/A statt proprietäre Formate) |
+| **Reusable** | Lizenz, Kontextdokumentation, Reflexivitätsmemos |
+
+## CARE-Prinzipien
+
+Für Forschung mit und über indigene Gemeinschaften, marginalisierte Gruppen oder in postkolonialen Kontexten sind die **CARE-Prinzipien** (Collective Benefit, Authority to Control, Responsibility, Ethics) zentral. Sie ergänzen FAIR um eine machtbewusste, gemeinschaftsorientierte Perspektive auf Datensouveränität.
+
+CARE bedeutet konkret: Betroffene Gemeinschaften haben ein Mitspracherecht darüber, wie ihre Daten genutzt, veröffentlicht und weitergegeben werden — unabhängig von rein rechtlichen Anforderungen.
+
+Weiterführende Informationen: [Global Indigenous Data Alliance – CARE Principles](https://www.gida-global.org/care)
+

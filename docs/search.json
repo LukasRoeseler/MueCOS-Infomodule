@@ -387,6 +387,7 @@
     "section": "",
     "text": "Vorsicht\n\n\n\nDieser Bereich befindet sich aktuell im Aufbau.\n\n\nMit qualitativer Forschung sind Vorhaben gemeint, die Phänomene über verschiedene Medien wie Texte oder Bilder erforschen. Das kann zum Beispiel der Fall der Berliner Mauer aus geschichtlicher Perspektive oder Sprachwandel in der Fernsehwerbung in den 2010er Jahren sein. Ihnen gemeinsam ist, dass sie ein tiefgehendes Verständnis anstreben. Dabei verwenden Ansätze, die zu großen Teilen auf menschlicher Interpretation beruhen, wie zum Beispiel qualitative Inhaltsanalysen, unstrukturierte oder teilstrukturierte Befragungen, oder Beobachtungen.\nQualitative Forschung ist vor allem in den Geisteswissenschaften präsent. Darunter fallen beispielsweise Theologie, Erziehungswissenschaften, Sozialwissenschaften, Geschichte, Philosophie, Philologie, Geowissenschaften, Sportwissenschaften, und Soziologie.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung",
     "crumbs": [
+      "QUALITATIVE FORSCHUNG",
       "Definition und Beispiele"
     ]
   },
@@ -395,14 +396,110 @@
     "href": "qualitativ/qual_3.html",
     "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
     "section": "",
-    "text": "Open Access\n\n\nOpen Access Typen\n\n\nPre-Prints\n\n\nPre-Print Review\n\n\nAutor*innenschaft"
+    "text": "WORK IN PROGRESS\nQualitative Forschung wird häufig in Monografien, Sammelbandbeiträgen und Zeitschriftenartikeln veröffentlicht — Publikationsformate, die sich in ihrer Open-Access-Logik teils erheblich voneinander unterscheiden. Die folgenden Abschnitte geben einen Überblick.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_3.html#open-access-grundprinzip",
+    "href": "qualitativ/qual_3.html#open-access-grundprinzip",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "Open Access: Grundprinzip",
+    "text": "Open Access: Grundprinzip\nOpen Access (OA) bedeutet, dass Forschungsergebnisse kostenfrei, dauerhaft und ohne technische Zugangshürden öffentlich zugänglich sind. Zwei Hauptwege sind etabliert:\n\nGoldener Weg: Primärpublikation direkt als OA-Artikel oder -Buch, oft in Verbindung mit einer Article Processing Charge (APC). Die Universität Münster hat Transformationsverträge (DEAL) mit großen Verlagen abgeschlossen, die APCs für WWU-Angehörige teilweise oder vollständig abdecken.\nGrüner Weg: Zweitveröffentlichung einer akzeptierten Manuskriptversion (Postprint) auf einem institutionellen oder fachlichen Repository — ohne zusätzliche Kosten, mit verlagsabhängigen Fristen.\n\nDie Universitäts- und Landesbibliothek Münster (ULB) berät zu beiden Wegen und übernimmt in vielen Fällen die Einreichung in das institutionelle Repositorium.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_3.html#zeitschriftenartikel",
+    "href": "qualitativ/qual_3.html#zeitschriftenartikel",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "Zeitschriftenartikel",
+    "text": "Zeitschriftenartikel\nFür qualitative Zeitschriftenartikel gilt dasselbe OA-Prinzip wie für alle Artikel. Zu beachten:\n\nViele qualitative Fachzeitschriften bieten hybride OA-Optionen an; über den grünen Weg ist OA jedoch fast immer möglich.\nDie Frist für die Zweitveröffentlichung beträgt je nach Verlag 6–24 Monate. Das Tool Sherpa/Romeo gibt Auskunft über die jeweiligen Verlagsrichtlinien.\nPreprints (s. u.) können parallel zur Einreichung veröffentlicht werden und erhöhen die Sichtbarkeit vor der Begutachtung.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_3.html#bücher-und-sammelbandbeiträge",
+    "href": "qualitativ/qual_3.html#bücher-und-sammelbandbeiträge",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "Bücher und Sammelbandbeiträge",
+    "text": "Bücher und Sammelbandbeiträge\nMonografien und Buchkapitel sind in qualitativen Disziplinen besonders relevant — und im OA-Bereich komplexer als Artikel.\n\nOpen-Access-Bücher (Book Processing Charge, BPC): Einige Verlage (z. B. Transcript Open, Nomos eLibrary, Springer Open) publizieren qualitative Monografien open access. Die Universität Münster fördert BPCs über den OA-Publikationsfonds der ULB.\nSammelbandbeiträge: Hier liegt die OA-Entscheidung beim Herausgeberteam. Als Beitragende können Sie jedoch darauf bestehen, Ihr Kapitel als Postprint auf einem Repository zugänglich zu machen — dies ist bei den meisten Verlagen nach einer Embargo-Frist möglich.\nDiamond Open Access: Einige qualitative Zeitschriften und Plattformen publizieren ohne Kosten für Autor:innen und Lesende (z. B. Forum Qualitative Sozialforschung/FQS).",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_3.html#preprints",
+    "href": "qualitativ/qual_3.html#preprints",
+    "title": "QUANT 3: Forschungsergebnisse veröffentlichen",
+    "section": "Preprints",
+    "text": "Preprints\nPreprints — Manuskripte vor oder während der Begutachtung — sind in qualitativen Disziplinen noch weniger verbreitet als in quantitativen Feldern, gewinnen aber an Bedeutung.\n\nSocArXiv und EarthArXiv nehmen qualitative Sozial- und Geisteswissenschaften auf\nOSF Preprints ist disziplinübergreifend nutzbar\nPreprints erhöhen die Sichtbarkeit und ermöglichen frühe Rückmeldung aus der Community",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "3. Forschungsergebnisse veröffentlichen"
+    ]
   },
   {
     "objectID": "qualitativ/qual_1.html",
     "href": "qualitativ/qual_1.html",
     "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
     "section": "",
-    "text": "Literaturrecherche\n\n\nPräregistrierung\n\n\nAnalyse-Plan\n\n\nDatenmanagement-Plan\n\n\nRegistered Report"
+    "text": "WORK IN PROGRESS\nOpen Science beginnt nicht erst bei der Veröffentlichung — viele relevante Entscheidungen fallen bereits in der Planungsphase. Die folgenden Abschnitte geben einen Überblick über zentrale Praktiken für qualitative Forschung.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_1.html#literaturrecherche-und-transparenz",
+    "href": "qualitativ/qual_1.html#literaturrecherche-und-transparenz",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "Literaturrecherche und Transparenz",
+    "text": "Literaturrecherche und Transparenz\nEine systematische und dokumentierte Literaturrecherche ist Grundlage guter wissenschaftlicher Praxis. Für qualitative Forschung bedeutet das nicht zwingend ein formales systematisches Review, aber eine nachvollziehbare Recherchestrategie — welche Datenbanken wurden durchsucht, mit welchen Suchbegriffen, zu welchem Zeitpunkt — stärkt die Glaubwürdigkeit des Vorhabens erheblich.\nEmpfehlung: Halten Sie Recherchestrategien in einem kurzen Memo oder einer Tabelle fest und veröffentlichen Sie diese als ergänzendes Material.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_1.html#präregistrierung-in-der-qualitativen-forschung",
+    "href": "qualitativ/qual_1.html#präregistrierung-in-der-qualitativen-forschung",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "Präregistrierung in der qualitativen Forschung",
+    "text": "Präregistrierung in der qualitativen Forschung\nPräregistrierung ist kein rein quantitatives Konzept. Auch in qualitativen Studien lässt sich vorab transparent machen, welche Fragestellungen verfolgt werden, welches Sampling-Verfahren geplant ist und welcher Analyseansatz (z. B. Grounded Theory, thematische Analyse, Dokumentenanalyse) angewendet werden soll.\nEine Präregistrierung soll keine Flexibilität unterbinden — sie dokumentiert den geplanten Ausgangspunkt und ermöglicht damit eine klare Unterscheidung zwischen geplanter und emergenter Erkenntnis.\n\nOSF (osf.io) bietet qualitative Präregistrierungsvorlagen, u. a. das Qualitative Preregistration Template\nEine einfache Zeitstempel-Lösung (z. B. ein gesperrtes OSF-Dokument) reicht für viele Zwecke aus",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_1.html#analyseplan",
+    "href": "qualitativ/qual_1.html#analyseplan",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "Analyseplan",
+    "text": "Analyseplan\nIn qualitativen Projekten ist ein detaillierter Analyseplan selten vorab vollständig formulierbar — das ist methodisch begründet. Sinnvoll ist es dennoch, zentrale Entscheidungen festzuhalten:\n\nWelcher Analyseansatz wird verwendet und warum?\nWie wird die Kodierung dokumentiert (Codebuch, Memos)?\nWer kodiert, und wie wird Intercoder-Übereinstimmung oder Reflexivität gehandhabt?\nWie werden Abweichungen vom ursprünglichen Plan kenntlich gemacht?",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_1.html#datenmanagementplan-dmp",
+    "href": "qualitativ/qual_1.html#datenmanagementplan-dmp",
+    "title": "QUANT 1: Forschungsfragen und Forschungsplanung",
+    "section": "Datenmanagementplan (DMP)",
+    "text": "Datenmanagementplan (DMP)\nEin Datenmanagementplan beschreibt frühzeitig, wie Forschungsdaten im Projektverlauf erhoben, gespeichert, gesichert und nach Projektende zugänglich gemacht werden. Für qualitative Daten (Interviews, Feldnotizen, Fotos, Videos) sind insbesondere Datenschutz und Anonymisierung frühzeitig zu klären.\nDie Universität Münster stellt Vorlagen und Beratung über das Forschungsdatenmanagement-Portal bereit. Förderinstitutionen wie DFG und EU verlangen zunehmend einen DMP bereits im Antrag.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "1. Forschungsfragen und Forschungsplanung"
+    ]
   },
   {
     "objectID": "fächerübergreifend.html",
@@ -569,6 +666,17 @@
     "text": "Die Open Science-Infomodule wurden von dem Münster Center for Open Science auf Basis der Ressourcen der Open Science Kommission Psychologie (https://osf.io/x3s5c/) und in Kooperation mit Open Science-Vertreter*innen der Fachbereiche sowie der Universitäts- und Landesbibliothek der Universität Münster erstellt. Diese Website befindet sich aktuell im Aufbau. Rückmeldungen, Änderungsvorschläge, und Wünsche der Mitarbeit richten Sie bitte an lukas.roseler[at]uni-muenster.de. Alternativ können Sie über Github öffentlich ein Issue eröffnen.\nLizenz: CC-By Attribution 4.0 International\nCite as: Röseler, L. & Open Science Kommission Psychologie (2025). Open Science Infomodule. https://lukasroeseler.github.io/MueCOS-Infomodule/\nAcknowledgements: Diese Website wurde mithilfe des jtr13 website templates erstellt. Wir bedanken uns herzlich für zahlreiche Vorschläge und Hinweise der Open Science Koordinator*innen der Universität Münster, einzelnen Forschenden, und der Open Access Beauftragten der Universität Münster."
   },
   {
+    "objectID": "antragsmodule.html",
+    "href": "antragsmodule.html",
+    "title": "Antragsmodule",
+    "section": "",
+    "text": "Open Science im Forschungsantrag – Textbausteine für Ihr Projekt\nDas Münster Center for Open Science (MüCOS) bietet Forschenden der Universität Münster konkrete Unterstützung dabei, Open-Science-Praktiken in Drittmittelanträge zu integrieren. Die folgenden Module liefern fertige, anpassbare Textbausteine auf Deutsch und Englisch – jeweils mit einer realistischen Schätzung des FTE-Bedarfs (Vollzeitäquivalent in Prozent).\nDas Modell der gebündelten Stellenfinanzierung ermöglicht es mehreren Arbeitsgruppen, ihren jeweiligen FTE-Anteil in einen gemeinsamen Pool einzubringen. Aus diesem Pool wird über eine Ausfallbürgschaft der Universität Münster eine gemeinsam finanzierte Expert:innenstelle (z. B. Datenmanagement, Code-Review, Statistik) besetzt – eine Lösung, die für Einzelprojekte zu kleinteilig, im Verbund aber hocheffizient ist.\nSo funktioniert die Auswahl: Klicken Sie auf die Module, die für Ihr Vorhaben relevant sind. Der Werkzeugkasten berechnet den Gesamt-FTE-Bedarf und gibt den poolbaren Anteil aus. Über „Exportieren” erhalten Sie einen konsolidierten Entwurfstext für Ihren Antrag – direkt weiterverarbeitbar.\nFür eine individuelle Beratung wenden Sie sich gerne an das MüCOS-Team unter lukas.roeseler@uni-muenster.de.\n\n\n\n\n\n  \n    \n      Sprache \n      Deutsch\n      English\n    \n  \n\n  \n\n  \n    Ausgewählte Module\n    \n      \n        Module gewählt\n        0\n      \n      \n        Gesamt-FTE (Ø)\n        0 % FTE\n      \n      \n        Poolbarer Anteil (50 %)\n        0 % FTE\n      \n    \n    \n      Als .docx herunterladen ↓\n      In Zwischenablage kopieren\n      Alle abwählen",
+    "crumbs": [
+      "FÄCHERÜBERGREIFENDE INFORMATIONEN",
+      "Antragsmodule"
+    ]
+  },
+  {
     "objectID": "flyerinfos/preregistration.html",
     "href": "flyerinfos/preregistration.html",
     "title": "Preregistrations: All you need to know",
@@ -681,14 +789,110 @@
     "href": "qualitativ/qual_2.html",
     "title": "QUANT 2: Materialien und Daten",
     "section": "",
-    "text": "Open Materials\n\n\nCodebook\n\n\nAnonymisierung und Pseudonymisierung\n\n\nOpen Data\n\n\nReproduzierbarkeit/Replizierbarkeit\n\n\nFAIR-Prinzipien\n\n\nCARE-Prinzipien\n\n\nOpen Code\n\n\nLizenzen\n\n\nDatensatz Publikationen"
+    "text": "WORK IN PROGRESS\nQualitative Forschung arbeitet häufig mit sensiblen Daten — Interviews, Beobachtungsprotokolle, Dokumente, audiovisuelle Materialien. Das Teilen dieser Materialien erfordert sorgfältige Abwägungen zwischen Offenheit, Datenschutz und Forschungsethik.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "2. Materialien und Daten"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_2.html#offene-materialien",
+    "href": "qualitativ/qual_2.html#offene-materialien",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "Offene Materialien",
+    "text": "Offene Materialien\nViele Materialien qualitativer Forschung lassen sich ohne Einschränkungen offen teilen: Interviewleitfäden, Codebücher, Analysememos, Kategoriensysteme, synthetisierte Ergebnistabellen. Diese sollten standardmäßig auf einem dauerhaften Repository (z. B. OSF, Zenodo) mit DOI und einer offenen Lizenz (bevorzugt CC BY 4.0) veröffentlicht werden.\nOffenheit dort, wo möglich — Schutz dort, wo nötig. Nicht alle Daten müssen geteilt werden; aber die Entscheidung sollte explizit, begründet und dokumentiert sein.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "2. Materialien und Daten"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_2.html#offene-daten-und-anonymisierung",
+    "href": "qualitativ/qual_2.html#offene-daten-und-anonymisierung",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "Offene Daten und Anonymisierung",
+    "text": "Offene Daten und Anonymisierung\nPrimäre Interviewdaten, Transkripte oder Feldnotizen können in vielen Fällen nach Anonymisierung geteilt werden. Dabei sind mehrere Ebenen zu berücksichtigen:\n\nDirekte Identifikatoren (Namen, Orte, Institutionen) werden ersetzt oder entfernt\nIndirekte Identifikatoren (Kombination von Merkmalen, die zur Identifikation führen könnten) werden geprüft\nDer Grad der Anonymisierung ist im Begleitdokument transparent zu beschreiben\n\nFür besonders sensible Daten (z. B. aus vulnerablen Gruppen, klinischen Kontexten oder bei Gefährdungsrisiko) kann eine kontrollierte Datenweitergabe (z. B. über ein Data Use Agreement) oder eine vollständige Nicht-Veröffentlichung gerechtfertigt sein — dies ist dann ebenso offen zu kommunizieren.\n\n\n\n\n\n\nNote\n\n\n\nDas Forschungsdatenzentrum Qualitative Daten (FDZ-QD) der Deutschen Zentralbibliothek für Wirtschaftswissenschaften sowie das GESIS-Datenarchiv bieten spezialisierte Infrastruktur für die Archivierung qualitativer Daten unter kontrollierten Zugangsbedingungen.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "2. Materialien und Daten"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_2.html#fair-prinzipien-in-der-qualitativen-forschung",
+    "href": "qualitativ/qual_2.html#fair-prinzipien-in-der-qualitativen-forschung",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "FAIR-Prinzipien in der qualitativen Forschung",
+    "text": "FAIR-Prinzipien in der qualitativen Forschung\nDie FAIR-Prinzipien (Findable, Accessible, Interoperable, Reusable) wurden für Forschungsdaten aller Art entwickelt und lassen sich auch auf qualitative Materialien anwenden — mit Anpassungen:\n\n\n\n\n\n\n\nPrinzip\nBedeutung für qualitative Daten\n\n\n\n\nFindable\nPersistenter Identifier (DOI), standardisierte Metadaten\n\n\nAccessible\nKlare Zugangsbedingungen, auch bei eingeschränktem Zugang\n\n\nInteroperable\nOffene Dateiformate (TXT, PDF/A statt proprietäre Formate)\n\n\nReusable\nLizenz, Kontextdokumentation, Reflexivitätsmemos",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "2. Materialien und Daten"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_2.html#care-prinzipien",
+    "href": "qualitativ/qual_2.html#care-prinzipien",
+    "title": "QUANT 2: Materialien und Daten",
+    "section": "CARE-Prinzipien",
+    "text": "CARE-Prinzipien\nFür Forschung mit und über indigene Gemeinschaften, marginalisierte Gruppen oder in postkolonialen Kontexten sind die CARE-Prinzipien (Collective Benefit, Authority to Control, Responsibility, Ethics) zentral. Sie ergänzen FAIR um eine machtbewusste, gemeinschaftsorientierte Perspektive auf Datensouveränität.\nCARE bedeutet konkret: Betroffene Gemeinschaften haben ein Mitspracherecht darüber, wie ihre Daten genutzt, veröffentlicht und weitergegeben werden — unabhängig von rein rechtlichen Anforderungen.\nWeiterführende Informationen: Global Indigenous Data Alliance – CARE Principles",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "2. Materialien und Daten"
+    ]
   },
   {
     "objectID": "qualitativ/qual_4.html",
     "href": "qualitativ/qual_4.html",
     "title": "QUANT 4: Forschungsergebnisse kommunizieren",
     "section": "",
-    "text": "Wissenschaftskommunikation / SciComm\n\n\nOpen Educational Resources\n\n\nBlogs\n\n\nInteraktive Analysen / Dashboard"
+    "text": "WORK IN PROGRESS\nWissenschaftskommunikation ist mehr als Öffentlichkeitsarbeit — sie ist ein Teil des Forschungsprozesses. Gerade qualitative Forschung, die oft gesellschaftlich relevante Lebenswelten, Erfahrungen und Deutungsmuster untersucht, hat viel zu kommunizieren, das über die Fachcommunity hinaus von Bedeutung ist.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "4. Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_4.html#laienverständliche-zusammenfassungen",
+    "href": "qualitativ/qual_4.html#laienverständliche-zusammenfassungen",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "Laienverständliche Zusammenfassungen",
+    "text": "Laienverständliche Zusammenfassungen\nJede Publikation kann um eine kurze, nicht-technische Zusammenfassung ergänzt werden — häufig als Plain Language Summary bezeichnet. Diese sollte:\n\ndie zentrale Fragestellung und die wesentlichen Befunde in verständlicher Sprache beschreiben\nkeine Fachterminologie ohne Erklärung verwenden\nauf die gesellschaftliche oder praktische Relevanz eingehen\nidealerweise von Personen außerhalb der eigenen Disziplin gegengelesen werden\n\nViele Zeitschriften fordern solche Zusammenfassungen inzwischen verbindlich; andere nehmen sie als ergänzendes Material auf.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "4. Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_4.html#blogs-und-social-media",
+    "href": "qualitativ/qual_4.html#blogs-und-social-media",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "Blogs und Social Media",
+    "text": "Blogs und Social Media\nQualitative Forschungsergebnisse eignen sich gut für narrative, anschauliche Aufbereitung — ein Vorteil gegenüber rein zahlenfokussierten Darstellungen.\n\nWissenschaftsblogs (z. B. über de.hypotheses.org) ermöglichen niedrigschwellige Publikation mit DOI und sind zitierfähig\nMastodon, LinkedIn und Bluesky werden zunehmend für wissenschaftliche Kommunikation genutzt; Twitter/X hat in vielen Fachcommunities an Bedeutung verloren\nKurze Threads, die einen zentralen Befund mit einem konkreten Beispiel aus dem Datenmaterial illustrieren, erreichen oft eine breitere Leserschaft als vollständige Artikel",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "4. Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_4.html#partizipative-kommunikation-und-rückbindung",
+    "href": "qualitativ/qual_4.html#partizipative-kommunikation-und-rückbindung",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "Partizipative Kommunikation und Rückbindung",
+    "text": "Partizipative Kommunikation und Rückbindung\nIn qualitativ-partizipativen oder angewandten Forschungskontexten gehört die Rückmeldung von Ergebnissen an die erforschten Gemeinschaften oder Praxispartner:innen zum ethischen Standard — und kann selbst ein offener, dokumentierter Prozess sein.\n\nErgebnisse können in Workshops, Infoveranstaltungen oder gemeinsamen Interpretationssitzungen zurückgespiegelt werden (Member Checking)\nBerichte in einfacher Sprache oder barrierearme Formate (Audiodatei, Infografik) können für spezifische Zielgruppen sinnvoll sein\nDie Art der Rückmeldung und eventuelle Korrekturen oder Ergänzungen durch die Beteiligten können transparent dokumentiert und veröffentlicht werden",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "4. Forschungsergebnisse kommunizieren"
+    ]
+  },
+  {
+    "objectID": "qualitativ/qual_4.html#open-educational-resources-oer",
+    "href": "qualitativ/qual_4.html#open-educational-resources-oer",
+    "title": "QUANT 4: Forschungsergebnisse kommunizieren",
+    "section": "Open Educational Resources (OER)",
+    "text": "Open Educational Resources (OER)\nQualitative Forschung bietet reichhaltiges Ausgangsmaterial für Lehre und Bildung: Fallbeispiele, anonymisierte Transkriptausschnitte, Kodierübungen, methodische Reflexionen. Werden solche Materialien als OER unter einer Creative-Commons-Lizenz veröffentlicht, können andere sie nutzen, anpassen und weiterentwickeln.\nDas MüCOS unterstützt bei der Erstellung und Veröffentlichung von OER — auch in Verbindung mit dem WWU-eigenen OER-Portal.",
+    "crumbs": [
+      "QUALITATIVE FORSCHUNG",
+      "4. Forschungsergebnisse kommunizieren"
+    ]
   },
   {
     "objectID": "quantitativ/quant_1.html#worum-gehts",
@@ -1036,7 +1240,7 @@
     "href": "quantitativ.html",
     "title": "Definition und Beispiele",
     "section": "",
-    "text": "Mit quantitativer Forschung sind Vorhaben gemeint, bei denen die untersuchten Phänomene in Zahlen ausgedrückt (quantifiziert) werden. Das können Phänomene wie das Gender Pay Gap, Gewichtsunterschiede bei neugeborenen Babys von rauchenden versus nicht rauchenden Müttern oder Studien zur Wirksamkeit von Medikamenten sein. Zum Nachweis dieser Phänomene greifen Forschende häufig auf statistische Methoden zurück, primär Inferenzstatistik (Null Hypothesis Significance Testing) oder Bayesianische Statistik.\nQuantitative Forschung ist vorwiegend in Sozial- und Naturwissenschaften zu finden. Beispiele für Disziplinen mit quantitativer Forschung sind Wirtschaftswissenschaften, Medizin, Erziehungswissenschaften, Sozialwissenschaften, Psychologie, Sportwissenschaft, Philologie, Chemie, Pharmazie, Biologie, Geowissenschaften, Digitale Geisteswissenschaften (häufig unter dem Begriff Digital Humanities), Soziologie.\n\nBeispielprojekte\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung\n\n\n\n\nPsychologie, Neurowissenschaften\nMichel, R., Dugué, L., & Busch, N. A. (2022). Distinct contributions of alpha and theta rhythms to perceptual and attentional sampling. European Journal of Neuroscience, 55(11-12), 3025-3039. https://doi.org/10.1111/ejn.15154\n\nEs handelt sich um eine Open Access Publikation (hybrid Open Access)\nStudie wurde präregistriert (https://aspredicted.org/v37gr.pdf)\nDaten sind öffentlich verfügbar (https://osf.io/de4bu)\nEine Anleitung zum Reproduzieren der Ergebnisse ist auf Github verfügbar (https://github.com/remichel/RAPscripts)\n\n\n\nPsychologie, Sozialpsychologie\nXiao., Q., Elsherif., M., Chu, H., Tang, M., Wong, T., Wu, Y., Pomareda, C., & Feldman, G. (2024). Revisiting the link between anthropomorphism and loneliness with extension to free will belief: Replication and extension Registered Report of Epley et al. (2008). https://doi.org/10.17605/OSF.IO/2SB7X\nLink zum Berich: https://osf.io/4kqmf\n\nRegistered Report via Peer Community-In (PCI) mit Stage 1 und Stage 2 Review\nEndorsement von PCI und Peer Review Prozess vollständig offengelegt: https://rr.peercommunityin.org/articles/rec?id=750\nReplikationsstudie\nDaten und Materialien öffentlich zugänglich (https://osf.io/2sb7x)",
+    "text": "Mit quantitativer Forschung sind Vorhaben gemeint, bei denen die untersuchten Phänomene in Zahlen ausgedrückt (quantifiziert) werden. Das können Phänomene wie das Gender Pay Gap, Gewichtsunterschiede bei neugeborenen Babys von rauchenden versus nicht rauchenden Müttern oder Studien zur Wirksamkeit von Medikamenten sein. Zum Nachweis dieser Phänomene greifen Forschende häufig auf statistische Methoden zurück, primär Inferenzstatistik (Null Hypothesis Significance Testing) oder Bayesianische Statistik.\nQuantitative Forschung ist vorwiegend in Sozial- und Naturwissenschaften zu finden. Beispiele für Disziplinen mit quantitativer Forschung sind Wirtschaftswissenschaften, Medizin, Erziehungswissenschaften, Sozialwissenschaften, Psychologie, Sportwissenschaft, Philologie, Chemie, Pharmazie, Biologie, Geowissenschaften, Digitale Geisteswissenschaften (häufig unter dem Begriff Digital Humanities), Soziologie.\n\nBeispielprojekte\n\n\n\n\n\n\n\n\nDisziplin & Subdisziplin\nQuellenangabe\nBeschreibung\n\n\n\n\nPsychologie, Neurowissenschaften\nMichel, R., Dugué, L., & Busch, N. A. (2022). Distinct contributions of alpha and theta rhythms to perceptual and attentional sampling. European Journal of Neurosc ience, 55(11-12), 3025-3039. https://doi.o rg/10.1111/ejn.15154\n\nEs handelt sich um eine Open Access Publikation (hybrid Open Access)\nStudie wurde präregistriert\n\n(&lt;https://aspredi cted.org/v37gr.pdf&gt;)\n\nDaten sind öffentlich verfügbar (&lt;ht tps://osf.io/de4bu&gt;)\nEine Anleitung zum Reproduzieren der Ergebnisse ist auf Github verfügbar (&lt; https://github.com/r emichel/RAPscripts&gt;)\n\n\n\nPsychologie, Sozialpsychologie\nXiao., Q., Elsherif., M., Chu, H., Tang, M., Wong, T., Wu, Y., Pomareda, C., & Feldman, G. (2024). Revisiting the link between anthropomorphism and loneliness with extension to free will belief: Replication and extension Registered Report of Epley et al. (2008). https://doi.org/10 .17605/OSF.IO/2SB7X\nLink zum Berich: &lt;h ttps://osf.io/4kqmf&gt;\n\nRegistered Report via Peer Community-In (PCI) mit Stage 1 und Stage 2 Review\nEndorsement von PCI und Peer Review Prozess vollständig offengelegt: &lt;https://rr. peercommunityin.org/ articles/rec?id=750&gt;\nReplikationsstudie\nDaten und Materialien öffentlich zugänglich (&lt;ht tps://osf.io/2sb7x&gt;)",
     "crumbs": [
       "QUANTITATIVE FORSCHUNG",
       "Definition und Beispiele"

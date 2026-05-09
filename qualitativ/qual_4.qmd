@@ -2,12 +2,48 @@
 title: "QUANT 4: Forschungsergebnisse kommunizieren"
 ---
 
-# Wissenschaftskommunikation / SciComm
 
-# Open Educational Resources
+```{=html}
+<div style="position:fixed; top:0; right:0; width:160px; height:160px; overflow:hidden; pointer-events:none; z-index:9999;">
+  <div style="position:absolute; top:32px; right:-42px; width:180px; background:#a32638; color:#fff; text-align:center; font-size:11px; font-weight:700; letter-spacing:0.08em; padding:6px 0; transform:rotate(45deg); box-shadow:0 2px 6px rgba(0,0,0,0.2);">WORK IN PROGRESS</div>
+</div>
+```
 
-# Blogs
+::: {.callout-warning}
+Diese Seite befindet sich im Aufbau. Inhalte sind vorläufig und werden laufend ergänzt.
+:::
 
-# Interaktive Analysen / Dashboard
+Wissenschaftskommunikation ist mehr als Öffentlichkeitsarbeit — sie ist ein Teil des Forschungsprozesses. Gerade qualitative Forschung, die oft gesellschaftlich relevante Lebenswelten, Erfahrungen und Deutungsmuster untersucht, hat viel zu kommunizieren, das über die Fachcommunity hinaus von Bedeutung ist.
 
-# 
+## Laienverständliche Zusammenfassungen
+
+Jede Publikation kann um eine kurze, nicht-technische Zusammenfassung ergänzt werden — häufig als *Plain Language Summary* bezeichnet. Diese sollte:
+
+- die zentrale Fragestellung und die wesentlichen Befunde in verständlicher Sprache beschreiben
+- keine Fachterminologie ohne Erklärung verwenden
+- auf die gesellschaftliche oder praktische Relevanz eingehen
+- idealerweise von Personen außerhalb der eigenen Disziplin gegengelesen werden
+
+Viele Zeitschriften fordern solche Zusammenfassungen inzwischen verbindlich; andere nehmen sie als ergänzendes Material auf.
+
+## Blogs und Social Media
+
+Qualitative Forschungsergebnisse eignen sich gut für narrative, anschauliche Aufbereitung — ein Vorteil gegenüber rein zahlenfokussierten Darstellungen.
+
+- **Wissenschaftsblogs** (z. B. über [de.hypotheses.org](https://hypotheses.org/)) ermöglichen niedrigschwellige Publikation mit DOI und sind zitierfähig
+- **Mastodon, LinkedIn und Bluesky** werden zunehmend für wissenschaftliche Kommunikation genutzt; Twitter/X hat in vielen Fachcommunities an Bedeutung verloren
+- Kurze Threads, die einen zentralen Befund mit einem konkreten Beispiel aus dem Datenmaterial illustrieren, erreichen oft eine breitere Leserschaft als vollständige Artikel
+
+## Partizipative Kommunikation und Rückbindung
+
+In qualitativ-partizipativen oder angewandten Forschungskontexten gehört die Rückmeldung von Ergebnissen an die erforschten Gemeinschaften oder Praxispartner:innen zum ethischen Standard — und kann selbst ein offener, dokumentierter Prozess sein.
+
+- Ergebnisse können in Workshops, Infoveranstaltungen oder gemeinsamen Interpretationssitzungen zurückgespiegelt werden (*Member Checking*)
+- Berichte in einfacher Sprache oder barrierearme Formate (Audiodatei, Infografik) können für spezifische Zielgruppen sinnvoll sein
+- Die Art der Rückmeldung und eventuelle Korrekturen oder Ergänzungen durch die Beteiligten können transparent dokumentiert und veröffentlicht werden
+
+## Open Educational Resources (OER)
+
+Qualitative Forschung bietet reichhaltiges Ausgangsmaterial für Lehre und Bildung: Fallbeispiele, anonymisierte Transkriptausschnitte, Kodierübungen, methodische Reflexionen. Werden solche Materialien als OER unter einer Creative-Commons-Lizenz veröffentlicht, können andere sie nutzen, anpassen und weiterentwickeln.
+
+Das MüCOS unterstützt bei der Erstellung und Veröffentlichung von OER — auch in Verbindung mit dem WWU-eigenen OER-Portal.

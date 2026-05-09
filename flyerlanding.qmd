@@ -2,12 +2,19 @@
 title: "Flyer & Cheatsheets"
 ---
 
-**Access cheatsheets, flyers, and additional infos on central open science-topics via this site.**
+**Access cheatsheets, flyers, and additional infos on central open
+science-topics via this site.**
 
--   [Open Access](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html)
+-   [Open
+    Access](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html)
 
--   [Open Data](https://www.uni-muenster.de/Forschungsdaten/en) (info via University of Münster website, [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OD_flyer.pdf))
+-   [Open Data](https://www.uni-muenster.de/Forschungsdaten/en) (info
+    via University of Münster website,
+    [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OD_flyer.pdf))
 
 -   [Preregistration](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/preregistration.html)
 
--   [Replication Research](https://www.uni-muenster.de/Ejournals/index.php/replicationresearch/index) (the diamond OA journal co-hosted by MüCOS, [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/R2_flyer.pdf))
+-   [Replication
+    Research](https://www.uni-muenster.de/Ejournals/index.php/replicationresearch/index)
+    (the diamond OA journal co-hosted by MüCOS,
+    [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/R2_flyer.pdf))
