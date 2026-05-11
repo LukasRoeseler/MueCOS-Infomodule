@@ -34,25 +34,27 @@ Soziologie.
 |                      | perceptual and       |                      |
 |                      | attentional          | -   Studie wurde     |
 |                      | sampling. *European  |     präregistriert   |
-|                      | Journal of           |                      |
-|                      | Neurosc              |    (<https://aspredi |
-|                      | ience*, *55*(11-12), | cted.org/v37gr.pdf>) |
-|                      | 3025-3039.           |                      |
-|                      | https://doi.o        | -   Daten sind       |
-|                      | rg/10.1111/ejn.15154 |     öffentlich       |
-|                      |                      |     verfügbar        |
-|                      |                      |     (<ht             |
-|                      |                      | tps://osf.io/de4bu>) |
+|                      | Journal of Neurosc   |                      |
+|                      | ience*, *55*(11-12), | (\<https://aspredi c |
+|                      | 3025-3039.           | ted.org/v37gr.pdf\>) |
+|                      | https://doi.o        |                      |
+|                      | rg/10.1111/ejn.15154 | -   Daten sind       |
+|                      |                      |     öffentlich       |
+|                      |                      |     verfügbar (\<ht  |
+|                      |                      |     t                |
+|                      |                      |                      |
+|                      |                      | ps://osf.io/de4bu\>) |
 |                      |                      |                      |
 |                      |                      | -   Eine Anleitung   |
 |                      |                      |     zum              |
 |                      |                      |     Reproduzieren    |
 |                      |                      |     der Ergebnisse   |
 |                      |                      |     ist auf Github   |
-|                      |                      |     verfügbar        |
-|                      |                      |     (<               |
+|                      |                      |     verfügbar (\<    |
+|                      |                      |                      |
 |                      |                      | https://github.com/r |
-|                      |                      | emichel/RAPscripts>) |
+|                      |                      | e                    |
+|                      |                      | michel/RAPscripts\>) |
 +----------------------+----------------------+----------------------+
 | Psychologie,         | Xiao., Q.,           | -   Registered       |
 | Sozialpsychologie    | Elsherif., M., Chu,  |     Report via Peer  |
@@ -66,17 +68,20 @@ Soziologie.
 |                      | loneliness with      |     Review Prozess   |
 |                      | extension to free    |     vollständig      |
 |                      | will belief:         |     offengelegt:     |
-|                      | Replication and      |     <https://rr.     |
-|                      | extension Registered | peercommunityin.org/ |
-|                      | Report of Epley et   | articles/rec?id=750> |
-|                      | al. (2008).          |                      |
-|                      | https://doi.org/10   | -                    |
-|                      | .17605/OSF.IO/2SB7X\ |   Replikationsstudie |
-|                      | Link zum Berich:     |                      |
-|                      | <h                   | -   Daten und        |
-|                      | ttps://osf.io/4kqmf> |     Materialien      |
+|                      | Replication and      |     \<https://rr.    |
+|                      | extension Registered |                      |
+|                      | Report of Epley et   | peercommunityin.org/ |
+|                      | al. (2008).          | a                    |
+|                      | https://doi.org/10   | rticles/rec?id=750\> |
+|                      | .17605/OSF.IO/2SB7X\ |                      |
+|                      | Link zum Berich: \<h | -                    |
+|                      | t                    |   Replikationsstudie |
+|                      | tps://osf.io/4kqmf\> |                      |
+|                      |                      | -   Daten und        |
+|                      |                      |     Materialien      |
 |                      |                      |     öffentlich       |
-|                      |                      |     zugänglich       |
-|                      |                      |     (<ht             |
-|                      |                      | tps://osf.io/2sb7x>) |
+|                      |                      |     zugänglich (\<ht |
+|                      |                      |     t                |
+|                      |                      |                      |
+|                      |                      | ps://osf.io/2sb7x\>) |
 +----------------------+----------------------+----------------------+

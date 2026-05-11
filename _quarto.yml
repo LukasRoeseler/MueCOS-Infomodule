@@ -34,9 +34,6 @@ website:
       - href: flyerlanding.qmd
         text: "FLYER & CHEATSHEETS"
       - text: "|"
-      - href: antragsmodule.qmd
-        text: "ANTRAGSMODULE"
-      - text: "|"
       - href: about.qmd
         text: "ÜBER DIE INFOMODULE"
         
