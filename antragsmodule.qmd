@@ -16,6 +16,10 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
 :::
 
 ```{=html}
+<!-- Load docx and FileSaver from CDN for proper .docx export -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
+<script src="https://unpkg.com/docx@9.1.1/build/index.js"></script>
+
 <style>
 /* ════════════════════════════════════════════════════════════════
    MüCOS Antragsmodule — scoped to #os-picker
@@ -415,6 +419,11 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
       <button class="osp-lang-btn active" onclick="ospSetLang('de')">Deutsch</button>
       <button class="osp-lang-btn" onclick="ospSetLang('en')">English</button>
     </div>
+    <div class="osp-lang-group">
+      <span class="osp-lang-label" id="osp-mode-label">Textart&ensp;</span>
+      <button class="osp-lang-btn active" id="osp-mode-proposal" onclick="ospSetMode('proposal')">Antragstext</button>
+      <button class="osp-lang-btn" id="osp-mode-jobad" onclick="ospSetMode('jobad')">Stellenausschreibung</button>
+    </div>
   </div>
 
   <div class="osp-tabs" id="osp-tabs"></div>
@@ -456,12 +465,34 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
       title_de:'Präregistrierungspaket', title_en:'Pre-registration package',
       short_de:'Vorregistrierung von Hypothesen, Studiendesign und Analyseplänen auf einem anerkannten Repository vor Beginn der Datenerhebung.',
       short_en:'Pre-registration of hypotheses, study design, and analysis plans on a recognised repository prior to data collection.',
-      full_de:`Das Vorhaben beinhaltet die vollständige Präregistrierung aller Forschungshypothesen, des Studiendesigns sowie detaillierter statistischer Analysepläne auf einem international anerkannten Repository (z. B. OSF, AsPredicted, PROSPERO). Die Präregistrierung wird vor Beginn der Datenerhebung abgeschlossen und öffentlich zugänglich gemacht. Damit wird transparente Unterscheidung zwischen konfirmatorischer und explorativer Forschung gewährleistet sowie die Replizierbarkeit nachhaltig gestärkt.
+      full_de:`Das Vorhaben beinhaltet die vollständige Präregistrierung aller Forschungshypothesen, des Studiendesigns sowie detaillierter statistischer Analysepläne und soweit möglich Analysecode auf einem international sowie in der Disziplin anerkannten Repository (z. B. OSF, AsPredicted, PROSPERO). Die Präregistrierung wird vor Beginn der Datenerhebung abgeschlossen und öffentlich zugänglich gemacht. Im Bericht werden jegliche Abweichungen von der Präregistrierung und deren Auswirkungen auf die Ergebnisse diskutiert. Damit wird transparente Unterscheidung zwischen konfirmatorischer und explorativer Forschung gewährleistet sowie die Replizierbarkeit nachhaltig gestärkt.
 
 Das MüCOS unterstützt Forschende bei der Auswahl des geeigneten Formats (Standard-Präregistrierung, Registered Report) und bietet Beratung zu peer-reviewed Registered Reports in Zeitschriften, die dieses Format etabliert haben.`,
-      full_en:`The project includes full pre-registration of all research hypotheses, study design, and detailed statistical analysis plans on an internationally recognised repository (e.g. OSF, AsPredicted, PROSPERO). Pre-registration is completed before data collection begins and made publicly accessible. This ensures transparent distinction between confirmatory and exploratory research and durably strengthens replicability.
+      full_en:`The project includes full pre-registration of all research hypotheses, study design, detailed statistical analysis plans, and - if applicable - analysis code on an internationally recognised repository (e.g. OSF, AsPredicted, PROSPERO). Pre-registration is completed before data collection begins and made publicly accessible. This ensures transparent distinction between confirmatory and exploratory research and durably strengthens replicability.
 
 MüCOS supports researchers in selecting the appropriate format (standard pre-registration, Registered Report) and advises on peer-reviewed Registered Reports in journals that have adopted this format.`,
+      jobad_de:`Aufgaben:
+– Konzeption und Durchführung der Präregistrierung von Hypothesen, Studiendesign und Analyseplänen auf anerkannten Repositorien (z. B. OSF, AsPredicted, PROSPERO)
+– Vorbereitung und Einreichung von Registered Reports in geeigneten Fachzeitschriften
+– Dokumentation und transparente Berichterstattung von Abweichungen zwischen Präregistrierung und Durchführung
+– Beratung der Arbeitsgruppe zu konfirmatorischer vs. explorativer Forschung
+
+Anforderungen:
+– Abgeschlossenes wissenschaftliches Hochschulstudium in einem einschlägigen Fach
+– Erfahrung mit präregistrierten Studien und/oder Registered Reports
+– Vertrautheit mit Open-Science-Praktiken und einschlägigen Repositorien
+– Sorgfältige, strukturierte und transparente Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Designing and conducting the pre-registration of hypotheses, study design, and analysis plans on recognised repositories (e.g. OSF, AsPredicted, PROSPERO)
+– Preparing and submitting Registered Reports to suitable journals
+– Documenting and transparently reporting deviations between pre-registration and execution
+– Advising the research group on confirmatory vs. exploratory research
+
+Requirements:
+– Completed university degree in a relevant field
+– Experience with pre-registered studies and/or Registered Reports
+– Familiarity with open science practices and relevant repositories
+– Careful, structured, and transparent way of working`,
       links:['OSF.io','AsPredicted.org'], münster:true
     },
     {
@@ -470,12 +501,34 @@ MüCOS supports researchers in selecting the appropriate format (standard pre-re
       title_de:'Open Materials', title_en:'Open materials',
       short_de:'Vollständige, annotierte Bereitstellung aller Forschungsmaterialien (Stimuli, Fragebögen, Protokolle, Skripte) auf einem dauerhaften, öffentlich zugänglichen Repository.',
       short_en:'Complete, annotated sharing of all research materials (stimuli, questionnaires, protocols, scripts) on a persistent, publicly accessible repository.',
-      full_de:`Alle im Forschungsvorhaben eingesetzten Materialien – inklusive Stimuli, Erhebungsinstrumente, Versuchsprotokolle und Instruktionen – werden strukturiert dokumentiert, mit umfangreichen README-Dateien versehen und auf einem dauerhaften Repository (z. B. OSF, Zenodo, RADAR) veröffentlicht. Proprietäre Formate werden soweit möglich durch offene, langzeitstabile Alternativen ersetzt. Die Materialien erhalten einen persistenten Identifier (DOI) und eine klare Lizenz (bevorzugt CC BY 4.0).
+      full_de:`Alle im Forschungsvorhaben eingesetzten Materialien (z.B. Stimuli, Erhebungsinstrumente, Versuchsprotokolle, Instruktionen) werden strukturiert dokumentiert, mit umfangreichen README-Dateien versehen und auf einem dauerhaften Repository (z. B. OSF, Zenodo, RADAR) veröffentlicht. Proprietäre Formate werden soweit möglich durch offene, langzeitstabile Alternativen ersetzt. Die Materialien erhalten einen persistenten Identifier (DOI) und eine klare Lizenz (bevorzugt CC BY 4.0).
 
 Das MüCOS bietet Beratung zur Lizenzwahl, Formatstandards und zur Einbindung sensibler oder urheberrechtlich geschützter Inhalte.`,
       full_en:`All materials used in the project — including stimuli, instruments, protocols, and instructions — are systematically documented, provided with comprehensive README files, and published on a persistent repository (e.g. OSF, Zenodo, RADAR). Proprietary formats are replaced by open, long-term stable alternatives wherever possible. Materials receive a persistent identifier (DOI) and a clear licence (preferably CC BY 4.0).
 
 MüCOS advises on licence selection, format standards, and the handling of sensitive or copyright-protected content.`,
+      jobad_de:`Aufgaben:
+– Strukturierte Dokumentation und Aufbereitung aller Forschungsmaterialien (Stimuli, Erhebungsinstrumente, Protokolle, Skripte)
+– Erstellung umfangreicher README-Dateien und Konversion proprietärer Formate in offene, langzeitstabile Alternativen
+– Veröffentlichung der Materialien auf dauerhaften Repositorien (z. B. OSF, Zenodo, RADAR) mit DOI und passender Lizenz
+– Beratung zu Lizenzwahl und zum Umgang mit sensiblen oder urheberrechtlich geschützten Inhalten
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium oder einschlägige Qualifikation
+– Erfahrung mit Repositorien, persistenten Identifikatoren (DOI) und Creative-Commons-Lizenzen
+– Kenntnisse offener Dateiformate und guter Dokumentationspraxis
+– Genaue und gewissenhafte Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Systematic documentation and preparation of all research materials (stimuli, instruments, protocols, scripts)
+– Creating comprehensive README files and converting proprietary formats into open, long-term stable alternatives
+– Publishing materials on persistent repositories (e.g. OSF, Zenodo, RADAR) with a DOI and appropriate licence
+– Advising on licence selection and handling of sensitive or copyright-protected content
+
+Requirements:
+– Completed university degree or relevant qualification
+– Experience with repositories, persistent identifiers (DOI), and Creative Commons licences
+– Knowledge of open file formats and good documentation practice
+– Accurate and conscientious way of working`,
       links:['Zenodo.org','OSF.io'], münster:false
     },
     {
@@ -486,10 +539,32 @@ MüCOS advises on licence selection, format standards, and the handling of sensi
       short_en:'Professional preparation, documentation, and archiving of research data in non-proprietary formats with metadata standards ensuring usability for at least 10 years.',
       full_de:`Das Vorhaben umfasst eine umfassende Datenkuration durch qualifiziertes Personal: Bereinigung und Qualitätskontrolle der Rohdaten, Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF), Erstellung vollständiger Codebooks sowie Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core). Die kuratierten Daten werden auf einem zertifizierten Repository (z. B. da|ra, PANGAEA, Zenodo) mit DOI und standardisierten Zugangsbedingungen hinterlegt.
 
-Das MüCOS verfügt über ausgewiesene Expertise in Forschungsdatenmanagement und unterstützt bei der Erstellung disziplinspezifischer Datenmanagementsoftware (DMP) sowie bei der Zusammenarbeit mit dem ULB-Repositorium der Universität Münster.`,
+Das MüCOS und das Service Center for Research Data Management (SCRDM) der Universität Münster verfügen über ausgewiesene Expertise im Forschungsdatenmanagement und unterstützen bei der Erstellung disziplinspezifischer Datenmanagementsoftware (DMP) sowie bei der Zusammenarbeit mit dem ULB-Repositorium der Universität Münster.`,
       full_en:`The project includes comprehensive data curation by qualified personnel: cleaning and quality control of raw data, conversion to non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF), creation of complete codebooks, and documentation using discipline-specific metadata standards (e.g. DDI, Dublin Core). Curated data are deposited on a certified repository (e.g. da|ra, PANGAEA, Zenodo) with a DOI and standardised access conditions.
 
-MüCOS has recognised expertise in research data management and supports the creation of discipline-specific data management plans (DMPs) as well as collaboration with the ULB repository of the University of Münster.`,
+MüCOS and the Service Center for Research Data Management (SCRDM) of the University of Münster have recognised expertise in research data management and support the creation of discipline-specific data management plans (DMPs) as well as collaboration with the ULB repository of the University of Münster.`,
+      jobad_de:`Aufgaben:
+– Bereinigung, Qualitätskontrolle und Kuration von Forschungsdaten
+– Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF) und Erstellung vollständiger Codebooks
+– Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core) und Hinterlegung auf zertifizierten Repositorien (z. B. da|ra, PANGAEA, Zenodo)
+– Erstellung und Pflege von Datenmanagementplänen (DMP) in Zusammenarbeit mit MüCOS und dem Service Center for Research Data Management (SCRDM)
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Datenmanagement, Informatik oder einer datenintensiven Disziplin
+– Erfahrung im Forschungsdatenmanagement und mit Metadatenstandards
+– Kenntnisse in Datenaufbereitung und mindestens einer Skriptsprache (z. B. R, Python) von Vorteil
+– Strukturierte, sorgfältige und dokumentationsstarke Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Cleaning, quality control, and curation of research data
+– Conversion into non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF) and creation of complete codebooks
+– Documentation according to discipline-specific metadata standards (e.g. DDI, Dublin Core) and deposition on certified repositories (e.g. da|ra, PANGAEA, Zenodo)
+– Creating and maintaining data management plans (DMPs) in collaboration with MüCOS and the Service Center for Research Data Management (SCRDM)
+
+Requirements:
+– Completed university degree, ideally related to data management, computer science, or a data-intensive discipline
+– Experience in research data management and with metadata standards
+– Knowledge of data preparation and at least one scripting language (e.g. R, Python) an advantage
+– Structured, careful, and documentation-oriented way of working`,
       links:['Zenodo.org','PANGAEA'], münster:true
     },
     {
@@ -504,6 +579,28 @@ Das MüCOS ist eines der wenigen Zentren in Deutschland, das aktive Unterstützu
       full_en:`The project aims for public CODECHECK certification by independent reviewers from the CODECHECK.org.uk network. Full reproducibility of all analysis steps is verified using the provided code and data, and confirmed with a publicly accessible certificate. In addition, a structured internal code review process is established in which all analysis scripts (R, Python, MATLAB, etc.) are documented according to FAIR software principles, version-controlled (Git/GitHub), and reviewed.
 
 MüCOS is one of the few centres in Germany offering active support for CODECHECK submission and preparation of reproducible analysis environments (e.g. Docker, Binder).`,
+      jobad_de:`Aufgaben:
+– Vorbereitung und Begleitung der CODECHECK-Zertifizierung durch unabhängige Prüfer:innen
+– Sicherstellung der vollständigen Reproduzierbarkeit aller Analyseschritte anhand von Code und Daten
+– Einführung und Durchführung eines strukturierten internen Code-Reviews (R, Python, MATLAB o. ä.) nach FAIR-Prinzipien für Software
+– Versionierung (Git/GitHub) und Aufbau reproduzierbarer Analyseumgebungen (z. B. Docker, Binder)
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium mit ausgeprägter methodisch-quantitativer oder informatischer Ausrichtung
+– Sehr gute Programmierkenntnisse in mindestens einer wissenschaftlichen Sprache (R, Python o. ä.)
+– Erfahrung mit Versionskontrolle, Containerisierung und reproduzierbaren Workflows
+– Sorgfältige, qualitätsbewusste Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Preparing and supporting CODECHECK certification by independent reviewers
+– Ensuring full reproducibility of all analysis steps based on code and data
+– Establishing and conducting a structured internal code review (R, Python, MATLAB, etc.) following FAIR principles for software
+– Version control (Git/GitHub) and building reproducible analysis environments (e.g. Docker, Binder)
+
+Requirements:
+– Completed university degree with a strong methodological-quantitative or computer-science orientation
+– Very good programming skills in at least one scientific language (R, Python, etc.)
+– Experience with version control, containerisation, and reproducible workflows
+– Careful, quality-conscious way of working`,
       links:['CODECHECK.org.uk','GitHub.com'], münster:true
     },
     {
@@ -512,26 +609,70 @@ MüCOS is one of the few centres in Germany offering active support for CODECHEC
       title_de:'Robustheitsanalysen & Multiverse', title_en:'Robustness analyses & multiverse',
       short_de:'Systematische Prüfung der Stabilität von Ergebnissen über alternative Analysespezifikationen, Ausschlusskriterien und Modellvarianten hinweg (Specification Curve, Multiverse Analysis).',
       short_en:'Systematic testing of result stability across alternative analysis specifications, exclusion criteria, and model variants (specification curve, multiverse analysis).',
-      full_de:`Um die Robustheit der zentralen Befunde zu belegen, werden systematische Sensitivitätsanalysen durchgeführt. Dies umfasst Specification-Curve-Analysen (Simonsohn et al.), Multiverse-Analysen über relevante Analysepfade sowie explizit ausgewiesene Subgruppenanalysen. Alle alternativen Spezifikationen werden vorab (sofern präregistriert) oder transparent post-hoc dokumentiert und gemeinsam mit den Hauptanalysen veröffentlicht.
+      full_de:`Um die Robustheit der zentralen Befunde zu belegen, werden systematische Sensitivitätsanalysen durchgeführt. Dies umfasst Specification-Curve-Analysen (Simonsohn et al., 2020; https://doi.org/10.1038/s41562-020-0912-z), Multiverse-Analysen über relevante Analysepfade sowie explizit ausgewiesene Subgruppenanalysen. Alle alternativen Spezifikationen werden vorab (sofern präregistriert) oder transparent post-hoc dokumentiert und gemeinsam mit den Hauptanalysen veröffentlicht.
 
 Das MüCOS bietet Schulungen und individuelle Beratung zu Multiverse-Methoden sowie fertige R- und Python-Pakete (z. B. multiverse, specr) an.`,
-      full_en:`To demonstrate the robustness of key findings, systematic sensitivity analyses are conducted. This includes specification curve analyses (Simonsohn et al.), multiverse analyses across relevant analysis paths, and explicitly reported subgroup analyses. All alternative specifications are documented in advance (if pre-registered) or transparently post-hoc, and published alongside the main analyses.
+      full_en:`To demonstrate the robustness of key findings, systematic sensitivity analyses are conducted. This includes specification curve analyses (Simonsohn et al., 2020; https://doi.org/10.1038/s41562-020-0912-z), multiverse analyses across relevant analysis paths, and explicitly reported subgroup analyses. All alternative specifications are documented in advance (if pre-registered) or transparently post-hoc, and published alongside the main analyses.
 
 MüCOS offers training and individual consultation on multiverse methods, as well as ready-to-use R and Python packages (e.g. multiverse, specr).`,
+      jobad_de:`Aufgaben:
+– Konzeption und Durchführung systematischer Sensitivitäts- und Robustheitsanalysen
+– Umsetzung von Specification-Curve- und Multiverse-Analysen über relevante Analysepfade
+– Transparente Dokumentation aller alternativen Spezifikationen und Veröffentlichung gemeinsam mit den Hauptanalysen
+– Anwendung und ggf. Weiterentwicklung einschlägiger R-/Python-Pakete (z. B. multiverse, specr)
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium mit starkem statistisch-methodischem Schwerpunkt
+– Fundierte Kenntnisse in fortgeschrittenen statistischen Verfahren
+– Sehr gute Programmierkenntnisse in R und/oder Python
+– Analytische, präzise und transparenzorientierte Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Designing and conducting systematic sensitivity and robustness analyses
+– Implementing specification curve and multiverse analyses across relevant analysis paths
+– Transparently documenting all alternative specifications and publishing them alongside the main analyses
+– Applying and, where appropriate, extending relevant R/Python packages (e.g. multiverse, specr)
+
+Requirements:
+– Completed university degree with a strong statistical-methodological focus
+– Solid knowledge of advanced statistical methods
+– Very good programming skills in R and/or Python
+– Analytical, precise, and transparency-oriented way of working`,
       links:['OSF.io/specr'], münster:true
     },
     {
       id:'open-access', phase:'publication', phase_de:'Publikation', phase_en:'Publication',
       fte_min:3, fte_max:8,
       title_de:'Open Access & Open Peer Review', title_en:'Open access & open peer review',
-      short_de:'Veröffentlichung aller Projektergebnisse im goldenen oder grünen Open-Access-Weg, verbunden mit der Einreichung bei Zeitschriften mit transparentem, offenem Begutachtungsverfahren.',
-      short_en:'Publication of all project outputs via gold or green open access, combined with submission to journals offering transparent, open peer review.',
-      full_de:`Alle aus dem Vorhaben resultierenden Publikationen werden über den goldenen OA-Weg (bevorzugt in DEAL-Vertragszeitschriften der Universität Münster) oder über den grünen Weg (Zweitveröffentlichung über das ULB-Repositorium) öffentlich zugänglich gemacht. Ergänzend werden Preprints auf fachspezifischen Servern (arXiv, bioRxiv, PsyArXiv o. ä.) zeitnah zur Einreichung veröffentlicht.
+      short_de:'Veröffentlichung aller Projektergebnisse bevorzugt im Diamond Open Access, alternativ im grünen oder – sofern keine andere Möglichkeit besteht – im goldenen Open-Access-Weg, verbunden mit der Einreichung bei Zeitschriften mit transparentem, offenem Begutachtungsverfahren.',
+      short_en:'Publication of all project outputs preferably via diamond open access, alternatively via green open access, or – where no other option is available – gold open access, combined with submission to journals offering transparent, open peer review.',
+      full_de:`Alle aus dem Vorhaben resultierenden Publikationen werden nach Möglichkeit über den Diamond-OA-Weg veröffentlicht (d. h. in Zeitschriften, die weder Autor:innen noch Leser:innen Gebühren berechnen). Sofern kein geeignetes Diamond-OA-Journal verfügbar ist, wird der grüne Weg genutzt (Zweitveröffentlichung über das ULB-Repositorium der Universität Münster). Nur wenn weder Diamond noch Grün realisierbar sind, wird auf goldenen Open Access in DEAL-Vertragszeitschriften der Universität Münster zurückgegriffen. Ergänzend werden Preprints auf fachspezifischen Servern (arXiv, bioRxiv, PsyArXiv o. ä.) zeitnah zur Einreichung veröffentlicht.
 
-Die Universität Münster stellt über die ULB umfangreiche Förder- und Beratungsangebote für Open-Access-Publikationen bereit.`,
-      full_en:`All publications resulting from the project are made publicly accessible via the gold OA route (preferably in DEAL contract journals of the University of Münster) or via the green route (secondary publication through the ULB repository). Additionally, preprints are published on discipline-specific servers (arXiv, bioRxiv, PsyArXiv, etc.) promptly upon submission.
+Das MüCOS berät zu verschiedenen Formen von Open Peer Review – einschließlich signierter Gutachten, indizierter Begutachtung sowie Publish-Review-Curate-Modellen (PRC) – und unterstützt bei der Identifikation geeigneter Zeitschriften und Publikationswege. Die Universität Münster stellt über die ULB umfangreiche Förder- und Beratungsangebote für Open-Access-Publikationen bereit.`,
+      full_en:`All publications resulting from the project are made publicly accessible preferably via the diamond OA route (i.e. journals that charge neither authors nor readers). If no suitable diamond OA journal is available, the green route is used (secondary publication through the ULB repository of the University of Münster). Only where neither diamond nor green OA is feasible, gold open access in DEAL contract journals of the University of Münster is used as a fallback. Additionally, preprints are published on discipline-specific servers (arXiv, bioRxiv, PsyArXiv, etc.) promptly upon submission.
 
-The University of Münster provides comprehensive funding and advisory services for open access publications through the ULB.`,
+MüCOS advises on various forms of open peer review — including signed reviews, indexed peer review, and publish-review-curate (PRC) models — and supports researchers in identifying suitable journals and publication routes. The University of Münster provides comprehensive funding and advisory services for open access publications through the ULB.`,
+      jobad_de:`Aufgaben:
+– Koordination der Open-Access-Veröffentlichung aller Projektergebnisse (bevorzugt Diamond, andernfalls Grün, im Ausnahmefall Gold)
+– Zweitveröffentlichung über das ULB-Repositorium der Universität Münster sowie zeitnahe Preprint-Veröffentlichung (arXiv, bioRxiv, PsyArXiv o. ä.)
+– Auswahl geeigneter Zeitschriften mit transparentem, offenem Begutachtungsverfahren
+– Beratung zu Open-Peer-Review-Modellen (signiert, indiziert, Publish-Review-Curate) in Abstimmung mit MüCOS und ULB
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium oder einschlägige bibliotheks-/publikationsbezogene Qualifikation
+– Kenntnisse der Open-Access-Landschaft, von Lizenzmodellen und DEAL-Verträgen
+– Erfahrung mit Repositorien und Preprint-Servern von Vorteil
+– Organisierte, kommunikationsstarke Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Coordinating the open access publication of all project outputs (preferably diamond, otherwise green, gold only as a fallback)
+– Secondary publication via the ULB repository of the University of Münster and timely preprint publication (arXiv, bioRxiv, PsyArXiv, etc.)
+– Selecting suitable journals with transparent, open peer review
+– Advising on open peer review models (signed, indexed, publish-review-curate) in coordination with MüCOS and the ULB
+
+Requirements:
+– Completed university degree or relevant library/publication-related qualification
+– Knowledge of the open access landscape, licensing models, and DEAL agreements
+– Experience with repositories and preprint servers an advantage
+– Organised, communicative way of working`,
       links:['PsyArXiv.com','bioRxiv.org'], münster:false
     },
     {
@@ -542,11 +683,249 @@ The University of Münster provides comprehensive funding and advisory services 
       short_en:'Proactive, audience-appropriate communication of research results to the general public, as well as creation of freely usable teaching and learning materials.',
       full_de:`Das Vorhaben umfasst eine strukturierte Wissenschaftskommunikationsstrategie: Aufbereitung der zentralen Ergebnisse für nicht-wissenschaftliche Zielgruppen (laienverständliche Zusammenfassungen, Infografiken, Blogbeiträge), Nutzung sozialer Medien und öffentlicher Veranstaltungsformate. Darüber hinaus werden aus den Forschungsergebnissen frei lizenzierte Open Educational Resources (OER) nach Creative-Commons-Lizenzen erstellt und auf Plattformen wie OERSI oder dem Münster OER-Portal veröffentlicht.
 
-Das MüCOS vernetzt Forschende mit dem Science Communication Center der WWU und berät zur OER-Erstellung und -Veröffentlichung.`,
+Das MüCOS vernetzt Forschende mit dem Science Communication Center der Universität Münster und berät zur OER-Erstellung und -Veröffentlichung.`,
       full_en:`The project includes a structured science communication strategy: translating key findings for non-specialist audiences (plain-language summaries, infographics, blog posts), use of social media, and public event formats. Freely licensed Open Educational Resources (OER) are also created under Creative Commons licences and published on platforms such as OERSI or the Münster OER portal.
 
-MüCOS connects researchers with the Science Communication Centre of WWU and advises on OER creation and publication.`,
+MüCOS connects researchers with the Science Communication Centre of the University of Münster and advises on OER creation and publication.`,
+      jobad_de:`Aufgaben:
+– Entwicklung und Umsetzung einer zielgruppengerechten Wissenschaftskommunikationsstrategie
+– Aufbereitung zentraler Ergebnisse für nicht-wissenschaftliche Zielgruppen (laienverständliche Zusammenfassungen, Infografiken, Blogbeiträge, Social Media)
+– Erstellung frei lizenzierter Open Educational Resources (OER) nach Creative-Commons-Lizenzen und Veröffentlichung (z. B. OERSI, Münster OER-Portal)
+– Organisation öffentlicher Veranstaltungsformate, Vernetzung mit dem Science Communication Center der Universität Münster
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Kommunikation, Medien oder dem Forschungsgebiet
+– Erfahrung in Wissenschaftskommunikation und/oder OER-Erstellung
+– Sehr gute schriftliche und mündliche Ausdrucksfähigkeit, Grundkenntnisse in Grafik/Layout von Vorteil
+– Kreative, eigeninitiative und zielgruppenorientierte Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Developing and implementing an audience-appropriate science communication strategy
+– Translating key findings for non-specialist audiences (plain-language summaries, infographics, blog posts, social media)
+– Creating freely licensed Open Educational Resources (OER) under Creative Commons licences and publishing them (e.g. OERSI, Münster OER portal)
+– Organising public event formats and connecting with the Science Communication Centre of the University of Münster
+
+Requirements:
+– Completed university degree, ideally related to communication, media, or the research field
+– Experience in science communication and/or OER creation
+– Excellent written and oral communication skills; basic graphic/layout skills an advantage
+– Creative, self-directed, and audience-oriented way of working`,
       links:['OERSI.org'], münster:false
+    },
+    {
+      id:'research-ethics', phase:'planning', phase_de:'Planung', phase_en:'Planning',
+      fte_min:3, fte_max:8,
+      title_de:'Forschungsethik & Informed Consent', title_en:'Research ethics & informed consent',
+      short_de:'Erarbeitung DSGVO-konformer Einwilligungserklärungen, Vorbereitung von Ethikvoten und Datenschutzfolgenabschätzungen für eine rechtssichere und ethisch reflektierte Forschung.',
+      short_en:'Development of GDPR-compliant consent forms, preparation of ethics approvals and data protection impact assessments for legally sound and ethically reflective research.',
+      full_de:`Das Vorhaben stellt eine ethisch reflektierte und rechtssichere Durchführung sicher. Dies umfasst die Erstellung DSGVO-konformer, verständlicher Einwilligungserklärungen (Informed Consent), die Vorbereitung und Einreichung von Anträgen bei der zuständigen Ethikkommission sowie – sofern erforderlich – die Durchführung einer Datenschutzfolgenabschätzung. Aspekte wie informierte Einwilligung, Datenminimierung, Anonymisierung und die Nachnutzbarkeit von Daten unter ethischen Gesichtspunkten werden von Beginn an mitgedacht.
+
+Das MüCOS berät zur Vereinbarkeit von Open-Science-Praktiken mit Datenschutz und Forschungsethik und vernetzt Forschende mit der Ethikkommission der Universität Münster.`,
+      full_en:`The project ensures an ethically reflective and legally sound implementation. This includes creating GDPR-compliant, comprehensible informed consent forms, preparing and submitting applications to the relevant ethics committee, and — where required — conducting a data protection impact assessment. Aspects such as informed consent, data minimisation, anonymisation, and the ethically sound reusability of data are considered from the outset.
+
+MüCOS advises on reconciling open science practices with data protection and research ethics and connects researchers with the ethics committee of the University of Münster.`,
+      jobad_de:`Aufgaben:
+– Erstellung DSGVO-konformer Einwilligungserklärungen und Probandeninformationen
+– Vorbereitung und Einreichung von Anträgen bei der Ethikkommission
+– Durchführung von Datenschutzfolgenabschätzungen und Beratung zu Datenminimierung und Anonymisierung
+– Sicherstellung der Vereinbarkeit von Open-Science-Praktiken mit Datenschutz und Forschungsethik
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Recht, Ethik oder dem Forschungsgebiet
+– Kenntnisse im Datenschutzrecht (insb. DSGVO) und in forschungsethischen Verfahren
+– Erfahrung mit Ethikanträgen von Vorteil
+– Gewissenhafte, verantwortungsbewusste Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Creating GDPR-compliant consent forms and participant information
+– Preparing and submitting applications to the ethics committee
+– Conducting data protection impact assessments and advising on data minimisation and anonymisation
+– Ensuring the compatibility of open science practices with data protection and research ethics
+
+Requirements:
+– Completed university degree, ideally related to law, ethics, or the research field
+– Knowledge of data protection law (esp. GDPR) and research ethics procedures
+– Experience with ethics applications an advantage
+– Conscientious, responsible way of working`,
+      links:['DSGVO','Ethikkommission'], münster:true
+    },
+    {
+      id:'synthetic-data', phase:'data', phase_de:'Materialien & Daten', phase_en:'Materials & Data',
+      fte_min:5, fte_max:12,
+      title_de:'Synthetische & anonymisierte Daten', title_en:'Synthetic & anonymised data',
+      short_de:'Erzeugung synthetischer oder robust anonymisierter Datensätze, die ein Teilen ermöglichen, wenn Rohdaten aus Datenschutzgründen nicht veröffentlicht werden können.',
+      short_en:'Generation of synthetic or robustly anonymised datasets that enable sharing when raw data cannot be published for data protection reasons.',
+      full_de:`Wo das Teilen von Rohdaten aus Datenschutz- oder ethischen Gründen nicht möglich ist, schafft das Vorhaben dennoch Transparenz: Es werden synthetische Datensätze erzeugt, die die statistischen Eigenschaften und Korrelationsstrukturen der Originaldaten erhalten, ohne Rückschlüsse auf einzelne Personen zuzulassen. Alternativ oder ergänzend kommen anerkannte Anonymisierungs- und Pseudonymisierungsverfahren (z. B. k-Anonymität, Differential Privacy) zum Einsatz. Die so erzeugten Daten werden gemeinsam mit dem Analysecode veröffentlicht, sodass die Reproduzierbarkeit der Analysepipeline überprüfbar bleibt.
+
+Das MüCOS und das Service Center for Research Data Management (SCRDM) der Universität Münster beraten zu geeigneten Verfahren der Synthese und Anonymisierung sowie zu deren rechtlichen Rahmenbedingungen.`,
+      full_en:`Where sharing raw data is not possible for data protection or ethical reasons, the project nevertheless creates transparency: synthetic datasets are generated that preserve the statistical properties and correlation structures of the original data without allowing inferences about individuals. Alternatively or additionally, recognised anonymisation and pseudonymisation methods (e.g. k-anonymity, differential privacy) are applied. The resulting data are published together with the analysis code so that the reproducibility of the analysis pipeline remains verifiable.
+
+MüCOS and the Service Center for Research Data Management (SCRDM) of the University of Münster advise on suitable synthesis and anonymisation methods and their legal framework.`,
+      jobad_de:`Aufgaben:
+– Erzeugung synthetischer Datensätze, die statistische Eigenschaften und Korrelationsstrukturen der Originaldaten erhalten
+– Anwendung anerkannter Anonymisierungs-/Pseudonymisierungsverfahren (z. B. k-Anonymität, Differential Privacy)
+– Veröffentlichung der synthetischen/anonymisierten Daten gemeinsam mit dem Analysecode
+– Beratung zu rechtlichen Rahmenbedingungen in Abstimmung mit MüCOS und SCRDM
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium in einer datenintensiven oder methodischen Disziplin
+– Kenntnisse in statistischer Datensimulation und Anonymisierungsverfahren
+– Sehr gute Programmierkenntnisse (z. B. R, Python)
+– Datenschutzbewusste, präzise Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Generating synthetic datasets that preserve the statistical properties and correlation structures of the original data
+– Applying recognised anonymisation/pseudonymisation methods (e.g. k-anonymity, differential privacy)
+– Publishing the synthetic/anonymised data together with the analysis code
+– Advising on the legal framework in coordination with MüCOS and SCRDM
+
+Requirements:
+– Completed university degree in a data-intensive or methodological discipline
+– Knowledge of statistical data simulation and anonymisation methods
+– Very good programming skills (e.g. R, Python)
+– Data-protection-aware, precise way of working`,
+      links:['Differential Privacy'], münster:true
+    },
+    {
+      id:'fair-software', phase:'analysis', phase_de:'Analyse & Code', phase_en:'Analysis & Code',
+      fte_min:5, fte_max:14,
+      title_de:'FAIR-Software & nachhaltige Forschungssoftware', title_en:'FAIR software & sustainable research software',
+      short_de:'Veröffentlichung der im Projekt entwickelten Software als zitierfähige, nachhaltige Forschungssoftware nach den FAIR4RS-Prinzipien mit DOI, Lizenz und maschinenlesbarer Zitationsmetadatei.',
+      short_en:'Publication of software developed in the project as citable, sustainable research software following FAIR4RS principles, with DOI, licence, and machine-readable citation metadata.',
+      full_de:`Im Vorhaben entwickelte Software (Pakete, Skripte, Tools) wird als eigenständiges, nachhaltiges Forschungsergebnis behandelt und nach den FAIR-Prinzipien für Forschungssoftware (FAIR4RS) veröffentlicht. Dies umfasst die Vergabe eines persistenten Identifiers (DOI über die Zenodo-GitHub-Integration), die Wahl einer geeigneten Open-Source-Lizenz, die Bereitstellung einer maschinenlesbaren Zitationsdatei (CITATION.cff) sowie eine vollständige Dokumentation. Wo sinnvoll, wird die Software bei Software Heritage archiviert und für die langfristige Nachnutzung aufbereitet.
+
+Das MüCOS berät zu Software-Lizenzierung, Zitierfähigkeit und nachhaltiger Softwareentwicklung und unterstützt bei der Veröffentlichung und Archivierung.`,
+      full_en:`Software developed in the project (packages, scripts, tools) is treated as a self-contained, sustainable research output and published according to the FAIR principles for research software (FAIR4RS). This includes assigning a persistent identifier (DOI via the Zenodo-GitHub integration), choosing a suitable open-source licence, providing a machine-readable citation file (CITATION.cff), and complete documentation. Where appropriate, the software is archived with Software Heritage and prepared for long-term reuse.
+
+MüCOS advises on software licensing, citability, and sustainable software development and supports publication and archiving.`,
+      jobad_de:`Aufgaben:
+– Aufbereitung der im Projekt entwickelten Software nach FAIR4RS-Prinzipien
+– Vergabe persistenter Identifikatoren (DOI via Zenodo/GitHub), Wahl geeigneter Open-Source-Lizenzen und Erstellung von CITATION.cff
+– Erstellung vollständiger Dokumentation und ggf. Archivierung bei Software Heritage
+– Beratung der Arbeitsgruppe zu nachhaltiger Softwareentwicklung
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium in Informatik oder einer Disziplin mit Softwarebezug
+– Sehr gute Programmier- und Softwareentwicklungskenntnisse
+– Erfahrung mit Versionskontrolle, Lizenzierung und Softwaredokumentation
+– Strukturierte, qualitäts- und nachhaltigkeitsbewusste Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Preparing the software developed in the project according to FAIR4RS principles
+– Assigning persistent identifiers (DOI via Zenodo/GitHub), choosing suitable open-source licences, and creating CITATION.cff
+– Producing complete documentation and, where appropriate, archiving with Software Heritage
+– Advising the research group on sustainable software development
+
+Requirements:
+– Completed university degree in computer science or a software-related discipline
+– Very good programming and software development skills
+– Experience with version control, licensing, and software documentation
+– Structured, quality- and sustainability-conscious way of working`,
+      links:['Zenodo.org','Software Heritage'], münster:true
+    },
+    {
+      id:'stats-consulting', phase:'analysis', phase_de:'Analyse & Code', phase_en:'Analysis & Code',
+      fte_min:6, fte_max:16,
+      title_de:'Statistisches Consulting & Stichprobenplanung', title_en:'Statistical consulting & sample planning',
+      short_de:'A-priori-Poweranalysen, fundierte Stichprobenplanung und methodische Beratung (frequentistisch wie bayesianisch) zur Sicherung aussagekräftiger und transparent berichteter Ergebnisse.',
+      short_en:'A-priori power analyses, sound sample planning, and methodological consulting (frequentist and Bayesian) to ensure meaningful and transparently reported results.',
+      full_de:`Um aussagekräftige und belastbare Befunde sicherzustellen, umfasst das Vorhaben eine fundierte statistische Planung und Begleitung. Dazu gehören A-priori-Poweranalysen und eine begründete Stichprobenplanung vor der Datenerhebung, die Beratung zur Wahl angemessener (frequentistischer oder bayesianischer) Verfahren sowie ein transparentes Reporting inklusive Effektstärken und Konfidenz- bzw. Glaubwürdigkeitsintervallen. Diese Tätigkeit eignet sich besonders für eine über mehrere Arbeitsgruppen gepoolte Expert:innenstelle.
+
+Das MüCOS bietet statistische Beratung sowie Schulungen zu Studienplanung, Poweranalyse und transparentem Reporting an.`,
+      full_en:`To ensure meaningful and robust findings, the project includes sound statistical planning and support. This comprises a-priori power analyses and justified sample planning before data collection, consultation on the choice of appropriate (frequentist or Bayesian) methods, and transparent reporting including effect sizes and confidence or credible intervals. This activity is particularly suitable for an expert position pooled across several research groups.
+
+MüCOS offers statistical consulting as well as training on study planning, power analysis, and transparent reporting.`,
+      jobad_de:`Aufgaben:
+– Durchführung von A-priori-Poweranalysen und begründeter Stichprobenplanung
+– Methodische Beratung zur Wahl frequentistischer oder bayesianischer Verfahren
+– Unterstützung bei transparentem Reporting (Effektstärken, Konfidenz-/Glaubwürdigkeitsintervalle)
+– Schulung der beteiligten Arbeitsgruppen in Studienplanung und Statistik
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium (idealerweise Promotion) in Statistik, Methodenlehre oder einem quantitativen Fach
+– Fundierte Kenntnisse in frequentistischer und bayesianischer Statistik
+– Sehr gute Kenntnisse in R und/oder Python
+– Beratungskompetenz und didaktisches Geschick`,
+      jobad_en:`Responsibilities:
+– Conducting a-priori power analyses and justified sample planning
+– Methodological consulting on the choice of frequentist or Bayesian methods
+– Supporting transparent reporting (effect sizes, confidence/credible intervals)
+– Training the participating research groups in study planning and statistics
+
+Requirements:
+– Completed university degree (ideally PhD) in statistics, research methods, or a quantitative field
+– Solid knowledge of frequentist and Bayesian statistics
+– Very good command of R and/or Python
+– Consulting skills and didactic ability`,
+      links:['G*Power','Stan'], münster:true
+    },
+    {
+      id:'registered-reports', phase:'publication', phase_de:'Publikation', phase_en:'Publication',
+      fte_min:4, fte_max:9,
+      title_de:'Registered Reports', title_en:'Registered Reports',
+      short_de:'Einreichung der Studie als Registered Report mit Stage-1-Begutachtung des Designs vor der Datenerhebung und garantierter Publikation unabhängig vom Ergebnis.',
+      short_en:'Submission of the study as a Registered Report with stage-1 review of the design before data collection and guaranteed publication regardless of outcome.',
+      full_de:`Das Vorhaben nutzt das Format des Registered Reports: Studiendesign, Hypothesen und Analyseplan werden vor der Datenerhebung bei einer Zeitschrift eingereicht und einer Stage-1-Begutachtung unterzogen. Nach Annahme („In-Principle Acceptance") ist die Publikation unabhängig vom Ergebnis zugesichert, was Publikationsbias und fragwürdige Forschungspraktiken wirksam reduziert. In Stage 2 werden die Ergebnisse berichtet und die Einhaltung des Plans überprüft. Das Format eignet sich besonders für konfirmatorische Fragestellungen.
+
+Das MüCOS unterstützt bei der Auswahl geeigneter Registered-Report-Zeitschriften, der Vorbereitung der Stage-1-Einreichung und der Abgrenzung von konfirmatorischen und explorativen Analysen.`,
+      full_en:`The project uses the Registered Report format: study design, hypotheses, and analysis plan are submitted to a journal before data collection and undergo stage-1 review. Following acceptance ("in-principle acceptance"), publication is guaranteed regardless of the outcome, effectively reducing publication bias and questionable research practices. In stage 2, the results are reported and adherence to the plan is verified. The format is particularly suited to confirmatory research questions.
+
+MüCOS supports the selection of suitable Registered Report journals, the preparation of the stage-1 submission, and the distinction between confirmatory and exploratory analyses.`,
+      jobad_de:`Aufgaben:
+– Vorbereitung der Stage-1-Einreichung (Design, Hypothesen, Analyseplan) bei geeigneten Registered-Report-Zeitschriften
+– Begleitung des Begutachtungsprozesses bis zur In-Principle Acceptance
+– Durchführung und Berichterstattung der Stage-2-Analysen unter Einhaltung des registrierten Plans
+– Saubere Abgrenzung konfirmatorischer und explorativer Analysen
+
+Anforderungen:
+– Abgeschlossenes wissenschaftliches Hochschulstudium im einschlägigen Fach
+– Erfahrung mit Registered Reports oder präregistrierten Studien
+– Fundierte methodische Kenntnisse
+– Strukturierte, vorausschauende und transparente Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Preparing the stage-1 submission (design, hypotheses, analysis plan) to suitable Registered Report journals
+– Accompanying the review process through to in-principle acceptance
+– Conducting and reporting the stage-2 analyses in adherence to the registered plan
+– Cleanly distinguishing confirmatory and exploratory analyses
+
+Requirements:
+– Completed scientific university degree in the relevant field
+– Experience with Registered Reports or pre-registered studies
+– Solid methodological knowledge
+– Structured, forward-looking, and transparent way of working`,
+      links:['Center for Open Science'], münster:true
+    },
+    {
+      id:'citizen-science', phase:'communication', phase_de:'Kommunikation', phase_en:'Communication',
+      fte_min:5, fte_max:12,
+      title_de:'Community Engagement & Citizen Science', title_en:'Community engagement & citizen science',
+      short_de:'Aktive Einbindung von Bürger:innen und Betroffenen in Forschungsprozesse (Datenerhebung, -auswertung, Mitgestaltung) und transparente Dokumentation der Beteiligung.',
+      short_en:'Active involvement of citizens and affected communities in research processes (data collection, analysis, co-design) and transparent documentation of participation.',
+      full_de:`Das Vorhaben öffnet den Forschungsprozess über die Fachgemeinschaft hinaus: Bürger:innen und – wo relevant – Betroffene werden aktiv in die Forschung eingebunden, etwa in Datenerhebung, -auswertung oder in die Mitgestaltung von Fragestellungen (Co-Design). Die Beteiligungsprozesse werden nach etablierten Standards (z. B. PPIE – Patient and Public Involvement and Engagement) transparent dokumentiert. Damit werden Relevanz, Reichweite und gesellschaftliche Wirkung der Forschung gestärkt.
+
+Das MüCOS berät zu partizipativen Forschungsformaten, zur Gestaltung von Beteiligungsprozessen und zur Verbindung von Citizen Science mit Open-Science-Praktiken.`,
+      full_en:`The project opens the research process beyond the scientific community: citizens and — where relevant — affected communities are actively involved in research, for example in data collection, analysis, or the co-design of research questions. Participation processes are transparently documented following established standards (e.g. PPIE — Patient and Public Involvement and Engagement). This strengthens the relevance, reach, and societal impact of the research.
+
+MüCOS advises on participatory research formats, the design of participation processes, and connecting citizen science with open science practices.`,
+      jobad_de:`Aufgaben:
+– Konzeption und Durchführung partizipativer Forschungs- und Beteiligungsformate (Datenerhebung, -auswertung, Co-Design)
+– Aktive Einbindung von Bürger:innen und Betroffenen in den Forschungsprozess
+– Transparente Dokumentation der Beteiligung nach etablierten Standards (z. B. PPIE)
+– Verbindung von Citizen Science mit Open-Science-Praktiken
+
+Anforderungen:
+– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu partizipativer Forschung, Sozialwissenschaften oder dem Forschungsgebiet
+– Erfahrung in der Zusammenarbeit mit nicht-wissenschaftlichen Zielgruppen
+– Sehr gute kommunikative und organisatorische Fähigkeiten
+– Empathische, inklusive und strukturierte Arbeitsweise`,
+      jobad_en:`Responsibilities:
+– Designing and conducting participatory research and engagement formats (data collection, analysis, co-design)
+– Actively involving citizens and affected communities in the research process
+– Transparently documenting participation following established standards (e.g. PPIE)
+– Connecting citizen science with open science practices
+
+Requirements:
+– Completed university degree, ideally related to participatory research, social sciences, or the research field
+– Experience working with non-scientific audiences
+– Excellent communication and organisational skills
+– Empathetic, inclusive, and structured way of working`,
+      links:['PPIE'], münster:true
     }
   ];
 
@@ -559,14 +938,26 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
     { id:'communication', de:'Kommunikation',       en:'Communication' }
   ];
 
-  let lang = 'de', activePhase = 'all';
+  let lang = 'de', activePhase = 'all', mode = 'proposal';
   const selected = new Set(), expanded = new Set();
   const t = (de, en) => lang === 'de' ? de : en;
   const $ = id => document.getElementById(id);
 
+  // Returns the active content field for a module depending on mode
+  const content = m => mode === 'jobad'
+    ? (lang === 'de' ? m.jobad_de : m.jobad_en)
+    : (lang === 'de' ? m.full_de  : m.full_en);
+
+  window.ospSetMode = function(md) {
+    mode = md;
+    $('osp-mode-proposal').classList.toggle('active', md === 'proposal');
+    $('osp-mode-jobad').classList.toggle('active', md === 'jobad');
+    render();
+  };
+
   window.ospSetLang = function(l) {
     lang = l;
-    document.querySelectorAll('#os-picker .osp-lang-btn').forEach((b,i) =>
+    document.querySelectorAll('#os-picker .osp-lang-group:first-child .osp-lang-btn').forEach((b,i) =>
       b.classList.toggle('active', (i===0&&l==='de')||(i===1&&l==='en')));
     render();
   };
@@ -580,22 +971,33 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
     if (el)  el.classList.toggle('open', expanded.has(id));
     if (btn) btn.textContent = expanded.has(id)
       ? t('Weniger anzeigen','Show less')
-      : t('Volltext für Antrag →','Full proposal text →');
+      : (mode === 'jobad'
+          ? t('Ausschreibungstext →','Job ad text →')
+          : t('Volltext für Antrag →','Full proposal text →'));
   };
   window.ospClearAll = function() { selected.clear(); render(); };
+
   function buildText() {
     const sel = MODULES.filter(m => selected.has(m.id));
     if (!sel.length) return '';
-    let out = t(
-      '=== Open-Science-Textbausteine für Forschungsantrag ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
-      '=== Open Science Text Modules for Research Proposal ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
-    );
+    let out;
+    if (mode === 'jobad') {
+      out = t(
+        '=== Textbausteine für Stellenausschreibung ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
+        '=== Text Modules for Job Advertisement ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
+      );
+    } else {
+      out = t(
+        '=== Open-Science-Textbausteine für Forschungsantrag ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
+        '=== Open Science Text Modules for Research Proposal ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
+      );
+    }
     sel.forEach(m => {
       out += (lang==='de'?m.title_de:m.title_en)+'\n';
       out += t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE\n`,`FTE requirement: ${m.fte_min}–${m.fte_max}% FTE\n`);
-      out += (lang==='de'?m.full_de:m.full_en)+'\n\n---\n\n';
+      out += content(m)+'\n\n---\n\n';
     });
-    const avg = MODULES.filter(m=>selected.has(m.id)).reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
+    const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
     out += t(
       `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE\nPoolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
       `Total FTE (average): approx. ${Math.round(avg)}% FTE\nPoolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`
@@ -612,7 +1014,6 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
       btn.textContent = '✓ Kopiert!';
       setTimeout(() => { btn.textContent = orig; }, 2000);
     }).catch(() => {
-      // Fallback for older browsers
       const ta = document.createElement('textarea');
       ta.value = text;
       ta.style.position = 'fixed'; ta.style.opacity = '0';
@@ -626,50 +1027,149 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
     });
   };
 
-  window.ospExportDocx = function() {
+  // ── Proper .docx export using docx.js library ──────────────────
+  window.ospExportDocx = async function() {
     const sel = MODULES.filter(m => selected.has(m.id));
     if (!sel.length) return;
-    const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
 
-    // Build minimal Word XML (WordprocessingML)
-    const esc = s => s.replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-    const para = (text, bold, size) => {
-      const rpr = `<w:rPr>${bold?'<w:b/>':''}<w:sz w:val="${size||24}"/><w:szCs w:val="${size||24}"/></w:rPr>`;
-      return `<w:p><w:pPr><w:spacing w:after="120"/></w:pPr><w:r>${rpr}<w:t xml:space="preserve">${esc(text)}</w:t></w:r></w:p>`;
-    };
-    const hr = () => `<w:p><w:pPr><w:pBdr><w:bottom w:val="single" w:sz="4" w:space="1" w:color="C0B4A8"/></w:pBdr></w:pPr></w:p>`;
+    // Wait for docx library to load if not yet ready
+    if (typeof docx === 'undefined') {
+      alert(t('Die Bibliothek wird noch geladen. Bitte einen Moment warten und erneut versuchen.',
+              'The library is still loading. Please wait a moment and try again.'));
+      return;
+    }
 
-    let body = para(t('Open-Science-Textbausteine für Forschungsantrag','Open Science Text Modules for Research Proposal'), true, 32);
-    body += para('Münster Center for Open Science (MüCOS), Universität Münster', false, 22);
-    body += para('', false, 20);
+    const { Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, BorderStyle } = docx;
 
-    sel.forEach(m => {
-      body += para(t(m.title_de, m.title_en), true, 28);
-      body += para(t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE`, `FTE requirement: ${m.fte_min}–${m.fte_max}% FTE`), false, 20);
-      body += para('', false, 20);
-      const lines = (lang==='de'?m.full_de:m.full_en).split('\n');
-      lines.forEach(line => { body += para(line, false, 22); });
-      body += hr();
-      body += para('', false, 20);
+    const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2, 0);
+
+    const RED   = 'A32638';
+    const DARK  = '2B2420';
+    const GREY  = '8C8278';
+
+    // Helper: split text on newlines into multiple paragraphs
+    function textToParagraphs(text, opts = {}) {
+      return text.split('\n').map(line => new Paragraph({
+        spacing: { after: line.trim() === '' ? 80 : 160 },
+        ...opts,
+        children: [new TextRun({ text: line, font: 'Arial', size: 22, color: DARK, ...opts.run })]
+      }));
+    }
+
+    const children = [];
+
+    // Title
+    children.push(new Paragraph({
+      spacing: { after: 120 },
+      children: [new TextRun({
+        text: mode === 'jobad'
+          ? t('Textbausteine für Stellenausschreibung', 'Text Modules for Job Advertisement')
+          : t('Open-Science-Textbausteine für Forschungsantrag', 'Open Science Text Modules for Research Proposal'),
+        bold: true, size: 36, font: 'Arial', color: RED
+      })]
+    }));
+
+    // Subtitle
+    children.push(new Paragraph({
+      spacing: { after: 360 },
+      children: [new TextRun({
+        text: t('Münster Center for Open Science (MüCOS), Universität Münster',
+                'Münster Center for Open Science (MüCOS), University of Münster'),
+        size: 22, font: 'Arial', color: GREY
+      })]
+    }));
+
+    // Each module
+    sel.forEach((m, idx) => {
+      // Module heading
+      children.push(new Paragraph({
+        spacing: { before: idx === 0 ? 0 : 360, after: 100 },
+        border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: 'DDD5CC', space: 1 } },
+        children: [
+          new TextRun({ text: t(m.title_de, m.title_en), bold: true, size: 28, font: 'Arial', color: DARK }),
+        ]
+      }));
+
+      // Phase & FTE line
+      children.push(new Paragraph({
+        spacing: { after: 160 },
+        children: [
+          new TextRun({ text: t(`Phase: ${m.phase_de}`, `Phase: ${m.phase_en}`), size: 20, font: 'Arial', color: GREY }),
+          new TextRun({ text: '   |   ', size: 20, font: 'Arial', color: GREY }),
+          new TextRun({ text: t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE`, `FTE requirement: ${m.fte_min}–${m.fte_max}% FTE`), size: 20, font: 'Arial', bold: true, color: RED }),
+        ]
+      }));
+
+      // Full text paragraphs (proposal text or job ad depending on mode)
+      const fullText = content(m);
+      textToParagraphs(fullText).forEach(p => children.push(p));
     });
 
-    body += para(t(
-      `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE | Poolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
-      `Total FTE (average): approx. ${Math.round(avg)}% FTE | Poolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`
-    ), true, 22);
+    // Separator
+    children.push(new Paragraph({
+      spacing: { before: 400, after: 200 },
+      border: { top: { style: BorderStyle.SINGLE, size: 6, color: RED, space: 1 } },
+      children: []
+    }));
 
-    const xml = `<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas"
-  xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main"
-  xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships">
-<w:body>${body}<w:sectPr><w:pgMar w:top="1134" w:right="1134" w:bottom="1134" w:left="1134"/></w:sectPr></w:body>
-</w:document>`;
+    // Summary line
+    children.push(new Paragraph({
+      spacing: { after: 80 },
+      children: [new TextRun({
+        text: t(
+          `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE`,
+          `Total FTE (average): approx. ${Math.round(avg)}% FTE`
+        ),
+        bold: true, size: 24, font: 'Arial', color: DARK
+      })]
+    }));
+    children.push(new Paragraph({
+      spacing: { after: 80 },
+      children: [new TextRun({
+        text: t(
+          `Poolbarer Anteil (50 %): ca. ${Math.round(avg * 0.5)} % FTE`,
+          `Poolable share (50%): approx. ${Math.round(avg * 0.5)}% FTE`
+        ),
+        size: 22, font: 'Arial', color: GREY
+      })]
+    }));
 
-    const blob = new Blob([xml], {type: 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'});
-    const a = document.createElement('a');
-    a.href = URL.createObjectURL(blob);
-    a.download = lang==='de'?'MüCOS_Antragsmodule.docx':'MüCOS_ProposalModules.docx';
-    a.click();
+    // Footer note
+    children.push(new Paragraph({
+      spacing: { before: 200, after: 0 },
+      children: [new TextRun({
+        text: t('Erstellt mit dem MüCOS Antragsmodul-Werkzeugkasten · lukas.roeseler@uni-muenster.de',
+                'Generated with the MüCOS proposal module toolkit · lukas.roeseler@uni-muenster.de'),
+        size: 18, font: 'Arial', color: GREY, italics: true
+      })]
+    }));
+
+    const doc = new Document({
+      styles: {
+        default: { document: { run: { font: 'Arial', size: 22 } } }
+      },
+      sections: [{
+        properties: {
+          page: {
+            size: { width: 11906, height: 16838 }, // A4
+            margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 }
+          }
+        },
+        children
+      }]
+    });
+
+    try {
+      const buffer = await Packer.toBlob(doc);
+      const filename = mode === 'jobad'
+        ? (lang === 'de' ? 'MüCOS_Stellenausschreibung.docx' : 'MüCOS_JobAd.docx')
+        : (lang === 'de' ? 'MüCOS_Antragsmodule.docx' : 'MüCOS_ProposalModules.docx');
+      saveAs(buffer, filename);
+    } catch(err) {
+      console.error('docx export error:', err);
+      alert(t('Fehler beim Erstellen der Datei: ' + err.message,
+              'Error creating file: ' + err.message));
+    }
   };
 
   function render() {
@@ -677,12 +1177,19 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
       `<button class="osp-tab ${activePhase===p.id?'active':''}" onclick="ospSetPhase('${p.id}')">${t(p.de,p.en)}</button>`
     ).join('');
 
+    // Mode toggle labels
+    $('osp-mode-label').textContent      = t('Textart\u2002','Type\u2002');
+    $('osp-mode-proposal').textContent   = t('Antragstext','Proposal text');
+    $('osp-mode-jobad').textContent      = t('Stellenausschreibung','Job advertisement');
+
     const selArr = MODULES.filter(m => selected.has(m.id));
     const sumEl  = $('osp-summary');
     if (selArr.length) {
       sumEl.style.display = 'block';
       const avg = selArr.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2, 0);
-      $('osp-sum-title').textContent = t('Ausgewählte Module','Selected modules');
+      $('osp-sum-title').textContent = mode === 'jobad'
+        ? t('Ausgewählte Module (Stellenausschreibung)','Selected modules (job advertisement)')
+        : t('Ausgewählte Module','Selected modules');
       $('osp-lbl-n').textContent     = t('Module gewählt','Modules selected');
       $('osp-lbl-fte').textContent   = t('Gesamt-FTE (Ø)','Total FTE (avg)');
       $('osp-lbl-pool').textContent  = t('Poolbarer Anteil (50 %)','Poolable share (50%)');
@@ -718,10 +1225,10 @@ MüCOS connects researchers with the Science Communication Centre of WWU and adv
   </div>
   <div class="osp-body">
     <div class="osp-short">${t(m.short_de,m.short_en)}</div>
-    <div class="osp-full-text ${isExp?'open':''}" id="osp-full-${m.id}">${lang==='de'?m.full_de:m.full_en}</div>
+    <div class="osp-full-text ${isExp?'open':''}" id="osp-full-${m.id}">${content(m)}</div>
     <div class="osp-footer">
       <button class="osp-expand-btn" id="osp-xbtn-${m.id}" onclick="ospToggleExpand('${m.id}',event)">
-        ${isExp?t('Weniger anzeigen','Show less'):t('Volltext für Antrag →','Full proposal text →')}
+        ${isExp?t('Weniger anzeigen','Show less'):(mode==='jobad'?t('Ausschreibungstext →','Job ad text →'):t('Volltext für Antrag →','Full proposal text →'))}
       </button>
       ${m.links.map(l=>`<span class="osp-link-chip">${l}</span>`).join('')}
     </div>
