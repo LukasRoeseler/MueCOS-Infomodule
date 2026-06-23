@@ -1,0 +1,39 @@
+name: Build and deploy Quarto site
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install R (if needed)
+        uses: r-lib/actions/setup-r@v2
+        with:
+          use-public-rspm: true
+
+      - name: Inject PASSWORD into antragsmodule.qmd
+        # Replaces the {{< env PASSWORD >}} placeholder with the actual secret
+        # before Quarto renders. The secret never appears in the repo or logs.
+        env:
+          PASSWORD: ${{ secrets.PASSWORD }}
+        run: |
+          sed -i "s|{{< env PASSWORD >}}|${PASSWORD}|g" antragsmodule.qmd
+
+      - name: Render Quarto site
+        run: quarto render
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./docs
