@@ -5,16 +5,15 @@ title: "Flyer & Cheatsheets"
 **Access cheatsheets, flyers, and additional infos on central open
 science-topics via this site.**
 
--   [Open
-    Access](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html)
+| Topic | Flyer | Cheatsheet | All you need to know |
+|----|----|----|----|
+| Research Assessment | <https://doi.org/10.5281/zenodo.20281741> | — | — |
+| Open Access | <https://doi.org/10.5281/zenodo.17713976> | <https://doi.org/10.5281/zenodo.20811845> | <https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/openaccess.html> |
+| Open Data | <https://doi.org/10.5281/zenodo.17713704> | <https://doi.org/10.5281/zenodo.20811593> | <https://www.uni-muenster.de/Forschungsdaten/en> |
+| Preregistration | <https://doi.org/10.5281/zenodo.17713297> | <https://doi.org/10.5281/zenodo.20812114> | <https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/preregistration.html> |
+| Replication Research | <https://doi.org/10.5281/zenodo.17776685> | — | <https://www.uni-muenster.de/Ejournals/index.php/replicationresearch/index> |
 
--   [Open Data](https://www.uni-muenster.de/Forschungsdaten/en) (info
-    via University of Münster website,
-    [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/OD_flyer.pdf))
-
--   [Preregistration](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/preregistration.html)
-
--   [Replication
-    Research](https://www.uni-muenster.de/Ejournals/index.php/replicationresearch/index)
-    (the diamond OA journal co-hosted by MüCOS,
-    [flyer](https://github.com/LukasRoeseler/MueCOS-Infomodule/blob/main/flyerinfos/R2_flyer.pdf))
+More resources are available at
+[zenodo.org/communities/muecos/](https://zenodo.org/communities/muecos/records?q=&l=list&p=1&s=10&sort=newest).
+Reach out to lukas.roeseler\[at\]uni-muenster.de if you are interested
+in printed versions of the flyers.

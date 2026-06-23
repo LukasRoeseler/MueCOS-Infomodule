@@ -3,301 +3,203 @@ title: "Antragsmodule"
 sidebar: antragsmodule
 ---
 
-::: {.antragsmodul-intro}
+::: antragsmodul-intro
 **Open Science im Forschungsantrag – Textbausteine für Ihr Projekt**
 
-Das Münster Center for Open Science (MüCOS) bietet Forschenden der Universität Münster konkrete Unterstützung dabei, Open-Science-Praktiken in Drittmittelanträge zu integrieren. Die folgenden Module liefern fertige, anpassbare Textbausteine auf Deutsch und Englisch – jeweils mit einer realistischen Schätzung des FTE-Bedarfs (Vollzeitäquivalent in Prozent).
+Das Münster Center for Open Science (MüCOS) bietet Forschenden der
+Universität Münster konkrete Unterstützung dabei, Open-Science-Praktiken
+in Drittmittelanträge zu integrieren. Die folgenden Module liefern
+fertige, anpassbare Textbausteine auf Deutsch und Englisch – jeweils mit
+einer **Schätzung des FTE-Bedarfs**, die als Orientierungswert dient und
+je nach Fach, Projektgröße und Antragsformat angepasst werden muss.
 
-Das Modell der **gebündelten Stellenfinanzierung** ermöglicht es mehreren Arbeitsgruppen, ihren jeweiligen FTE-Anteil in einen gemeinsamen Pool einzubringen. Aus diesem Pool wird über eine **Ausfallbürgschaft der Universität Münster** eine gemeinsam finanzierte Expert:innenstelle (z. B. Datenmanagement, Code-Review, Statistik) besetzt – eine Lösung, die für Einzelprojekte zu kleinteilig, im Verbund aber hocheffizient ist.
+Das Modell der **gebündelten Stellenfinanzierung** ermöglicht es
+mehreren Arbeitsgruppen, ihren jeweiligen FTE-Anteil in einen
+gemeinsamen Pool einzubringen. Aus diesem Pool wird über eine
+**Ausfallbürgschaft der Universität Münster** eine gemeinsam finanzierte
+Expert:innenstelle (z. B. Datenmanagement, Code-Review, Statistik)
+besetzt – eine Lösung, die für Einzelprojekte zu kleinteilig, im Verbund
+aber hocheffizient ist.
 
-**So funktioniert die Auswahl:** Klicken Sie auf die Module, die für Ihr Vorhaben relevant sind. Der Werkzeugkasten berechnet den Gesamt-FTE-Bedarf und gibt den poolbaren Anteil aus. Über „Exportieren" erhalten Sie einen konsolidierten Entwurfstext für Ihren Antrag – direkt weiterverarbeitbar.
+**So funktioniert die Auswahl:** Klicken Sie auf die Module, die für Ihr
+Vorhaben relevant sind. Der Werkzeugkasten berechnet den
+Gesamt-FTE-Bedarf und gibt den poolbaren Anteil aus. Über „Als .docx
+herunterladen" erhalten Sie einen konsolidierten Entwurfstext für Ihren
+Antrag – direkt weiterverarbeitbar.
 
-Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unter [lukas.roeseler@uni-muenster.de](mailto:lukas.roeseler@uni-muenster.de).
+Für eine individuelle Beratung wenden Sie sich gerne an das
+**MüCOS-Team** unter
+[lukas.roeseler\@uni-muenster.de](mailto:lukas.roeseler@uni-muenster.de).
 :::
 
 ```{=html}
+<!-- Password gate -->
+<div id="osp-gate" style="
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  min-height:260px; background:#faf8f5; border:1px solid #e4ddd5; border-radius:8px;
+  padding:2.5rem 2rem; margin-top:1.5rem; text-align:center;
+">
+  <div style="font-size:32px; margin-bottom:1rem;">🔒</div>
+  <div style="font-size:15px; font-weight:700; color:#2b2420; margin-bottom:0.4rem;">
+    Dieser Bereich ist passwortgeschützt
+  </div>
+  <div style="font-size:13px; color:#8c8278; margin-bottom:1.25rem; max-width:380px;">
+    Der Zugang zu den Antragsmodulen ist nur für Mitglieder der Universität Münster vorgesehen.
+    Das Passwort erhalten Sie vom MüCOS-Team.
+  </div>
+  <div style="display:flex; gap:8px; align-items:center;">
+    <input id="osp-pw-input" type="password" placeholder="Passwort eingeben"
+      style="padding:8px 14px; border:1.5px solid #c9bfb5; border-radius:3px;
+             font-size:13px; font-family:Arial,Helvetica,sans-serif; outline:none;
+             color:#2b2420; background:#fff; width:220px;"
+      onkeydown="if(event.key==='Enter') ospCheckPw()"
+    />
+    <button onclick="ospCheckPw()" style="
+      padding:8px 18px; background:#a32638; color:#fff; border:none;
+      border-radius:3px; font-size:13px; font-family:Arial,Helvetica,sans-serif;
+      font-weight:700; cursor:pointer;">Öffnen</button>
+  </div>
+  <div id="osp-pw-error" style="
+    display:none; margin-top:0.75rem; font-size:12px; color:#a32638; font-weight:600;">
+    Falsches Passwort. Bitte erneut versuchen.
+  </div>
+</div>
+
+<!-- Main tool (hidden until password correct) -->
+<div id="osp-main" style="display:none;">
+
 <!-- Load docx and FileSaver from CDN for proper .docx export -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
 <script src="https://unpkg.com/docx@9.1.1/build/index.js"></script>
 
 <style>
-/* ════════════════════════════════════════════════════════════════
-   MüCOS Antragsmodule — scoped to #os-picker
-   all: unset on buttons kills Cosmo's Bootstrap overrides
-   ════════════════════════════════════════════════════════════════ */
-
 #os-picker {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif !important;
-  font-size: 14px;
-  color: #2b2420;
-  line-height: 1.5;
-  margin-top: 1.5rem;
+  font-size: 14px; color: #2b2420; line-height: 1.5; margin-top: 1.5rem;
 }
-#os-picker *, #os-picker *::before, #os-picker *::after {
-  box-sizing: border-box;
-}
+#os-picker *, #os-picker *::before, #os-picker *::after { box-sizing: border-box; }
 
-/* ── Controls bar ─────────────────────────────────────────────── */
+#os-picker .osp-fte-note {
+  display: flex; align-items: flex-start; gap: 10px;
+  background: #fdf3e0; border: 1px solid #e8b84b; border-radius: 5px;
+  padding: 0.7rem 1rem; margin-bottom: 1.25rem; font-size: 12px; color: #7a4a00; line-height: 1.5;
+}
+#os-picker .osp-fte-note-icon { font-size: 16px; flex-shrink: 0; margin-top: 1px; }
+
 #os-picker .osp-controls {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  flex-wrap: wrap;
-  margin-bottom: 1.25rem;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e4ddd5;
+  display: flex; align-items: center; gap: 1rem; flex-wrap: wrap;
+  margin-bottom: 1.25rem; padding-bottom: 1rem; border-bottom: 1px solid #e4ddd5;
 }
 #os-picker .osp-lang-label {
-  font-size: 11px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  color: #8c8278;
+  font-size: 11px; font-weight: 700; letter-spacing: 0.07em;
+  text-transform: uppercase; color: #8c8278;
 }
-#os-picker .osp-lang-group {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
+#os-picker .osp-lang-group { display: flex; align-items: center; gap: 5px; }
+
 #os-picker button.osp-lang-btn {
-  all: unset !important;
-  display: inline-block !important;
-  padding: 5px 16px !important;
-  border-radius: 2px !important;
-  border: 1.5px solid #c9bfb5 !important;
-  background: #ffffff !important;
-  font-size: 12px !important;
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-weight: 500 !important;
-  color: #4a4239 !important;
-  cursor: pointer !important;
-  transition: all 0.12s !important;
-  line-height: 1.5 !important;
+  all: unset !important; display: inline-block !important;
+  padding: 5px 16px !important; border-radius: 2px !important;
+  border: 1.5px solid #c9bfb5 !important; background: #ffffff !important;
+  font-size: 12px !important; font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important; color: #4a4239 !important;
+  cursor: pointer !important; transition: all 0.12s !important; line-height: 1.5 !important;
 }
-#os-picker button.osp-lang-btn:hover {
-  border-color: #a32638 !important;
-  color: #a32638 !important;
-}
+#os-picker button.osp-lang-btn:hover { border-color: #a32638 !important; color: #a32638 !important; }
 #os-picker button.osp-lang-btn.active {
-  background: #a32638 !important;
-  border-color: #a32638 !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
+  background: #a32638 !important; border-color: #a32638 !important;
+  color: #ffffff !important; font-weight: 700 !important;
 }
 
-/* ── Phase tabs ───────────────────────────────────────────────── */
-#os-picker .osp-tabs {
-  display: flex;
-  gap: 5px;
-  flex-wrap: wrap;
-  margin-bottom: 1.25rem;
-}
+#os-picker .osp-tabs { display: flex; gap: 5px; flex-wrap: wrap; margin-bottom: 1.25rem; }
 #os-picker button.osp-tab {
-  all: unset !important;
-  display: inline-block !important;
-  padding: 5px 14px !important;
-  border-radius: 20px !important;
-  border: 1px solid #ddd5cc !important;
-  background: #faf8f5 !important;
-  font-size: 11.5px !important;
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-weight: 500 !important;
-  color: #6b6059 !important;
-  cursor: pointer !important;
-  transition: all 0.12s !important;
-  line-height: 1.5 !important;
-  white-space: nowrap !important;
+  all: unset !important; display: inline-block !important;
+  padding: 5px 14px !important; border-radius: 20px !important;
+  border: 1px solid #ddd5cc !important; background: #faf8f5 !important;
+  font-size: 11.5px !important; font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 500 !important; color: #6b6059 !important;
+  cursor: pointer !important; transition: all 0.12s !important;
+  line-height: 1.5 !important; white-space: nowrap !important;
 }
-#os-picker button.osp-tab:hover {
-  background: #f0e9e2 !important;
-  border-color: #a32638 !important;
-  color: #7d1c29 !important;
-}
-#os-picker button.osp-tab.active {
-  background: #a32638 !important;
-  border-color: #a32638 !important;
-  color: #ffffff !important;
-  font-weight: 700 !important;
-}
+#os-picker button.osp-tab:hover { background: #f0e9e2 !important; border-color: #a32638 !important; color: #7d1c29 !important; }
+#os-picker button.osp-tab.active { background: #a32638 !important; border-color: #a32638 !important; color: #ffffff !important; font-weight: 700 !important; }
 
-/* ── Summary bar ──────────────────────────────────────────────── */
 #os-picker .osp-summary {
-  background: #ffffff;
-  border: 2px solid #a32638;
-  border-radius: 6px;
-  padding: 1.1rem 1.4rem;
-  margin-bottom: 1.5rem;
+  background: #ffffff; border: 2px solid #a32638; border-radius: 6px;
+  padding: 1.1rem 1.4rem; margin-bottom: 1.5rem;
   box-shadow: 0 2px 10px rgba(163,38,56,0.09);
 }
-#os-picker .osp-summary-header {
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.09em;
-  text-transform: uppercase;
-  color: #a32638;
-  margin-bottom: 0.85rem;
+#os-picker .osp-summary-header { font-size: 10px; font-weight: 700; letter-spacing: 0.09em; text-transform: uppercase; color: #a32638; margin-bottom: 0.85rem; }
+#os-picker .osp-stats { display: flex; gap: 0; flex-wrap: wrap; margin-bottom: 1rem; }
+#os-picker .osp-stat { padding-right: 1.5rem; margin-right: 1.5rem; border-right: 1px solid #e4ddd5; }
+#os-picker .osp-stat:last-child { border-right: none; margin-right: 0; padding-right: 0; }
+#os-picker .osp-stat-label { font-size: 11px; color: #8c8278; margin-bottom: 1px; white-space: nowrap; }
+#os-picker .osp-stat-value { font-size: 28px; font-weight: 700; color: #2b2420; line-height: 1.1; }
+#os-picker .osp-unit { font-size: 13px; font-weight: 400; color: #8c8278; margin-left: 2px; }
+#os-picker .osp-fte-disclaimer {
+  font-size: 11px; color: #8c8278; font-style: italic;
+  margin-top: 4px; margin-bottom: 0.75rem;
 }
-#os-picker .osp-stats {
-  display: flex;
-  gap: 0;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-#os-picker .osp-stat {
-  padding-right: 1.5rem;
-  margin-right: 1.5rem;
-  border-right: 1px solid #e4ddd5;
-}
-#os-picker .osp-stat:last-child {
-  border-right: none;
-  margin-right: 0;
-  padding-right: 0;
-}
-#os-picker .osp-stat-label {
-  font-size: 11px;
-  color: #8c8278;
-  margin-bottom: 1px;
-  white-space: nowrap;
-}
-#os-picker .osp-stat-value {
-  font-size: 28px;
-  font-weight: 700;
-  color: #2b2420;
-  line-height: 1.1;
-}
-#os-picker .osp-unit {
-  font-size: 13px;
-  font-weight: 400;
-  color: #8c8278;
-  margin-left: 2px;
-}
-#os-picker .osp-btn-row {
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-}
+#os-picker .osp-btn-row { display: flex; gap: 8px; flex-wrap: wrap; }
+
 #os-picker button.osp-btn-primary {
-  all: unset !important;
-  display: inline-block !important;
-  padding: 8px 20px !important;
-  background: #a32638 !important;
-  color: #ffffff !important;
-  border-radius: 3px !important;
-  font-size: 13px !important;
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-weight: 700 !important;
-  cursor: pointer !important;
-  letter-spacing: 0.01em !important;
-  transition: background 0.12s !important;
-  line-height: 1.5 !important;
+  all: unset !important; display: inline-block !important;
+  padding: 8px 20px !important; background: #a32638 !important;
+  color: #ffffff !important; border-radius: 3px !important;
+  font-size: 13px !important; font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important; cursor: pointer !important;
+  letter-spacing: 0.01em !important; transition: background 0.12s !important; line-height: 1.5 !important;
 }
 #os-picker button.osp-btn-primary:hover { background: #7d1c29 !important; }
+#os-picker button.osp-btn-teal {
+  all: unset !important; display: inline-block !important;
+  padding: 8px 20px !important; background: #2a6e6e !important;
+  color: #ffffff !important; border-radius: 3px !important;
+  font-size: 13px !important; font-family: Arial, Helvetica, sans-serif !important;
+  font-weight: 700 !important; cursor: pointer !important;
+  transition: background 0.12s !important; line-height: 1.5 !important;
+}
+#os-picker button.osp-btn-teal:hover { background: #1a5050 !important; }
 #os-picker button.osp-btn-ghost {
-  all: unset !important;
-  display: inline-block !important;
-  padding: 8px 18px !important;
-  background: transparent !important;
-  color: #4a4239 !important;
-  border: 1px solid #c9bfb5 !important;
-  border-radius: 3px !important;
-  font-size: 13px !important;
-  font-family: Arial, Helvetica, sans-serif !important;
-  font-weight: 500 !important;
-  cursor: pointer !important;
-  transition: background 0.12s !important;
-  line-height: 1.5 !important;
+  all: unset !important; display: inline-block !important;
+  padding: 8px 18px !important; background: transparent !important;
+  color: #4a4239 !important; border: 1px solid #c9bfb5 !important;
+  border-radius: 3px !important; font-size: 13px !important;
+  font-family: Arial, Helvetica, sans-serif !important; font-weight: 500 !important;
+  cursor: pointer !important; transition: background 0.12s !important; line-height: 1.5 !important;
 }
-#os-picker button.osp-btn-ghost:hover {
-  background: #f2ede7 !important;
-  border-color: #8c8278 !important;
-}
+#os-picker button.osp-btn-ghost:hover { background: #f2ede7 !important; border-color: #8c8278 !important; }
 
-/* ── Card grid ────────────────────────────────────────────────── */
-#os-picker .osp-grid {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-}
-
+#os-picker .osp-grid { display: grid; grid-template-columns: 1fr; gap: 12px; }
 #os-picker .osp-card {
-  background: #ffffff;
-  border: 1px solid #ddd5cc;
-  border-radius: 6px;
-  overflow: hidden;
-  cursor: pointer;
-  transition: border-color 0.15s, box-shadow 0.15s;
+  background: #ffffff; border: 1px solid #ddd5cc; border-radius: 6px;
+  overflow: hidden; cursor: pointer; transition: border-color 0.15s, box-shadow 0.15s;
 }
-#os-picker .osp-card:hover {
-  border-color: #b0a49c;
-  box-shadow: 0 2px 10px rgba(43,36,32,0.08);
-}
-#os-picker .osp-card.selected {
-  border-color: #a32638 !important;
-  border-width: 2px;
-  box-shadow: 0 2px 12px rgba(163,38,56,0.12);
-}
+#os-picker .osp-card:hover { border-color: #b0a49c; box-shadow: 0 2px 10px rgba(43,36,32,0.08); }
+#os-picker .osp-card.selected { border-color: #a32638 !important; border-width: 2px; box-shadow: 0 2px 12px rgba(163,38,56,0.12); }
 
-/* Phase colour strip along the top */
-#os-picker .osp-stripe {
-  height: 3px;
-  background: #ddd5cc;
-}
+#os-picker .osp-stripe { height: 3px; background: #ddd5cc; }
 #os-picker .osp-card.ph-planning    .osp-stripe { background: #4a7c9e; }
 #os-picker .osp-card.ph-data        .osp-stripe { background: #3a7a3a; }
 #os-picker .osp-card.ph-analysis    .osp-stripe { background: #7a5a9e; }
 #os-picker .osp-card.ph-publication .osp-stripe { background: #c47d0e; }
 #os-picker .osp-card.ph-communication .osp-stripe { background: #a32638; }
 
-/* Card header row */
-#os-picker .osp-card-header {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 0.85rem 1rem 0.6rem;
-}
-
-/* Checkbox */
+#os-picker .osp-card-header { display: flex; align-items: flex-start; gap: 12px; padding: 0.85rem 1rem 0.6rem; }
 #os-picker .osp-check {
-  flex-shrink: 0;
-  width: 20px;
-  height: 20px;
-  border-radius: 4px;
-  border: 2px solid #c9bfb5;
-  background: #ffffff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-top: 2px;
-  transition: all 0.12s;
+  flex-shrink: 0; width: 20px; height: 20px; border-radius: 4px;
+  border: 2px solid #c9bfb5; background: #ffffff;
+  display: flex; align-items: center; justify-content: center;
+  margin-top: 2px; transition: all 0.12s;
 }
-#os-picker .osp-card.selected .osp-check {
-  background: #a32638;
-  border-color: #a32638;
-}
-#os-picker .osp-checkmark {
-  display: none;
-  color: #ffffff;
-  font-size: 12px;
-  font-weight: 900;
-  line-height: 1;
-}
+#os-picker .osp-card.selected .osp-check { background: #a32638; border-color: #a32638; }
+#os-picker .osp-checkmark { display: none; color: #ffffff; font-size: 12px; font-weight: 900; line-height: 1; }
 #os-picker .osp-card.selected .osp-checkmark { display: block; }
 
-/* Meta block */
 #os-picker .osp-meta { flex: 1; min-width: 0; }
-
 #os-picker .osp-phase-pill {
-  display: inline-block;
-  font-size: 9.5px;
-  font-weight: 700;
-  letter-spacing: 0.07em;
-  text-transform: uppercase;
-  padding: 2px 9px;
-  border-radius: 20px;
-  margin-bottom: 5px;
-  background: #f0e9e2;
-  color: #6b6059;
-  border: 1px solid #ddd5cc;
+  display: inline-block; font-size: 9.5px; font-weight: 700; letter-spacing: 0.07em;
+  text-transform: uppercase; padding: 2px 9px; border-radius: 20px; margin-bottom: 5px;
+  background: #f0e9e2; color: #6b6059; border: 1px solid #ddd5cc;
 }
 #os-picker .osp-card.ph-planning    .osp-phase-pill { background:#e8f0f5; color:#2d5570; border-color:#aacfe0; }
 #os-picker .osp-card.ph-data        .osp-phase-pill { background:#eaf2ea; color:#2a582a; border-color:#aacfaa; }
@@ -305,113 +207,39 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
 #os-picker .osp-card.ph-publication .osp-phase-pill { background:#fdf3e0; color:#7a4a00; border-color:#efbe6e; }
 #os-picker .osp-card.ph-communication .osp-phase-pill { background:#fbeaed; color:#7d1c29; border-color:#e8aab5; }
 
-#os-picker .osp-title {
-  font-size: 15px !important;
-  font-weight: 700 !important;
-  color: #2b2420 !important;
-  line-height: 1.3 !important;
-  margin: 0 0 4px !important;
-  display: block;
-}
+#os-picker .osp-title { font-size: 15px !important; font-weight: 700 !important; color: #2b2420 !important; line-height: 1.3 !important; margin: 0 0 4px !important; display: block; }
 #os-picker .osp-card.selected .osp-title { color: #7d1c29 !important; }
+#os-picker .osp-münster-badge { display: inline-block; font-size: 10px; font-weight: 600; padding: 2px 9px; border-radius: 3px; background: #fdf3e0; border: 1px solid #e8b84b; color: #7a4a00; margin-top: 3px; }
 
-#os-picker .osp-münster-badge {
-  display: inline-block;
-  font-size: 10px;
-  font-weight: 600;
-  padding: 2px 9px;
-  border-radius: 3px;
-  background: #fdf3e0;
-  border: 1px solid #e8b84b;
-  color: #7a4a00;
-  margin-top: 3px;
-}
-
-/* FTE badge — top right */
 #os-picker .osp-fte-badge {
-  flex-shrink: 0;
-  align-self: flex-start;
-  font-size: 11.5px;
-  font-weight: 700;
-  padding: 4px 11px;
-  border-radius: 3px;
-  background: #f0e9e2;
-  border: 1px solid #ddd5cc;
-  color: #4a4239;
-  white-space: nowrap;
-  margin-top: 1px;
+  flex-shrink: 0; align-self: flex-start; font-size: 11.5px; font-weight: 700;
+  padding: 4px 11px; border-radius: 3px; background: #f0e9e2;
+  border: 1px solid #ddd5cc; color: #4a4239; white-space: nowrap; margin-top: 1px;
 }
-#os-picker .osp-card.selected .osp-fte-badge {
-  background: #fbeaed;
-  border-color: #e8aab5;
-  color: #7d1c29;
-}
+#os-picker .osp-fte-badge-note { display: block; font-size: 9px; font-weight: 400; color: #8c8278; margin-top: 2px; text-align: center; }
+#os-picker .osp-card.selected .osp-fte-badge { background: #fbeaed; border-color: #e8aab5; color: #7d1c29; }
 
-/* Card body */
-#os-picker .osp-body {
-  padding: 0.65rem 1rem 0.85rem 3.2rem;
-  border-top: 1px solid #f0e9e2;
-}
-#os-picker .osp-short {
-  font-size: 13px !important;
-  color: #4a4239 !important;
-  line-height: 1.65 !important;
-  margin: 0 0 0.6rem !important;
-}
-#os-picker .osp-full-text {
-  display: none;
-  font-size: 13px;
-  color: #2b2420;
-  line-height: 1.75;
-  margin-top: 0.6rem;
-  padding-top: 0.75rem;
-  border-top: 1px dashed #ddd5cc;
-  white-space: pre-wrap;
-}
+#os-picker .osp-body { padding: 0.65rem 1rem 0.85rem 3.2rem; border-top: 1px solid #f0e9e2; }
+#os-picker .osp-short { font-size: 13px !important; color: #4a4239 !important; line-height: 1.65 !important; margin: 0 0 0.6rem !important; }
+#os-picker .osp-full-text { display: none; font-size: 13px; color: #2b2420; line-height: 1.75; margin-top: 0.6rem; padding-top: 0.75rem; border-top: 1px dashed #ddd5cc; white-space: pre-wrap; }
 #os-picker .osp-full-text.open { display: block; }
+#os-picker .osp-footer { display: flex; align-items: center; flex-wrap: wrap; gap: 8px; margin-top: 5px; }
 
-#os-picker .osp-footer {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 5px;
-}
 #os-picker button.osp-expand-btn {
-  all: unset !important;
-  font-size: 12px !important;
-  color: #a32638 !important;
-  font-family: Arial, Helvetica, sans-serif !important;
-  cursor: pointer !important;
-  text-decoration: underline !important;
-  text-underline-offset: 2px !important;
-  transition: color 0.1s !important;
+  all: unset !important; font-size: 12px !important; color: #a32638 !important;
+  font-family: Arial, Helvetica, sans-serif !important; cursor: pointer !important;
+  text-decoration: underline !important; text-underline-offset: 2px !important; transition: color 0.1s !important;
 }
 #os-picker button.osp-expand-btn:hover { color: #7d1c29 !important; }
-
-#os-picker .osp-link-chip {
-  display: inline-block;
-  font-size: 10.5px;
-  font-weight: 500;
-  padding: 2px 9px;
-  border-radius: 20px;
-  background: #eef5f5;
-  border: 1px solid #7ab8b8;
-  color: #1a5050;
-}
-
-#os-picker .osp-empty {
-  text-align: center;
-  padding: 3rem 1rem;
-  color: #8c8278;
-  font-size: 13px;
-  border: 1px dashed #ddd5cc;
-  border-radius: 6px;
-  background: #faf8f5;
-}
+#os-picker .osp-link-chip { display: inline-block; font-size: 10.5px; font-weight: 500; padding: 2px 9px; border-radius: 20px; background: #eef5f5; border: 1px solid #7ab8b8; color: #1a5050; }
+#os-picker .osp-empty { text-align: center; padding: 3rem 1rem; color: #8c8278; font-size: 13px; border: 1px dashed #ddd5cc; border-radius: 6px; background: #faf8f5; }
 </style>
 
 <div id="os-picker">
+  <div class="osp-fte-note">
+    <span class="osp-fte-note-icon">⚠️</span>
+    <span>Die angegebenen <strong>FTE-Werte sind Schätzungen</strong> und dienen als Orientierungsgröße. Sie müssen je nach Fach, Projektgröße, Laufzeit und spezifischem Antragsformat (DFG, BMBF, EU Horizon u. a.) individuell angepasst werden. Das MüCOS berät gerne bei der konkreten Kalkulation.</span>
+  </div>
 
   <div class="osp-controls">
     <div class="osp-lang-group">
@@ -436,7 +264,7 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
         <div class="osp-stat-value" id="osp-n">0</div>
       </div>
       <div class="osp-stat">
-        <div class="osp-stat-label" id="osp-lbl-fte">Gesamt-FTE (Ø)</div>
+        <div class="osp-stat-label" id="osp-lbl-fte">Gesamt-FTE (Ø, geschätzt)</div>
         <div class="osp-stat-value" id="osp-fte">0 <span class="osp-unit">% FTE</span></div>
       </div>
       <div class="osp-stat">
@@ -444,9 +272,10 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
         <div class="osp-stat-value" id="osp-pool">0 <span class="osp-unit">% FTE</span></div>
       </div>
     </div>
+    <div class="osp-fte-disclaimer" id="osp-fte-disc">Schätzwerte — bitte an Fach und Antragsformat anpassen</div>
     <div class="osp-btn-row">
       <button class="osp-btn-primary" onclick="ospExportDocx()">Als .docx herunterladen ↓</button>
-      <button class="osp-btn-primary" onclick="ospCopyClipboard()" id="osp-clip-btn" style="background:#4a4239 !important;">In Zwischenablage kopieren</button>
+      <button class="osp-btn-teal" onclick="ospCopyClipboard()" id="osp-clip-btn">In Zwischenablage kopieren</button>
       <button class="osp-btn-ghost" id="osp-clear-btn" onclick="ospClearAll()">Alle abwählen</button>
     </div>
   </div>
@@ -454,7 +283,36 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
   <div id="osp-grid" class="osp-grid"></div>
 </div>
 
+</div><!-- #osp-main -->
+
 <script>
+// ── Password gate ─────────────────────────────────────────────────────────
+(function() {
+  const CORRECT = '{{< env PASSWORD >}}';
+  const SESSION_KEY = 'mucos_antragsmodule_unlocked';
+
+  function unlock() {
+    sessionStorage.setItem(SESSION_KEY, '1');
+    document.getElementById('osp-gate').style.display = 'none';
+    document.getElementById('osp-main').style.display  = 'block';
+  }
+
+  // Already unlocked this session?
+  if (sessionStorage.getItem(SESSION_KEY) === '1') { unlock(); return; }
+
+  window.ospCheckPw = function() {
+    const val = document.getElementById('osp-pw-input').value;
+    if (val === CORRECT) {
+      unlock();
+    } else {
+      document.getElementById('osp-pw-error').style.display = 'block';
+      document.getElementById('osp-pw-input').value = '';
+      document.getElementById('osp-pw-input').focus();
+    }
+  };
+})();
+
+// ── Main app ──────────────────────────────────────────────────────────────
 (function () {
   const PC = { planning:'ph-planning', data:'ph-data', analysis:'ph-analysis', publication:'ph-publication', communication:'ph-communication' };
 
@@ -468,7 +326,7 @@ Für eine individuelle Beratung wenden Sie sich gerne an das **MüCOS-Team** unt
       full_de:`Das Vorhaben beinhaltet die vollständige Präregistrierung aller Forschungshypothesen, des Studiendesigns sowie detaillierter statistischer Analysepläne und soweit möglich Analysecode auf einem international sowie in der Disziplin anerkannten Repository (z. B. OSF, AsPredicted, PROSPERO). Die Präregistrierung wird vor Beginn der Datenerhebung abgeschlossen und öffentlich zugänglich gemacht. Im Bericht werden jegliche Abweichungen von der Präregistrierung und deren Auswirkungen auf die Ergebnisse diskutiert. Damit wird transparente Unterscheidung zwischen konfirmatorischer und explorativer Forschung gewährleistet sowie die Replizierbarkeit nachhaltig gestärkt.
 
 Das MüCOS unterstützt Forschende bei der Auswahl des geeigneten Formats (Standard-Präregistrierung, Registered Report) und bietet Beratung zu peer-reviewed Registered Reports in Zeitschriften, die dieses Format etabliert haben.`,
-      full_en:`The project includes full pre-registration of all research hypotheses, study design, detailed statistical analysis plans, and - if applicable - analysis code on an internationally recognised repository (e.g. OSF, AsPredicted, PROSPERO). Pre-registration is completed before data collection begins and made publicly accessible. This ensures transparent distinction between confirmatory and exploratory research and durably strengthens replicability.
+      full_en:`The project includes full pre-registration of all research hypotheses, study design, detailed statistical analysis plans, and — if applicable — analysis code on an internationally recognised repository (e.g. OSF, AsPredicted, PROSPERO). Pre-registration is completed before data collection begins and made publicly accessible. Deviations from the pre-registration and their effects on the results are discussed in the report. This ensures transparent distinction between confirmatory and exploratory research and durably strengthens replicability.
 
 MüCOS supports researchers in selecting the appropriate format (standard pre-registration, Registered Report) and advises on peer-reviewed Registered Reports in journals that have adopted this format.`,
       jobad_de:`Aufgaben:
@@ -478,10 +336,11 @@ MüCOS supports researchers in selecting the appropriate format (standard pre-re
 – Beratung der Arbeitsgruppe zu konfirmatorischer vs. explorativer Forschung
 
 Anforderungen:
-– Abgeschlossenes wissenschaftliches Hochschulstudium in einem einschlägigen Fach
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) in einem einschlägigen Fach
 – Erfahrung mit präregistrierten Studien und/oder Registered Reports
 – Vertrautheit mit Open-Science-Praktiken und einschlägigen Repositorien
-– Sorgfältige, strukturierte und transparente Arbeitsweise`,
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Sorgfältige, strukturierte und transparente Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Designing and conducting the pre-registration of hypotheses, study design, and analysis plans on recognised repositories (e.g. OSF, AsPredicted, PROSPERO)
 – Preparing and submitting Registered Reports to suitable journals
@@ -489,10 +348,11 @@ Anforderungen:
 – Advising the research group on confirmatory vs. exploratory research
 
 Requirements:
-– Completed university degree in a relevant field
+– Completed university degree (Master or equivalent) in a relevant field
 – Experience with pre-registered studies and/or Registered Reports
 – Familiarity with open science practices and relevant repositories
-– Careful, structured, and transparent way of working`,
+– Strong communication skills and very good German and English language proficiency
+– Careful, structured, and transparent way of working; PhD an advantage`,
       links:['OSF.io','AsPredicted.org'], münster:true
     },
     {
@@ -501,7 +361,7 @@ Requirements:
       title_de:'Open Materials', title_en:'Open materials',
       short_de:'Vollständige, annotierte Bereitstellung aller Forschungsmaterialien (Stimuli, Fragebögen, Protokolle, Skripte) auf einem dauerhaften, öffentlich zugänglichen Repository.',
       short_en:'Complete, annotated sharing of all research materials (stimuli, questionnaires, protocols, scripts) on a persistent, publicly accessible repository.',
-      full_de:`Alle im Forschungsvorhaben eingesetzten Materialien (z.B. Stimuli, Erhebungsinstrumente, Versuchsprotokolle, Instruktionen) werden strukturiert dokumentiert, mit umfangreichen README-Dateien versehen und auf einem dauerhaften Repository (z. B. OSF, Zenodo, RADAR) veröffentlicht. Proprietäre Formate werden soweit möglich durch offene, langzeitstabile Alternativen ersetzt. Die Materialien erhalten einen persistenten Identifier (DOI) und eine klare Lizenz (bevorzugt CC BY 4.0).
+      full_de:`Alle im Forschungsvorhaben eingesetzten Materialien (z. B. Stimuli, Erhebungsinstrumente, Versuchsprotokolle, Instruktionen) werden strukturiert dokumentiert, mit umfangreichen README-Dateien versehen und auf einem dauerhaften Repository (z. B. OSF, Zenodo, RADAR) veröffentlicht. Proprietäre Formate werden soweit möglich durch offene, langzeitstabile Alternativen ersetzt. Die Materialien erhalten einen persistenten Identifier (DOI) und eine klare Lizenz (bevorzugt CC BY 4.0).
 
 Das MüCOS bietet Beratung zur Lizenzwahl, Formatstandards und zur Einbindung sensibler oder urheberrechtlich geschützter Inhalte.`,
       full_en:`All materials used in the project — including stimuli, instruments, protocols, and instructions — are systematically documented, provided with comprehensive README files, and published on a persistent repository (e.g. OSF, Zenodo, RADAR). Proprietary formats are replaced by open, long-term stable alternatives wherever possible. Materials receive a persistent identifier (DOI) and a clear licence (preferably CC BY 4.0).
@@ -514,10 +374,11 @@ MüCOS advises on licence selection, format standards, and the handling of sensi
 – Beratung zu Lizenzwahl und zum Umgang mit sensiblen oder urheberrechtlich geschützten Inhalten
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium oder einschlägige Qualifikation
-– Erfahrung mit Repositorien, persistenten Identifikatoren (DOI) und Creative-Commons-Lizenzen
-– Kenntnisse offener Dateiformate und guter Dokumentationspraxis
-– Genaue und gewissenhafte Arbeitsweise`,
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar)
+– Kenntnisse oder praktische Erfahrungen im Umgang mit Repositorien, persistenten Identifikatoren (DOI) und Creative-Commons-Lizenzen
+– Erfahrungen in Forschungsprojekten sowie im Umgang mit Forschungsdaten
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Genaue und gewissenhafte Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Systematic documentation and preparation of all research materials (stimuli, instruments, protocols, scripts)
 – Creating comprehensive README files and converting proprietary formats into open, long-term stable alternatives
@@ -525,47 +386,58 @@ Anforderungen:
 – Advising on licence selection and handling of sensitive or copyright-protected content
 
 Requirements:
-– Completed university degree or relevant qualification
-– Experience with repositories, persistent identifiers (DOI), and Creative Commons licences
-– Knowledge of open file formats and good documentation practice
-– Accurate and conscientious way of working`,
+– Completed university degree (Master or equivalent)
+– Knowledge or practical experience with repositories, persistent identifiers (DOI), and Creative Commons licences
+– Experience in research projects and working with research data
+– Strong communication skills and very good German and English language proficiency
+– Accurate and conscientious way of working; PhD an advantage`,
       links:['Zenodo.org','OSF.io'], münster:false
     },
     {
       id:'data-curation', phase:'data', phase_de:'Materialien & Daten', phase_en:'Materials & Data',
       fte_min:8, fte_max:20,
-      title_de:'Datenkuration & Langzeitstabilität', title_en:'Data curation & long-term stability',
-      short_de:'Professionelle Aufbereitung, Dokumentation und Archivierung von Forschungsdaten in nicht-proprietären Formaten mit Metadatenstandards für eine Nutzungsdauer von mindestens 10 Jahren.',
-      short_en:'Professional preparation, documentation, and archiving of research data in non-proprietary formats with metadata standards ensuring usability for at least 10 years.',
-      full_de:`Das Vorhaben umfasst eine umfassende Datenkuration durch qualifiziertes Personal: Bereinigung und Qualitätskontrolle der Rohdaten, Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF), Erstellung vollständiger Codebooks sowie Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core). Die kuratierten Daten werden auf einem zertifizierten Repository (z. B. da|ra, PANGAEA, Zenodo) mit DOI und standardisierten Zugangsbedingungen hinterlegt.
+      title_de:'Forschungsdatenmanagement & Langzeitstabilität', title_en:'Research data management & long-term stability',
+      short_de:'Professionelles Forschungsdatenmanagement nach FAIR-Prinzipien: Aufbereitung, Dokumentation, Qualitätssicherung und Archivierung in nicht-proprietären Formaten für eine Nutzungsdauer von mindestens 10 Jahren.',
+      short_en:'Professional research data management following FAIR principles: preparation, documentation, quality assurance, and archiving in non-proprietary formats for at least 10 years of usability.',
+      full_de:`Das Vorhaben umfasst ein professionelles Forschungsdatenmanagement (FDM) durch qualifiziertes Personal. Zu den Aufgaben zählen: Konzeption und Betreuung des FDM im Projekt, eigenverantwortliche Beratung des Forschungsteams zu organisatorischen und technischen FDM-Fragen, Erstellung und Pflege von Datenmanagementplänen (DMP) sowie Anforderungserhebung durch regelmäßige Kommunikation mit Projektmitarbeitenden. Die Daten werden nach den FAIR-Prinzipien aufbereitet: Bereinigung und Qualitätskontrolle der Rohdaten, Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF), Erstellung vollständiger Codebooks und Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core). Hinterlegung auf einem zertifizierten Repository (z. B. da|ra, PANGAEA, Zenodo) mit DOI und standardisierten Zugangsbedingungen. Die Stelle unterstützt außerdem die Vernetzung zwischen Projektmitarbeitenden und externen Netzwerken wie den NFDIs oder der Landesinitiative fdm.nrw.
 
-Das MüCOS und das Service Center for Research Data Management (SCRDM) der Universität Münster verfügen über ausgewiesene Expertise im Forschungsdatenmanagement und unterstützen bei der Erstellung disziplinspezifischer Datenmanagementsoftware (DMP) sowie bei der Zusammenarbeit mit dem ULB-Repositorium der Universität Münster.`,
-      full_en:`The project includes comprehensive data curation by qualified personnel: cleaning and quality control of raw data, conversion to non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF), creation of complete codebooks, and documentation using discipline-specific metadata standards (e.g. DDI, Dublin Core). Curated data are deposited on a certified repository (e.g. da|ra, PANGAEA, Zenodo) with a DOI and standardised access conditions.
+Das MüCOS und das Service Center for Research Data Management (SCRDM) der Universität Münster verfügen über ausgewiesene Expertise im Forschungsdatenmanagement und unterstützen bei der Erstellung disziplinspezifischer DMPs sowie bei der Zusammenarbeit mit dem ULB-Repositorium der Universität Münster.`,
+      full_en:`The project includes professional research data management (RDM) by qualified personnel. Tasks include: designing and overseeing RDM in the project, providing independent advice to the research team on organisational and technical RDM questions, creating and maintaining data management plans (DMPs), and gathering requirements through regular communication with project staff. Data are prepared according to FAIR principles: cleaning and quality control of raw data, conversion to non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF), creation of complete codebooks, and documentation using discipline-specific metadata standards (e.g. DDI, Dublin Core). Data are deposited on a certified repository (e.g. da|ra, PANGAEA, Zenodo) with a DOI and standardised access conditions. The position also supports networking between project staff and external networks such as the NFDIs or the state initiative fdm.nrw.
 
-MüCOS and the Service Center for Research Data Management (SCRDM) of the University of Münster have recognised expertise in research data management and support the creation of discipline-specific data management plans (DMPs) as well as collaboration with the ULB repository of the University of Münster.`,
+MüCOS and the Service Center for Research Data Management (SCRDM) of the University of Münster have recognised expertise in research data management and support the creation of discipline-specific DMPs as well as collaboration with the ULB repository of the University of Münster.`,
       jobad_de:`Aufgaben:
-– Bereinigung, Qualitätskontrolle und Kuration von Forschungsdaten
-– Konversion in nicht-proprietäre, maschinell lesbare Formate (z. B. CSV, HDF5, NetCDF) und Erstellung vollständiger Codebooks
-– Dokumentation nach fachspezifischen Metadatenstandards (z. B. DDI, Dublin Core) und Hinterlegung auf zertifizierten Repositorien (z. B. da|ra, PANGAEA, Zenodo)
-– Erstellung und Pflege von Datenmanagementplänen (DMP) in Zusammenarbeit mit MüCOS und dem Service Center for Research Data Management (SCRDM)
+– Konzeption, Betreuung und Unterstützung des Forschungsdatenmanagements (FDM) im Projekt nach den FAIR-Prinzipien
+– Eigenverantwortliche Beratung des Forschungsteams zu organisatorischen und technischen Fragen des FDM sowie Erstellung und Pflege von Datenmanagementplänen (DMP)
+– Anforderungserhebung und -analyse im Bereich FDM durch regelmäßige Kommunikation mit Projektmitarbeitenden
+– Unterstützung der Projektmitarbeitenden bei der Etablierung gemeinsamer Prozesse für Datenaustausch, Dokumentation und Qualitätssicherung
+– Entwicklung und Anwendung von Methoden zur Datenaufbereitung, Dokumentation und Qualitätssicherung; Konversion in nicht-proprietäre Formate (z. B. CSV, HDF5, NetCDF) und Erstellung von Codebooks
+– Hinterlegung auf zertifizierten Repositorien (z. B. da|ra, PANGAEA, Zenodo) mit DOI und standardisierten Zugangsbedingungen
+– Auf- und Ausbau der Vernetzung zwischen Projektmitarbeitenden und externen Netzwerken (z. B. NFDIs, Landesinitiative fdm.nrw)
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Datenmanagement, Informatik oder einer datenintensiven Disziplin
-– Erfahrung im Forschungsdatenmanagement und mit Metadatenstandards
-– Kenntnisse in Datenaufbereitung und mindestens einer Skriptsprache (z. B. R, Python) von Vorteil
-– Strukturierte, sorgfältige und dokumentationsstarke Arbeitsweise`,
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar), vorzugsweise im Bereich Informationswissenschaften, Bibliotheks- und Informationsmanagement, Informatik oder einer datenintensiven Disziplin
+– Kenntnisse oder praktische Erfahrungen im Forschungsdatenmanagement und mit Metadatenstandards
+– Erfahrungen in Forschungsprojekten sowie im Umgang mit Forschungsdaten
+– Erste Erfahrungen im Projektmanagement, soziale Kompetenz und Teamfähigkeit
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Kenntnisse in Datenaufbereitung und mindestens einer Skriptsprache (z. B. R, Python) von Vorteil; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
-– Cleaning, quality control, and curation of research data
-– Conversion into non-proprietary, machine-readable formats (e.g. CSV, HDF5, NetCDF) and creation of complete codebooks
-– Documentation according to discipline-specific metadata standards (e.g. DDI, Dublin Core) and deposition on certified repositories (e.g. da|ra, PANGAEA, Zenodo)
-– Creating and maintaining data management plans (DMPs) in collaboration with MüCOS and the Service Center for Research Data Management (SCRDM)
+– Designing, overseeing, and supporting research data management (RDM) in the project according to FAIR principles
+– Providing independent advice to the research team on organisational and technical RDM questions; creating and maintaining data management plans (DMPs)
+– Gathering and analysing RDM requirements through regular communication with project staff
+– Supporting project staff in establishing shared processes for data exchange, documentation, and quality assurance
+– Developing and applying methods for data preparation, documentation, and quality assurance; converting data to non-proprietary formats (e.g. CSV, HDF5, NetCDF) and creating codebooks
+– Depositing data on certified repositories (e.g. da|ra, PANGAEA, Zenodo) with a DOI and standardised access conditions
+– Building and expanding networking between project staff and external networks (e.g. NFDIs, state initiative fdm.nrw)
 
 Requirements:
-– Completed university degree, ideally related to data management, computer science, or a data-intensive discipline
-– Experience in research data management and with metadata standards
-– Knowledge of data preparation and at least one scripting language (e.g. R, Python) an advantage
-– Structured, careful, and documentation-oriented way of working`,
-      links:['Zenodo.org','PANGAEA'], münster:true
+– Completed university degree (Master or equivalent), preferably in information science, library and information management, computer science, or a data-intensive discipline
+– Knowledge or practical experience in research data management and metadata standards
+– Experience in research projects and working with research data
+– Initial experience in project management; social skills and ability to work in a team
+– Strong communication skills and very good German and English language proficiency
+– Knowledge of data preparation and at least one scripting language (e.g. R, Python) an advantage; PhD an advantage`,
+      links:['Zenodo.org','PANGAEA','fdm.nrw'], münster:true
     },
     {
       id:'codecheck', phase:'analysis', phase_de:'Analyse & Code', phase_en:'Analysis & Code',
@@ -584,23 +456,27 @@ MüCOS is one of the few centres in Germany offering active support for CODECHEC
 – Sicherstellung der vollständigen Reproduzierbarkeit aller Analyseschritte anhand von Code und Daten
 – Einführung und Durchführung eines strukturierten internen Code-Reviews (R, Python, MATLAB o. ä.) nach FAIR-Prinzipien für Software
 – Versionierung (Git/GitHub) und Aufbau reproduzierbarer Analyseumgebungen (z. B. Docker, Binder)
+– Beratung der Arbeitsgruppe zu reproduzierbaren Workflows und Softwarestandards
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium mit ausgeprägter methodisch-quantitativer oder informatischer Ausrichtung
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) mit ausgeprägter methodisch-quantitativer oder informatischer Ausrichtung
 – Sehr gute Programmierkenntnisse in mindestens einer wissenschaftlichen Sprache (R, Python o. ä.)
 – Erfahrung mit Versionskontrolle, Containerisierung und reproduzierbaren Workflows
-– Sorgfältige, qualitätsbewusste Arbeitsweise`,
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Sorgfältige, qualitätsbewusste Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Preparing and supporting CODECHECK certification by independent reviewers
 – Ensuring full reproducibility of all analysis steps based on code and data
 – Establishing and conducting a structured internal code review (R, Python, MATLAB, etc.) following FAIR principles for software
 – Version control (Git/GitHub) and building reproducible analysis environments (e.g. Docker, Binder)
+– Advising the research group on reproducible workflows and software standards
 
 Requirements:
-– Completed university degree with a strong methodological-quantitative or computer-science orientation
+– Completed university degree (Master or equivalent) with a strong methodological-quantitative or computer-science orientation
 – Very good programming skills in at least one scientific language (R, Python, etc.)
 – Experience with version control, containerisation, and reproducible workflows
-– Careful, quality-conscious way of working`,
+– Strong communication skills and very good German and English language proficiency
+– Careful, quality-conscious way of working; PhD an advantage`,
       links:['CODECHECK.org.uk','GitHub.com'], münster:true
     },
     {
@@ -620,31 +496,35 @@ MüCOS offers training and individual consultation on multiverse methods, as wel
 – Umsetzung von Specification-Curve- und Multiverse-Analysen über relevante Analysepfade
 – Transparente Dokumentation aller alternativen Spezifikationen und Veröffentlichung gemeinsam mit den Hauptanalysen
 – Anwendung und ggf. Weiterentwicklung einschlägiger R-/Python-Pakete (z. B. multiverse, specr)
+– Beratung der beteiligten Arbeitsgruppen zu robusten Analysestrategien
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium mit starkem statistisch-methodischem Schwerpunkt
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) mit starkem statistisch-methodischem Schwerpunkt
 – Fundierte Kenntnisse in fortgeschrittenen statistischen Verfahren
 – Sehr gute Programmierkenntnisse in R und/oder Python
-– Analytische, präzise und transparenzorientierte Arbeitsweise`,
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Analytische, präzise und transparenzorientierte Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Designing and conducting systematic sensitivity and robustness analyses
 – Implementing specification curve and multiverse analyses across relevant analysis paths
 – Transparently documenting all alternative specifications and publishing them alongside the main analyses
 – Applying and, where appropriate, extending relevant R/Python packages (e.g. multiverse, specr)
+– Advising the participating research groups on robust analysis strategies
 
 Requirements:
-– Completed university degree with a strong statistical-methodological focus
+– Completed university degree (Master or equivalent) with a strong statistical-methodological focus
 – Solid knowledge of advanced statistical methods
 – Very good programming skills in R and/or Python
-– Analytical, precise, and transparency-oriented way of working`,
+– Strong communication skills and very good German and English language proficiency
+– Analytical, precise, and transparency-oriented way of working; PhD an advantage`,
       links:['OSF.io/specr'], münster:true
     },
     {
       id:'open-access', phase:'publication', phase_de:'Publikation', phase_en:'Publication',
       fte_min:3, fte_max:8,
       title_de:'Open Access & Open Peer Review', title_en:'Open access & open peer review',
-      short_de:'Veröffentlichung aller Projektergebnisse bevorzugt im Diamond Open Access, alternativ im grünen oder – sofern keine andere Möglichkeit besteht – im goldenen Open-Access-Weg, verbunden mit der Einreichung bei Zeitschriften mit transparentem, offenem Begutachtungsverfahren.',
-      short_en:'Publication of all project outputs preferably via diamond open access, alternatively via green open access, or – where no other option is available – gold open access, combined with submission to journals offering transparent, open peer review.',
+      short_de:'Veröffentlichung aller Projektergebnisse bevorzugt im Diamond Open Access, alternativ grün oder gold, verbunden mit der Einreichung bei Zeitschriften mit transparentem Begutachtungsverfahren.',
+      short_en:'Publication of all project outputs preferably via diamond open access, alternatively green or gold, combined with submission to journals offering transparent peer review.',
       full_de:`Alle aus dem Vorhaben resultierenden Publikationen werden nach Möglichkeit über den Diamond-OA-Weg veröffentlicht (d. h. in Zeitschriften, die weder Autor:innen noch Leser:innen Gebühren berechnen). Sofern kein geeignetes Diamond-OA-Journal verfügbar ist, wird der grüne Weg genutzt (Zweitveröffentlichung über das ULB-Repositorium der Universität Münster). Nur wenn weder Diamond noch Grün realisierbar sind, wird auf goldenen Open Access in DEAL-Vertragszeitschriften der Universität Münster zurückgegriffen. Ergänzend werden Preprints auf fachspezifischen Servern (arXiv, bioRxiv, PsyArXiv o. ä.) zeitnah zur Einreichung veröffentlicht.
 
 Das MüCOS berät zu verschiedenen Formen von Open Peer Review – einschließlich signierter Gutachten, indizierter Begutachtung sowie Publish-Review-Curate-Modellen (PRC) – und unterstützt bei der Identifikation geeigneter Zeitschriften und Publikationswege. Die Universität Münster stellt über die ULB umfangreiche Förder- und Beratungsangebote für Open-Access-Publikationen bereit.`,
@@ -658,10 +538,11 @@ MüCOS advises on various forms of open peer review — including signed reviews
 – Beratung zu Open-Peer-Review-Modellen (signiert, indiziert, Publish-Review-Curate) in Abstimmung mit MüCOS und ULB
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium oder einschlägige bibliotheks-/publikationsbezogene Qualifikation
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) oder einschlägige bibliotheks-/publikationsbezogene Qualifikation
 – Kenntnisse der Open-Access-Landschaft, von Lizenzmodellen und DEAL-Verträgen
-– Erfahrung mit Repositorien und Preprint-Servern von Vorteil
-– Organisierte, kommunikationsstarke Arbeitsweise`,
+– Erfahrungen in Forschungsprojekten; Erfahrung mit Repositorien und Preprint-Servern von Vorteil
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Organisierte Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Coordinating the open access publication of all project outputs (preferably diamond, otherwise green, gold only as a fallback)
 – Secondary publication via the ULB repository of the University of Münster and timely preprint publication (arXiv, bioRxiv, PsyArXiv, etc.)
@@ -669,10 +550,11 @@ Anforderungen:
 – Advising on open peer review models (signed, indexed, publish-review-curate) in coordination with MüCOS and the ULB
 
 Requirements:
-– Completed university degree or relevant library/publication-related qualification
+– Completed university degree (Master or equivalent) or relevant library/publication-related qualification
 – Knowledge of the open access landscape, licensing models, and DEAL agreements
-– Experience with repositories and preprint servers an advantage
-– Organised, communicative way of working`,
+– Experience in research projects; experience with repositories and preprint servers an advantage
+– Strong communication skills and very good German and English language proficiency
+– Organised way of working; PhD an advantage`,
       links:['PsyArXiv.com','bioRxiv.org'], münster:false
     },
     {
@@ -689,15 +571,15 @@ Das MüCOS vernetzt Forschende mit dem Science Communication Center der Universi
 MüCOS connects researchers with the Science Communication Centre of the University of Münster and advises on OER creation and publication.`,
       jobad_de:`Aufgaben:
 – Entwicklung und Umsetzung einer zielgruppengerechten Wissenschaftskommunikationsstrategie
-– Aufbereitung zentraler Ergebnisse für nicht-wissenschaftliche Zielgruppen (laienverständliche Zusammenfassungen, Infografiken, Blogbeiträge, Social Media)
+– Aufbereitung zentraler Ergebnisse für nicht-wissenschaftliche Zielgruppen (Zusammenfassungen, Infografiken, Blogbeiträge, Social Media)
 – Erstellung frei lizenzierter Open Educational Resources (OER) nach Creative-Commons-Lizenzen und Veröffentlichung (z. B. OERSI, Münster OER-Portal)
-– Organisation öffentlicher Veranstaltungsformate, Vernetzung mit dem Science Communication Center der Universität Münster
+– Organisation öffentlicher Veranstaltungsformate und Vernetzung mit dem Science Communication Center der Universität Münster
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Kommunikation, Medien oder dem Forschungsgebiet
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar), idealerweise mit Bezug zu Kommunikation, Medien oder dem Forschungsgebiet
 – Erfahrung in Wissenschaftskommunikation und/oder OER-Erstellung
-– Sehr gute schriftliche und mündliche Ausdrucksfähigkeit, Grundkenntnisse in Grafik/Layout von Vorteil
-– Kreative, eigeninitiative und zielgruppenorientierte Arbeitsweise`,
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Grundkenntnisse in Grafik/Layout von Vorteil; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Developing and implementing an audience-appropriate science communication strategy
 – Translating key findings for non-specialist audiences (plain-language summaries, infographics, blog posts, social media)
@@ -705,10 +587,10 @@ Anforderungen:
 – Organising public event formats and connecting with the Science Communication Centre of the University of Münster
 
 Requirements:
-– Completed university degree, ideally related to communication, media, or the research field
+– Completed university degree (Master or equivalent), ideally related to communication, media, or the research field
 – Experience in science communication and/or OER creation
-– Excellent written and oral communication skills; basic graphic/layout skills an advantage
-– Creative, self-directed, and audience-oriented way of working`,
+– Strong communication skills and very good German and English language proficiency
+– Basic graphic/layout skills an advantage; PhD an advantage`,
       links:['OERSI.org'], münster:false
     },
     {
@@ -728,23 +610,25 @@ MüCOS advises on reconciling open science practices with data protection and re
 – Vorbereitung und Einreichung von Anträgen bei der Ethikkommission
 – Durchführung von Datenschutzfolgenabschätzungen und Beratung zu Datenminimierung und Anonymisierung
 – Sicherstellung der Vereinbarkeit von Open-Science-Praktiken mit Datenschutz und Forschungsethik
+– Regelmäßige Kommunikation mit Projektmitarbeitenden zu ethischen und datenschutzrechtlichen Anforderungen
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu Recht, Ethik oder dem Forschungsgebiet
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar), idealerweise mit Bezug zu Recht, Ethik oder dem Forschungsgebiet
 – Kenntnisse im Datenschutzrecht (insb. DSGVO) und in forschungsethischen Verfahren
-– Erfahrung mit Ethikanträgen von Vorteil
-– Gewissenhafte, verantwortungsbewusste Arbeitsweise`,
+– Erfahrungen in Forschungsprojekten sowie ausgeprägte Kommunikationsfähigkeit
+– Sehr gute Deutsch- und Englischkenntnisse; Erfahrung mit Ethikanträgen von Vorteil`,
       jobad_en:`Responsibilities:
 – Creating GDPR-compliant consent forms and participant information
 – Preparing and submitting applications to the ethics committee
 – Conducting data protection impact assessments and advising on data minimisation and anonymisation
 – Ensuring the compatibility of open science practices with data protection and research ethics
+– Regular communication with project staff on ethical and data protection requirements
 
 Requirements:
-– Completed university degree, ideally related to law, ethics, or the research field
+– Completed university degree (Master or equivalent), ideally related to law, ethics, or the research field
 – Knowledge of data protection law (esp. GDPR) and research ethics procedures
-– Experience with ethics applications an advantage
-– Conscientious, responsible way of working`,
+– Experience in research projects and strong communication skills
+– Very good German and English language proficiency; experience with ethics applications an advantage`,
       links:['DSGVO','Ethikkommission'], münster:true
     },
     {
@@ -764,23 +648,27 @@ MüCOS and the Service Center for Research Data Management (SCRDM) of the Univer
 – Anwendung anerkannter Anonymisierungs-/Pseudonymisierungsverfahren (z. B. k-Anonymität, Differential Privacy)
 – Veröffentlichung der synthetischen/anonymisierten Daten gemeinsam mit dem Analysecode
 – Beratung zu rechtlichen Rahmenbedingungen in Abstimmung mit MüCOS und SCRDM
+– Unterstützung der Projektmitarbeitenden bei datenschutzkonformem Umgang mit Forschungsdaten
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium in einer datenintensiven oder methodischen Disziplin
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) in einer datenintensiven oder methodischen Disziplin
 – Kenntnisse in statistischer Datensimulation und Anonymisierungsverfahren
-– Sehr gute Programmierkenntnisse (z. B. R, Python)
-– Datenschutzbewusste, präzise Arbeitsweise`,
+– Sehr gute Programmierkenntnisse (z. B. R, Python); erste Erfahrungen im Projektmanagement von Vorteil
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Datenschutzbewusste, präzise Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Generating synthetic datasets that preserve the statistical properties and correlation structures of the original data
 – Applying recognised anonymisation/pseudonymisation methods (e.g. k-anonymity, differential privacy)
 – Publishing the synthetic/anonymised data together with the analysis code
 – Advising on the legal framework in coordination with MüCOS and SCRDM
+– Supporting project staff in handling research data in compliance with data protection requirements
 
 Requirements:
-– Completed university degree in a data-intensive or methodological discipline
+– Completed university degree (Master or equivalent) in a data-intensive or methodological discipline
 – Knowledge of statistical data simulation and anonymisation methods
-– Very good programming skills (e.g. R, Python)
-– Data-protection-aware, precise way of working`,
+– Very good programming skills (e.g. R, Python); initial project management experience an advantage
+– Strong communication skills and very good German and English language proficiency
+– Data-protection-aware, precise way of working; PhD an advantage`,
       links:['Differential Privacy'], münster:true
     },
     {
@@ -799,24 +687,26 @@ MüCOS advises on software licensing, citability, and sustainable software devel
 – Aufbereitung der im Projekt entwickelten Software nach FAIR4RS-Prinzipien
 – Vergabe persistenter Identifikatoren (DOI via Zenodo/GitHub), Wahl geeigneter Open-Source-Lizenzen und Erstellung von CITATION.cff
 – Erstellung vollständiger Dokumentation und ggf. Archivierung bei Software Heritage
-– Beratung der Arbeitsgruppe zu nachhaltiger Softwareentwicklung
+– Beratung der Arbeitsgruppe zu nachhaltiger Softwareentwicklung und Softwarestandards
+– Unterstützung der Projektmitarbeitenden bei Prozessen zur Qualitätssicherung von Forschungssoftware
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium in Informatik oder einer Disziplin mit Softwarebezug
-– Sehr gute Programmier- und Softwareentwicklungskenntnisse
-– Erfahrung mit Versionskontrolle, Lizenzierung und Softwaredokumentation
-– Strukturierte, qualitäts- und nachhaltigkeitsbewusste Arbeitsweise`,
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) in Informatik oder einer Disziplin mit Softwarebezug
+– Sehr gute Programmier- und Softwareentwicklungskenntnisse; Erfahrung mit Versionskontrolle, Lizenzierung und Softwaredokumentation
+– Erfahrungen in Forschungsprojekten sowie ausgeprägte Kommunikationsfähigkeit
+– Sehr gute Deutsch- und Englischkenntnisse; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Preparing the software developed in the project according to FAIR4RS principles
 – Assigning persistent identifiers (DOI via Zenodo/GitHub), choosing suitable open-source licences, and creating CITATION.cff
 – Producing complete documentation and, where appropriate, archiving with Software Heritage
-– Advising the research group on sustainable software development
+– Advising the research group on sustainable software development and software standards
+– Supporting project staff in quality assurance processes for research software
 
 Requirements:
-– Completed university degree in computer science or a software-related discipline
-– Very good programming and software development skills
-– Experience with version control, licensing, and software documentation
-– Structured, quality- and sustainability-conscious way of working`,
+– Completed university degree (Master or equivalent) in computer science or a software-related discipline
+– Very good programming and software development skills; experience with version control, licensing, and software documentation
+– Experience in research projects and strong communication skills
+– Very good German and English language proficiency; PhD an advantage`,
       links:['Zenodo.org','Software Heritage'], münster:true
     },
     {
@@ -835,24 +725,26 @@ MüCOS offers statistical consulting as well as training on study planning, powe
 – Durchführung von A-priori-Poweranalysen und begründeter Stichprobenplanung
 – Methodische Beratung zur Wahl frequentistischer oder bayesianischer Verfahren
 – Unterstützung bei transparentem Reporting (Effektstärken, Konfidenz-/Glaubwürdigkeitsintervalle)
-– Schulung der beteiligten Arbeitsgruppen in Studienplanung und Statistik
+– Schulung und Beratung der beteiligten Arbeitsgruppen in Studienplanung und Statistik
+– Regelmäßige Kommunikation mit Projektmitarbeitenden zu statistischen Anforderungen
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium (idealerweise Promotion) in Statistik, Methodenlehre oder einem quantitativen Fach
-– Fundierte Kenntnisse in frequentistischer und bayesianischer Statistik
-– Sehr gute Kenntnisse in R und/oder Python
-– Beratungskompetenz und didaktisches Geschick`,
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar; idealerweise Promotion) in Statistik, Methodenlehre oder einem quantitativen Fach
+– Fundierte Kenntnisse in frequentistischer und bayesianischer Statistik; sehr gute Kenntnisse in R und/oder Python
+– Erste Erfahrungen im Projektmanagement, ausgeprägte Kommunikationsfähigkeit und sehr gute Deutsch- und Englischkenntnisse
+– Beratungskompetenz und didaktisches Geschick; soziale Kompetenz und Teamfähigkeit`,
       jobad_en:`Responsibilities:
 – Conducting a-priori power analyses and justified sample planning
 – Methodological consulting on the choice of frequentist or Bayesian methods
 – Supporting transparent reporting (effect sizes, confidence/credible intervals)
-– Training the participating research groups in study planning and statistics
+– Training and advising the participating research groups in study planning and statistics
+– Regular communication with project staff on statistical requirements
 
 Requirements:
-– Completed university degree (ideally PhD) in statistics, research methods, or a quantitative field
-– Solid knowledge of frequentist and Bayesian statistics
-– Very good command of R and/or Python
-– Consulting skills and didactic ability`,
+– Completed university degree (Master or equivalent; PhD preferred) in statistics, research methods, or a quantitative field
+– Solid knowledge of frequentist and Bayesian statistics; very good command of R and/or Python
+– Initial project management experience, strong communication skills, and very good German and English language proficiency
+– Consulting skills, didactic ability, social skills, and ability to work in a team`,
       links:['G*Power','Stan'], münster:true
     },
     {
@@ -861,34 +753,34 @@ Requirements:
       title_de:'Registered Reports', title_en:'Registered Reports',
       short_de:'Einreichung der Studie als Registered Report mit Stage-1-Begutachtung des Designs vor der Datenerhebung und garantierter Publikation unabhängig vom Ergebnis.',
       short_en:'Submission of the study as a Registered Report with stage-1 review of the design before data collection and guaranteed publication regardless of outcome.',
-      full_de:`Das Vorhaben nutzt das Format des Registered Reports: Studiendesign, Hypothesen und Analyseplan werden vor der Datenerhebung bei einer Zeitschrift eingereicht und einer Stage-1-Begutachtung unterzogen. Nach Annahme („In-Principle Acceptance") ist die Publikation unabhängig vom Ergebnis zugesichert, was Publikationsbias und fragwürdige Forschungspraktiken wirksam reduziert. In Stage 2 werden die Ergebnisse berichtet und die Einhaltung des Plans überprüft. Das Format eignet sich besonders für konfirmatorische Fragestellungen.
+      full_de:`Das Vorhaben nutzt das Format des Registered Reports: Studiendesign, Hypothesen und Analyseplan werden vor der Datenerhebung bei einer Zeitschrift eingereicht und einer Stage-1-Begutachtung unterzogen. Nach Annahme („In-Principle Acceptance") ist die Publikation unabhängig vom Ergebnis zugesichert, was Publikationsbias und fragwürdige Forschungspraktiken wirksam reduziert. In Stage 2 werden die Ergebnisse berichtet und die Einhaltung des Plans überprüft.
 
 Das MüCOS unterstützt bei der Auswahl geeigneter Registered-Report-Zeitschriften, der Vorbereitung der Stage-1-Einreichung und der Abgrenzung von konfirmatorischen und explorativen Analysen.`,
-      full_en:`The project uses the Registered Report format: study design, hypotheses, and analysis plan are submitted to a journal before data collection and undergo stage-1 review. Following acceptance ("in-principle acceptance"), publication is guaranteed regardless of the outcome, effectively reducing publication bias and questionable research practices. In stage 2, the results are reported and adherence to the plan is verified. The format is particularly suited to confirmatory research questions.
+      full_en:`The project uses the Registered Report format: study design, hypotheses, and analysis plan are submitted to a journal before data collection and undergo stage-1 review. Following acceptance ("in-principle acceptance"), publication is guaranteed regardless of the outcome, effectively reducing publication bias and questionable research practices. In stage 2, the results are reported and adherence to the plan is verified.
 
-MüCOS supports the selection of suitable Registered Report journals, the preparation of the stage-1 submission, and the distinction between confirmatory and exploratory analyses.`,
+MüCOS supports the selection of suitable Registered Report journals, the preparation of the stage-1 submission, and the distinction between confirmatory and exploratory analyses.\`,
       jobad_de:`Aufgaben:
 – Vorbereitung der Stage-1-Einreichung (Design, Hypothesen, Analyseplan) bei geeigneten Registered-Report-Zeitschriften
 – Begleitung des Begutachtungsprozesses bis zur In-Principle Acceptance
 – Durchführung und Berichterstattung der Stage-2-Analysen unter Einhaltung des registrierten Plans
-– Saubere Abgrenzung konfirmatorischer und explorativer Analysen
+– Saubere Abgrenzung konfirmatorischer und explorativer Analysen; Beratung der Arbeitsgruppe
 
 Anforderungen:
-– Abgeschlossenes wissenschaftliches Hochschulstudium im einschlägigen Fach
-– Erfahrung mit Registered Reports oder präregistrierten Studien
-– Fundierte methodische Kenntnisse
-– Strukturierte, vorausschauende und transparente Arbeitsweise`,
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar) im einschlägigen Fach
+– Erfahrung mit Registered Reports oder präregistrierten Studien; fundierte methodische Kenntnisse
+– Ausgeprägte Kommunikationsfähigkeit sowie sehr gute Deutsch- und Englischkenntnisse
+– Strukturierte, vorausschauende und transparente Arbeitsweise; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Preparing the stage-1 submission (design, hypotheses, analysis plan) to suitable Registered Report journals
 – Accompanying the review process through to in-principle acceptance
 – Conducting and reporting the stage-2 analyses in adherence to the registered plan
-– Cleanly distinguishing confirmatory and exploratory analyses
+– Cleanly distinguishing confirmatory and exploratory analyses; advising the research group
 
 Requirements:
-– Completed scientific university degree in the relevant field
-– Experience with Registered Reports or pre-registered studies
-– Solid methodological knowledge
-– Structured, forward-looking, and transparent way of working`,
+– Completed university degree (Master or equivalent) in the relevant field
+– Experience with Registered Reports or pre-registered studies; solid methodological knowledge
+– Strong communication skills and very good German and English language proficiency
+– Structured, forward-looking, and transparent way of working; PhD an advantage`,
       links:['Center for Open Science'], münster:true
     },
     {
@@ -897,34 +789,34 @@ Requirements:
       title_de:'Community Engagement & Citizen Science', title_en:'Community engagement & citizen science',
       short_de:'Aktive Einbindung von Bürger:innen und Betroffenen in Forschungsprozesse (Datenerhebung, -auswertung, Mitgestaltung) und transparente Dokumentation der Beteiligung.',
       short_en:'Active involvement of citizens and affected communities in research processes (data collection, analysis, co-design) and transparent documentation of participation.',
-      full_de:`Das Vorhaben öffnet den Forschungsprozess über die Fachgemeinschaft hinaus: Bürger:innen und – wo relevant – Betroffene werden aktiv in die Forschung eingebunden, etwa in Datenerhebung, -auswertung oder in die Mitgestaltung von Fragestellungen (Co-Design). Die Beteiligungsprozesse werden nach etablierten Standards (z. B. PPIE – Patient and Public Involvement and Engagement) transparent dokumentiert. Damit werden Relevanz, Reichweite und gesellschaftliche Wirkung der Forschung gestärkt.
+      full_de:`Das Vorhaben öffnet den Forschungsprozess über die Fachgemeinschaft hinaus: Bürger:innen und – wo relevant – Betroffene werden aktiv in die Forschung eingebunden, etwa in Datenerhebung, -auswertung oder in die Mitgestaltung von Fragestellungen (Co-Design). Die Beteiligungsprozesse werden nach etablierten Standards (z. B. PPIE – Patient and Public Involvement and Engagement) transparent dokumentiert.
 
 Das MüCOS berät zu partizipativen Forschungsformaten, zur Gestaltung von Beteiligungsprozessen und zur Verbindung von Citizen Science mit Open-Science-Praktiken.`,
-      full_en:`The project opens the research process beyond the scientific community: citizens and — where relevant — affected communities are actively involved in research, for example in data collection, analysis, or the co-design of research questions. Participation processes are transparently documented following established standards (e.g. PPIE — Patient and Public Involvement and Engagement). This strengthens the relevance, reach, and societal impact of the research.
+      full_en:`The project opens the research process beyond the scientific community: citizens and — where relevant — affected communities are actively involved in research, for example in data collection, analysis, or the co-design of research questions. Participation processes are transparently documented following established standards (e.g. PPIE).
 
 MüCOS advises on participatory research formats, the design of participation processes, and connecting citizen science with open science practices.`,
       jobad_de:`Aufgaben:
 – Konzeption und Durchführung partizipativer Forschungs- und Beteiligungsformate (Datenerhebung, -auswertung, Co-Design)
-– Aktive Einbindung von Bürger:innen und Betroffenen in den Forschungsprozess
-– Transparente Dokumentation der Beteiligung nach etablierten Standards (z. B. PPIE)
-– Verbindung von Citizen Science mit Open-Science-Praktiken
+– Aktive Einbindung von Bürger:innen und Betroffenen; transparente Dokumentation nach etablierten Standards (z. B. PPIE)
+– Aufbau und Pflege von Netzwerken zu Bürger:innen, Betroffenengruppen und externen Partnern
+– Verbindung von Citizen Science mit Open-Science-Praktiken in Abstimmung mit MüCOS
 
 Anforderungen:
-– Abgeschlossenes Hochschulstudium, idealerweise mit Bezug zu partizipativer Forschung, Sozialwissenschaften oder dem Forschungsgebiet
+– Erfolgreich abgeschlossenes Hochschulstudium (Master oder vergleichbar), idealerweise mit Bezug zu partizipativer Forschung oder Sozialwissenschaften
 – Erfahrung in der Zusammenarbeit mit nicht-wissenschaftlichen Zielgruppen
-– Sehr gute kommunikative und organisatorische Fähigkeiten
-– Empathische, inklusive und strukturierte Arbeitsweise`,
+– Ausgeprägte Kommunikationsfähigkeit, soziale Kompetenz und Teamfähigkeit; sehr gute Deutsch- und Englischkenntnisse
+– Erste Erfahrungen im Projektmanagement; Promotion ist von Vorteil`,
       jobad_en:`Responsibilities:
 – Designing and conducting participatory research and engagement formats (data collection, analysis, co-design)
-– Actively involving citizens and affected communities in the research process
-– Transparently documenting participation following established standards (e.g. PPIE)
-– Connecting citizen science with open science practices
+– Actively involving citizens and affected communities; transparently documenting participation (e.g. PPIE)
+– Building and maintaining networks with citizens, affected groups, and external partners
+– Connecting citizen science with open science practices in coordination with MüCOS
 
 Requirements:
-– Completed university degree, ideally related to participatory research, social sciences, or the research field
+– Completed university degree (Master or equivalent), ideally related to participatory research or social sciences
 – Experience working with non-scientific audiences
-– Excellent communication and organisational skills
-– Empathetic, inclusive, and structured way of working`,
+– Strong communication and social skills, teamwork ability; very good German and English language proficiency
+– Initial project management experience; PhD an advantage`,
       links:['PPIE'], münster:true
     }
   ];
@@ -942,8 +834,6 @@ Requirements:
   const selected = new Set(), expanded = new Set();
   const t = (de, en) => lang === 'de' ? de : en;
   const $ = id => document.getElementById(id);
-
-  // Returns the active content field for a module depending on mode
   const content = m => mode === 'jobad'
     ? (lang === 'de' ? m.jobad_de : m.jobad_en)
     : (lang === 'de' ? m.full_de  : m.full_en);
@@ -954,7 +844,6 @@ Requirements:
     $('osp-mode-jobad').classList.toggle('active', md === 'jobad');
     render();
   };
-
   window.ospSetLang = function(l) {
     lang = l;
     document.querySelectorAll('#os-picker .osp-lang-group:first-child .osp-lang-btn').forEach((b,i) =>
@@ -971,37 +860,29 @@ Requirements:
     if (el)  el.classList.toggle('open', expanded.has(id));
     if (btn) btn.textContent = expanded.has(id)
       ? t('Weniger anzeigen','Show less')
-      : (mode === 'jobad'
-          ? t('Ausschreibungstext →','Job ad text →')
-          : t('Volltext für Antrag →','Full proposal text →'));
+      : (mode==='jobad' ? t('Ausschreibungstext →','Job ad text →') : t('Volltext für Antrag →','Full proposal text →'));
   };
   window.ospClearAll = function() { selected.clear(); render(); };
 
   function buildText() {
     const sel = MODULES.filter(m => selected.has(m.id));
     if (!sel.length) return '';
-    let out;
-    if (mode === 'jobad') {
-      out = t(
-        '=== Textbausteine für Stellenausschreibung ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
-        '=== Text Modules for Job Advertisement ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
-      );
-    } else {
-      out = t(
-        '=== Open-Science-Textbausteine für Forschungsantrag ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
-        '=== Open Science Text Modules for Research Proposal ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n'
-      );
-    }
+    const disc = t('⚠ FTE-Angaben sind Schätzwerte — bitte an Fach und Antragsformat anpassen.\n\n',
+                   '⚠ FTE figures are estimates — please adapt to discipline and funding format.\n\n');
+    let out = mode==='jobad'
+      ? t('=== Textbausteine für Stellenausschreibung ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
+          '=== Text Modules for Job Advertisement ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n')
+      : t('=== Open-Science-Textbausteine für Forschungsantrag ===\nMünster Center for Open Science (MüCOS), Universität Münster\n\n',
+          '=== Open Science Text Modules for Research Proposal ===\nMünster Center for Open Science (MüCOS), University of Münster\n\n');
+    out += disc;
     sel.forEach(m => {
       out += (lang==='de'?m.title_de:m.title_en)+'\n';
-      out += t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE\n`,`FTE requirement: ${m.fte_min}–${m.fte_max}% FTE\n`);
+      out += t(`FTE-Bedarf (Schätzung): ${m.fte_min}–${m.fte_max} % FTE\n`,`FTE requirement (estimate): ${m.fte_min}–${m.fte_max}% FTE\n`);
       out += content(m)+'\n\n---\n\n';
     });
     const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
-    out += t(
-      `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE\nPoolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
-      `Total FTE (average): approx. ${Math.round(avg)}% FTE\nPoolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`
-    );
+    out += t(`Gesamt-FTE (Schätzung): ca. ${Math.round(avg)} % FTE\nPoolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,
+             `Total FTE (estimate): approx. ${Math.round(avg)}% FTE\nPoolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`);
     return out;
   }
 
@@ -1009,208 +890,95 @@ Requirements:
     const text = buildText();
     if (!text) return;
     navigator.clipboard.writeText(text).then(() => {
-      const btn = document.getElementById('osp-clip-btn');
-      const orig = btn.textContent;
-      btn.textContent = '✓ Kopiert!';
-      setTimeout(() => { btn.textContent = orig; }, 2000);
-    }).catch(() => {
-      const ta = document.createElement('textarea');
-      ta.value = text;
-      ta.style.position = 'fixed'; ta.style.opacity = '0';
-      document.body.appendChild(ta); ta.select();
-      document.execCommand('copy');
-      document.body.removeChild(ta);
-      const btn = document.getElementById('osp-clip-btn');
-      const orig = btn.textContent;
-      btn.textContent = '✓ Kopiert!';
-      setTimeout(() => { btn.textContent = orig; }, 2000);
+      const btn=$('osp-clip-btn'), orig=btn.textContent;
+      btn.textContent='✓ Kopiert!'; setTimeout(()=>{btn.textContent=orig;},2000);
+    }).catch(()=>{
+      const ta=document.createElement('textarea');
+      ta.value=text; ta.style.position='fixed'; ta.style.opacity='0';
+      document.body.appendChild(ta); ta.select(); document.execCommand('copy'); document.body.removeChild(ta);
+      const btn=$('osp-clip-btn'), orig=btn.textContent;
+      btn.textContent='✓ Kopiert!'; setTimeout(()=>{btn.textContent=orig;},2000);
     });
   };
 
-  // ── Proper .docx export using docx.js library ──────────────────
   window.ospExportDocx = async function() {
     const sel = MODULES.filter(m => selected.has(m.id));
     if (!sel.length) return;
-
-    // Wait for docx library to load if not yet ready
-    if (typeof docx === 'undefined') {
-      alert(t('Die Bibliothek wird noch geladen. Bitte einen Moment warten und erneut versuchen.',
-              'The library is still loading. Please wait a moment and try again.'));
-      return;
-    }
-
-    const { Document, Packer, Paragraph, TextRun, HeadingLevel, AlignmentType, BorderStyle } = docx;
-
-    const avg = sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2, 0);
-
-    const RED   = 'A32638';
-    const DARK  = '2B2420';
-    const GREY  = '8C8278';
-
-    // Helper: split text on newlines into multiple paragraphs
-    function textToParagraphs(text, opts = {}) {
-      return text.split('\n').map(line => new Paragraph({
-        spacing: { after: line.trim() === '' ? 80 : 160 },
-        ...opts,
-        children: [new TextRun({ text: line, font: 'Arial', size: 22, color: DARK, ...opts.run })]
-      }));
-    }
-
-    const children = [];
-
-    // Title
-    children.push(new Paragraph({
-      spacing: { after: 120 },
-      children: [new TextRun({
-        text: mode === 'jobad'
-          ? t('Textbausteine für Stellenausschreibung', 'Text Modules for Job Advertisement')
-          : t('Open-Science-Textbausteine für Forschungsantrag', 'Open Science Text Modules for Research Proposal'),
-        bold: true, size: 36, font: 'Arial', color: RED
-      })]
+    if (typeof docx === 'undefined') { alert(t('Bibliothek lädt noch.','Library still loading.')); return; }
+    const { Document, Packer, Paragraph, TextRun, BorderStyle } = docx;
+    const avg=sel.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
+    const RED='A32638', DARK='2B2420', GREY='8C8278', AMBER='C47D0E';
+    const lines2paras = txt => txt.split('\n').map(line => new Paragraph({
+      spacing:{after:line.trim()===''?60:140},
+      children:[new TextRun({text:line,font:'Arial',size:22,color:DARK})]
     }));
-
-    // Subtitle
-    children.push(new Paragraph({
-      spacing: { after: 360 },
-      children: [new TextRun({
-        text: t('Münster Center for Open Science (MüCOS), Universität Münster',
-                'Münster Center for Open Science (MüCOS), University of Münster'),
-        size: 22, font: 'Arial', color: GREY
-      })]
-    }));
-
-    // Each module
-    sel.forEach((m, idx) => {
-      // Module heading
-      children.push(new Paragraph({
-        spacing: { before: idx === 0 ? 0 : 360, after: 100 },
-        border: { bottom: { style: BorderStyle.SINGLE, size: 4, color: 'DDD5CC', space: 1 } },
-        children: [
-          new TextRun({ text: t(m.title_de, m.title_en), bold: true, size: 28, font: 'Arial', color: DARK }),
-        ]
-      }));
-
-      // Phase & FTE line
-      children.push(new Paragraph({
-        spacing: { after: 160 },
-        children: [
-          new TextRun({ text: t(`Phase: ${m.phase_de}`, `Phase: ${m.phase_en}`), size: 20, font: 'Arial', color: GREY }),
-          new TextRun({ text: '   |   ', size: 20, font: 'Arial', color: GREY }),
-          new TextRun({ text: t(`FTE-Bedarf: ${m.fte_min}–${m.fte_max} % FTE`, `FTE requirement: ${m.fte_min}–${m.fte_max}% FTE`), size: 20, font: 'Arial', bold: true, color: RED }),
-        ]
-      }));
-
-      // Full text paragraphs (proposal text or job ad depending on mode)
-      const fullText = content(m);
-      textToParagraphs(fullText).forEach(p => children.push(p));
+    const ch=[];
+    ch.push(new Paragraph({spacing:{after:100},children:[new TextRun({
+      text:mode==='jobad'?t('Textbausteine für Stellenausschreibung','Text Modules for Job Advertisement'):t('Open-Science-Textbausteine für Forschungsantrag','Open Science Text Modules for Research Proposal'),
+      bold:true,size:36,font:'Arial',color:RED
+    })]}));
+    ch.push(new Paragraph({spacing:{after:120},children:[new TextRun({
+      text:t('Münster Center for Open Science (MüCOS), Universität Münster','Münster Center for Open Science (MüCOS), University of Münster'),
+      size:22,font:'Arial',color:GREY
+    })]}));
+    ch.push(new Paragraph({spacing:{before:160,after:60},children:[new TextRun({
+      text:t('⚠  Hinweis zu FTE-Angaben','⚠  Note on FTE figures'),bold:true,size:22,font:'Arial',color:AMBER
+    })]}));
+    ch.push(new Paragraph({spacing:{after:280},children:[new TextRun({
+      text:t('Die angegebenen FTE-Werte sind Schätzungen und müssen je nach Fach, Projektgröße, Laufzeit und Antragsformat individuell angepasst werden.',
+             'FTE figures are estimates and must be adapted to discipline, project size, duration, and funding format.'),
+      size:20,font:'Arial',color:AMBER
+    })]}));
+    sel.forEach((m,idx)=>{
+      ch.push(new Paragraph({spacing:{before:idx===0?0:360,after:80},border:{bottom:{style:BorderStyle.SINGLE,size:4,color:'DDD5CC',space:1}},children:[
+        new TextRun({text:t(m.title_de,m.title_en),bold:true,size:28,font:'Arial',color:DARK})
+      ]}));
+      ch.push(new Paragraph({spacing:{after:160},children:[
+        new TextRun({text:t(`Phase: ${m.phase_de}`,`Phase: ${m.phase_en}`),size:20,font:'Arial',color:GREY}),
+        new TextRun({text:'   |   ',size:20,font:'Arial',color:GREY}),
+        new TextRun({text:t(`FTE (Schätzung): ${m.fte_min}–${m.fte_max} % FTE`,`FTE (estimate): ${m.fte_min}–${m.fte_max}% FTE`),size:20,font:'Arial',bold:true,color:AMBER}),
+      ]}));
+      lines2paras(content(m)).forEach(p=>ch.push(p));
     });
-
-    // Separator
-    children.push(new Paragraph({
-      spacing: { before: 400, after: 200 },
-      border: { top: { style: BorderStyle.SINGLE, size: 6, color: RED, space: 1 } },
-      children: []
-    }));
-
-    // Summary line
-    children.push(new Paragraph({
-      spacing: { after: 80 },
-      children: [new TextRun({
-        text: t(
-          `Gesamt-FTE (Durchschnitt): ca. ${Math.round(avg)} % FTE`,
-          `Total FTE (average): approx. ${Math.round(avg)}% FTE`
-        ),
-        bold: true, size: 24, font: 'Arial', color: DARK
-      })]
-    }));
-    children.push(new Paragraph({
-      spacing: { after: 80 },
-      children: [new TextRun({
-        text: t(
-          `Poolbarer Anteil (50 %): ca. ${Math.round(avg * 0.5)} % FTE`,
-          `Poolable share (50%): approx. ${Math.round(avg * 0.5)}% FTE`
-        ),
-        size: 22, font: 'Arial', color: GREY
-      })]
-    }));
-
-    // Footer note
-    children.push(new Paragraph({
-      spacing: { before: 200, after: 0 },
-      children: [new TextRun({
-        text: t('Erstellt mit dem MüCOS Antragsmodul-Werkzeugkasten · lukas.roeseler@uni-muenster.de',
-                'Generated with the MüCOS proposal module toolkit · lukas.roeseler@uni-muenster.de'),
-        size: 18, font: 'Arial', color: GREY, italics: true
-      })]
-    }));
-
-    const doc = new Document({
-      styles: {
-        default: { document: { run: { font: 'Arial', size: 22 } } }
-      },
-      sections: [{
-        properties: {
-          page: {
-            size: { width: 11906, height: 16838 }, // A4
-            margin: { top: 1440, right: 1440, bottom: 1440, left: 1440 }
-          }
-        },
-        children
-      }]
-    });
-
+    ch.push(new Paragraph({spacing:{before:400,after:160},border:{top:{style:BorderStyle.SINGLE,size:6,color:RED,space:1}},children:[]}));
+    ch.push(new Paragraph({spacing:{after:80},children:[new TextRun({text:t(`Gesamt-FTE (Schätzung): ca. ${Math.round(avg)} % FTE`,`Total FTE (estimate): approx. ${Math.round(avg)}% FTE`),bold:true,size:24,font:'Arial',color:DARK})]}));
+    ch.push(new Paragraph({spacing:{after:80},children:[new TextRun({text:t(`Poolbarer Anteil (50 %): ca. ${Math.round(avg*0.5)} % FTE`,`Poolable share (50%): approx. ${Math.round(avg*0.5)}% FTE`),size:22,font:'Arial',color:GREY})]}));
+    ch.push(new Paragraph({spacing:{before:160},children:[new TextRun({text:t('Erstellt mit dem MüCOS Antragsmodul-Werkzeugkasten · lukas.roeseler@uni-muenster.de','Generated with the MüCOS proposal module toolkit · lukas.roeseler@uni-muenster.de'),size:18,font:'Arial',color:GREY,italics:true})]}));
+    const doc=new Document({sections:[{properties:{page:{size:{width:11906,height:16838},margin:{top:1440,right:1440,bottom:1440,left:1440}}},children:ch}]});
     try {
-      const buffer = await Packer.toBlob(doc);
-      const filename = mode === 'jobad'
-        ? (lang === 'de' ? 'MüCOS_Stellenausschreibung.docx' : 'MüCOS_JobAd.docx')
-        : (lang === 'de' ? 'MüCOS_Antragsmodule.docx' : 'MüCOS_ProposalModules.docx');
-      saveAs(buffer, filename);
-    } catch(err) {
-      console.error('docx export error:', err);
-      alert(t('Fehler beim Erstellen der Datei: ' + err.message,
-              'Error creating file: ' + err.message));
-    }
+      const buf=await Packer.toBlob(doc);
+      const fn=mode==='jobad'?(lang==='de'?'MüCOS_Stellenausschreibung.docx':'MüCOS_JobAd.docx'):(lang==='de'?'MüCOS_Antragsmodule.docx':'MüCOS_ProposalModules.docx');
+      saveAs(buf,fn);
+    } catch(err){ console.error(err); alert(t('Fehler: '+err.message,'Error: '+err.message)); }
   };
 
   function render() {
     $('osp-tabs').innerHTML = PHASES.map(p =>
       `<button class="osp-tab ${activePhase===p.id?'active':''}" onclick="ospSetPhase('${p.id}')">${t(p.de,p.en)}</button>`
     ).join('');
-
-    // Mode toggle labels
-    $('osp-mode-label').textContent      = t('Textart\u2002','Type\u2002');
-    $('osp-mode-proposal').textContent   = t('Antragstext','Proposal text');
-    $('osp-mode-jobad').textContent      = t('Stellenausschreibung','Job advertisement');
-
-    const selArr = MODULES.filter(m => selected.has(m.id));
-    const sumEl  = $('osp-summary');
+    $('osp-mode-label').textContent    = t('Textart\u2002','Type\u2002');
+    $('osp-mode-proposal').textContent = t('Antragstext','Proposal text');
+    $('osp-mode-jobad').textContent    = t('Stellenausschreibung','Job advertisement');
+    const selArr=MODULES.filter(m=>selected.has(m.id));
+    const sumEl=$('osp-summary');
     if (selArr.length) {
-      sumEl.style.display = 'block';
-      const avg = selArr.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2, 0);
-      $('osp-sum-title').textContent = mode === 'jobad'
-        ? t('Ausgewählte Module (Stellenausschreibung)','Selected modules (job advertisement)')
-        : t('Ausgewählte Module','Selected modules');
-      $('osp-lbl-n').textContent     = t('Module gewählt','Modules selected');
-      $('osp-lbl-fte').textContent   = t('Gesamt-FTE (Ø)','Total FTE (avg)');
-      $('osp-lbl-pool').textContent  = t('Poolbarer Anteil (50 %)','Poolable share (50%)');
-      $('osp-n').textContent         = selArr.length;
-      $('osp-fte').innerHTML         = `${Math.round(avg)} <span class="osp-unit">% FTE</span>`;
-      $('osp-pool').innerHTML        = `${Math.round(avg*0.5)} <span class="osp-unit">% FTE</span>`;
-      $('osp-clear-btn').textContent = t('Alle abwählen','Deselect all');
-      document.querySelector('#os-picker .osp-btn-primary').textContent =
-        t('Als .docx herunterladen ↓','Download as .docx ↓');
-    } else {
-      sumEl.style.display = 'none';
-    }
-
-    const filtered = activePhase==='all' ? MODULES : MODULES.filter(m=>m.phase===activePhase);
-    if (!filtered.length) {
-      $('osp-grid').innerHTML = `<div class="osp-empty">${t('Keine Module in dieser Phase.','No modules in this phase.')}</div>`;
-      return;
-    }
-    $('osp-grid').innerHTML = filtered.map(m => {
-      const isSel = selected.has(m.id);
-      const isExp = expanded.has(m.id);
+      sumEl.style.display='block';
+      const avg=selArr.reduce((a,m)=>a+(m.fte_min+m.fte_max)/2,0);
+      $('osp-sum-title').textContent=mode==='jobad'?t('Ausgewählte Module (Stellenausschreibung)','Selected modules (job ad)'):t('Ausgewählte Module','Selected modules');
+      $('osp-lbl-n').textContent=t('Module gewählt','Modules selected');
+      $('osp-lbl-fte').textContent=t('Gesamt-FTE (Ø, Schätzung)','Total FTE (avg, estimate)');
+      $('osp-lbl-pool').textContent=t('Poolbarer Anteil (50 %)','Poolable share (50%)');
+      $('osp-n').textContent=selArr.length;
+      $('osp-fte').innerHTML=`${Math.round(avg)} <span class="osp-unit">% FTE</span>`;
+      $('osp-pool').innerHTML=`${Math.round(avg*0.5)} <span class="osp-unit">% FTE</span>`;
+      $('osp-fte-disc').textContent=t('Schätzwerte — bitte an Fach und Antragsformat anpassen','Estimates — please adapt to discipline and funding format');
+      $('osp-clear-btn').textContent=t('Alle abwählen','Deselect all');
+      document.querySelector('#os-picker .osp-btn-primary').textContent=t('Als .docx herunterladen ↓','Download as .docx ↓');
+    } else { sumEl.style.display='none'; }
+    const filtered=activePhase==='all'?MODULES:MODULES.filter(m=>m.phase===activePhase);
+    if (!filtered.length){$('osp-grid').innerHTML=`<div class="osp-empty">${t('Keine Module.','No modules.')}</div>`;return;}
+    $('osp-grid').innerHTML=filtered.map(m=>{
+      const isSel=selected.has(m.id),isExp=expanded.has(m.id);
       return `
 <div class="osp-card ${isSel?'selected':''} ${PC[m.phase]||''}" onclick="ospToggle('${m.id}')">
   <div class="osp-stripe"></div>
@@ -1221,7 +989,7 @@ Requirements:
       <span class="osp-title">${t(m.title_de,m.title_en)}</span>
       ${m.münster?`<div class="osp-münster-badge">★ ${t('MüCOS-Alleinstellungsmerkmal','MüCOS unique capability')}</div>`:''}
     </div>
-    <div class="osp-fte-badge">${m.fte_min}–${m.fte_max}&thinsp;%&thinsp;FTE</div>
+    <div class="osp-fte-badge">${m.fte_min}–${m.fte_max}&thinsp;%&thinsp;FTE<span class="osp-fte-badge-note">${t('Schätzung','estimate')}</span></div>
   </div>
   <div class="osp-body">
     <div class="osp-short">${t(m.short_de,m.short_en)}</div>
@@ -1236,8 +1004,6 @@ Requirements:
 </div>`;
     }).join('');
   }
-
   render();
 })();
 </script>
-```
