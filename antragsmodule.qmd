@@ -13,14 +13,6 @@ fertige, anpassbare Textbausteine auf Deutsch und Englisch – jeweils mit
 einer **Schätzung des FTE-Bedarfs**, die als Orientierungswert dient und
 je nach Fach, Projektgröße und Antragsformat angepasst werden muss.
 
-Das Modell der **gebündelten Stellenfinanzierung** ermöglicht es
-mehreren Arbeitsgruppen, ihren jeweiligen FTE-Anteil in einen
-gemeinsamen Pool einzubringen. Aus diesem Pool wird über eine
-**Ausfallbürgschaft der Universität Münster** eine gemeinsam finanzierte
-Expert:innenstelle (z. B. Datenmanagement, Code-Review, Statistik)
-besetzt – eine Lösung, die für Einzelprojekte zu kleinteilig, im Verbund
-aber hocheffizient ist.
-
 **So funktioniert die Auswahl:** Klicken Sie auf die Module, die für Ihr
 Vorhaben relevant sind. Der Werkzeugkasten berechnet den
 Gesamt-FTE-Bedarf und gibt den poolbaren Anteil aus. Über „Als .docx
