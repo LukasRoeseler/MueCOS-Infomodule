@@ -687,9 +687,9 @@ hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichen:
     benötigt wird
 
 -   Projekt in einem Repositorium mit dauerhafter, versionierter
-    DOI-Vergabe (z. B. Zenodo, PsychArchives) ablegen, sodass Links
-    permanent sind und Daten im Nachhinein nicht mehr unbemerkt
-    verändert werden können
+    DOI-Vergabe (z. B. Zenodo, PsychArchives, OSF Registrations)
+    ablegen, sodass Links permanent sind und Daten im Nachhinein nicht
+    mehr unbemerkt verändert werden können
 
 -   Abbildungen und Tabellen aus dem Skript heraus speichern
 
