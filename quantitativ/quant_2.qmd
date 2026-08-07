@@ -114,7 +114,9 @@ Reihenfolge der tatsächlichen Durchführung.
 Laden Sie Ihre in den Schritten 1 und 2 erstellte Dokumentation der
 Methoden und zusätzlich alle verwendeten Originalmaterialien (wenn
 lizenzrechtlich möglich) auf einem öffentlich zugänglichen Repositorium
-(bspw. [www.osf.io](http://www.osf.io/)) hoch.
+(bspw. dem [Datastore der Universität
+Münster](https://www.uni-muenster.de/Publizieren/veroeffentlichung/forschungsdaten/)
+oder [Zenodo.org](https://zenodo.org)) hoch.
 
 ### **4. Verlinken Sie die Dokumentation im Paper.**
 
@@ -223,8 +225,10 @@ Variablen (ggf. inkl. nötige Rekodierungen) zu geben.
 ### **3. Daten hochladen**
 
 Laden Sie schließlich alle gesammelten Dokumente (Codebook, alle
-Materialien) auf einem öffentlichen Repositorium hoch (bspw.
-[www.osf.io](http://www.osf.io/)).
+Materialien) auf einem öffentlichen Repositorium hoch (bspw. dem
+[Datastore der Universität
+Münster](https://www.uni-muenster.de/Publizieren/veroeffentlichung/forschungsdaten/)
+oder [Zenodo.org](https://zenodo.org)).
 
 ### **4. Dokumentation im Paper selbst**
 
@@ -267,7 +271,7 @@ konservativ geschätzter relevanter Effektstärken).
 -   Im Paper wird ein dauerhafter Link zu den Materialien gegeben, die
     in einem öffentlichen Open-Access Repositorium abgelegt sind. Die
     Materialien müssen einen "persistent identifier" (z. B. DOI über ein
-    öffentliches OSF-Projekt oder ein Zenodo-Projekt) haben und in einem
+    öffentliches PsychArchives-Projekt oder ein Zenodo-Projekt) haben und in einem
     zeitgestempelten, unveränderlichen und permanenten Format
     bereitgestellt sein.
 
@@ -442,8 +446,9 @@ psychologischer Forschungsdaten mit dem Namen Data Wiz zu entwickeln
 (<https://datawizkb.leibniz-psychology.org>). Data Wiz soll bei der
 systematischen Dokumentation aller Abläufe und Maße helfen. Die so
 systematisch gesicherten und dokumentierten Materialien können dann über
-ein Repositorium wie OSF zur Verfügung gestellt werden. Das
-Assistenzsystem befindet sich momentan in der Testphase.
+ein Repositorium wie [PsychArchives](https://www.psycharchives.org) zur
+Verfügung gestellt werden. Das Assistenzsystem befindet sich momentan in
+der Testphase.
 
 Das ZPID richtet sich momentan strategisch generell neu aus als
 Universalinfrastruktureinrichtung im Sinne eines Open Science Instituts.
@@ -535,7 +540,7 @@ Kriterien zutreffen:
 Kurzleitfaden](/img/reproduciblecode_zubeachten.png){.lightbox}
 
 Die Codes sollten in einem öffentlichen und frei zugänglichen
-Online-Repositorium (bspw. [www.osf.io](http://www.osf.io/)) gespeichert
+Online-Repositorium (bspw. [Zenodo.org](https://zenodo.org)) gespeichert
 werden. Im Paper (bspw. zu Beginn des Statistical Analyses- oder des
 Results-Teils) sollte der Link zu den Codes gegeben werden.
 Optimalerweise stehen dort auch die Daten als Open Data zur Verfügung,
@@ -676,19 +681,21 @@ hierbei synonym verwendet). Hier sind einige Tipps, die das ermöglichen:
 -   Ergebnisse oder vollständige Manuskripte mit Markdown-Sprache
     schreiben (z. B. RMarkdown, Quarto)
 
--   Daten ins OSF hochladen und direkt von dort aus in
+-   Daten in ein Repositorium wie Zenodo oder den Datastore der
+    Universität Münster hochladen und direkt von dort aus in
     Statistik-Programm einlesen, sodass zur Prüfung nur das Skript
     benötigt wird
 
--   OSF Projekt mit "Open Ended Registration" registrieren, sodass Links
-    permanent sind und Daten im Nachhinein nicht mehr verändert werden
-    können
+-   Projekt in einem Repositorium mit dauerhafter, versionierter
+    DOI-Vergabe (z. B. Zenodo, PsychArchives) ablegen, sodass Links
+    permanent sind und Daten im Nachhinein nicht mehr unbemerkt
+    verändert werden können
 
 -   Abbildungen und Tabellen aus dem Skript heraus speichern
 
 -   Bei mehreren Studien, Skripte über ein Master-Skript ausführen
     lassen (in R z. B. via source() - funktioniert auch mit Skripten,
-    die im OSF hochgeladen sind)
+    die in einem Online-Repositorium wie Zenodo hochgeladen sind)
 
 -   Beispiel für Instruktionen zur Push-Button-Replicability für das
     Journal of Comments and Replications in Economics:

@@ -17,7 +17,7 @@ Qualitative Forschung arbeitet häufig mit sensiblen Daten — Interviews, Beoba
 
 ## Offene Materialien
 
-Viele Materialien qualitativer Forschung lassen sich ohne Einschränkungen offen teilen: Interviewleitfäden, Codebücher, Analysememos, Kategoriensysteme, synthetisierte Ergebnistabellen. Diese sollten standardmäßig auf einem dauerhaften Repository (z. B. OSF, Zenodo) mit DOI und einer offenen Lizenz (bevorzugt CC BY 4.0) veröffentlicht werden.
+Viele Materialien qualitativer Forschung lassen sich ohne Einschränkungen offen teilen: Interviewleitfäden, Codebücher, Analysememos, Kategoriensysteme, synthetisierte Ergebnistabellen. Diese sollten standardmäßig auf einem dauerhaften Repository (z. B. GESIS Datenarchiv, Zenodo) mit DOI und einer offenen Lizenz (bevorzugt CC BY 4.0) veröffentlicht werden.
 
 **Offenheit dort, wo möglich — Schutz dort, wo nötig.** Nicht alle Daten müssen geteilt werden; aber die Entscheidung sollte explizit, begründet und dokumentiert sein.
 

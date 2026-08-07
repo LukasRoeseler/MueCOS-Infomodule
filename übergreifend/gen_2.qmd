@@ -44,8 +44,12 @@ Forschungsmaterialien und -daten gesammelt und weiterentwickelt.
 -   Datenrepositorien für alle Fachbereiche:
     <https://www.re3data.org/browse/by-subject/>
 
--   Disziplinenübergreifende Infrastruktur zum Verwalten, Archivieren,
-    und Veröffentlichen von Forschung: <https://osf.io/>
+-   Institutionelles Repositorium der Universität Münster (Datastore)
+    zum Verwalten, Archivieren und Veröffentlichen von Forschungsdaten:
+    <https://www.uni-muenster.de/Publizieren/veroeffentlichung/forschungsdaten/>
+
+-   Disziplinenübergreifendes Repositorium zum Archivieren und
+    Veröffentlichen von Forschung: <https://zenodo.org/>
 
 -   Spielerische Heranführung an die Bedeutung von Meta-Daten zur
     Nachvollziehbarkeit von Forschungsmaterialien:

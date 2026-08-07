@@ -16,12 +16,6 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Inject PASSWORD into antragsmodule.qmd
-        env:
-          PASSWORD: ${{ secrets.PASSWORD }}
-        run: |
-          sed -i "s|{{< env PASSWORD >}}|${PASSWORD}|g" antragsmodule.qmd
-
       - name: Render Quarto site
         run: quarto render
 
