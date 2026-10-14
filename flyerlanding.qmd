@@ -12,6 +12,7 @@ science-topics via this site.**
 | Open Data | <https://doi.org/10.5281/zenodo.17713704> | <https://doi.org/10.5281/zenodo.20811593> | <https://www.uni-muenster.de/Forschungsdaten/en> |
 | Preregistration | <https://doi.org/10.5281/zenodo.17713297> | <https://doi.org/10.5281/zenodo.20812114> | <https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/preregistration.html> |
 | Replication Research | <https://doi.org/10.5281/zenodo.17776685> | — | <https://www.uni-muenster.de/Ejournals/index.php/replicationresearch/index> |
+| Working with Zenodo | — | — | <https://lukasroeseler.github.io/MueCOS-Infomodule/flyerinfos/zenodo.html> |
 
 More resources are available at
 [zenodo.org/communities/muecos/](https://zenodo.org/communities/muecos/records?q=&l=list&p=1&s=10&sort=newest).

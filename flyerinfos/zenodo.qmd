@@ -1,0 +1,75 @@
+---
+title: "Working with Zenodo"
+---
+
+::: callout-tip
+*This is a narrative summary of the most important infos on working with
+Zenodo and alternatives to OSF Projects for researchers. It is part of the [Münster Center for Open
+Science](https://www.uni-muenster.de/MueCOS/en/index.html)'s info
+materials. A Zenodo-Flyer will be published soon.*
+
+:::
+
+The open science landscape is constantly changing: numerous tools are being developed and refined by institutions as well as non-profit and commercial providers, new services are emerging, and others are being discontinued. These dynamics create uncertainty, particularly regarding the long-term availability of infrastructure. It is therefore advisable to remain flexible in using different providers, avoid dependencies, and keep alternatives in mind.
+
+In light of the Open Science Framework's (OSF) announcement that it will no longer allow uploads of new data from February 2027 onward, we would like to share some information on alternative ways to store your research data and share it with others in the future. Switching from the OSF to alternative services may require considerable effort for individual researchers, research groups, or even entire disciplines. At the University of Münster, MüCOS and the Service Center for Data Management (SCDM), among others, are happy to advise and support you with this. You can read about the background to the discontinuation of the "OSF Projects" service here: https://www.cos.io/osf-changes. Feel free to share this information within your networks, and let us know about any concerns, experiences, and recommendations you have regarding these topics.
+
+::: callout-note
+[**OSF PROJECTS discontinuation**](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerlanding.html):
+
+In August 2026, the Center for Open Science announced that, due to lack of funding, it will discontinue its data storing and sharing service OSF Projects. The other services are unaffected. The Open Science Framework (OSF) is used by many psychologists to preregister studies, share data, and search and upload preprints (e.g., via OSF Preprints or the OSF Lifecycle Journal).
+:::
+
+
+
+**FAQs**
+
+**Q: For which services does it still make sense to use the OSF?**
+
+A: For preregistrations and preprints, the services offered by the OSF (OSF Registrations, OSF Preprints) are among the world's leading offerings and, according to the OSF, will continue to be available. If you are nevertheless interested in alternatives, PsychArchives is available specifically for German research and also offers preregistration, data management, and preprint services: https://www.psycharchives.org. For the social and natural sciences, there is also AsPredicted, a platform run by the University of Pennsylvania where you can preregister your research: https://aspredicted.org.
+
+**Q: What should I consider when choosing a data repository?**
+
+A: Commercial providers often aim for vendor lock-in, i.e., making users dependent on their offerings, which makes switching later considerably more difficult. We therefore recommend using infrastructures provided by public institutions. This applies to both data management and publication services. As a member of the University of Münster, you can, for example, use the datasafe service to archive research data in compliance with DFG requirements and the datastore service to publish research data permanently. You can also use sciebo to back up your own research data or share it with researchers inside and outside the University of Münster. In general, you should consider several aspects when choosing a suitable repository:
+
+- **Type of provider:** Is it a commercial, non-profit, or institutional provider? Sustainability and data sovereignty, among other things, often depend on this. Commercial providers often collect detailed usage statistics or sell the data. In extreme cases, this can threaten academic freedom (see, e.g., https://stoptrackingscience.eu).
+- **Location:** Where (i.e., in which country) is the data stored? This matters, for example, with regard to data protection and the legal framework.
+- **Disciplinary or institutional affiliation:** Is the repository discipline-specific, institutional, or generic?
+- **Long-term archiving:** Is there reliable information on how long and under what conditions the data will be preserved?
+- **Citability:** Are persistent identifiers (e.g., DOIs) assigned to publications?
+- **Curation:** Are entries editorially reviewed and maintained, or are they deposited without review?
+
+**Q: Where can I find suitable data repositories?**
+
+A: re3data.org provides a comprehensive overview of repositories that can be filtered by discipline, provider, country, etc.
+
+**Q: What is the difference between datastore, miami, and Zenodo?**
+
+A: datastore and miami are University of Münster services for publishing data and scholarly works with free worldwide access. All publications receive persistent identifiers and are permanently citable. The services are free of charge for all members of the university. For support and consulting requests, MüCOS and the ULB Münster are happy to help. The publication platform Zenodo is operated by CERN and is also freely accessible worldwide. Zenodo does not offer support or data curation as datastore does, for example, but its use is not tied to membership in a particular university.
+
+**Q: Which specific alternatives to the OSF do you recommend?**
+
+A: For publishing research data, we recommend Zenodo or datastore. Both services are based on the open-source software InvenioRDM, which is maintained and developed by a global community coordinated by CERN. Both services let you describe research data with a wide range of metadata and, for example, link it to other resources. If you use GitLab or GitHub, you can, for example, have releases automatically registered on Zenodo. Zenodo also lets you collect thematically related publications in so-called communities (e.g., the MüCOS Community: https://zenodo.org/communities/muecos/records). Similar functionality is planned for datastore.
+
+**Q: Whom can I contact if I have further questions?**
+
+A: Feel free to join the discussion with us and other members of the University of Münster in the Open Science Mattermost channel: https://mattermost.uni-muenster.de/openscience/channels/town-square. For support requests by email, please contact MüCOS (lukas.roeseler@uni-muenster.de) or the ULB Münster (forschungsdaten@uni-muenster.de).
+
+**Q: I have several OSF projects that will run beyond February 2027. How should I handle them?**
+
+A: Is the data already publicly accessible?
+
+- **Yes:** Migrate the data to an alternative repository (e.g., Zenodo or datastore), add cross-references in the metadata of both repositories pointing to the other storage location, and upload any further (i.e., newer) files only to the alternative repository.
+- **No:** Synchronize your OSF data to sciebo, for example. You can then publish the data (e.g., via Zenodo or datastore). If needed, the bridgit extension is available in sciebo for this purpose.
+
+**Note:** If needed, you can download the data stored in OSF as a ZIP archive from the OSF project page. If you have a larger number of projects, you can use the experimental backup tool provided by MüCOS: https://lukasroeseler.github.io/osfbackup/
+
+## **Further reading**
+
+-   Overview of repositories for psychologists by Daniel Lakens: https://daniellakens.blogspot.com/2026/08/which-data-repository-should-you-use.html
+
+-   Recommendations from the LMU Munich's Open Science Center: https://www.osc.lmu.de/news/news/2026-09-29-osf-project-functionality.html
+
+## **Workshops and Materials**
+
+-   Video tutorial on using Zenodo by OpenAIRE: https://www.youtube.com/watch?v=BPVSErzNtME 

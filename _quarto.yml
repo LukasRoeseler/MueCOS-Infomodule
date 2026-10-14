@@ -11,7 +11,7 @@ website:
     position: below-navbar
   
   image: "logo.png"
-  favicon: "logo.png"
+  favicon: "favicon.png"
   
   title: "Open Science Infomodule"
   
@@ -108,6 +108,8 @@ website:
         href: flyerinfos/openaccess.qmd
       - text: "Preregistration"
         href: flyerinfos/preregistration.qmd
+      - text: "Working with Zenodo"
+        href: flyerinfos/zenodo.qmd
 
    - id: antragsmodule
      title: "Antragsmodule"
