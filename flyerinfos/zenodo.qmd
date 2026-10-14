@@ -10,6 +10,8 @@ materials. A Zenodo-Flyer will be published soon.*
 
 :::
 
+## Moving away from OSF Projects 
+
 The open science landscape is constantly changing: numerous tools are being developed and refined by institutions as well as non-profit and commercial providers, new services are emerging, and others are being discontinued. These dynamics create uncertainty, particularly regarding the long-term availability of infrastructure. It is therefore advisable to remain flexible in using different providers, avoid dependencies, and keep alternatives in mind.
 
 In light of the Open Science Framework's (OSF) announcement that it will no longer allow uploads of new data from February 2027 onward, we would like to share some information on alternative ways to store your research data and share it with others in the future. Switching from the OSF to alternative services may require considerable effort for individual researchers, research groups, or even entire disciplines. At the University of Münster, MüCOS and the Service Center for Data Management (SCDM), among others, are happy to advise and support you with this. You can read about the background to the discontinuation of the "OSF Projects" service here: https://www.cos.io/osf-changes. Feel free to share this information within your networks, and let us know about any concerns, experiences, and recommendations you have regarding these topics.
@@ -17,12 +19,19 @@ In light of the Open Science Framework's (OSF) announcement that it will no long
 ::: callout-note
 [**OSF PROJECTS discontinuation**](https://lukasroeseler.github.io/MueCOS-Infomodule/flyerlanding.html):
 
-In August 2026, the Center for Open Science announced that, due to lack of funding, it will discontinue its data storing and sharing service OSF Projects. The other services are unaffected. The Open Science Framework (OSF) is used by many psychologists to preregister studies, share data, and search and upload preprints (e.g., via OSF Preprints or the OSF Lifecycle Journal).
+In August 2026, the Center for Open Science announced that, due to lack of funding, it will discontinue its data storing and sharing service OSF Projects. The other services are unaffected. The Open Science Framework (OSF) is used by many psychologists to preregister studies, share data, and search and upload preprints (e.g., via OSF Preprints or the OSF Lifecycle Journal). The OSF's FAQs with all info are available at https://help.osf.io/article/727-osf-projects-transition.
 :::
 
+## Working with Sciebo
+
+Sciebo is a cloud storage service provided for free to all people affiliated with a university in Nordrhein-Westfalen. In it, you have the option to store files privately or share them with other Sciebo users (with the option to comment and tag each other) or with external researchers via a download or view-only link.
+
+## Working with Zenodo
+
+Zenodo is a research repository run by CERN and funded by the European Union. You can use it to publish materials, code, data, preprints, books, and much more. It has rich meta-data, allowing you to clearly describe the relationship between the uploaded item and another research item. 
 
 
-**FAQs**
+## FAQs
 
 **Q: For which services does it still make sense to use the OSF?**
 
